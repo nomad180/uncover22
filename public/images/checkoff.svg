@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>BBD445F4-0602-4B8B-9CC6-9C77785BF2A9</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Sales-Page-–-client-view" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Sales_design_desktop-3" transform="translate(-99.000000, -1279.000000)" stroke-width="3">
+            <g id="Scannable-summary" transform="translate(0.000000, 711.000000)">
+                <g id="Expect-–-fits-in-life" transform="translate(101.000000, 565.000000)">
+                    <g id="icon-calendar-check" transform="translate(0.000000, 5.000000)">
+                        <path d="M40,44 L4,44 C1.79,44 0,42.208 0,40 L0,8 C0,5.79 1.792,4 4,4 L40,4 C42.21,4 44,5.792 44,8 L44,40 C44,42.208 42.208,44 40,44 Z" id="Shape" stroke="#0A259C"></path>
+                        <path d="M10,0 L10,10" id="Shape" stroke="#06ABD4"></path>
+                        <path d="M34,0 L34,10" id="Shape" stroke="#06ABD4"></path>
+                        <polyline id="Shape" stroke="#06ABD4" points="15 28 21 32 29 20"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

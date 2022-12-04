@@ -1,0 +1,350 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html, body {
+    color:  #12171e;
+    min-width: 325px;
+    line-height: 1.5;
+    font-family: OptimaLTPro-Roman, serif;
+}
+h1, h2, h3 {
+    font-family: OptimaLTPro-Roman, serif;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+h1 {
+    font-size: 1.5rem;
+}
+h2 {
+    font-size: 1.0rem;
+}
+h3 {
+    font-size: 1.0rem;
+    font-style: italic;
+}
+p {padding-top: 1.0rem;}
+.playfair {
+    font-family: 'Playfair Display', serif;
+}
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+.source_sans_pro {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.current { /* Highlights current page */
+    color: #8B0000 !important;
+}
+a { color: #8B0000; text-decoration: none;}
+a:visited{ color: #8B0000; }
+a:hover, nav a:hover, .myahf a:hover {
+    color: #8B0000;
+    border-top-style: solid;
+    border-top-width: 0.15rem;
+    border-top-color: #8B0000;
+    padding-top: 1px;
+}
+a:focus { outline: thin dotted; }
+.index_text
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.index_text p
+{
+    color: #ffffff;
+    position: absolute;
+    text-align: center;
+    top: 18%;
+    left: 5%;
+    width: 90%;
+}
+.index_text h1
+{
+    color: #ffffff;
+    position: absolute;
+    text-align: center;
+    top: 0%;
+    left: 5%;
+    width: 90%;
+}
+.index_text button
+{
+    color: #ffffff;
+    background-color: #8b0000;
+    border-radius: 25px;
+    border: 2px;
+    border-style: solid;
+    border-color: #b2892d;
+    position: absolute;
+    text-align: center;
+    top: 80%;
+    left: 30%;
+    width: 40%;
+    padding: 6px;
+}
+.webreg_text
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.webreg_text p
+{
+    color: #ffffff;
+    position: absolute;
+    text-align: center;
+    top: 18%;
+    left: 5%;
+    width: 90%;
+}
+.webreg_text h1
+{
+    color: #ffffff;
+    position: absolute;
+    text-align: center;
+    top: 0%;
+    left: 5%;
+    width: 90%;
+}
+.webreg_text button
+{
+    color: #ffffff;
+    background-color: #8b0000;
+    border-radius: 25px;
+    border: 2px;
+    border-style: solid;
+    border-color: #b2892d;
+    position: absolute;
+    text-align: center;
+    top: 80%;
+    left: 30%;
+    width: 40%;
+    padding: 2px 8px 2px 8px;
+}
+.intro-overlay
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.intro-overlay img
+{
+    position: absolute;
+    top: 28%;
+    left: 18.2%;
+    width: 65%;
+}
+.uncover-button
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.uncover-button img
+{
+    position: absolute;
+    top: 57%;
+    left: 42.5%;
+    width: 14.7%;
+}
+.uncover-button2
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.uncover-button2 img
+{
+    position: absolute;
+    top: 67%;
+    left: 42.5%;
+    width: 14.7%;
+}
+.uncover-overlay
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.uncover-overlay img
+{
+    position: absolute;
+    top: 50%;
+    left: 1%;
+}
+.uncover-overlay2
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.uncover-overlay2 img
+{
+    position: absolute;
+    top: 42%;
+    left: 2%;
+}
+.register-overlay
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.register-overlay img
+{
+    position: absolute;
+    top: 15%;
+    left: 15.5%;
+}
+.intro-overlay2
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: #354B75;
+}
+.intro-overlay2 img
+{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translateX(-15%) translateY(-50%);
+}
+.intro-overlay2 p, .intro-overlay2 h2
+{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-15%);
+}
+.blog-title
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.blog-title div
+{
+    position: absolute;
+    top: 67%;
+    left: 22%;
+}
+.nav a { color: #12171e;}
+.legal a { color: #12171e;}
+.scroll {
+    transition: all .75s;
+}
+.scroll:hover {
+    transform: translateY(6px);
+}
+.legal a:hover, .logo a:hover, .social_logos a:hover, .vitamin a:hover, .unbutton a:hover, .scroll a:hover {
+    border-top-style: none;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.iframe-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.pop-out-quick-enter-active, .pop-out-quick-leave-active {
+    transition: all 0.4s;
+}
+.pop-out-quick-enter, .pop-out-quick-leave-active {
+    opacity: 0;
+    transform: translateX(-7px);
+}
+@media only screen and (min-width: 768px) {
+h1 {font-size: 1.750rem !important;}
+h2 {font-size: 1.125rem !important;}
+h3 {font-size: 1.125rem !important;}
+}
+@media only screen and (min-width: 992px) {
+h1 {font-size: 2.0rem !important;}
+h2 {font-size: 1.250rem !important;}
+h3 {font-size: 1.250rem !important;}
+}
+@media only screen and (min-width: 1200px) {
+ol {font-size: 1.250rem !important;}
+ul {font-size: 1.250rem !important;}
+h1 {font-size: 2.25rem !important;}
+h2 {font-size: 1.375rem !important;}
+h3 {font-size: 1.375rem !important;}
+}
+p, .legal {font-size:1.25rem;}
+.index_text p
+{
+    font-size: 2rem;
+    text-align: center;
+    top: 38%;
+    left: 17.5%;
+    width: 65%;
+}
+.index_text h1
+{
+    font-size: 6rem !important;
+    text-align: center;
+    top: 23%;
+    left: 17.5%;
+    width: 65%;
+}
+.index_text button
+{
+    font-size: 2rem;
+    text-align: center;
+    top: 60%;
+    left: 43%;
+    width: 14%;
+}
+.webreg_text p
+{
+    font-size: 2rem;
+    text-align: center;
+    top: 38%;
+    left: 17.5%;
+    width: 65%;
+}
+.webreg_text h1
+{
+    font-size: 4rem !important;
+    text-align: center;
+    top: 23%;
+}
+.webreg_text button
+{
+    font-size: 2rem;
+    text-align: center;
+    top: 65%;
+    left: 39.5%;
+    width: 21%;
+    padding: 6px;
+}
