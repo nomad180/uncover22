@@ -139,8 +139,8 @@ a:focus { outline: thin dotted; }
 {
     position: absolute;
     top: 28%;
-    left: 18.2%;
-    width: 65%;
+    left: 5.7%;
+    width: 90%;
 }
 .uncover-button
 {
@@ -153,7 +153,7 @@ a:focus { outline: thin dotted; }
 .uncover-button img
 {
     position: absolute;
-    top: 57%;
+    top: 67%;
     left: 42.5%;
     width: 14.7%;
 }
