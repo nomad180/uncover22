@@ -1,50 +1,37 @@
 @tailwind base;
-@tailwind components;
-@tailwind utilities;
-html, body {
+@layer base{
+    ul {
+        @apply list-disc;
+        @apply list-inside;
+        @apply text-xl;
+    }
+    .pages p {
+        @apply mt-4;
+        @apply mb-4;
+        @apply text-xl;
+    }
+     html, body {
     color:  #12171e;
     min-width: 325px;
     line-height: 1.5;
-    font-family: OptimaLTPro-Roman, serif;
+    }
+    h1, h2, h3 {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 1.0rem;
+    }
+    h3 {
+        font-size: 1.0rem;
+        font-style: italic;
+    }
 }
-h1, h2, h3 {
-    font-family: OptimaLTPro-Roman, serif;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-}
-h1 {
-    font-size: 1.5rem;
-}
-h2 {
-    font-size: 1.0rem;
-}
-h3 {
-    font-size: 1.0rem;
-    font-style: italic;
-}
-p {padding-top: 1.0rem;}
-.playfair {
-    font-family: 'Playfair Display', serif;
-}
-.montserrat {
-    font-family: 'Montserrat', sans-serif;
-}
-.source_sans_pro {
-    font-family: 'Source Sans Pro', sans-serif;
-}
-.current { /* Highlights current page */
-    color: #8B0000 !important;
-}
-a { color: #8B0000; text-decoration: none;}
-a:visited{ color: #8B0000; }
-a:hover, nav a:hover, .myahf a:hover {
-    color: #8B0000;
-    border-top-style: solid;
-    border-top-width: 0.15rem;
-    border-top-color: #8B0000;
-    padding-top: 1px;
-}
-a:focus { outline: thin dotted; }
+@tailwind components;
+@tailwind utilities;
 .index_text
 {
     position: absolute;
@@ -142,6 +129,13 @@ a:focus { outline: thin dotted; }
     left: 5.7%;
     width: 90%;
 }
+.intro-overlay button
+{
+    position: absolute;
+    top: 68%;
+    left: 5.7%;
+    width: 90%;
+}
 .uncover-button
 {
     position: absolute;
@@ -156,6 +150,12 @@ a:focus { outline: thin dotted; }
     top: 67%;
     left: 42.5%;
     width: 14.7%;
+}
+.image_off, #home:hover .image_on{
+   display:none
+}
+.image_on, #home:hover .image_off{
+   display:block
 }
 .uncover-button2
 {
@@ -251,8 +251,7 @@ a:focus { outline: thin dotted; }
     top: 67%;
     left: 22%;
 }
-.nav a { color: #12171e;}
-.legal a { color: #12171e;}
+
 .scroll {
     transition: all .75s;
 }

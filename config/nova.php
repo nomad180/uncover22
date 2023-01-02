@@ -6,6 +6,7 @@ use Laravel\Nova\Http\Middleware\Authorize;
 use Laravel\Nova\Http\Middleware\BootTools;
 use Laravel\Nova\Http\Middleware\DispatchServingNovaEvent;
 use Laravel\Nova\Http\Middleware\HandleInertiaRequests;
+use App\Http\Middleware\MustBeAdministrator;
 
 return [
 
@@ -103,12 +104,14 @@ return [
         HandleInertiaRequests::class,
         DispatchServingNovaEvent::class,
         BootTools::class,
+        MustBeAdministrator::class,
     ],
 
     'api_middleware' => [
         'nova',
         Authenticate::class,
         Authorize::class,
+        MustBeAdministrator::class,
     ],
 
     /*
