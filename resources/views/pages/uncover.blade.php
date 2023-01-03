@@ -274,7 +274,7 @@
                 <li>Shrink your belly leading to more confidence and looking better at work and the beach</li>
             </ul>-->
 </div>
-    <div id="button" class="flex justify-center w-full">
+    <!--<div id="button" class="flex justify-center w-full">
         <a href="/register" class="inline-flex items-center py-2 px-8 pb-3 mb-4 bg-secondary rounded-full text-white text-3xl hover:bg-primary">Sign Up</a>
-    </div>
+    </div>-->
 </x-layout>
