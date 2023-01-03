@@ -64,23 +64,5 @@
             </button>
         </div>
     </div>
-    <div class="px-4 md:px-8 lg:px-16 xl:px-32 mb-4 pt-0 mt-0 mb-16">
-        <div class="flex pt-4">
-            <div class="border-b-2 border-primary w-1/3 mb-6"></div>
-            <div class="w-1/3 text-secondary text-center">
-                <h1>Latest Blog Posts</h1>
-            </div>
-            <div class="border-b-2 border-primary w-1/3 mb-6"></div>
-        </div>
-        <div class="flex flex-col md:flex-row flex-wrap pt-4 ml-4">
-           @if ($posts->count())
-           <x-post-grid-index :posts="$posts"/>
-           @else
-                <p class="text-center mt-6 w-full">No posts yet. Please check back later.</p>
-            @endif
-        </div>
-         <div id="button" class="flex justify-center w-full text-2xl">
-            <a href="blog" class="inline-flex items-center py-2 px-8 bg-secondary rounded-full text-white hover:bg-primary">See More Posts</a>
-        </div>
-    </div>
+
 </x-layout>
