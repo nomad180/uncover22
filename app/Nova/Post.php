@@ -4,7 +4,7 @@ namespace App\Nova;
 
 use Illuminate\Http\Request;
 use Laravel\Nova\Fields\ID;
-use Laravel\Nova\Fields\TEXT;
+use Laravel\Nova\Fields\Text;
 use Laravel\Nova\Fields\FILE;
 use Laravel\Nova\Fields\DateTime;
 use Laravel\Nova\Fields\TRIX;
