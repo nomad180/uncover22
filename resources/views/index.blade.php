@@ -8,7 +8,7 @@
             <img src="/images/premiercoaching2.svg" alt="Premier Health Coaching - Are you ready to get fit and stay that way for the rest of your life? If so, step up to our one-year Uncover Your Fit program.">
         </div>
         <div id="button" class="uncover-button unbutton">
-            <a id="home" href="/uncover-your-fit">
+            <a id="home" href="/program">
                 <img class="image_on" src="/images/learnmore8.svg">
                 <img class="image_off" src="/images/learnmore9.svg">
             </a>
@@ -60,7 +60,7 @@
                 </div>
             </div>
             <button class="flex justify-center w-full text-2xl">
-                <a href="/uncover-your-fit" class="inline-flex items-center py-2 px-8 pb-3 bg-secondary rounded-full text-white hover:bg-primary">Learn More</a>
+                <a href="/program" class="inline-flex items-center py-2 px-8 pb-3 bg-secondary rounded-full text-white hover:bg-primary">Learn More</a>
             </button>
         </div>
     </div>
