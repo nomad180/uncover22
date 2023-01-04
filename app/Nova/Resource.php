@@ -4,9 +4,24 @@ namespace App\Nova;
 
 use Laravel\Nova\Http\Requests\NovaRequest;
 use Laravel\Nova\Resource as NovaResource;
+use Emilianotisato\NovaTinyMCE\NovaTinyMCE;
 
 abstract class Resource extends NovaResource
 {
+    /**
+     * Get the fields displayed by the resource.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return array
+     */
+    public function fields(NovaRequest $request)
+    {
+        return [
+            ID::make()->sortable(),
+
+            NovaTinyMCE::make('body'),
+        ];
+    }
     /**
      * Build an "index" query for the given resource.
      *

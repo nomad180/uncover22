@@ -7,10 +7,10 @@ use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\Text;
 use Laravel\Nova\Fields\File;
 use Laravel\Nova\Fields\DateTime;
-use Laravel\Nova\Fields\Trix;
 use Laravel\Nova\Fields\BelongsTo;
 use Laravel\Nova\Fields\HasOne;
 use Laravel\Nova\Http\Requests\NovaRequest;
+use Emilianotisato\NovaTinyMCE\NovaTinyMCE;
 
 class Post extends Resource
 {
@@ -65,9 +65,13 @@ class Post extends Resource
                 ->sortable()
                 ->rules('required', 'max:255'),
 
-            TRIX::make('Body')
-                ->sortable()
-                ->rules('required'),
+            NovaTinyMCE::make('body')->options([
+                'plugins' => [
+                    'lists','preview','anchor','pagebreak','image','wordcount','fullscreen','directionality'
+                ],
+                'toolbar' => 'undo redo | styles | bold italic forecolor backcolor | alignleft aligncenter alignright alignjustify | image | bullist numlist outdent indent | link',
+                'use_lfm' => true
+            ]),
 
             DateTime::make('Publish At', 'published_at')
                 ->sortable()
