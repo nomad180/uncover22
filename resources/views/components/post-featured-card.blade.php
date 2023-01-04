@@ -25,7 +25,7 @@
                 </div>
             </header>
 
-            <div class="text-sm mt-6">
+            <div class="text-sm mt-6 leading-7">
                 <p>
                     {{ $post->excerpt }}
                 </p>

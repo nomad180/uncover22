@@ -58,7 +58,13 @@ class Post extends Resource
 
             FILE::make('Thumbnail')
                 ->disk('public')
-                ->disableDownload(),
+                ->disableDownload()
+                ->rules('required'),
+
+            TEXT::make('Alt')
+                ->hideFromIndex()
+                ->sortable()
+                ->rules('required', 'max:255'),
 
             TEXT::make('Excerpt')
                 ->hideFromIndex()
@@ -67,6 +73,7 @@ class Post extends Resource
 
             NovaTinyMCE::make('body')
                 ->hideFromIndex()
+                ->rules('required')
                 ->options([
                     'plugins' => [
                         'lists','preview','anchor','link','code','pagebreak','image','wordcount','fullscreen','directionality'

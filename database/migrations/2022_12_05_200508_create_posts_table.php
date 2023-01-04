@@ -19,11 +19,12 @@ return new class extends Migration
             $table->foreignId('category_id');
             $table->string('slug')->unique();
             $table->string('title');
-            $table->string('thumbnail')->nullable();
+            $table->string('thumbnail');
+            $table->string('alt');
             $table->text('excerpt');
             $table->text('body');
             $table->timestamps();
-            $table->timestamp('published_at')->nullable();
+            $table->timestamp('published_at');
         });
     }
 
