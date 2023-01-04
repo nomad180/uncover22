@@ -254,7 +254,26 @@
                     <li>Improve energy, so you can have a more active social life, an improved mood, and a better sex drive</li>
                     <li>Shrink your belly leading to more confidence and looking better at work and the beach</li>
                 </ul>
-        <p>This is your limited opportunity to work with the best coaching team in the industry—to look, feel, and perform better than you thought possible. We hope to have the opportunity to help you transform your body and life forever, but the next step is up to you. If you think Uncover Your Fit might be the solution you've been looking for, please take the next step to move towards a brighter future and sign up for our program using the button below.</p>
+        <p>This is your limited opportunity to work with the best coaching team in the industry—to look, feel, and perform better than you thought possible. We hope to have the opportunity to help you transform your body and life forever, but the next step is up to you. If you think Uncover Your Fit might be the solution you've been looking for, please take the next step to move towards a brighter future and sign up for your invitation to our program launch in late 2023.</p>
+    </div>
+    <div class="mt-10 flex justify-center">
+        <div class="relative inline-block mx-auto lg:bg-white rounded-full border border-secondary">
+            <form method="POST" action="/newsletter" class="flex text-sm">
+                @csrf
+                <div class="py-3 px-5 flex items-center">
+                    <label for="email" class="hidden lg:inline-block px-4">
+                        <img src="/images/mailbox-icon.svg" alt="mailbox letter">
+                    </label>
+                    <input name="email" id="email" type="text" placeholder="Your email address"
+                       class="lg:bg-transparent py-2 lg:py-0 pl-4 focus-within:outline-none">
+                </div>
+                <button type="submit"
+                        class="transition-colors duration-300 bg-secondary hover:bg-primary mt-4 mx-4 my-4 ml-3 rounded-full text-xs font-semibold text-white py-2 px-8"
+                >
+                    Sign Up
+                </button>
+            </form>
+        </div>
     </div>
         <!--<p>Whether you know it or not, most, if not all, your daily activities were learned through habit-based learning. For example, you learned to write with one hand by using that hand repeatedly. You also developed a showering preference by repeatedly showering at a specific time of day.</p>
         <p>Whether it’s writing, showering, or some other daily ritual, the way it became part of your daily routine was through ease of completion and repetition. If something is easy to do, and you do it repeatedly (habitually), it will become part of your daily routine (habit). For healthy habits, such as brushing your teeth, habit-based learning is great. However, for unhealthy habits, like being sedentary and eating too much, habit-based learning is terrible.</p>

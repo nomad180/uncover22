@@ -23,7 +23,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [PageController::class, 'index'])->name('index');
 Route::get('/about', [PageController::class, 'about'])->name('about');
 Route::get('/damon', [PageController::class, 'damon'])->name('damon');
-Route::get('/uncover-your-fit', [PageController::class, 'uncover'])->name('program');
+Route::get('/program', [PageController::class, 'uncover'])->name('program');
 Route::get('/webreg', [PageController::class, 'webreg']);
 Route::get('/webinar', [PageController::class, 'webinar']);
 Route::get('/privacy', [PageController::class, 'privacy'])->name('privacy');
