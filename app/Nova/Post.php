@@ -65,13 +65,15 @@ class Post extends Resource
                 ->sortable()
                 ->rules('required', 'max:255'),
 
-            NovaTinyMCE::make('body')->options([
-                'plugins' => [
-                    'lists','preview','anchor','pagebreak','image','wordcount','fullscreen','directionality'
-                ],
-                'toolbar' => 'undo redo | styles | bold italic forecolor backcolor | alignleft aligncenter alignright alignjustify | image | bullist numlist outdent indent | link',
-                'use_lfm' => true
-            ]),
+            NovaTinyMCE::make('body')
+                ->hideFromIndex()
+                ->options([
+                    'plugins' => [
+                        'lists','preview','anchor','link','code','pagebreak','image','wordcount','fullscreen','directionality'
+                    ],
+                    'toolbar' => 'undo redo | styles | bold italic forecolor backcolor | alignleft aligncenter alignright alignjustify | image | bullist numlist outdent indent | link',
+                    'use_lfm' => true
+                ]),
 
             DateTime::make('Publish At', 'published_at')
                 ->sortable()
