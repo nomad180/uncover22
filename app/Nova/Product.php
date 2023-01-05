@@ -56,14 +56,13 @@ class Product extends Resource
                 ->rules('required', 'max:255'),
 
             FILE::make('Thumbnail')
-                ->rules('required')
                 ->disk('public')
                 ->disableDownload(),
 
             TEXT::make('Alt')
                 ->hideFromIndex()
                 ->sortable()
-                ->rules('required', 'max:255'),
+                ->rules('max:255'),
 
             NovaTinyMCE::make('body')
                 ->rules('required')

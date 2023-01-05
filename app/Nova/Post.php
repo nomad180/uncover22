@@ -58,13 +58,12 @@ class Post extends Resource
 
             FILE::make('Thumbnail')
                 ->disk('public')
-                ->disableDownload()
-                ->rules('required'),
+                ->disableDownload(),
 
             TEXT::make('Alt')
                 ->hideFromIndex()
                 ->sortable()
-                ->rules('required', 'max:255'),
+                ->rules('max:255'),
 
             TEXT::make('Excerpt')
                 ->hideFromIndex()
