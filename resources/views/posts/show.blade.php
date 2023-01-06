@@ -27,7 +27,7 @@
                         </div>
                     </div>
                     <!--{{ asset('storage/' . $post->thumbnail) }}-->
-                    <div class="flex justify-center"><img src="{{ asset('storage/' . $post->thumbnail) }}" alt="" class="rounded-xl"></div>
+                    <div class="flex justify-center"><img src="{{ asset('storage/' . $post->thumbnail) }}" alt="{{ $post->alt }}" class="rounded-xl"></div>
                     <article class="max-w-6xl mx-auto lg:grid lg:grid-cols-12 gap-x-10">
                         <div class="col-span-12">
                             <div class="space-y-4 lg:text-lg leading-loose">
