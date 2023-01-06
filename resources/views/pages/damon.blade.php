@@ -2,7 +2,7 @@
 @section('description'){{'This page provides background information on Damon Leach, the founder of Uncover Your Fit.'}}@endsection
 @section('author'){{'Damon Leach'}}@endsection
 <x-layout>
-    <div class="border-b border-secondary"><img class="mt-4" src="/images/damon22.png" alt="Picture of Damon Leach" width="100%"></div>
+    <div class="border-b border-secondary"><img class="mt-4" src="/images/damon23.png" alt="Picture of Damon Leach" width="100%"></div>
     <!--<h1 class="bg-secondary text-white border-t border-b border-secondary text-center px-4">"Life is a journey that you only get to make once. Let's make your journey a great one!"</h1>-->
     <div class="px-4 mt-4 md:px-8 lg:px-16 xl:px-32">
         <div class="flex pt-2">
