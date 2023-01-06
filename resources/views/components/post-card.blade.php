@@ -4,7 +4,7 @@
         <div class="py-6 px-5 flex flex-col">
             <div>
                 <a href="/posts/{{ $post->slug }}">
-                    <img src="{{ asset('storage/' . $post->thumbnail) }}"  class="rounded-xl">
+                    <img src="{{ asset('storage/' . $post->thumbnail) }}"  class="rounded-xl" alt="{{ $post->alt }}">
                 </a>
             </div>
 
