@@ -3,18 +3,11 @@
 @section('author'){{'Damon Leach'}}@endsection
 <x-layout>
     <div class="relative">
-    <img class="border-b border-secondary lg:min-h-screen" src="/images/uncoveryourfitbanner24.jpg" alt="" width="100%">
+    <img class="border-b border-secondary lg:min-h-screen" src="/images/uncoveryourfitbanner24.jpg" alt="Multiple people in a pushup position on a gym floor with the text Uncover Your Fit" width="100%">
     <div class="uncover-overlay">
-        <img src="/images/uncoveryourfit2.svg" alt="" width="30%">
+        <img src="/images/uncoveryourfit2.svg" alt="Uncover Your Fit" width="30%">
     </div>
-    <!--<div class="uncover-overlay2">
-        <img src="/images/losebelly6.svg" alt="" width="30%">
-    </div>
-    <div class="uncover-button unbutton">
-        <a href="/webinar"><img class="w-1/3 md:w-1/4 lg:w-1/5" src="/images/watchwebinar2.svg" alt=""></a>
-    </div>-->
 </div>
-<!--<div class="text-center text-xl font-bold">&#709;</div>-->
 <div id="latestblogs" class="mb-8 px-4 md:px-8 lg:px-16 xl:px-32">
     <div>
         <h1 class="text-center text-secondary text-xl md:text-2xl lg:text-3xl xl:text-4xl mt-2">Life happens&mdash;we get it</h1>
