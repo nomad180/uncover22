@@ -19,7 +19,7 @@
                         </div>
                         <div>
                             <p class="pl-6 text-gray-400">
-                                | Published <time>{{ $post->created_at->format('M d, Y') }} |</time>
+                                | Published <time>{{ $post->published_at->format('M d, Y') }} |</time>
                             </p>
                         </div>
                         <div class="pl-6">
