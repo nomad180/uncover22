@@ -25,14 +25,6 @@ class PageController extends Controller
     {
         return view('pages.uncover');
     }
-    public function webreg()
-    {
-        return view('pages.webreg');
-    }
-    public function webinar()
-    {
-        return view('pages.webinar');
-    }
      public function privacy()
     {
         return view('pages.privacy');
