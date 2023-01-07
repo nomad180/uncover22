@@ -223,15 +223,17 @@
             <p>Stick with us for a full year and follow our recommendations. If you don’t get what you’re looking for at the end of the year, we’ll give you a full refund. You get to decide if the program was worth it. Why do we do this? Because we stand by our work. We know you’ll walk out healthier and happier than ever before. All you have to do is take the first step.</p>
         </div>
     </div>
-    <!--<div class="w-full border-b-2 border-primary mt-4"></div>
-    <h1 class="text-center text-secondary mt-2 md:mt-4">Pricing</h1>
-    <p>Hiring a personal trainer can easily cost as much as $500 per month. And that’s often just for the exercise program! But if you join us right now, you’ll have the opportunity to pay <span class="font-bold"> only $297 per month for 12 months.</span></p>
-    <p>This includes:</p>
-        <ul>
-            <li>Personal nutrition, movement, and lifestyle coaching with us for a full year</li>
-            <li>Premium online content delivery using an easy-to-use platform you can take with you anywhere</li>
-        </ul>
-    <p>We only take a small number of new clients every month, and spots are first-come, first-served.</p>-->
+    <div class="w-full border-b-2 border-primary mt-4"></div>
+    <div class="mb-10 pages">
+        <h1 class="text-center text-secondary mt-2 md:mt-4">Pricing</h1>
+        <p>Hiring a personal trainer can easily cost as much as $500 per month. And that’s often just for the exercise program! But when you purchase Uncover Your Fit, you’ll have the opportunity to pay <span class="font-bold"> only $997 for the entire 12 months.</span></p>
+        <p>This includes:</p>
+            <ul class="mt-2">
+                <li>Personal nutrition, movement, and lifestyle coaching with us for a full year</li>
+                <li>Premium online content delivery using an easy-to-use platform you can take with you anywhere</li>
+            </ul>
+        <!--<p>We only take a small number of new clients every month, and spots are first-come, first-served.</p>-->
+    </div>
     <div class="w-full border-b-2 border-primary mt-4"></div>
     <h1 class="text-center text-secondary mt-2 md:mt-4">Final Note</h1>
     <h2 class="text-center">Take one small step today toward getting into the best shape of your life.</h2>
