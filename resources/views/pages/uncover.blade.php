@@ -25,58 +25,7 @@
     <div class="w-full border-b-2 border-primary mt-4"></div>
     <h1 class="text-center text-secondary mt-2 md:mt-4">What you can expect from Uncover Your Fit:</h1>
     <h2 class="text-center text-3xl text-secondary">12 months of personal nutrition and fitness coaching to get you into the best shape of your life</h2>
-    <!--<div class="flex flex-col md:flex-row flex-wrap md:mt-4">
-        <div class="flex md:w-1/2 md:mb-6">
-            <p class="text-center mb-2 mr-4"><img src="/images/heartboard.svg" alt=""></p>
-            <div>
-                <p class="font-bold">Lose weight, build strength, and have more energy.</p>
-                <p>You tell us your goals. We’ll help you get there. In under one year, you’ll be in better shape than you ever thought possible.</p>
-            </div>
-        </div>
-        <div class="flex md:w-1/2 md:mb-6">
-            <p class="text-center mb-2 mr-4"><img src="/images/conversation.svg" alt=""></p>
-                <div>
-                    <p class="font-bold">We'll help you stay accountable.</p>
-                    <p>We’ll provide you with daily support, guidance and accountability, every step of the way, no matter what life throws at you. We’re in this together.</p>
-                </div>
-        </div>
-        <div class="flex md:w-1/2  md:mb-6">
-            <p class="text-center mb-2 mr-4"><img src="/images/forkknife.svg" alt=""></p>
-            <div>
-                <p class="font-bold">We'll make living a habit.</p>
-                <p>Most people who try to get in shape overload themselves and burn out quickly. Instead, we’ll help you focus on the small practices that lead to big results.</p>
-            </div>
-        </div>
-        <div class="flex md:w-1/2  md:mb-6">
-            <p class="text-center mb-2 mr-4"><img src="/images/checkoff.svg" alt=""></p>
-            <div>
-                <p class="font-bold">Busy? Let us do the thinking for you.</p>
-                <p>You have enough to worry about already. Leave the nutrition and workout details to us while you breathe easy. Just follow the program prompts.</p>
-            </div>
-        </div>
-         <div class="flex md:w-1/2  md:mb-6">
-            <p class="text-center mb-2 mr-4"><img src="/images/person.svg" alt=""></p>
-            <div>
-                <p class="font-bold">Proven to work, 100,000 times over.</p>
-                <p>We'll use the Precision Nutrition coaching method, developed by the world's top nutrition researchers and used by champion athletes to achieve lasting change.</p>
-            </div>
-        </div>
-        <div class="flex md:w-1/2  md:mb-6">
-            <p class="text-center mb-2 mr-4"><img src="/images/shield.svg" alt=""></p>
-            <div>
-                <p class="font-bold">You'll get the results you desire — guaranteed.</p>
-                <p>We'll coach you for an entire year, and you'll get in the best shape of your life. If for any reason you're not happy, it's free.</p>
-            </div>
-        </div>
-    </div>
-    <p class="text-center"><a href="about">LEARN HOW AEONIAN HEALTH & FITNESS WORKS WITH PRECISION NUTRITION</a></p>
-    <div class="w-full border-b-2 border-primary mt-4"></div>
-    <h1 class="text-center text-secondary mt-2 md:mt-4">Get the body transformation you’ve always wanted — and keep it</h1>
-    <h2 class="text-center">Expert coaching with our one-year Uncover Your Fit program</h2>-->
     <div class="mt-2 flex flex-col md:flex-row justify-between pages">
-        <!--<div class="w-4/5 md:w-2/5 mx-auto md:mt-6">
-            <div class="border-2 border-secondary" style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/346191740?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-        </div>-->
         <div class="w-4/5 md:w-2/5 mx-auto md:mt-6">
             <img class="rounded-xl" src="/images/transformation3.jpg" alt="A healthy and fit male on the left side and a healthy and fit female on the right side"  >
         </div>
@@ -174,45 +123,7 @@
             <img class="rounded-full " src="/images/damonYT6.png" alt="Picture of Damon Leach" >
         </div>
     </div>
-    <!--<div class="w-full border-b-2 border-primary mt-4"></div>
-    <h1 class="text-center text-secondary mt-2 md:mt-4">What kind of results do people get?</h1>
-    <h2 class="text-center">Here are just a few of the transformations people who have used the Precision Nutrition coaching method have been able to achieve.</h2>
-    <div class="mt-2 flex flex-col md:flex-row">
-        <div class="md:w-1/3 mx-auto">
-            <img class="border-2 border-secondary" src="/images/clientandrew.jpg" alt=""  >
-        </div>
-        <div class=" md:w-1/2 mx-auto">
-            <p>I love the fact that I could tap into the shared knowledge of thousands of people who had done this before. I look at myself and compare what I accomplished in one year to 16 years of doing it on my own.</p>
-            <p class="font-bold">Andrew, 43, lost 51 lbs</p>
-        </div>
-    </div>
-    <div class="mt-2 flex flex-col md:flex-row">
-        <div class="md:w-1/3 mx-auto">
-            <img class="border-2 border-secondary" src="/images/clientadam.jpg" alt=""  >
-        </div>
-        <div class="mx-auto md:w-1/2">
-            <p>I can’t thank you enough for all that you’ve done for me. Between buying and renovating a home, growing my family from one child to two, and continuing to watch my business grow, PN has given me the confidence and strength to keep going.</p>
-            <p class="font-bold">Adam, 25, lost 40 lbs</p>
-        </div>
-    </div>
-    <div class="mt-2 flex flex-col md:flex-row">
-        <div class="md:w-1/3 mx-auto">
-            <img class="border-2 border-secondary" src="/images/clienttim.jpg" alt=""  >
-        </div>
-        <div class="mx-auto md:w-1/2">
-            <p>Precision Nutrition Coaching has been an investment in myself on a long-term, consistent basis. That was a huge change from what I used to do — trying to get into shape on a short-term basis where I would just get burned out and go back to my old habits. And coaching really gave me a person who was looking out for me and helped me stay consistent.</p>
-            <p class="font-bold">Tim, 36, lost 100 lbs</p>
-        </div>
-    </div>
-    <div class="mt-2 flex flex-col md:flex-row">
-        <div class="md:w-1/3 mx-auto">
-            <img class="border-2 border-secondary" src="/images/clientbryan.jpg" alt=""  >
-        </div>
-        <div class="mx-auto md:w-1/2">
-            <p>I'm a perfect example of someone who knew what to do but wasn't doing anything about it. I had dramatic changes by simply following the program.</p>
-            <p class="font-bold">Bryan, 42, lost 32 lbs</p>
-        </div>
-    </div>-->
+
     <div class="w-full border-b-2 border-primary mt-4"></div>
     <h1 class="text-center text-secondary mt-2 md:mt-4">Give us one year. You'll get in the best shape of your life—or your money back.</h1>
     <div class="mt-2 flex flex-col md:flex-row justify-between pages">
@@ -263,32 +174,11 @@
                        class="lg:bg-transparent py-2 lg:py-0 pl-4 focus-within:outline-none">
                 </div>
                 <button type="submit"
-                        class="transition-colors duration-300 bg-secondary hover:bg-primary mt-4 mx-4 my-4 ml-3 rounded-full text-xs font-semibold text-white py-2 px-8"
-                >
+                        class="transition-colors duration-300 bg-secondary hover:bg-primary mt-4 mx-4 my-4 ml-3 rounded-full text-xs font-semibold text-white py-2 px-8">
                     Sign Up
                 </button>
             </form>
         </div>
     </div>
-        <!--<p>Whether you know it or not, most, if not all, your daily activities were learned through habit-based learning. For example, you learned to write with one hand by using that hand repeatedly. You also developed a showering preference by repeatedly showering at a specific time of day.</p>
-        <p>Whether it’s writing, showering, or some other daily ritual, the way it became part of your daily routine was through ease of completion and repetition. If something is easy to do, and you do it repeatedly (habitually), it will become part of your daily routine (habit). For healthy habits, such as brushing your teeth, habit-based learning is great. However, for unhealthy habits, like being sedentary and eating too much, habit-based learning is terrible.</p>
-        <p>Most of us don’t consciously choose to learn unhealthy habits; rather, we learn them because they are easy to do and fit nicely into our daily schedules. For example, many people develop the unhealthy habit of eating fast food everyday because it is easier than bringing lunch from home (i.e. easy to do), and it’s quick (i.e., it fits easily in their schedule).</p>
-        <p>At the same time, when we want to learn a new healthy habit, such as eating a healthy diet or exercising regularly, it must also be easy to do and fit in our schedule, or it won’t stick long term. This is the primary reason why the health and fitness programs you have tried in the past have failed. They weren’t easy to do, such as eating food you didn’t like, and they weren’t easy to keep in your schedule for the long term.</p>
-        <h2 class="text-center text-secondary">Your Future</h2>
-        <p>Let’s put your past attempts where they belong, in the past, and look to your future with Find Your Fit. Using this one-year program, you will gradually modify small elements of your diet and fitness routines. These changes will be small, easy to complete, and will easily fit into your schedule. By utilizing this approach, these changes will become part of your overall daily routine rather than just some program you do and as a result, will allow you to maintain your new healthy habits for the rest of your life.</p>
-        <p>As you complete Find Your Fit and modify your habits, you will:</p>
-            <ul class="mt-2">
-                <li>Improve cardiovascular fitness reducing your risk of heart disease and stroke while lowering your blood pressure</li>
-                <li>Master self-calming techniques, so you will be less stressed and sleep better</li>
-                <li>Improve blood chemistry which will improve your blood sugar levels, reduce your risk of diabetes, and reduce your risk of certain cancers</li>
-                <li>Decrease fat in your body, so you will have better cholesterol levels</li>
-                <li>Improve overall strength, so you will have less back pain</li>
-                <li>Reduce stress on your body as you lose weight decreasing your risk of osteoarthritis and joint pain</li>
-                <li>Improve energy, so you can have a more active social life, an improved mood, and a better sex drive</li>
-                <li>Shrink your belly leading to more confidence and looking better at work and the beach</li>
-            </ul>-->
 </div>
-    <!--<div id="button" class="flex justify-center w-full">
-        <a href="/register" class="inline-flex items-center py-2 px-8 pb-3 mb-4 bg-secondary rounded-full text-white text-3xl hover:bg-primary">Sign Up</a>
-    </div>-->
 </x-layout>
