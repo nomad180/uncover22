@@ -20,7 +20,7 @@
         </div>
     </div>-->
     <div class="legal space-y-2 mt-10">
-        <div class="flex justify-center"><a href="https://www.youtube.com/channel/UC21zc6VKI4nkTqSVGJj3XhA" class="w-20" target="blank"><img class="mr-2" src="/images/yt_logo_rgb_light.png" alt="" ></a></div>
+        <div class="flex justify-center"><a href="https://www.youtube.com/channel/UC21zc6VKI4nkTqSVGJj3XhA" class="w-20" target="blank"><img class="mr-2" src="/images/yt_logo_rgb_light.png" alt="YouTube icon" ></a></div>
         <div>&copy; <?php echo date("Y") ?> Uncover Your Fit</div>
         <div><a href="/privacy">Privacy Policy</a></div>
         <div><a href="/terms">Terms of Use</a></div>
