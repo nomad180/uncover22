@@ -6,7 +6,7 @@
         <h1>Terms of Use</h1>
             <h2>Effective May 21, 2019</h2>
             <h2>TERMS OF USE AGREEMENT</h2>
-                <p> This Terms of Use Agreement (“Agreement”) constitutes a legally binding agreement made between you, whether personally or on behalf of an entity (“user” or “you”) and Aeonian Health & Fitness and its affiliated companies (collectively, “Company” or “we” or “us” or “our”), concerning your access to and use of the aeonianhealthandfitness.com website as well as any other media form, media channel, mobile website or mobile application related or connected thereto (collectively, the “Website”). The Website provides the following service: habit-based health coaching (“Company Services”). Supplemental terms and conditions or documents that may be posted on the Website from time to time, are hereby expressly incorporated into this Agreement by reference. </p>
+                <p> This Terms of Use Agreement (“Agreement”) constitutes a legally binding agreement made between you, whether personally or on behalf of an entity (“user” or “you”) and Uncover Your FIt and its affiliated companies (collectively, “Company” or “we” or “us” or “our”), concerning your access to and use of the uncoveryourfit.com website as well as any other media form, media channel, mobile website or mobile application related or connected thereto (collectively, the “Website”). The Website provides the following service: habit-based health coaching (“Company Services”). Supplemental terms and conditions or documents that may be posted on the Website from time to time, are hereby expressly incorporated into this Agreement by reference. </p>
                 <p>Company makes no representation that the Website is appropriate or available in other locations other than where it is operated by Company. The information provided on the Website is not intended for distribution to or use by any person or entity in any jurisdiction or country where such distribution or use would be contrary to law or regulation or which would subject Company to any registration requirement within such jurisdiction or country. Accordingly, those persons who choose to access the Website from other locations do so on their own initiative and are solely responsible for compliance with local laws, if and to the extent local laws are applicable. </p>
                 <p>All users who are minors in the jurisdiction in which they reside (generally under the age of 18) are not permitted to register for the Website or use the Company Services. </p>
                 <p>YOU ACCEPT AND AGREE TO BE BOUND BY THIS AGREEMENT BY ACKNOWLEDGING SUCH ACCEPTANCE DURING THE REGISTRATION PROCESS (IF APPLICABLE) AND ALSO BY CONTINUING TO USE THE WEBSITE. IF YOU DO NOT AGREE TO ABIDE BY THIS AGREEMENT, OR TO MODIFICATIONS THAT COMPANY MAY MAKE TO THIS AGREEMENT IN THE FUTURE, DO NOT USE OR ACCESS OR CONTINUE TO USE OR ACCESS THE COMPANY SERVICES OR THE WEBSITE. </p>
@@ -84,9 +84,9 @@
                             <li>A statement that the information in the notification is accurate, and under penalty of perjury, that the complaining party is authorized to act on behalf of the owner of an exclusive right that is allegedly infringed</li>
                         </ol>
                     </p>
-                    <p>Notifications should be sent to our Designated Copyright Agent using our Contact button or in writing at:
+                    <p>Notifications should be sent to our Designated Copyright Agent in writing at:
                         <br />
-                        <br />Aeonian Health & Fitness
+                        <br />Uncover Your Fit
                         <br />Attn: Designated Copyright Agent
                         <br />2713 Overlook CT
                         <br />Manchester, MD 21102
@@ -152,9 +152,9 @@
                 <p>This Agreement constitutes the entire agreement between you and Company regarding the use of the Company Services. The failure of Company to exercise or enforce any right or provision of this Agreement shall not operate as a waiver of such right or provision. The section titles in this Agreement are for convenience only and have no legal or contractual effect. This Agreement operates to the fullest extent permissible by law. This Agreement and your account may not be assigned by you without our express written consent. Company may assign any or all of its rights and obligations to others at any time. Company shall not be responsible or liable for any loss, damage, delay or failure to act caused by any cause beyond Company's reasonable control. If any provision or part of a provision of this Agreement is unlawful, void or unenforceable, that provision or part of the provision is deemed severable from this Agreement and does not affect the validity and enforceability of any remaining provisions. There is no joint venture, partnership, employment or agency relationship created between you and Company as a result of this Agreement or use of the Website and Company Services. Upon Company’s request, you will furnish Company any documentation, substantiation or releases necessary to verify your compliance with this Agreement. You agree that this Agreement will not be construed against Company by virtue of having drafted them. You hereby waive any and all defenses you may have based on the electronic form of this Agreement and the lack of signing by the parties hereto to execute this Agreement. </p>
             <h2 class="mt-2">CONTACT</h2>
                 <p>In order to resolve a complaint regarding the Company Services or to receive further information regarding use of the Company Services, please contact Company as set forth below or, if any complaint with us is not satisfactorily resolved, and you are a California resident, you can contact the Complaint Assistance Unit of the Division of Consumer Services of the Department of Consumer Affairs in writing at 400 "R" Street, Sacramento, California 95814 or by telephone at 1-916-445-1254. </p>
-                <p>Contact us using our Contact button below or in writing at:
+                <p>Contact us in writing at:
                     <br />
-                    <br />Aeonian Health & Fitness
+                    <br />Uncover Your Fit
                     <br />Attn: Operations Officer
                     <br />2713 Overlook CT
                     <br />Manchester , MD 21102
