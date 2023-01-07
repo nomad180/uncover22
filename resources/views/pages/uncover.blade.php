@@ -19,7 +19,7 @@
             <p>When it’s time to turn things around and start a new health and fitness program, however, it can be difficult to know what to do next. And staying motivated is hard—especially if you try to do it all on your own. That’s where we come in. Our goal is to help you get in the best shape of your life and stay that way, starting now, through our Uncover Your Fit program.</p>
         </div>
         <div class="w-1/3 md:w-1/3 lg:w-1/4 mx-auto">
-            <img class="rounded-xl" src="/images/busyfamily4.jpg" alt=""  >
+            <img class="rounded-xl" src="/images/busyfamily4.jpg" alt="A woman holding her daughter while standing next to a man seated at a table in the kitchen working on a laptop and looking at a bill"  >
         </div>
     </div>
     <div class="w-full border-b-2 border-primary mt-4"></div>
@@ -78,7 +78,7 @@
             <div class="border-2 border-secondary" style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/346191740?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
         </div>-->
         <div class="w-4/5 md:w-2/5 mx-auto md:mt-6">
-            <img class="rounded-xl" src="/images/transformation3.jpg" alt=""  >
+            <img class="rounded-xl" src="/images/transformation3.jpg" alt="A healthy and fit male on the left side and a healthy and fit female on the right side"  >
         </div>
         <div class="mx-auto md:w-1/2">
             <p>First, we’ll learn about your lifestyle, needs, and specific goals. Then, over the course of the program, we’ll give you everything you need to look, feel, and perform better than you thought possible. Instead of the all-or-nothing dieting approach, we use a sustainable, practice-based approach to build healthy habits into your life, one day at a time. The result? You’ll lose the weight (and inches) you haven’t been able to shed for years. Whatever obstacles arise, we’ll help you overcome them by modifying your program or offering new solutions.</p>
@@ -167,11 +167,11 @@
                 <li>Corrective Exercise Specialist, The Biomechanics Method</li>
             </ul>
             <div class="flex justify-start">
-                <p class="inline-flex items-center py-2 px-8 pb-3 mb-4 bg-secondary rounded-full text-white text-xl hover:bg-primary"><a href="damon" >Learn more about Damon</a></p>
+                <p class="inline-flex items-center py-2 px-8 pb-3 mb-4 bg-secondary rounded-full text-white text-xl hover:bg-primary"><a href="damon">Learn more about Damon</a></p>
             </div>
         </div>
         <div class="w-1/3 md:w-1/3 lg:w-1/4 mx-auto mt-4">
-            <img class="rounded-full " src="/images/damonYT6.png" alt=""  >
+            <img class="rounded-full " src="/images/damonYT6.png" alt="Picture of Damon Leach" >
         </div>
     </div>
     <!--<div class="w-full border-b-2 border-primary mt-4"></div>
@@ -217,7 +217,7 @@
     <h1 class="text-center text-secondary mt-2 md:mt-4">Give us one year. You'll get in the best shape of your life—or your money back.</h1>
     <div class="mt-2 flex flex-col md:flex-row justify-between pages">
         <div class="w-4/5 md:w-2/5 mx-auto md:mt-6">
-            <img src="/images/guarantee.jpg" alt="">
+            <img src="/images/guarantee.jpg" alt="100% satisfactino guaranteed or your money back">
         </div>
         <div class="mx-auto md:w-1/2">
             <p>Stick with us for a full year and follow our recommendations. If you don’t get what you’re looking for at the end of the year, we’ll give you a full refund. You get to decide if the program was worth it. Why do we do this? Because we stand by our work. We know you’ll walk out healthier and happier than ever before. All you have to do is take the first step.</p>

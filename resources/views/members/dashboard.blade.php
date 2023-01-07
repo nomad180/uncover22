@@ -16,7 +16,9 @@
                     <div class="border-b-2 border-primary w-1/3 mb-6"></div>
                 </div>
                 <div>
-                    <img src="/images/aaaaa2.jpg" alt="" width="100%">
+                    <a href="/uncoveryourfit">
+                        <img src="/images/aaaaa2.jpg" alt="A female jogger bent down tying her shoe with the text Uncover Your Fit" width="100%">
+                    </a>
                 </div>
                 <div class="mt-8">
                     <a href="/uncoveryourfit" class="inline-flex items-center py-2 px-8 bg-secondary border border-transparent rounded-full font-semibold text-xs text-white tracking-widest hover:bg-primary focus:bg-primary active:bg-primary focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition ease-in-out duration-150">Access Program</a>

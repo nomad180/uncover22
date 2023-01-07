@@ -1,5 +1,5 @@
 @section('title'){{'About | Uncover Your Fit'}}@endsection
-@section('description'){{'This page provides the mission and vision of Uncover Your Fit.'}}@endsection
+@section('description'){{'This page provides information about Uncover Your Fit and its approach to coaching.'}}@endsection
 @section('author'){{'Damon Leach'}}@endsection
 <x-layout>
     <div><img class="border-b border-secondary" src="/images/about6.jpg" alt="Wooden blocks with the text H A B I T S" width="100%"></div>
