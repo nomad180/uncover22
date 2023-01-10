@@ -14,12 +14,12 @@
                         </div>
                     </div>
                     <div class="flex justify-start">
-                        <div class="ml-3 text-left">
+                        <div class="ml-3 text-left mt-0.5">
                             By <a href="/blog?author={{ $post->author->username }}">{{ $post->author->name }}</a>
                         </div>
                         <div>
-                            <p class="pl-6 text-gray-400">
-                                | Published <time>{{ $post->published_at->format('M d, Y') }} |</time>
+                            <p class="pl-6 text-gray-400 text-sm mt-1">
+                                Published <time>{{ $post->published_at->format('M d, Y') }} </time>
                             </p>
                         </div>
                         <div class="pl-6">

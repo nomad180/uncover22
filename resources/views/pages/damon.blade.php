@@ -6,11 +6,11 @@
     <!--<h1 class="bg-secondary text-white border-t border-b border-secondary text-center px-4">"Life is a journey that you only get to make once. Let's make your journey a great one!"</h1>-->
     <div class="px-4 mt-4 md:px-8 lg:px-16 xl:px-32">
         <div class="flex pt-2">
-            <div class="w-1/3">
+            <div class="w-1/3 mr-4 md:mr-2">
                 <div class="text-secondary text-3xl">About Damon</div>
             </div>
-            <div class="border-b-2 border-primary w-2/3 mb-4"></div>
-            <div class="border-b-2 border-primary w-2/3 mb-4"></div>
+            <div class="border-b-2 border-primary w-1/3 md:w-2/3 mb-4"></div>
+            <div class="border-b-2 border-primary w-1/3 md:w-2/3 mb-4"></div>
         </div>
     </div>
     <div class="px-4 mb-4 mt-4 md:px-8 lg:px-16 xl:px-32 pages">
@@ -20,11 +20,11 @@
     </div>
     <div class="px-4 mb-4 md:px-8 lg:px-16 xl:px-32">
         <div class="flex pt-2">
-            <div class="w-1/3">
+            <div class="w-1/3 mr-4 md:mr-2">
                 <div class="text-secondary text-3xl">Credentials</div>
             </div>
-            <div class="border-b-2 border-primary w-2/3 mb-4"></div>
-            <div class="border-b-2 border-primary w-2/3 mb-4"></div>
+            <div class="border-b-2 border-primary w-1/3 md:w-2/3 mb-4"></div>
+            <div class="border-b-2 border-primary w-1/3 md:w-2/3 mb-4"></div>
         </div>
     </div>
     <div class="flex flex-col md:flex-row justify-center">
