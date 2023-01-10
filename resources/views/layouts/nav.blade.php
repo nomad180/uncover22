@@ -3,7 +3,7 @@
         <menu class="w-1/3 hidden lg:flex">
             <div class="pt-6">
                 <x-main-nav-link :href="route('index')" :active="request()->routeIs('index')">Home</x-main-nav-link>
-                <x-main-nav-link :href="route('blog')" :active="request()->routeIs('blog')">Blog</x-main-nav-link>
+                <x-main-nav-link :href="route('blog')" :active="request()->routeIs('blog', 'show')">Blog</x-main-nav-link>
                 <x-main-nav-link :href="route('about')" :active="request()->routeIs('about')">About</x-main-nav-link>
                 <x-main-nav-link :href="route('program')" :active="request()->routeIs('program')">Program</x-main-nav-link>
             </div>

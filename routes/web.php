@@ -30,7 +30,7 @@ Route::get('/terms', [PageController::class, 'terms'])->name('terms');
 Route::post('newsletter', NewsletterController::class);
 
 Route::get('/blog', [PostController::class, 'blog'])->name('blog');
-Route::get('posts/{post:slug}', [PostController::class, 'show']);
+Route::get('posts/{post:slug}', [PostController::class, 'show'])->name('show');
 Route::post('posts/{post:slug}/comments', [PostCommentsController::class, 'store']);
 
 
