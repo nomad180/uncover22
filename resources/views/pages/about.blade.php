@@ -5,11 +5,11 @@
     <div><img class="border-b border-secondary" src="/images/about6.jpg" alt="Wooden blocks with the text H A B I T S" width="100%"></div>
     <div class="px-4 md:px-8 lg:px-16 xl:px-32">
         <div class="flex pt-2">
-            <div class="w-1/3">
+            <div class="w-1/3 mr-16 md:mr-2">
                 <div class="text-secondary text-3xl">About Us</div>
             </div>
-            <div class="border-b-2 border-primary w-2/3 mb-4"></div>
-            <div class="border-b-2 border-primary w-2/3 mb-4"></div>
+            <div class="border-b-2 border-primary w-1/3 md:w-2/3 mb-4"></div>
+            <div class="border-b-2 border-primary w-1/3 md:w-2/3 mb-4"></div>
         </div>
     </div>
     <div class="mt-4 px-4 mb-4 md:px-8 lg:px-16 xl:px-32">
@@ -17,11 +17,11 @@
     </div>
     <div class="px-4 md:px-8 lg:px-16 xl:px-32">
         <div class="flex pt-2">
-            <div class="w-1/3">
+            <div class="w-1/3 mr-16 md:mr-2">
                 <div class="text-secondary text-3xl">Coaching Approach</div>
             </div>
-            <div class="border-b-2 border-primary w-2/3 mb-4"></div>
-            <div class="border-b-2 border-primary w-2/3 mb-4"></div>
+            <div class="border-b-2 border-primary w-1/3 md:w-2/3 mb-4"></div>
+            <div class="border-b-2 border-primary w-1/3 md:w-2/3 mb-4"></div>
         </div>
     </div>
     <div class="mt-4 px-4 mb-4 md:px-8 lg:px-16 xl:px-32 pages">
