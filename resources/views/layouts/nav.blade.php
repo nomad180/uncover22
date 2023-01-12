@@ -33,7 +33,7 @@
                 </x-dropdown>
             </div>
         </menu>
-        <div class="pr-10 md:pl-10 md:pr-10 lg:pl-20 lg:pr-20 xxl:pl-32 xxl:pr-32 xxxl:pl-32 xxxl:pr-40 xxxxl:pl-48 xxxxl:pr-48 w-full lg:w-1/3 pt-5 xl:pt-0">
+        <div class="pr-8 md:pl-10 md:pr-10 lg:pl-20 lg:pr-20 xxl:pl-32 xxl:pr-32 xxxl:pl-32 xxxl:pr-40 xxxxl:pl-48 xxxxl:pr-48 w-full lg:w-1/3 pt-5 xl:pt-0">
             <a href="/">
                 <img src="/images/UYFlogotext.svg" alt="Uncover Your Fit Logo">
             </a>

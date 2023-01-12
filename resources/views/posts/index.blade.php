@@ -43,7 +43,7 @@
                         <a target="_blank" href="https://shareasale.com/r.cfm?b=947058&amp;u=2872412&amp;m=68998&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/68998/yoga240x400.jpg" border="0" alt="yoga gear" /></a>
                     </div>
                     <div class="py-6 flex justify-center">
-                        <a target="_blank" href="https://shareasale.com/r.cfm?b=1020331&amp;u=2872412&amp;m=68998&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/68998/Resistance_Bands__Tubes_120x600.jpg" border="0" /></a>
+                        <a target="_blank" href="https://shareasale.com/r.cfm?b=2218553&amp;u=2872412&amp;m=85045&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/85045/DisplayBanner1200x1200px.jpg" border="0" /></a>
                     </div>
                     <div class="py-6 flex justify-center">
                         <a target="_blank" href="https://shareasale.com/r.cfm?b=1020318&amp;u=2872412&amp;m=68998&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/68998/Cross_Training_160x600.jpg" border="0" /></a>
