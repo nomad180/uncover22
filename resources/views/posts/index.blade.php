@@ -38,7 +38,7 @@
                 </div>
                  <div>
                     <div class="mt-4 flex justify-center text-secondary text-xl underline">Affiliate Links</div>
-                    <div class="font-bold py-2">If you click on one of the links below and make a purchase, Uncover Your Fit will receive a small commission at no extra cost to you.</div>
+                    <div class="font-bold py-2 ml-4">If you click on one of the links below and make a purchase, Uncover Your Fit will receive a small commission at no extra cost to you.</div>
                     <div class="py-6 flex justify-center">
                         <a target="_blank" href="https://shareasale.com/r.cfm?b=953111&amp;u=2872412&amp;m=68998&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/68998/300x250-1_01.jpg" border="0" alt="foam rollers" /></a>
                     </div>
