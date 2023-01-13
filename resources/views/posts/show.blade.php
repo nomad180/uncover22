@@ -50,7 +50,7 @@
                         <img src="/images/UYFAdvert.jpg" alt="Multiple people in a pushup position on a gym floor with the text Uncover Your Fit" class="rounded-xl border border-secondary">
                     </div>
                     <button class="flex justify-center w-full text-base">
-                        <a href="/program" class="inline-flex items-center py-2 px-8 pb-3 bg-secondary rounded-full text-white hover:bg-primary">Learn More</a>
+                        <a href="/program" class="inline-flex items-center py-2 px-8 text-xs bg-secondary rounded-full text-white hover:bg-primary">Learn More</a>
                     </button>
                 </div>
                  <div>

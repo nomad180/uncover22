@@ -32,7 +32,7 @@
                     </p>
                 </div>-->
 
-                <footer class="flex justify-between mt-8">
+                <footer class="flex justify-between md:flex-col lg:flex-row lg:justify-between mt-8">
                     <div class="flex text-sm">
                         <div>
                             <h5 class="font-semibold">By
@@ -40,8 +40,7 @@
                             </h5>
                         </div>
                     </div>
-
-                    <div>
+                    <div class="mt-0 sm:mt-6 md:mt:6 lg:mt-0">
                         <a href="/posts/{{ $post->slug }}"
                            class="transition-colors text-white duration-300 text-xs font-semibold bg-secondary hover:bg-primary rounded-full py-2 px-8 hover:bg-primary"
                         >Read More</a>
