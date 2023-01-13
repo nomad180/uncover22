@@ -30,23 +30,23 @@
                 <div>
                     <div class="md:mt-14 flex justify-center text-secondary text-xl underline font:semi-bold">Uncover Your Fit Program</div>
                     <div class="py-2 flex justify-center">
-                        <img src="/images/UYFAdvert.jpg" class="rounded-xl border border-secondary">
+                        <img src="/images/UYFAdvert.jpg" class="rounded-xl border border-secondary alt="Multiple people in a pushup position on a gym floor with the text Uncover Your Fit">
                     </div>
                     <button class="flex justify-center w-full text-base">
-                        <a href="/program" alt="Multiple people in a pushup position on a gym floor with the text Uncover Your Fit" class="inline-flex items-center py-2 px-8 bg-secondary rounded-full text-white hover:bg-primary text-xs">Learn More</a>
+                        <a href="/program"  class="inline-flex items-center py-2 px-8 bg-secondary rounded-full text-white hover:bg-primary text-xs">Learn More</a>
                     </button>
                 </div>
                  <div>
                     <div class="mt-4 flex justify-center text-secondary text-xl underline">Affiliate Links</div>
                     <div class="font-bold py-2">If you click on one of the links below and make a purchase, Uncover Your Fit will receive a small commission at no extra cost to you.</div>
                     <div class="py-6 flex justify-center">
-                        <a target="_blank" href="https://shareasale.com/r.cfm?b=947058&amp;u=2872412&amp;m=68998&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/68998/yoga240x400.jpg" border="0" alt="yoga gear" /></a>
+                        <a target="_blank" href="https://shareasale.com/r.cfm?b=953111&amp;u=2872412&amp;m=68998&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/68998/300x250-1_01.jpg" border="0" alt="foam rollers" /></a>
                     </div>
                     <div class="py-6 flex justify-center">
                         <a target="_blank" href="https://shareasale.com/r.cfm?b=2218553&amp;u=2872412&amp;m=85045&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/85045/DisplayBanner1200x1200px.jpg" border="0" /></a>
                     </div>
-                    <div class="py-6 flex justify-center">
-                        <a target="_blank" href="https://shareasale.com/r.cfm?b=1020318&amp;u=2872412&amp;m=68998&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/68998/Cross_Training_160x600.jpg" border="0" /></a>
+                    <div class="justify-center">
+                        <a target="_blank" href="https://shareasale.com/r.cfm?b=1880146&amp;u=2872412&amp;m=114867&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/114867/CanDo.png" border="0" alt="CanDo" /></a>
                     </div>
                 </div>
             </div>
