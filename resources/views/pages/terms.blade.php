@@ -4,7 +4,7 @@
 <x-layout>
     <div class="px-4 py-4 md:px-8 lg:px-16 xl:px-32">
         <h1>Terms of Use</h1>
-            <h2>Effective May 21, 2019</h2>
+            <h2>Effective January 1, 2023</h2>
             <h2>TERMS OF USE AGREEMENT</h2>
                 <p> This Terms of Use Agreement (“Agreement”) constitutes a legally binding agreement made between you, whether personally or on behalf of an entity (“user” or “you”) and Uncover Your FIt and its affiliated companies (collectively, “Company” or “we” or “us” or “our”), concerning your access to and use of the uncoveryourfit.com website as well as any other media form, media channel, mobile website or mobile application related or connected thereto (collectively, the “Website”). The Website provides the following service: habit-based health coaching (“Company Services”). Supplemental terms and conditions or documents that may be posted on the Website from time to time, are hereby expressly incorporated into this Agreement by reference. </p>
                 <p>Company makes no representation that the Website is appropriate or available in other locations other than where it is operated by Company. The information provided on the Website is not intended for distribution to or use by any person or entity in any jurisdiction or country where such distribution or use would be contrary to law or regulation or which would subject Company to any registration requirement within such jurisdiction or country. Accordingly, those persons who choose to access the Website from other locations do so on their own initiative and are solely responsible for compliance with local laws, if and to the extent local laws are applicable. </p>
