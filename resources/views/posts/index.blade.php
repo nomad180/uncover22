@@ -40,7 +40,7 @@
                     <div class="mt-4 flex justify-center text-secondary text-xl underline">Affiliate Links</div>
                     <div class="font-bold py-2 ml-4">If you click on one of the links below and make a purchase, Uncover Your Fit will receive a small commission at no extra cost to you.</div>
                     <div class="py-6 flex justify-center">
-                        <a target="_blank" href="https://shareasale.com/r.cfm?b=953111&amp;u=2872412&amp;m=68998&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/68998/300x250-1_01.jpg" border="0" alt="foam rollers" /></a>
+                        <a target="_blank" href="https://shareasale.com/r.cfm?b=947058&amp;u=2872412&amp;m=68998&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/68998/yoga240x400.jpg" border="0" alt="yoga gear" /></a>
                     </div>
                     <div class="py-6 flex justify-center">
                         <a target="_blank" href="https://shareasale.com/r.cfm?b=2218553&amp;u=2872412&amp;m=85045&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/85045/DisplayBanner1200x1200px.jpg" border="0" /></a>
@@ -49,7 +49,7 @@
                         <a target="_blank" href="https://shareasale.com/r.cfm?b=1892429&amp;u=2872412&amp;m=114867&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/114867/pbcc_hero_720.png" border="0" alt="Keto Krisp Peanut Butter Chocolate Chunk" /></a>
                     </div>
                     <div class="py-6 flex justify-center">
-                        <a target="_blank" href="https://shareasale.com/r.cfm?b=1780506&amp;u=2872412&amp;m=110431&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/110431/_N7A9931.jpg" border="0" /></a>
+                        <a target="_blank" href="https://shareasale.com/r.cfm?b=1780503&amp;u=2872412&amp;m=110431&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/110431/Good_Rancher_KITfloor1of1.jpg" border="0" /></a>
                     </div>
                 </div>
             </div>
