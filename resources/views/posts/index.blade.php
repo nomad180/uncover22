@@ -1,5 +1,5 @@
 @section('title'){{'Blog | Uncover Your Fit'}}@endsection
-@section('description'){{'Are you ready to become fit and stay that way? If so, our premier online health coaching will help you get stronger, eat better, and live healthier.'}}@endsection
+@section('description'){{'Uncover Your Fit's blog posts provide information that will help you get stronger, eat better, and live healthier.'}}@endsection
 @section('author'){{'Damon Leach'}}@endsection
 <x-layout>
         @include ('posts.posts-header')

@@ -1,5 +1,5 @@
 @section('title'){{'Damon Leach | Uncover Your Fit'}}@endsection
-@section('description'){{'This page provides background information on Damon Leach, the founder of Uncover Your Fit.'}}@endsection
+@section('description'){{'As a coach, I am passionate about helping others achieve optimal health and well-being without major disruptions to their lives.'}}@endsection
 @section('author'){{'Damon Leach'}}@endsection
 <x-layout>
     <div class="border-b border-secondary"><img class="mt-4" src="/images/damon23.png" alt="Picture of Damon Leach with the text life is a journey you only get to make once. Let's make your journey a great one." width="100%"></div>
