@@ -21,8 +21,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//Sitemap
 Route::get('/sitemap.xml', [SitemapController::class, 'index']);
 
+//Pages
 Route::get('/', [PageController::class, 'index'])->name('index');
 Route::get('/about', [PageController::class, 'about'])->name('about');
 Route::get('/damon', [PageController::class, 'damon'])->name('damon');
@@ -31,13 +33,15 @@ Route::get('/contact', [PageController::class, 'contact'])->name('contact');
 Route::get('/privacy', [PageController::class, 'privacy'])->name('privacy');
 Route::get('/terms', [PageController::class, 'terms'])->name('terms');
 
+//Signup Form for Program Information
 Route::post('newsletter', NewsletterController::class);
 
+//Blog
 Route::get('/blog', [PostController::class, 'blog'])->name('blog');
 Route::get('posts/{post:slug}', [PostController::class, 'show'])->name('show');
 Route::post('posts/{post:slug}/comments', [PostCommentsController::class, 'store']);
 
-
+//Member Signup & Member Routing
 Route::middleware(['auth', 'verified', 'nonPayingCustomer'])->group(function () {
     Route::get('/charge', [MemberController::class, 'show'])->name('charge');
     Route::post('/charge', [MemberController::class, 'chargepost'])->name('charge.post');
@@ -47,13 +51,14 @@ Route::middleware(['auth', 'verified', 'payingCustomer'])->group(function () {
     Route::get('/uncoveryourfit', [MemberController::class, 'uncoveryourfit'])->name('uncoveryourfit');
 });
 
-
+//Member Profile
 Route::middleware(['auth', 'payingCustomer'])->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+//TinyMCE Image File Manager
 Route::group(['prefix' => 'laravel-filemanager', 'middleware' => ['web', 'auth']], function () {
      \UniSharp\LaravelFilemanager\Lfm::routes();
  });
