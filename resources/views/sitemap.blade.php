@@ -86,7 +86,7 @@
 </url>
 @foreach ($posts as $post)
     <url>
-        <loc>{{ url('/') }}/post/{{ $post->slug }}</loc>
+        <loc>{{ url('/') }}/posts/{{ $post->slug }}</loc>
         <lastmod>{{ $post->published_at->tz('UTC')->toAtomString() }}</lastmod>
         <priority>0.8</priority>
     </url>
