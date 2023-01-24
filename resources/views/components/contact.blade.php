@@ -18,12 +18,6 @@
           <textarea rows="6" placeholder="Message" id="message" rows="3" class="block mt-1 w-full h-full" type="text" name="message" :value="old('message')" required autofocus /></textarea>
           <x-input-error :messages="$errors->get('message')" class="mt-2" />
       </div>
-    <!-- ReCaptcha -->
-      <div class="mt-4">
-          <x-input-label for="g-recaptcha" :value="__('ReCaptcha')" />
-          <div class="g-recaptcha" data-sitekey="{{ env('GOOGLE_RECAPTCHA_KEY') }}" /></div>
-          <x-input-error :messages="$errors->get('g-recaptcha-response')" class="mt-6" />
-      </div>
     <x-primary-button class="mt-6">
       {{ __('Submit') }}
     </x-primary-button>
