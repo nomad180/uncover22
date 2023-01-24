@@ -77,7 +77,7 @@
                         <a href="blog" class="inline-flex items-center py-2 px-8 bg-secondary rounded-full text-white hover:bg-primary">See More Posts</a>
                     </div>
                 </div>
-                <div class="mx-auto sm:px-6 lg:px-8 bg-white border border-secondary/30 shadow-lg shadow-secondary/50 sm:rounded-lg pb-8 mb-6">
+                <div class="hidden mx-auto sm:px-6 lg:px-8 bg-white border border-secondary/30 shadow-lg shadow-secondary/50 sm:rounded-lg pb-8 mb-6">
                     <div class="flex pt-4">
                         <div class="border-b-2 border-primary w-1/3 mb-6"></div>
                         <div class="w-1/3 text-secondary text-center">
@@ -97,8 +97,8 @@
                         </div>
                         <div class="border-b-2 border-primary w-1/3 mb-6"></div>
                     </div>
-                    <div class="flex flex-col md:flex-row flex-wrap pt-4 ml-4 mb-6">
-                       Contact Us Form
+                    <div>
+                        <x-auth-card2><x-contact /></x-auth-card2>
                     </div>
                 </div>
         </div>
