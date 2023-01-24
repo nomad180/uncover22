@@ -13,7 +13,7 @@ class ContactController extends Controller
 {
      public function contact()
      {
-      return view('contact.index');
+      return view('contact.index1');
      }
     public function mailContactForm(ContactFormRequest $message, Recipient $recipient)
      {
