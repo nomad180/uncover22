@@ -23,6 +23,7 @@
     <link rel="manifest" href="/site.webmanifest">
 
     <!-- Google tag (gtag.js) -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZCKSV7NVVZ"></script>
     <script>
       window.dataLayer = window.dataLayer || [];

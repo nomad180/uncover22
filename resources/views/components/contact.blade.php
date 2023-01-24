@@ -20,9 +20,9 @@
       </div>
     <!-- ReCaptcha -->
       <div class="mt-4">
-          <x-input-label for="g-recaptcha-response" :value="__('ReCaptcha')" />
-          <x-text-input class="g-recaptcha" data-sitekey="{{ env('GOOGLE_RECAPTCHA_KEY') }}" />
-          <x-input-error :messages="$errors->get('g-recaptcha-response')" class="mt-2" />
+          <x-input-label for="g-recaptcha" :value="__('ReCaptcha')" />
+          <div class="g-recaptcha" data-sitekey="{{ env('GOOGLE_RECAPTCHA_KEY') }}" /></div>
+          <x-input-error :messages="$errors->get('g-recaptcha-response')" class="mt-6" />
       </div>
     <x-primary-button class="mt-6">
       {{ __('Submit') }}
