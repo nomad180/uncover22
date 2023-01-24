@@ -1,10 +1,11 @@
 <?php
 
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\MemberController;
 use App\Http\Controllers\NewsletterController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\PostCommentsController;
 use App\Http\Controllers\PostController;
-use App\Http\Controllers\MemberController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\SitemapController;
 use Illuminate\Support\Facades\Route;
@@ -29,9 +30,12 @@ Route::get('/', [PageController::class, 'index'])->name('index');
 Route::get('/about', [PageController::class, 'about'])->name('about');
 Route::get('/damon', [PageController::class, 'damon'])->name('damon');
 Route::get('/program', [PageController::class, 'uncover'])->name('program');
-Route::get('/contact', [PageController::class, 'contact'])->name('contact');
 Route::get('/privacy', [PageController::class, 'privacy'])->name('privacy');
 Route::get('/terms', [PageController::class, 'terms'])->name('terms');
+
+//Contact
+Route::get('/contact', [ContactController::class, 'contact'])->name('contact');
+Route::post('/contact', [ContactController::class, 'mailContactForm'])->name('contact.post');
 
 //Signup Form for Program Information
 Route::post('newsletter', NewsletterController::class);
