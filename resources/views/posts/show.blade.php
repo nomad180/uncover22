@@ -68,6 +68,9 @@
                     <div class="py-6 flex justify-center">
                         <a target="_blank" href="https://shareasale.com/r.cfm?b=1780500&amp;u=2872412&amp;m=110431&amp;urllink=&amp;afftrack="><img class="rounded-xl" src="https://static.shareasale.com/image/110431/meat-24.jpg" border="0" /></a>
                     </div>
+                    <div class="py-6 flex justify-center">
+                        <a target="_blank" href="https://shareasale.com/r.cfm?b=1857418&amp;u=2872412&amp;m=115699&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/115699/300x6001.jpg" border="0" alt="Keep Nature Wild" /></a>
+                    </div>
                 </div>
             </div>
     </div>
