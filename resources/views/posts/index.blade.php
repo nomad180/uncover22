@@ -28,7 +28,7 @@
             </div>
             <div class="flex flex-col md:ml-10 md:w-1/6">
                 <div>
-                    <div class="md:mt-14 flex justify-center text-secondary text-xl underline font:semi-bold">Uncover Your Fit Program</div>
+                    <div class="md:mt-14 flex justify-center text-secondary text-xl underline font:semi-bold">Uncover Your Fit Programs</div>
                     <div class="py-2 flex justify-center">
                          <a href="/program"><img src="/images/UYFAdvert.jpg" class="rounded-xl" alt="Multiple people in a pushup position on a gym floor with the text Uncover Your Fit"></a>
                     </div>
