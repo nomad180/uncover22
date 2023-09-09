@@ -12,33 +12,17 @@
             <div class="border-b-2 border-primary w-1/3 md:w-2/3 mb-4"></div>
         </div>
     </div>
-    <div class="mt-4 px-4 mb-4 md:px-8 lg:px-16 xl:px-32">
-        <p class="pages">Uncover Your Fit is a small health and fitness company located in Manchester, Maryland. We specialize in helping clients develop overall health and fitness using online habit-based health coaching. Our flagship coaching program is our one-year Uncover Your Fit program.</p>
-    </div>
-    <div class="px-4 md:px-8 lg:px-16 xl:px-32">
-        <div class="flex pt-2">
-            <div class="w-1/3 mr-16 md:mr-2">
-                <div class="text-secondary text-3xl">Coaching Approach</div>
-            </div>
-            <div class="border-b-2 border-primary w-1/3 md:w-2/3 mb-4"></div>
-            <div class="border-b-2 border-primary w-1/3 md:w-2/3 mb-4"></div>
-        </div>
-    </div>
     <div class="mt-4 px-4 mb-4 md:px-8 lg:px-16 xl:px-32 pages">
-        <p>Your health and fitness are a direct result of your daily habits. If you habitually stress about life’s events, you will become a stressed-out person. At the same time, if you habitually overeat or fail to get some physical exercise, you will gain weight and ultimately develop health problems. Because habits play such a key role in your health and fitness, they are the focus of our coaching approach at Uncover Your Fit.</p>
-        <p>The key thing to remember about habits, however, is that the person you currently are is the result of your habits over time. You didn’t go to sleep yesterday a healthy and fit person then wake up today overweight, out of shape, and experiencing health problems. Rather, your personal habits developed over months, years, and possibly decades. Some poor health habits you might have developed in your life include:</p>
-            <ul>
-                <li>Eating too much</li>
-                <li>Drinking too much alcohol</li>
-                <li>Eating the wrong foods</li>
-                <li>Not exercising regularly</li>
-                <li>Letting life stress you out</li>
-            </ul>
-        <p>If you are like most people, you have tried many ways to address your less than optimal lifestyle habits, and if you're like most people, your efforts have not yielded the long-term results you desire. The reason your past efforts were not the greatest is because most diet and exercise plans focus mainly on rapid change in the short term. You can only eat rice cakes and follow a strict meal plan for so long before you break and go on an eating spree. At the same time, if you don’t see immediate results, you start to lose your motivation. For example, you might eat well and exercise regularly for a month and only see minimal weight loss or body composition changes. When this happens, most people give up because the results are not worth the effort.</p>
-        <p>Guess what, you can forget the past because no matter where you are currently in life Uncover Your Fit can help. We are different than other coaches and personal trainers because we focus on changing your long-term habits rather than making drastic unsustainable short-term changes to your diet and exercise. Will our habit-based approach lead to quick results? No, just as it took you months or years for your current habits to form the person you are today, it will take time to develop new sustainable habits.</p>
-        <p>Our habit-based coaching approach, though not rapid, will finally provide you long-term results. Every few weeks, we will make small changes to your nutrition and fitness habits. Then, as you master each small habit, we will slowly add new ones. As your program progresses, the combined effect of your mastered habits will lead to the lifestyle changes you have always desired. Best of all, these lifestyle changes will be sustainable for the long term because you took the time to slowly develop them. No longer will your habits just be part of some diet or exercise routine you do; they will be a part of who you are.</p>
+        <p>Ah, my fellow habit-hackers, let's talk turkey&#8212;not the kind on your dinner plate, but the habits that make or break your health and fitness journey. You see, your daily habits are like the bricks in the grand castle of your life. And if you're laying bricks of stress, overeating, and inactivity, well, you're building a dungeon instead of a palace. But don't fret, because Uncover Your Fit is here to be your architectural genius.</p>
+        <p>So, here's the skinny (pun intended): Your health and fitness are the offspring of your daily habits. If you've got a habit of stressing about life's curveballs, congratulations, you're becoming a stress ball yourself. Likewise, if your daily ritual includes a dance with the cookie jar and avoiding the gym like it's the plague, well, you're building a house of cards, my friend.</p>
+        <p>The secret sauce of Uncover Your Fit? It's all about habit-based health coaching. We're not into quick fixes, crash diets, or the latest fitness fads that fizzle out faster than a firecracker. Nope, we're playing the long game because we know that Rome wasn't built in a day, and neither are healthy habits.</p>
+        <p>Now, let's address the elephant in the room&#8212;your past attempts at change. You know the drill. You've tried everything from cabbage soup diets to 30-day boot camps, and sure, you saw some short-lived results. But then reality kicked in, and you found yourself face-first in a tub of ice cream, wondering where it all went wrong.</p>
+        <p>The problem with those quick-fix plans is that they're like sprinting in a marathon. Sure, you might cover some ground, but you'll burn out before you even reach the halfway mark. And let's not forget the disappointment when you don't see a six-pack after a few weeks of sweating bullets.</p>
+        <p>Now, here's where Uncover Your Fit stands apart. We're not here to give you a crash course; we're here to change your life. Our habit-based approach is like planting seeds. We start small, nurturing those habits until they grow into mighty oaks of change. No more crash-and-burn cycles; we're all about the slow burn that lasts a lifetime.</p>
+        <p>Every few weeks, we'll tweak your nutrition and fitness habits, like a master chef adding just the right spices to a dish. As you conquer each small habit, we'll sprinkle in new ones. It's a recipe for success that's not just delicious but sustainable. These habits won't be a part of some temporary diet or exercise routine; they'll become as natural as breathing.</p>
+        <p>So, no matter where you are on your journey, remember this&#8212;Uncover Your Fit is here to transform your habits, your health, and your life. We're not promising overnight miracles, but we are promising lasting change. The castle of your dreams is waiting, one habit at a time.</p>
         <div class="flex justify-center w-full">
-            <div class="inline-flex items-center py-2 px-8 pb-3 mb-4 text-2xl bg-secondary rounded-full text-white  hover:bg-primary"><a href="damon" >Learn About Our Coach and Founder, Damon Leach</a></div>
+            <div class="inline-flex items-center py-2 px-8 pb-3 mb-4 mt-4 text-2xl bg-secondary rounded-full text-white  hover:bg-primary"><a href="damon" >Learn About Our Coach and Founder, Damon Leach</a></div>
         </div>
     </div>
 </x-layout>
