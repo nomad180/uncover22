@@ -31,7 +31,7 @@
             </div>
             <div class="md:w-3/4 md:px-6">
                 <p>And now, as a coach, I'm on a mission to share the wealth of wisdom I've amassed. I want to help you achieve the kind of optimal health and well-being that doesn't require you to flip your life upside down. You see, I've witnessed firsthand the power of optimization in my clients. It's like finding that cheat code to a video game&#8212;suddenly, everything becomes clearer and more achievable.</p>
-                <p>Right now, I'm living the dream in Manchester, MD, with my wonderful wife, two amazing daughters, and a couple of cats who keep life interesting. We're all about that active lifestyle, and trust me, it's the secret sauce that helps us optimize every darn facet of our lives.</p>
+                <p>Right now, I'm living the dream in the suburbs of Baltimore, MD, with my wonderful wife, two amazing daughters, and a couple of cats who keep life interesting. We're all about that active lifestyle, and trust me, it's the secret sauce that helps us optimize every darn facet of our lives.</p>
                 <p>So, if you're ready to ditch the one-dimensional thinking and start living your best, most optimized life, you've come to the right place. Let's embark on this journey together, and I promise, it's going to be one heck of a ride.</p>
             </div>
         </div>
