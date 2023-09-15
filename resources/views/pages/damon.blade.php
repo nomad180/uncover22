@@ -13,7 +13,7 @@
             <div class="border-b-2 border-primary w-1/3 md:w-2/3 mb-4"></div>
         </div>
     </div>
-    <div class="mt-4 px-4 mb-4 md:px-8 lg:px-16 xl:px-32 pages">
+    <div class="mt-4 px-4 mb-6 md:px-8 lg:px-16 xl:px-32 pages">
         <img class="rounded-xl" style="float:right; margin-left: 2rem;" src="/images/fat.jpg" alt="The belly of a fat man in business attire"  >
         <p>Life is like a multifaceted diamond, with each facet representing a different aspect of our existence. Yet, as adults in the hustle and bustle of life, we often feel the pressure to focus on just one facet&#8212;usually our career. We buy into this notion that straying from that single-minded focus somehow diminishes our worth. Been there, done that. I was the guy who believed that my career was the be-all and end-all, and I clung to it for dear life, even as my health suffered in the shadows.</p>
         <p>You see, my friend, I'm no stranger to that struggle. I used to be overweight and out of shape, and I didn't even realize how much my well-being was taking a nosedive. But then, life decided to give me a wake-up call in the form of a serious health scare. Suddenly, I couldn't ignore the elephant on the treadmill any longer, and then it hit me like a ton of protein bars&#8212;I could excel in both my career and my personal life, and shocker, they could actually work together like peanut butter and jelly.</p>
