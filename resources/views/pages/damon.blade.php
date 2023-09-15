@@ -24,7 +24,7 @@
         <p>Right now, I'm living the dream in the suburbs of Baltimore, MD, with my wonderful wife, two amazing daughters, and a couple of cats who keep life interesting. We're all about that active lifestyle, and trust me, it's the secret sauce that helps us optimize every darn facet of our lives.</p>
         <p>So, if you're ready to ditch the one-dimensional thinking and start living your best, most optimized life, you've come to the right place. Let's embark on this journey together, and I promise, it's going to be one heck of a ride.</p>
     </div>
-    <div class="px-4 mb-4 md:px-8 lg:px-16 xl:px-32" style="clear:both">
+    <div class="px-4 pt-4 mb-4 md:px-8 lg:px-16 xl:px-32" style="clear:both">
         <div class="flex pt-2">
             <div class="w-1/3 mr-16 md:mr-2">
                 <div class="text-secondary text-3xl">Credentials</div>
