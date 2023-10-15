@@ -15,8 +15,12 @@ class ContactController extends Controller
      {
       return view('contacts.index');
      }
-    public function mailContactForm(ContactFormRequest $message, Recipient $recipient)
+    public function mailContactForm(Request $request, ContactFormRequest $message, Recipient $recipient)
      {
+      $request->validate([
+            'g-recaptcha-response' => 'recaptcha',
+        ]);
+
       $recipient->notify(new ContactFormMessage($message));
 
       return redirect()->back()->with('message', 'Thanks for your message! We will get back to you soon!');
