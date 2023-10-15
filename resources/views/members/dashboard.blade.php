@@ -89,7 +89,7 @@
                        Frequently asked questions
                     </div>
                 </div>
-                <div class="mx-auto sm:px-6 lg:px-8 bg-white border border-secondary/30 shadow-lg shadow-secondary/50 sm:rounded-lg pb-8 mb-6">
+                <div class="hidden mx-auto sm:px-6 lg:px-8 bg-white border border-secondary/30 shadow-lg shadow-secondary/50 sm:rounded-lg pb-8 mb-6">
                     <div class="flex pt-4">
                         <div class="border-b-2 border-primary w-1/3 mb-6"></div>
                         <div class="w-1/3 text-secondary text-center">
