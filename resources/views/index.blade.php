@@ -3,7 +3,7 @@
 @section('author'){{'Damon Leach'}}@endsection
 <x-layout>
     <div class="relative">
-        <video autoplay muted loop>
+        <video autoplay muted loop playsinline>
             <source src="/images/aa8.mp4" type="video/mp4">
         </video>
         <!--<img class="border-b border-secondary lg:min-h-screen" src="/images/index23.jpg" alt="Runner bending over to tie his shoe." width="100%">-->
