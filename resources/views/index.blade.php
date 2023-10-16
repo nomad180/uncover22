@@ -4,7 +4,7 @@
 <x-layout>
     <div class="relative">
         <video autoplay muted loop playsinline>
-            <source src="/images/aa3.mov" type="video/mp4">
+            <source src="/images/aa3.mp4" type="video/mp4">
         </video>
         <!--<img class="border-b border-secondary lg:min-h-screen" src="/images/index23.jpg" alt="Runner bending over to tie his shoe." width="100%">-->
         <div class="intro-overlay">
