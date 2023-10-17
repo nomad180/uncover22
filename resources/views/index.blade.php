@@ -8,7 +8,7 @@
         </video>
         <!--<img class="border-b border-secondary lg:min-h-screen" src="/images/index23.jpg" alt="Runner bending over to tie his shoe." width="100%">-->
         <div class="intro-overlay">
-            <img src="/images/premiercoaching333.svg" alt="Premier Health Coaching - Are you ready to get fit and stay that way for the rest of your life? If so, step up to our one-year Uncover Your Fit program.">
+            <img src="/images/premiercoaching6.svg" alt="Premier Health Coaching - Are you ready to get fit and stay that way for the rest of your life? If so, step up to our one-year Uncover Your Fit program.">
         </div>
         <div id="button" class="uncover-button unbutton">
             <a id="home" href="/program">
