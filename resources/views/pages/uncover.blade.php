@@ -27,7 +27,7 @@
     <h2 class="text-center text-3xl text-secondary">12 months of personal nutrition and fitness coaching to get you into the best shape of your life</h2>
     <div class="mt-2 flex flex-col md:flex-row justify-between pages">
         <div class="w-4/5 md:w-2/5 mx-auto md:mt-6">
-            <img class="rounded-xl" src="/images/transformation3.jpg" alt="A healthy and fit male on the left side and a healthy and fit female on the right side"  >
+            <img class="rounded-xl" src="/images/transformation3.jpg" alt="A healthy and fit male on the left side and a healthy and fit female on the right side">
         </div>
         <div class="mx-auto md:w-1/2">
             <p>First, we’ll learn about your lifestyle, needs, and specific goals. Then, over the course of the program, we’ll give you everything you need to look, feel, and perform better than you thought possible. Instead of the all-or-nothing dieting approach, we use a sustainable, practice-based approach to build healthy habits into your life, one day at a time. The result? You’ll lose the weight (and inches) you haven’t been able to shed for years. Whatever obstacles arise, we’ll help you overcome them by modifying your program or offering new solutions.</p>

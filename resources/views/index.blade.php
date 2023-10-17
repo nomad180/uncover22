@@ -18,10 +18,23 @@
         </div>
     </div>
     <div class="px-4 md:px-8 lg:px-16 xl:px-32 pages">
+        <h1 class="text-center text-secondary mt-2 md:mt-4">Our Role</h1>
+            <div class="mt-2 flex flex-col md:flex-row pages">
+                <div class="md:w-1/2 lg:w-1/2 mx-auto md:mr-6 mt-4">
+                    <img class="rounded-xl" src="/images/journey.jpg" alt="A person holding a compass">
+                </div>
+                <div class="mx-auto md:w-1/2 pages">
+                    <p>Your health journey is all about the habits you build, and Uncover Your Fit is here to help you construct a healthier future, brick by brick. We're not about quick fixes but rather the enduring transformation of your life. Our approach is rooted in habit-based health coaching, where we start small, nurturing your habits until they grow into lasting change.</p>
+                    <p>Say goodbye to crash-and-burn cycles; we're all about the slow, sustainable burn. So, whether you've tried countless fad diets or sprints in the marathon of fitness, Uncover Your Fit is here to guide you toward a healthier, more fulfilling life, one habit at a time.</p>
+                    <button class="flex justify-center w-full text-sm">
+                        <a href="/about" class="inline-flex items-center py-2 px-8 pb-3 bg-secondary rounded-full text-white hover:bg-primary">Learn More</a>
+                    </button>
+                </div>
+            </div>
         <!--<div class="flex pt-4">
             <div class="border-b-2 border-primary w-1/3 mb-8"></div>
             <div class="w-1/2 text-secondary text-center">
-                <h1 class="px-2">Our Premier Coaching Programs</h1>
+                <h1 class="px-2">Where we come in</h1>
             </div>
             <div class="border-b-2 border-primary w-1/3 mb-8"></div>
         </div>-->
