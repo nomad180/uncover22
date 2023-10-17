@@ -8,7 +8,7 @@
         </video>
         <!--<img class="border-b border-secondary lg:min-h-screen" src="/images/index23.jpg" alt="Runner bending over to tie his shoe." width="100%">-->
         <div class="intro-overlay">
-            <img src="/images/premiercoaching7.svg" alt="Create a life you love to wake up to - Ditch fads, embrace sustainable wellness, and craft a life worth living">
+            <img src="/images/premiercoaching8.svg" alt="Create a life you love to wake up to - Ditch fads, embrace sustainable wellness, and craft a life worth living">
         </div>
         <div id="button" class="uncover-button unbutton">
             <a id="home" href="/programs">
