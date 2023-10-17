@@ -8,25 +8,31 @@
         </video>
         <!--<img class="border-b border-secondary lg:min-h-screen" src="/images/index23.jpg" alt="Runner bending over to tie his shoe." width="100%">-->
         <div class="intro-overlay">
-            <img src="/images/premiercoaching6.svg" alt="Premier Health Coaching - Are you ready to get fit and stay that way for the rest of your life? If so, step up to our one-year Uncover Your Fit program.">
+            <img src="/images/premiercoaching7.svg" alt="Create a life you love to wake up to - Ditch fads, embrace sustainable wellness, and craft a life worth living">
         </div>
         <div id="button" class="uncover-button unbutton">
-            <a id="home" href="/program">
+            <a id="home" href="/programs">
                 <img class="image_on" src="/images/learnmore8.svg" alt="Learn More">
                 <img class="image_off" src="/images/learnmore9.svg" alt="Learn More">
             </a>
         </div>
     </div>
     <div class="px-4 md:px-8 lg:px-16 xl:px-32 pages">
-        <h1 class="text-secondary text-center font-medium">Still unsure? Look at some of our program features below.</h1>
-        <div class="flex flex-col md:flex-row flex-wrap md:mt-8">
-            <div class="flex md:w-1/3 mb-6 md:px-4">
-                <div class="transition duration-1000 hover:border hover:border-secondary/30 hover:shadow-lg hover:shadow-secondary/50 sm:rounded-lg pb-8 mb-10 p-4">
-                    <div class="flex justify-center"><img class="w-1/3 md:w-1/2" src="/images/habits2.png" alt="Text your daily routine matters" width="100%"></div>
-                    <h3 class="text-secondary text-center font-semibold">Make Habits a Way of Life</h3>
-                    <p class="text-left">Most people who try to get in shape overload themselves and burn out quickly. To avoid this, we help you focus on turning small practices into daily habits that eventually become part of your way of life and lead to big results.</p>
-                </div>
+        <!--<div class="flex pt-4">
+            <div class="border-b-2 border-primary w-1/3 mb-8"></div>
+            <div class="w-1/2 text-secondary text-center">
+                <h1 class="px-2">Our Premier Coaching Programs</h1>
             </div>
+            <div class="border-b-2 border-primary w-1/3 mb-8"></div>
+        </div>-->
+        <div class="flex pt-4">
+            <div class="border-b-2 border-primary w-1/3 mb-8"></div>
+            <div class="w-1/3 text-secondary text-center">
+                <h1 class="px-2">Program Benefits</h1>
+            </div>
+            <div class="border-b-2 border-primary w-1/3 mb-8"></div>
+        </div>
+        <div class="flex flex-col md:flex-row flex-wrap md:mt-8">
             <div class="flex md:w-1/3 mb-6 md:px-4">
                 <div class="transition duration-1000 hover:border hover:border-secondary/30 hover:shadow-lg hover:shadow-secondary/50 sm:rounded-lg pb-8 mb-10 p-4">
                     <div class="flex justify-center"><img class="w-1/3 md:w-1/2" src="/images/support2.png" alt="Text help, support, advice, guidance, and assistance" width="100%"></div>
@@ -39,6 +45,13 @@
                     <div class="flex justify-center"><img class="w-1/3 md:w-1/2" src="/images/goals2.png" alt="Text goals specific measurable achievable realistic and time based" width="100%"></div>
                     <h3 class="text-secondary text-center font-semibold">Develop SMART Goals</h3>
                     <p class="text-left">Many people’s goals are not Specific, Measurable, Achievable, Realistic, and Time based (SMART) and as a result, are rarely achieved. To ensure you actually achieve your goals, we'll teach you all about SMART goals.</p>
+                </div>
+            </div>
+            <div class="flex md:w-1/3 mb-6 md:px-4">
+                <div class="transition duration-1000 hover:border hover:border-secondary/30 hover:shadow-lg hover:shadow-secondary/50 sm:rounded-lg pb-8 mb-10 p-4">
+                    <div class="flex justify-center"><img class="w-1/3 md:w-1/2" src="/images/habits2.png" alt="Text your daily routine matters" width="100%"></div>
+                    <h3 class="text-secondary text-center font-semibold">Make Habits a Way of Life</h3>
+                    <p class="text-left">Most people who try to get in shape overload themselves and burn out quickly. To avoid this, we help you focus on turning small practices into daily habits that eventually become part of your way of life and lead to big results.</p>
                 </div>
             </div>
             <div class="flex md:w-1/3 mb-6 md:px-4">
@@ -63,17 +76,17 @@
                 </div>
             </div>
             <button class="flex justify-center w-full text-2xl">
-                <a href="/program" class="inline-flex items-center py-2 px-8 pb-3 bg-secondary rounded-full text-white hover:bg-primary">Learn More</a>
+                <a href="/programs" class="inline-flex items-center py-2 px-8 pb-3 bg-secondary rounded-full text-white hover:bg-primary">Learn More</a>
             </button>
         </div>
     </div>
     <div class="px-4 md:px-8 lg:px-16 xl:px-32 mb-4 pt-0 mt-0 mb-16">
         <div class="flex pt-4">
-            <div class="border-b-2 border-primary w-1/3 mb-6"></div>
+            <div class="border-b-2 border-primary w-1/3 mb-8"></div>
             <div class="w-1/3 text-secondary text-center">
                 <h1>Latest Blog Posts</h1>
             </div>
-            <div class="border-b-2 border-primary w-1/3 mb-6"></div>
+            <div class="border-b-2 border-primary w-1/3 mb-8"></div>
         </div>
         <div class="flex flex-col md:flex-row flex-wrap pt-4 ml-4">
            @if ($posts->count())

@@ -47,7 +47,7 @@
                 <div>
                     <div class="md:mt-14 flex justify-center text-secondary text-xl underline font:semi-bold">Uncover Your Fit Programs</div>
                     <div class="py-2 flex justify-center">
-                        <a href="/program"><img src="/images/UYFAdvert.jpg" alt="Multiple people in a pushup position on a gym floor with the text Uncover Your Fit" class="rounded-xl"></a>
+                        <a href="/programs"><img src="/images/UYFAdvert.jpg" alt="Multiple people in a pushup position on a gym floor with the text Uncover Your Fit" class="rounded-xl"></a>
                     </div>
                     <button class="flex justify-center w-full text-base">
                         <a href="/program" class="inline-flex items-center py-2 px-8 text-xs bg-secondary rounded-full text-white hover:bg-primary">Learn More</a>

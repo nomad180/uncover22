@@ -29,7 +29,7 @@ Route::get('/sitemap.xml', [SitemapController::class, 'index']);
 Route::get('/', [PageController::class, 'index'])->name('index');
 Route::get('/about', [PageController::class, 'about'])->name('about');
 Route::get('/damon', [PageController::class, 'damon'])->name('damon');
-Route::get('/program', [PageController::class, 'uncover'])->name('program');
+Route::get('/programs', [PageController::class, 'uncover'])->name('programs');
 Route::get('/privacy', [PageController::class, 'privacy'])->name('privacy');
 Route::get('/terms', [PageController::class, 'terms'])->name('terms');
 
