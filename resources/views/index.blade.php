@@ -11,7 +11,7 @@
             <img src="/images/premiercoaching8.svg" alt="Create a life you love to wake up to - Ditch fads, embrace sustainable wellness, and craft a life worth living">
         </div>
         <div id="button" class="uncover-button unbutton">
-            <a id="home" href="/programs">
+            <a id="home" href="/coaching">
                 <img class="image_on" src="/images/learnmore8.svg" alt="Learn More">
                 <img class="image_off" src="/images/learnmore9.svg" alt="Learn More">
             </a>
@@ -82,7 +82,7 @@
                 </div>
             </div>
             <button class="flex justify-center w-full text-2xl">
-                <a href="/programs" class="inline-flex items-center py-2 px-8 pb-3 bg-secondary rounded-full text-white hover:bg-primary">Learn More</a>
+                <a href="/coaching" class="inline-flex items-center py-2 px-8 pb-3 bg-secondary rounded-full text-white hover:bg-primary">Learn More</a>
             </button>
         </div>
     </div>
