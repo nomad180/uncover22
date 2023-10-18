@@ -19,9 +19,9 @@
     </div>
     <div class="px-4 md:px-8 lg:px-16 xl:px-32">
         <p class="text-5xl text-center text-secondary mt-2 handwriting">How we can help ...</p>
-            <div class="mt-2 flex flex-col md:flex-row pages">
+            <div class="mt-2 flex flex-col md:flex-row pages transition duration-1000 hover:border hover:border-secondary/30 hover:shadow-lg hover:shadow-secondary/50 sm:rounded-lg pb-8 mb-10 p-4">
                 <div class="md:w-1/2 mx-auto md:mr-6 mt-4">
-                    <img class="rounded-xl" src="/images/journey.jpg" alt="A person holding a compass">
+                    <img class="rounded-xl shadow-lg shadow-secondary" src="/images/journey.jpg" alt="A person holding a compass">
                 </div>
                 <div class="mx-auto md:w-1/2 pages">
                     <p>Your health journey is all about the habits you build, and Uncover Your Fit is here to help you construct a healthier future, brick by brick. We're not about quick fixes but rather the enduring transformation of your life. Our approach is rooted in habit-based health coaching, where we start small, nurturing your habits until they grow into lasting change.</p>
