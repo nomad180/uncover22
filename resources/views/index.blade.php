@@ -18,7 +18,7 @@
         </div>
     </div>
     <div class="px-4 md:px-8 lg:px-16 xl:px-32">
-        <p class="text-5xl text-center text-secondary mt-2 handwriting">Our Role</p>
+        <p class="text-5xl text-center text-secondary mt-2 handwriting">How we can help ...</p>
             <div class="mt-2 flex flex-col md:flex-row pages">
                 <div class="md:w-1/2 mx-auto md:mr-6 mt-4">
                     <img class="rounded-xl" src="/images/journey.jpg" alt="A person holding a compass">
