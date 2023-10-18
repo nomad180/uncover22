@@ -17,10 +17,10 @@
             </a>
         </div>
     </div>
-    <div class="px-4 md:px-8 lg:px-16 xl:px-32 pages">
-        <h1 class="text-center text-secondary mt-2 md:mt-4">Our Role</h1>
+    <div class="px-4 md:px-8 lg:px-16 xl:px-32">
+        <p class="text-5xl text-center text-secondary mt-2 handwriting">Our Role</p>
             <div class="mt-2 flex flex-col md:flex-row pages">
-                <div class="md:w-1/2 lg:w-1/2 mx-auto md:mr-6 mt-4">
+                <div class="md:w-1/2 mx-auto md:mr-6 mt-4">
                     <img class="rounded-xl" src="/images/journey.jpg" alt="A person holding a compass">
                 </div>
                 <div class="mx-auto md:w-1/2 pages">
@@ -31,13 +31,6 @@
                     </button>
                 </div>
             </div>
-        <!--<div class="flex pt-4">
-            <div class="border-b-2 border-primary w-1/3 mb-8"></div>
-            <div class="w-1/2 text-secondary text-center">
-                <h1 class="px-2">Where we come in</h1>
-            </div>
-            <div class="border-b-2 border-primary w-1/3 mb-8"></div>
-        </div>-->
         <div class="flex pt-4">
             <div class="border-b-2 border-primary w-1/3 mb-8"></div>
             <div class="w-1/3 text-secondary text-center">

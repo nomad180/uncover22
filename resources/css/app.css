@@ -31,6 +31,10 @@
 }
 @tailwind components;
 @tailwind utilities;
+.handwriting
+{
+    font-family: 'Rouge Script', cursive;
+    }
 .index_text
 {
     position: absolute;
