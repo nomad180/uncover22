@@ -2,7 +2,7 @@
 @section('description'){{'We specialize in helping clients develop overall health and fitness using online habit-based health coaching.'}}@endsection
 @section('author'){{'Damon Leach'}}@endsection
 <x-layout>
-    <div><img class="border-b border-secondary" src="/images/about6.jpg" alt="Wooden blocks with the text H A B I T S" width="100%"></div>
+    <div><img class="border-b border-secondary/50" src="/images/about6.jpg" alt="Wooden blocks with the text H A B I T S" width="100%"></div>
     <div class="px-4 md:px-8 lg:px-16 xl:px-32">
         <div class="flex pt-2">
             <div class="w-1/3 mr-16 md:mr-2">

@@ -3,7 +3,7 @@
 @section('author'){{'Damon Leach'}}@endsection
 <x-layout>
     <div class="relative">
-    <img class="border-b border-secondary lg:min-h-screen" src="/images/uncoveryourfitbanner24.jpg" alt="Multiple people in a pushup position on a gym floor with the text Uncover Your Fit" width="100%">
+    <img class="border-b border-secondary/50 lg:min-h-screen" src="/images/uncoveryourfitbanner24.jpg" alt="Multiple people in a pushup position on a gym floor with the text Uncover Your Fit" width="100%">
     <div class="uncover-overlay">
         <img src="/images/uncoveryourfit2.svg" alt="Uncover Your Fit" width="30%">
     </div>

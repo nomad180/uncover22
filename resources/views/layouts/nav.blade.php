@@ -1,5 +1,5 @@
 <nav x-data="{ open: false }" class="border-b border-secondary/50">
-    <div class="w-full px-4 md:px-6 flex pb-2">
+    <div id="navbar" class="w-full px-4 md:px-6 flex -mt-6 lg:-mt-0">
         <!-- Hamburger -->
         <div class="pt-6 flex items-center lg:hidden">
             <button @click="open = ! open" class="inline-flex items-center justify-center p-2 rounded-md text-secondary hover:text-white hover:bg-secondary focus:outline-none focus:bg-secondary focus:text-white transition duration-150 ease-in-out">
@@ -9,7 +9,7 @@
                 </svg>
             </button>
         </div>
-        <menu class="w-1/3 hidden lg:flex">
+        <menu class="w-1/3 hidden lg:flex pb-2">
             <div class="hidden lg:flex">
                 <x-dropdown align="left" width="48">
                     <x-slot name="trigger">

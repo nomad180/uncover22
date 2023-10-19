@@ -39,4 +39,4 @@
     </script>
 </head>
 <body style="font-family: Open Sans, sans-serif">
-    <section class="pt-4 w-full">
+    <section class="w-full">
