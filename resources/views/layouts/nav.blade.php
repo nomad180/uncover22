@@ -9,70 +9,55 @@
                 </svg>
             </button>
         </div>
-        <menu class="w-1/3 hidden lg:flex pb-2">
-            <div class="hidden lg:flex">
-                <x-dropdown align="left" width="48">
-                    <x-slot name="trigger">
-                        <button class="inline-flex items-center px-4 border-transparent rounded-full tracking-widest text-secondary hover:bg-secondary hover:text-white mt-6">
-                            <div>Menu</div>
-
-                            <div class="ml-1">
-                                <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-                                </svg>
-                            </div>
-                        </button>
-                    </x-slot>
-                    <x-slot name="content" class="text-primary">
-                        <x-dropdown-link :href="route('index')" :active="request()->routeIs('index')">Home</x-dropdown-link>
-                        <x-dropdown-link :href="route('blog')" :active="request()->routeIs('blog', 'show')">Blog</x-dropdown-link>
-                        <x-dropdown-link :href="route('about')" :active="request()->routeIs('about')">About</x-dropdown-link>
-                        <x-dropdown-link :href="route('coaching')" :active="request()->routeIs('programs')">Coaching</x-dropdown-link>
-                        <x-dropdown-link :href="route('contact')" :active="request()->routeIs('contact')">Contact Us</x-dropdown-link>
-                    </x-slot>
-                </x-dropdown>
-            </div>
-        </menu>
-        <div class="pr-8 md:pl-10 md:pr-10 lg:pl-20 lg:pr-20 xxl:pl-32 xxl:pr-32 xxxl:pl-32 xxxl:pr-40 xxxxl:pl-48 xxxxl:pr-48 w-full lg:w-1/3 pt-5 xl:pt-0">
+        <div class="w-full lg:w-1/12 pt-6 pb-2 pr-10 lg:pr-0 lg:pt-2">
             <a href="/">
-                <img src="/images/UYFlogotext.svg" alt="Uncover Your Fit Logo">
+                <img src="/images/UYFLogo3.svg" alt="Uncover Your Fit Logo" class="w-1/4 lg:w-full m-auto">
             </a>
         </div>
-        <div class="w-1/3 hidden lg:flex justify-end">
-        @if (Route::has('login'))
-            <div class="text-right pt-6">
+        <menu class="w-full lg:w-9/12 hidden lg:flex justify-between m-auto px-40">
+            <x-dropdown-link :href="route('index')" :active="request()->routeIs('index')">Home</x-dropdown-link>
+            <x-dropdown-link :href="route('about')" :active="request()->routeIs('about')">About</x-dropdown-link>
+            <x-dropdown-link :href="route('programs')" :active="request()->routeIs('programs')">Programs</x-dropdown-link>
+            <x-dropdown-link :href="route('contact')" :active="request()->routeIs('contact')">Contact</x-dropdown-link>
+            <x-dropdown-link :href="route('blog')" :active="request()->routeIs('blog', 'show')">Blog</x-dropdown-link>
+            @if (Route::has('login'))
+            <div>
                 @auth
-                    <a href="{{ url('/dashboard') }}" class="text-secondary px-4 text-base hover:bg-secondary focus:bg-secondary hover:text-white focus:text-white rounded-full">My UYF<!--Welcome, {{ Auth::user()->name }}--></a>
+                    <x-dropdown-link :href="route('dashboard')" :active="request()->routeIs('dashboard', 'show')">My UYF<!--Welcome, {{ Auth::user()->name }}--></x-dropdown-link>
                    <!-- <a href="{{ url('/dashboard') }}" class="text-secondary py-1 px-4 text-base hover:bg-secondary focus:bg-secondary hover:text-white focus:text-white rounded-full">Dashboard</a> -->
                 @else
-                    <a href="{{ route('login') }}" class="text-secondary px-4 text-base hover:bg-secondary focus:bg-secondary hover:text-white focus:text-white rounded-full">Log In</a>
+                    <x-dropdown-link :href="route('login')" :active="request()->routeIs('login', 'show')">Members</x-dropdown-link>
 
                    <!-- @if (Route::has('register'))
                         <a href="{{ route('register') }}" class="text-secondary py-1 px-4 text-base hover:bg-secondary focus:bg-secondary hover:text-white focus:text-white rounded-full">Register</a>
                     @endif-->
                 @endauth
             </div>
-        @endif
+            @endif
+        </menu>
+        <div class="hidden lg:flex m-auto text-xl px-4 py-2 bg-secondary text-white hover:bg-primary focus:bg-primary rounded-full">
+            <a href="/coaching">
+                Explore Programs
+            </a>
         </div>
     </div>
-
     <!-- Responsive Navigation Menu -->
     <div :class="{'block': open, 'hidden': ! open}" class="bg-white border-b border-t border-secondary/50 absolute top-30 left-0 z-10 w-full hidden lg:hidden">
         <div class="pt-2 pb-3 space-y-1">
             <x-responsive-nav-link :href="route('index')" :active="request()->routeIs('index')">
                 {{ __('Home') }}
             </x-responsive-nav-link>
-            <x-responsive-nav-link :href="route('blog')" :active="request()->routeIs('blog')">
-                {{ __('Blog') }}
-            </x-responsive-nav-link>
             <x-responsive-nav-link :href="route('about')" :active="request()->routeIs('about')">
                 {{ __('About') }}
             </x-responsive-nav-link>
-            <x-responsive-nav-link :href="route('coaching')" :active="request()->routeIs('coaching')">
+            <x-responsive-nav-link :href="route('programs')" :active="request()->routeIs('programs')">
                 {{ __('Coaching') }}
             </x-responsive-nav-link>
             <x-responsive-nav-link :href="route('contact')" :active="request()->routeIs('contact')">
                 {{ __('Contact Us') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('blog')" :active="request()->routeIs('blog')">
+                {{ __('Blog') }}
             </x-responsive-nav-link>
             @if (Route::has('login'))
                 @auth

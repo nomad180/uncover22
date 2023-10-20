@@ -28,14 +28,13 @@
     <link rel="manifest" href="/site.webmanifest">
 
     <!-- Google tag (gtag.js) -->
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZCKSV7NVVZ"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WWFV3718FN"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'G-ZCKSV7NVVZ');
+      gtag('config', 'G-WWFV3718FN');
     </script>
 </head>
 <body style="font-family: Open Sans, sans-serif">
