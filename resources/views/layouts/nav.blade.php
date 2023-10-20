@@ -35,8 +35,8 @@
             </div>
             @endif
         </menu>
-        <div class="hidden lg:flex m-auto text-xl px-4 py-2 bg-secondary text-white hover:bg-primary focus:bg-primary rounded-full">
-            <a href="/coaching">
+        <div class="hidden lg:flex justify-end m-auto">
+            <a href="/coaching" class="text-sm xl:text-xl px-4 py-2 bg-secondary text-white hover:bg-primary focus:bg-primary rounded-full">
                 Explore Programs
             </a>
         </div>
