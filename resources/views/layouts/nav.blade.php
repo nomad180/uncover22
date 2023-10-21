@@ -17,7 +17,7 @@
         <menu class="w-full lg:w-9/12 hidden lg:flex justify-between m-auto px-40">
             <x-dropdown-link :href="route('index')" :active="request()->routeIs('index')">Home</x-dropdown-link>
             <x-dropdown-link :href="route('about')" :active="request()->routeIs('about')">About</x-dropdown-link>
-            <x-dropdown-link :href="route('programs')" :active="request()->routeIs('programs')">Programs</x-dropdown-link>
+            <x-dropdown-link :href="route('coaching')" :active="request()->routeIs('coaching')">Coaching</x-dropdown-link>
             <x-dropdown-link :href="route('contact')" :active="request()->routeIs('contact')">Contact</x-dropdown-link>
             <x-dropdown-link :href="route('blog')" :active="request()->routeIs('blog', 'show')">Blog</x-dropdown-link>
             @if (Route::has('login'))
@@ -50,7 +50,7 @@
             <x-responsive-nav-link :href="route('about')" :active="request()->routeIs('about')">
                 {{ __('About') }}
             </x-responsive-nav-link>
-            <x-responsive-nav-link :href="route('programs')" :active="request()->routeIs('programs')">
+            <x-responsive-nav-link :href="route('coaching')" :active="request()->routeIs('coaching')">
                 {{ __('Coaching') }}
             </x-responsive-nav-link>
             <x-responsive-nav-link :href="route('contact')" :active="request()->routeIs('contact')">

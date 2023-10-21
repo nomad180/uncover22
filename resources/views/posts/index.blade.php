@@ -28,12 +28,12 @@
             </div>
             <div class="flex flex-col md:ml-10 md:w-1/6">
                 <div>
-                    <div class="md:mt-14 flex justify-center text-secondary text-xl underline font:semi-bold">Uncover Your Fit Programs</div>
+                    <div class="md:mt-14 flex justify-center text-secondary text-xl underline font:semi-bold">Uncover Your Fit Coaching</div>
                     <div class="py-2 flex justify-center">
-                         <a href="/programs"><img src="/images/UYFAdvert.jpg" class="rounded-xl" alt="Multiple people in a pushup position on a gym floor with the text Uncover Your Fit"></a>
+                         <a href="/coaching"><img src="/images/UYFAdvert.jpg" class="rounded-xl" alt="Multiple people in a pushup position on a gym floor with the text Uncover Your Fit"></a>
                     </div>
                     <button class="flex justify-center w-full text-base">
-                        <a href="/programs"  class="inline-flex items-center py-2 px-8 bg-secondary rounded-full text-white hover:bg-primary text-xs">Learn More</a>
+                        <a href="/coaching"  class="inline-flex items-center py-2 px-8 bg-secondary rounded-full text-white hover:bg-primary text-xs">Explore Coaching</a>
                     </button>
                 </div>
                  <div>
