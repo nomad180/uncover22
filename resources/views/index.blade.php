@@ -8,7 +8,7 @@
                 <p class="text-5xl xl:text-7xl">Peak Performance Coaching for Midlife Warriors</p>
                 <p class="text-lg xl:text-xl mt-4">Ditch fads, embrace sustainable wellness, and create the life you love waking up to with one of our online courses or 1-on-1 coaching.</p>
                 <div class="w-1/2 mt-10">
-                    <a href="/programs" class="text-sm xl:text-xl px-4 py-2 bg-secondary text-white hover:bg-primary hover:scale-105 focus:bg-primary rounded-full">Explore Programs
+                    <a href="/programs" class="text-sm xl:text-xl px-4 py-2 bg-secondary inline-flex items-center text-white hover:bg-primary hover:scale-105 rounded-full">Explore Programs
                     </a>
                 </div>
             </div>
