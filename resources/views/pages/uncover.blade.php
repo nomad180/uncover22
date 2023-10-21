@@ -8,7 +8,7 @@
         <img src="/images/uncoveryourfit2.svg" alt="Uncover Your Fit" width="30%">
     </div>
 </div>
-<div id="latestblogs" class="mb-8 px-4 md:px-8 lg:px-16 xl:px-32">
+<div class="mb-8 px-4 md:px-8 lg:px-16 xl:px-32">
     <div>
         <h1 class="text-center text-secondary text-xl md:text-2xl lg:text-3xl xl:text-4xl mt-2">Life happens&mdash;we get it</h1>
     </div>
