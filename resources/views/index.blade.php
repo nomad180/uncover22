@@ -5,8 +5,8 @@
     <div class="mb-8 mt-10 md:mt-20 lg:mt-32 xl:mt-44 px-4 md:px-8 lg:px-16 xl:px-32">
         <div class="mt-2 flex flex-col md:flex-row">
             <div class="w-full md:w-6/12 my-auto flex justify-center flex-col">
-                <p class="text-5xl xl:text-7xl">Peak Performance Coaching for Midlife Warriors</p>
-                <p class="text-lg xl:text-xl mt-4">Ditch fads, embrace sustainable wellness, and create the life you love waking up to with our premier 1-on-1 health coaching.</p>
+                <h1 class="text-5xl xl:text-7xl !important">Create the life you love waking up to</h1>
+                <p class="text-lg xl:text-xl mt-4">Premier 1-on-1 health coaching for midlife warriors seeking to embark on the ultimate wellness journey and achieve the life they have always deserved</p>
                 <div class="w-1/2 mt-10">
                     <a href="/coaching" class="text-sm xl:text-xl px-4 py-2 bg-secondary inline-flex items-center text-white hover:bg-primary hover:scale-105 rounded-full">Explore Coaching
                     </a>
@@ -16,21 +16,6 @@
                 <img class="rounded-xl" src="/images/middleage8.png" alt="A collage of four images: a middle age man and woman sitting together in a field listening to music, a man jogging, a woman holding a juice drink, and a woman holding a bowl of freshly cleaned vegetables"  >
             </div>
         </div>
-        <!--<div class="relative w-1/2">
-            <video autoplay muted loop playsinline class="border-b border-secondary/50">
-                <source src="/images/aaaa9.mp4" type="video/mp4">
-            </video>
-            <!--<img class="border-b border-secondary lg:min-h-screen" src="/images/index23.jpg" alt="Runner bending over to tie his shoe." width="100%">-->
-            <!--<div class="intro-overlay">
-                <img src="/images/premiercoaching8.svg" alt="Create a life you love to wake up to - Ditch fads, embrace sustainable wellness, and craft a life worth living">
-            </div>
-            <div id="button" class="uncover-button unbutton">
-                <a id="home" href="/coaching">
-                    <img class="image_on" src="/images/learnmore8.svg" alt="Learn More">
-                    <img class="image_off" src="/images/learnmore9.svg" alt="Learn More">
-                </a>
-            </div>
-        </div>-->
     </div>
     <div class="px-4 md:px-8 lg:px-16 xl:px-32">
         <p class="text-5xl text-center text-secondary mt-2 handwriting">Our Philosophy</p>
