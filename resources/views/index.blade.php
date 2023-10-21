@@ -13,7 +13,7 @@
                 </div>
             </div>
             <div class="w-full md:w-1/3 mx-auto mt-6">
-                <img class="rounded-xl" src="/images/middleage3.png" alt="A collage of four images: a middle age man and woman sitting together in a field, a man jogging, a woman holding a juice drink, and a woman holding a bowl of freshly cleaned vegetables"  >
+                <img class="rounded-xl" src="/images/middleage5.png" alt="A collage of four images: a middle age man and woman sitting together in a field listening to music, a man jogging, a woman holding a juice drink, and a woman holding a bowl of freshly cleaned vegetables"  >
             </div>
         </div>
         <!--<div class="relative w-1/2">
