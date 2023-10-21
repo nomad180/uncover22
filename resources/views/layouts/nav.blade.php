@@ -1,5 +1,5 @@
-<nav x-data="{ open: false }" class="border-b border-secondary/50">
-    <div id="navbar" class="w-full px-4 md:px-6 flex -mt-6 lg:-mt-0">
+<nav x-data="{ open: false }" class="border-b border-secondary/50 lg:border-none lg:mb-12 xl:mb-14 2xl:mb-16">
+    <div id="navbar" class="w-full px-4 md:px-6 flex -mt-6 lg:-mt-0 lg:fixed lg:z-50 lg:top-0 lg:border-b lg:border-secondary/50 lg:bg-white xl:bg-blue-100 2xl:bg-yellow-100">
         <!-- Hamburger -->
         <div class="pt-6 flex items-center lg:hidden">
             <button @click="open = ! open" class="inline-flex items-center justify-center p-2 rounded-md text-secondary hover:text-white hover:bg-secondary focus:outline-none focus:bg-secondary focus:text-white transition duration-150 ease-in-out">
@@ -37,7 +37,7 @@
         </menu>
         <div class="hidden lg:flex justify-end m-auto">
             <a href="/programs" class="text-sm xl:text-xl px-4 py-2 bg-secondary text-white hover:bg-primary hover:scale-105 focus:bg-primary rounded-full">
-                Explore Programs
+                Explore Coaching
             </a>
         </div>
     </div>

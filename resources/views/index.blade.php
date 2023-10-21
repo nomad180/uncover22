@@ -2,18 +2,18 @@
 @section('description'){{'Are you ready to become fit and stay that way? If so, our premier online health coaching will help you get stronger, eat better, and live healthier.'}}@endsection
 @section('author'){{'Damon Leach'}}@endsection
 <x-layout>
-    <div class="mb-8 mt-10 md:mt-20 px-4 md:px-8 lg:px-16 xl:px-32">
+    <div class="mb-8 mt-10 md:mt-20 lg:mt-32 xl:mt-44 px-4 md:px-8 lg:px-16 xl:px-32">
         <div class="mt-2 flex flex-col md:flex-row">
             <div class="w-full md:w-6/12 my-auto flex justify-center flex-col">
                 <p class="text-5xl xl:text-7xl">Peak Performance Coaching for Midlife Warriors</p>
-                <p class="text-lg xl:text-xl mt-4">Ditch fads, embrace sustainable wellness, and create the life you love waking up to with one of our online courses or 1-on-1 coaching.</p>
+                <p class="text-lg xl:text-xl mt-4">Ditch fads, embrace sustainable wellness, and create the life you love waking up to with our premier 1-on-1 health coaching.</p>
                 <div class="w-1/2 mt-10">
-                    <a href="/programs" class="text-sm xl:text-xl px-4 py-2 bg-secondary inline-flex items-center text-white hover:bg-primary hover:scale-105 rounded-full">Explore Programs
+                    <a href="/programs" class="text-sm xl:text-xl px-4 py-2 bg-secondary inline-flex items-center text-white hover:bg-primary hover:scale-105 rounded-full">Explore Coaching
                     </a>
                 </div>
             </div>
             <div class="w-full md:w-1/3 mx-auto mt-6">
-                <img class="rounded-xl" src="/images/middleage5.png" alt="A collage of four images: a middle age man and woman sitting together in a field listening to music, a man jogging, a woman holding a juice drink, and a woman holding a bowl of freshly cleaned vegetables"  >
+                <img class="rounded-xl" src="/images/middleage8.png" alt="A collage of four images: a middle age man and woman sitting together in a field listening to music, a man jogging, a woman holding a juice drink, and a woman holding a bowl of freshly cleaned vegetables"  >
             </div>
         </div>
         <!--<div class="relative w-1/2">
