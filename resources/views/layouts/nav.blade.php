@@ -23,10 +23,10 @@
             @if (Route::has('login'))
             <div>
                 @auth
-                    <x-dropdown-link :href="route('dashboard')" :active="request()->routeIs('dashboard', 'show')">My UYF<!--Welcome, {{ Auth::user()->name }}--></x-dropdown-link>
+                    <x-dropdown-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">My UYF<!--Welcome, {{ Auth::user()->name }}--></x-dropdown-link>
                    <!-- <a href="{{ url('/dashboard') }}" class="text-secondary py-1 px-4 text-base hover:bg-secondary focus:bg-secondary hover:text-white focus:text-white rounded-full">Dashboard</a> -->
                 @else
-                    <x-dropdown-link :href="route('login')" :active="request()->routeIs('login', 'show')">Members</x-dropdown-link>
+                    <x-dropdown-link :href="route('login')" :active="request()->routeIs('login')">Members</x-dropdown-link>
 
                    <!-- @if (Route::has('register'))
                         <a href="{{ route('register') }}" class="text-secondary py-1 px-4 text-base hover:bg-secondary focus:bg-secondary hover:text-white focus:text-white rounded-full">Register</a>

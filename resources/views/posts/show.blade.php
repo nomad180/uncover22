@@ -57,16 +57,16 @@
                     <div class="mt-4 flex justify-center text-secondary text-xl underline">Affiliate Websites</div>
                     <div class="font-bold py-2 ml-4">The ads below take you to partner websites that sell products many of you might find helpful in your health and fitness journey. If you click on one of the ads and make a purchase, Uncover Your Fit will receive a small commission at no extra cost to you.</div>
                     <div class="py-6 flex justify-center">
-                        <a target="_blank" href="https://shareasale.com/r.cfm?b=1020318&amp;u=2872412&amp;m=68998&amp;urllink=&amp;afftrack="><img class="rounded-xl" src="https://static.shareasale.com/image/68998/Cross_Training_160x600.jpg" border="0" /></a>
+                        <a target="_blank" href="https://shareasale.com/r.cfm?b=1020318&amp;u=2872412&amp;m=68998&amp;urllink=&amp;afftrack="><img class="rounded-xl" src="https://static.shareasale.com/image/68998/Cross_Training_160x600.jpg" border="0" alt="Cross training gear" /></a>
                     </div>
                     <div class="py-6 flex justify-center">
-                        <a target="_blank" href="https://shareasale.com/r.cfm?b=2218536&amp;u=2872412&amp;m=85045&amp;urllink=&amp;afftrack="><img class="rounded-xl" src="https://static.shareasale.com/image/85045/45OFFPresentation169.jpg" border="0" /></a>
+                        <a target="_blank" href="https://shareasale.com/r.cfm?b=2218536&amp;u=2872412&amp;m=85045&amp;urllink=&amp;afftrack="><img class="rounded-xl" src="https://static.shareasale.com/image/85045/45OFFPresentation169.jpg" border="0" alt="Naturevibe Botanicals"/></a>
                     </div>
                     <div class="py-6 flex justify-center">
                         <a target="_blank" href="https://shareasale.com/r.cfm?b=1882082&amp;u=2872412&amp;m=114867&amp;urllink=&amp;afftrack="><img class="rounded-xl" src="https://static.shareasale.com/image/114867/image_from_ios-1.jpg" border="0" alt="Keto Krisp Almond Butter Blackberry Jelly" /></a>
                     </div>
                     <div class="py-6 flex justify-center">
-                        <a target="_blank" href="https://shareasale.com/r.cfm?b=1780500&amp;u=2872412&amp;m=110431&amp;urllink=&amp;afftrack="><img class="rounded-xl" src="https://static.shareasale.com/image/110431/meat-24.jpg" border="0" /></a>
+                        <a target="_blank" href="https://shareasale.com/r.cfm?b=1780500&amp;u=2872412&amp;m=110431&amp;urllink=&amp;afftrack="><img class="rounded-xl" src="https://static.shareasale.com/image/110431/meat-24.jpg" border="0" alt="Good Ranchers hamburgers" />/a>
                     </div>
                     <div class="py-6 flex justify-center">
                         <a target="_blank" href="https://shareasale.com/r.cfm?b=1857418&amp;u=2872412&amp;m=115699&amp;urllink=&amp;afftrack="><img class="rounded-xl" src="https://static.shareasale.com/image/115699/300x6001.jpg" border="0" alt="Keep Nature Wild" /></a>
