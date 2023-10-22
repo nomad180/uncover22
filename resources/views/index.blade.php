@@ -45,7 +45,7 @@
                 <div class="transition duration-1000 hover:border hover:border-secondary/30 hover:shadow-lg hover:shadow-secondary/50 rounded-lg pb-8 mb-10 p-4">
                     <div class="flex justify-center"><img class="w-1/6" src="/images/heart.jpg" alt="A heart illustration" width="100%"></div>
                     <h3 class="text-secondary text-center font-semibold">Improved Health Markers</h3>
-                    <p class="text-left">Picture your health markers as scorecards in a game. Coaching can help improve those scores - lower blood pressure, better cholesterol, healthier weight. It's like seeing your bowling score jump from gutter balls to strikes.</p>
+                    <p class="text-left">Picture your health markers as scorecards in a game. Health coaching can help improve those scores - lower blood pressure, better cholesterol, healthier weight. It's like seeing your bowling score jump from gutter balls to strikes.</p>
                 </div>
             </div>
             <div class="flex md:w-1/3 mb-6 md:px-4">
@@ -63,17 +63,6 @@
         <!--Add features here-up to 10 in a bulleted list-->
         <!--Add FAQs in dropdown here- Proactively handle objections in this section: Top 5 or 6 questions-->
         <!--Super direct call to action-->
-        <h2 class="mt-16 xl:mt-24 2xl:mt-44 mb-16 text-5xl 2xl:text-7xl text-center handwriting2">Latest Blog Posts</h2>
-        <div class="flex flex-col md:flex-row flex-wrap pt-4 ml-4">
-           @if ($posts->count())
-           <x-post-grid-index :posts="$posts"/>
-           @else
-                <p class="text-center mt-6 w-full">No posts yet. Please check back later.</p>
-            @endif
-        </div>
-         <div class="flex justify-center w-full text-2xl">
-            <a href="blog" class="hover:scale-105 inline-flex items-center py-2 px-8 bg-secondary rounded-full text-white hover:bg-primary">See More Posts</a>
-        </div>
     </div>
     <!-- Calendly badge widget begin -->
     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">

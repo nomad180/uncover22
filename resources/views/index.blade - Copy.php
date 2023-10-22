@@ -17,7 +17,7 @@
             </a>
         </div>
     </div>
-    <div class="px-4 md:px-8 lg:px-16 xl:px-32">
+    <div class="px-4 md:px-8 lg:px-16 xl:px-32 mb-4 pt-0 mt-0 mb-16">
         <p class="text-5xl text-center text-secondary mt-2 handwriting">Our Philosophy</p>
             <div class="mt-2 flex flex-col md:flex-row pages">
                 <div class="md:w-1/2 mx-auto md:mr-6 mt-4">
@@ -85,15 +85,7 @@
                 <a href="/coaching" class="hover:scale-105 inline-flex items-center py-2 px-8 pb-3 bg-secondary rounded-full text-white hover:bg-primary">Learn More</a>
             </div>
         </div>
-    </div>
-    <div class="px-4 md:px-8 lg:px-16 xl:px-32 mb-4 pt-0 mt-0 mb-16">
-        <div class="flex pt-4">
-            <div class="border-b-2 border-primary w-1/3 mb-8"></div>
-            <div class="w-1/3 text-secondary text-center">
-                <h1>Latest Blog Posts</h1>
-            </div>
-            <div class="border-b-2 border-primary w-1/3 mb-8"></div>
-        </div>
+        <h2 class="mt-16 xl:mt-24 2xl:mt-44 mb-16 text-5xl 2xl:text-7xl text-center handwriting2">Latest Blog Posts</h2>
         <div class="flex flex-col md:flex-row flex-wrap pt-4 ml-4">
            @if ($posts->count())
            <x-post-grid-index :posts="$posts"/>
