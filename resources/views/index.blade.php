@@ -6,7 +6,7 @@
         <div class="mt-2 flex flex-col md:flex-row">
             <div class="w-full md:w-6/12 flex justify-center flex-col">
                 <h1 class="text-5xl leading-tight 2xl:text-7xl 2xl:leading-tight">Premier health coaching for midlife warriors</h1>
-                <h2 class="text-lg xl:text-xl mt-4">Ditch fads, embrace sustainable wellness, and embark on a lifelong journey of fitness with our premier 1-on-1 health coaching</h2>
+                <h2 class="text-lg xl:text-xl mt-4">Ditch fads, embrace sustainable wellness, and get in the best shape of your life with our premier 1-on-1 health coaching</h2>
                 <div class="w-1/2 mt-10">
                     <a href="/coaching" class="text-sm xl:text-xl px-4 py-2 bg-secondary inline-flex items-center text-white hover:bg-primary hover:scale-105 rounded-full">Explore Coaching
                     </a>
