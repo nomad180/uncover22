@@ -5,7 +5,7 @@
     <div class="mb-8 mt-10 md:mt-20 lg:mt-32 xl:mt-44 px-4 md:px-8 lg:px-16 xl:px-32">
         <div class="mt-2 flex flex-col md:flex-row">
             <div class="w-full md:w-6/12 flex justify-center flex-col">
-                <h1 class="text-5xl 2xl:text-7xl !important">Unlock your untapped potential and reveal the best version of you</h1>
+                <h1 class="text-5xl 2xl:text-7xl !important">Unlock your untapped potential and reveal the ultimate version of you</h1>
                 <p class="text-lg xl:text-xl mt-4">Premier 1-on-1 health coaching for midlife warriors seeking to  ditch fads, embrace sustainable wellness, and create the life they love waking up to</p>
                 <div class="w-1/2 mt-10">
                     <a href="/coaching" class="text-sm xl:text-xl px-4 py-2 bg-secondary inline-flex items-center text-white hover:bg-primary hover:scale-105 rounded-full">Explore Coaching
@@ -17,8 +17,9 @@
             </div>
         </div>
     </div>
-    <div class="px-4 md:px-8 lg:px-16 xl:px-32">
+    <div class="px-4 md:px-8 lg:px-16 xl:px-32 mb-4 pt-0 mt-0 mb-16">
         <div class="mt-2 md:mt-10 lg:mt-16 xl:mt-24 2xl:mt-44 flex flex-col-reverse md:flex-row pages">
+        <!--Redo this section to make it a problem/solution section: 3 paragraphs - Main pain point, agitate with examples, introduce solution PAS replace image with video-->
             <div class="md:w-1/2 mt-6 md:mr-6 md:mt-0 flex items-center justify-center">
                 <img class="rounded-xl shadow-lg shadow-secondary" src="/images/journey.jpg" alt="A person holding a compass">
             </div>
@@ -58,8 +59,10 @@
                 <a href="/coaching" class="hover:scale-105 inline-flex items-center py-2 px-8 pb-3 bg-secondary rounded-full text-white hover:bg-primary">Explore Coaching</a>
             </div>
         </div>
-    </div>
-    <div class="px-4 md:px-8 lg:px-16 xl:px-32 mb-4 pt-0 mt-0 mb-16">
+        <!--Add testimonial section here-->
+        <!--Add features here-up to 10 in a bulleted list-->
+        <!--Add FAQs in dropdown here- Proactively handle objections in this section: Top 5 or 6 questions-->
+        <!--Super direct call to action-->
         <h2 class="mt-16 xl:mt-24 2xl:mt-44 mb-16 text-5xl 2xl:text-7xl text-center handwriting2">Latest Blog Posts</h2>
         <div class="flex flex-col md:flex-row flex-wrap pt-4 ml-4">
            @if ($posts->count())
