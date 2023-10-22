@@ -17,6 +17,8 @@
             </a>
         </div>
     </div>
+    <h2 class="text-5xl leading-tight 2xl:text-7xl 2xl:leading-tight">Release your untapped potential and become fit for the rest of your life</h2>
+                <h1 class="text-lg xl:text-xl mt-4">Premier 1-on-1 health coaching for midlife warriors seeking to  ditch fads, embrace sustainable wellness, and create the life they love waking up to</h1>
     <div class="px-4 md:px-8 lg:px-16 xl:px-32 mb-4 pt-0 mt-0 mb-16">
         <p class="text-5xl text-center text-secondary mt-2 handwriting">Our Philosophy</p>
             <div class="mt-2 flex flex-col md:flex-row pages">
