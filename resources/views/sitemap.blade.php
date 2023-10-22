@@ -20,7 +20,7 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://uncoveryourfit.com/program</loc>
+  <loc>https://uncoveryourfit.com/coaching</loc>
   <lastmod>2023-01-15T12:49:25+00:00</lastmod>
   <priority>0.80</priority>
 </url>

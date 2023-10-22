@@ -4,37 +4,37 @@
 <x-layout>
     <div class="mb-8 mt-10 md:mt-20 lg:mt-32 xl:mt-44 px-4 md:px-8 lg:px-16 xl:px-32">
         <div class="mt-2 flex flex-col md:flex-row">
-            <div class="w-full md:w-6/12 my-auto flex justify-center flex-col">
-                <h1 class="text-5xl xl:text-7xl !important">Create the life you love waking up to</h1>
-                <p class="text-lg xl:text-xl mt-4">Premier 1-on-1 health coaching for midlife warriors seeking to embark on the ultimate wellness journey and achieve the healthy life they have always deserved</p>
+            <div class="w-full md:w-6/12 flex justify-center flex-col">
+                <h1 class="text-5xl 2xl:text-7xl !important">Unlock power of your untapped potential and reveal the best version of you</h1>
+                <p class="text-lg xl:text-xl mt-4">Premier 1-on-1 health coaching for midlife warriors seeking to  ditch fads, embrace sustainable wellness, and create the life they love waking up to</p>
                 <div class="w-1/2 mt-10">
                     <a href="/coaching" class="text-sm xl:text-xl px-4 py-2 bg-secondary inline-flex items-center text-white hover:bg-primary hover:scale-105 rounded-full">Explore Coaching
                     </a>
                 </div>
             </div>
-            <div class="w-full md:w-1/3 mx-auto mt-6">
-                <img class="rounded-xl" src="/images/middleage8.png" alt="A collage of four images: a middle age man and woman sitting together in a field listening to music, a man jogging, a woman holding a juice drink, and a woman holding a bowl of freshly cleaned vegetables"  >
+            <div class="w-full md:w-1/3 mx-auto mt-6 md:mt-0 flex items-center justify-center">
+                <img class="rounded-xl" src="/images/middleage4.jpg" alt="A collage of four images: a bowl of yogurt with berries on top, a man jogging, a woman sitting on the beach drinking coffee, and a woman holding a bowl of freshly cleaned vegetables"  >
             </div>
         </div>
     </div>
     <div class="px-4 md:px-8 lg:px-16 xl:px-32">
-        <h2 class="text-5xl text-center text-secondary mt-2 handwriting">Our Philosophy</h2>
-            <div class="mt-2 flex flex-col md:flex-row pages">
-                <div class="md:w-1/2 mx-auto md:mr-6 mt-4">
-                    <img class="rounded-xl shadow-lg shadow-secondary" src="/images/journey.jpg" alt="A person holding a compass">
-                </div>
-                <div class="mx-auto md:w-1/2 pages">
-                    <p>Your health journey is all about the habits you build, and Uncover Your Fit is here to help you construct a healthier future, brick by brick. We're not about quick fixes but rather the enduring transformation of your life. Our approach is rooted in habit-based health coaching, where we start small, nurturing your habits until they grow into lasting change.</p>
-                    <p>Say goodbye to crash-and-burn cycles; we're all about the slow, sustainable burn. So, whether you've tried countless fad diets or sprints in the marathon of fitness, Uncover Your Fit is here to act as your compass and guide you toward a healthier, more fulfilling life, one habit at a time.</p>
-                    <div class="flex justify-center w-full text-sm">
-                        <a href="/about" class="hover:scale-105 inline-flex items-center py-2 px-8 pb-3 bg-secondary rounded-full text-white hover:bg-primary">Read More About Us</a>
-                    </div>
+        <div class="mt-2 md:mt-10 lg:mt-16 xl:mt-24 2xl:mt-32 flex flex-col-reverse md:flex-row pages">
+            <div class="md:w-1/2 mt-6 md:mr-6 md:mt-0 flex items-center justify-center">
+                <img class="rounded-xl shadow-lg shadow-secondary" src="/images/journey.jpg" alt="A person holding a compass">
+            </div>
+            <div class="mx-auto md:w-1/2 pages">
+                <h2 class="text-5xl 2xl:text-7xl text-center text-secondary mt-2 handwriting">Our Philosophy</h2>
+                <p>Your health journey is all about the habits you build, and Uncover Your Fit is here to help you construct a healthier future, brick by brick. We're not about quick fixes but rather the enduring transformation of your life. Our approach is rooted in habit-based health coaching, where we start small, nurturing your habits until they grow into lasting change.</p>
+                <p>Say goodbye to crash-and-burn cycles; we're all about the slow, sustainable burn. So, whether you've tried countless fad diets or sprints in the marathon of fitness, Uncover Your Fit is here to act as your compass and guide you toward a healthier, more fulfilling life, one habit at a time.</p>
+                <div class="flex justify-center w-full text-sm">
+                    <a href="/about" class="hover:scale-105 inline-flex items-center py-2 px-8 pb-3 bg-secondary rounded-full text-white hover:bg-primary">Read More About Us</a>
                 </div>
             </div>
-        <div class="flex pt-4">
+        </div>
+        <div class="flex mt-32">
             <div class="border-b-2 border-primary w-1/3 mb-8"></div>
             <div class="w-1/3 text-secondary text-center">
-                <h2 class="text-5xl text-center text-secondary mt-32 handwriting">Coaching Benefits</h2>
+                <h2 class="text-5xl text-center text-secondary handwriting">Coaching Benefits</h2>
             </div>
             <div class="border-b-2 border-primary w-1/3 mb-8"></div>
         </div>

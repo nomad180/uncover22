@@ -2,8 +2,7 @@
 @section('description'){{'As a coach, I am passionate about helping others achieve optimal health and well-being without major disruptions to their lives.'}}@endsection
 @section('author'){{'Damon Leach'}}@endsection
 <x-layout>
-    <div class="border-b border-secondary"><img class="mt-4" src="/images/damon23.png" alt="Picture of Damon Leach with the text life is a journey you only get to make once. Let's make your journey a great one." width="100%"></div>
-    <!--<h1 class="bg-secondary text-white border-t border-b border-secondary text-center px-4">"Life is a journey that you only get to make once. Let's make your journey a great one!"</h1>-->
+    <div class="border-b border-secondary lg:mt-16 xl:mt-20 2xl:mt-24"><img src="/images/damon24.jpg" alt="Picture of Damon Leach with the text life is a journey you only get to make once. Let's make your journey a great one." width="100%"></div>
     <div class="px-4 mt-4 md:px-8 lg:px-16 xl:px-32">
         <div class="flex pt-2">
             <div class="w-1/3 mr-16 md:mr-2">
