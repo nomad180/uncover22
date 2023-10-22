@@ -33,14 +33,14 @@
         </div>
         <h2 class="mt-16 xl:mt-24 2xl:mt-44 text-5xl 2xl:text-7xl text-center handwriting2">Benefits of Premier Health Coaching</h2>
         <div class="flex flex-col md:flex-row flex-wrap md:mt-8">
-            <div class="flex md:w-1/3 mb-6 md:px-4 bg-yellow-100">
+            <div class="flex md:w-1/3 mb-6 md:px-4">
                 <div class="transition duration-1000 hover:border hover:border-secondary/30 hover:shadow-lg hover:shadow-secondary/50 rounded-lg pb-8 mb-10 p-4">
                     <div class="flex justify-center"><img class="w-1/6" src="/images/foodpyramid.jpg" alt="A food pyramid illustration" width="100%"></div>
                     <h3 class="text-secondary text-center font-semibold">Balanced Nutrition</h3>
                     <p class="text-left">Ever felt like a tightrope walker trying to balance your diet? Health coaching can guide you to find the perfect equilibrium. It's like becoming a culinary acrobat, perfectly juggling carbs, proteins, and fats.</p>
                 </div>
             </div>
-            <div class="flex md:w-1/3 mb-6 md:px-4 bg-red-100">
+            <div class="flex md:w-1/3 mb-6 md:px-4">
                 <div class="transition duration-1000 hover:border hover:border-secondary/30 hover:shadow-lg hover:shadow-secondary/50 rounded-lg pb-8 mb-10 p-4">
                     <div class="flex justify-center"><img class="w-1/6" src="/images/heart.jpg" alt="A heart illustration" width="100%"></div>
                     <h3 class="text-secondary text-center font-semibold">Improved Health Markers</h3>
