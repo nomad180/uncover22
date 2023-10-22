@@ -6,82 +6,117 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
   <loc>https://uncoveryourfit.com/</loc>
-  <lastmod>2023-01-15T12:49:25+00:00</lastmod>
+  <lastmod>2023-10-22T00:37:22+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://uncoveryourfit.com/blog</loc>
-  <lastmod>2023-01-15T12:49:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://uncoveryourfit.com/about</loc>
-  <lastmod>2023-01-15T12:49:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://uncoveryourfit.com/coaching</loc>
-  <lastmod>2023-01-15T12:49:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://uncoveryourfit.com/contact</loc>
-  <lastmod>2023-01-15T12:49:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://uncoveryourfit.com/login</loc>
-  <lastmod>2023-01-15T12:49:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://uncoveryourfit.com/blog?category=fitness&amp;</loc>
-  <lastmod>2023-01-15T12:49:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://uncoveryourfit.com/blog?category=nutrition&amp;</loc>
-  <lastmod>2023-01-15T12:49:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://uncoveryourfit.com/blog?category=health&amp;</loc>
-  <lastmod>2023-01-15T12:49:25+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://uncoveryourfit.com/blog?category=Weight%20Loss&amp;</loc>
-  <lastmod>2023-01-15T12:49:25+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://uncoveryourfit.com/blog?category=meals&amp;</loc>
-  <lastmod>2023-01-15T12:49:25+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://uncoveryourfit.com/blog?author=dleach</loc>
-  <lastmod>2023-01-15T12:49:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://uncoveryourfit.com/privacy</loc>
-  <lastmod>2023-01-15T12:49:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://uncoveryourfit.com/terms</loc>
-  <lastmod>2023-01-15T12:49:25+00:00</lastmod>
+  <lastmod>2023-10-22T00:37:22+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://uncoveryourfit.com/damon</loc>
-  <lastmod>2023-01-15T12:49:25+00:00</lastmod>
+  <lastmod>2023-10-22T00:37:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://uncoveryourfit.com/coaching</loc>
+  <lastmod>2023-10-22T00:37:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://uncoveryourfit.com/contact</loc>
+  <lastmod>2023-10-22T00:37:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://uncoveryourfit.com/blog</loc>
+  <lastmod>2023-10-22T00:37:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://uncoveryourfit.com/login</loc>
+  <lastmod>2023-10-22T00:37:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://uncoveryourfit.com/forgot-password</loc>
+  <lastmod>2023-10-22T00:37:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://uncoveryourfit.com/privacy</loc>
+  <lastmod>2023-10-22T00:37:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://uncoveryourfit.com/terms</loc>
+  <lastmod>2023-10-22T00:37:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://uncoveryourfit.com/blog?author=dleach</loc>
+  <lastmod>2023-10-22T00:37:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://uncoveryourfit.com/blog?author=dleach&amp;page=1</loc>
+  <lastmod>2023-10-22T00:37:22+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://uncoveryourfit.com/blog?author=dleach&amp;page=2</loc>
+  <lastmod>2023-10-22T00:37:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://uncoveryourfit.com/blog?author=dleach&amp;page=3</loc>
+  <lastmod>2023-10-22T00:37:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://uncoveryourfit.com/blog?category=health&amp;</loc>
+  <lastmod>2023-10-22T00:37:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://uncoveryourfit.com/blog?category=fitness&amp;</loc>
+  <lastmod>2023-10-22T00:37:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://uncoveryourfit.com/blog?category=nutrition&amp;</loc>
+  <lastmod>2023-10-22T00:37:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://uncoveryourfit.com/blog?category=Weight-Loss&amp;</loc>
+  <lastmod>2023-10-22T00:37:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://uncoveryourfit.com/blog?category=motivation&amp;</loc>
+  <lastmod>2023-10-22T00:37:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://uncoveryourfit.com/blog?page=1</loc>
+  <lastmod>2023-10-22T00:37:22+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://uncoveryourfit.com/blog?page=2</loc>
+  <lastmod>2023-10-22T00:37:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://uncoveryourfit.com/blog?page=3</loc>
+  <lastmod>2023-10-22T00:37:22+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://uncoveryourfit.com/forgot-password</loc>
-  <lastmod>2023-01-15T12:49:25+00:00</lastmod>
+  <lastmod>2023-10-22T00:37:22+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 @foreach ($posts as $post)

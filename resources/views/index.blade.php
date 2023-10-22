@@ -1,5 +1,5 @@
 @section('title'){{'Uncover Your Fit | Premier Health Coaching'}}@endsection
-@section('description'){{'Are you ready to become fit and stay that way? If so, our premier online health coaching will help you get stronger, eat better, and live healthier.'}}@endsection
+@section('description'){{'Are you a midlife warrior who is ready to become fit and stay that way? If so, our premier health coaching will help you ditch fads and live a healthier life.'}}@endsection
 @section('author'){{'Damon Leach'}}@endsection
 <x-layout>
     <div class="mb-8 mt-10 md:mt-20 lg:mt-32 xl:mt-44 px-4 md:px-8 lg:px-16 xl:px-32">
@@ -60,13 +60,7 @@
         </div>
     </div>
     <div class="px-4 md:px-8 lg:px-16 xl:px-32 mb-4 pt-0 mt-0 mb-16">
-        <div class="flex pt-4">
-            <div class="border-b-2 border-primary w-1/3 mb-8"></div>
-            <div class="w-1/3 text-secondary text-center">
-                <h2 class="text-5xl text-center text-secondary mt-32 handwriting">Latest Blog Posts</h2>
-            </div>
-            <div class="border-b-2 border-primary w-1/3 mb-8"></div>
-        </div>
+        <h2 class="mt-16 xl:mt-24 2xl:mt-44 text-5xl 2xl:text-7xl text-center handwriting2">Latest Blog Posts</h2>
         <div class="flex flex-col md:flex-row flex-wrap pt-4 ml-4">
            @if ($posts->count())
            <x-post-grid-index :posts="$posts"/>
