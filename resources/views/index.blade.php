@@ -61,7 +61,7 @@
     </div>
     <div class="px-4 md:px-8 lg:px-16 xl:px-32 mb-4 pt-0 mt-0 mb-16">
         <h2 class="mt-16 xl:mt-24 2xl:mt-44 mb-16 text-5xl 2xl:text-7xl text-center handwriting2">Latest Blog Posts</h2>
-        <div class="flex flex-col md:flex-row flex-wrap pt-4 bg-red-100">
+        <div class="flex flex-col md:flex-row flex-wrap pt-4 md:px-4 bg-red-100 justify-between">
            @if ($posts->count())
            <x-post-grid-index :posts="$posts"/>
            @else
