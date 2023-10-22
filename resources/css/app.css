@@ -40,6 +40,9 @@
 {
     font-family: 'Great Vibes', cursive;
     }
+.adjustlineheighth1index {
+    line-height: 0.5rem;
+}
 .index_text
 {
     position: absolute;

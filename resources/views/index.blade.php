@@ -5,7 +5,7 @@
     <div class="mb-8 mt-10 md:mt-20 lg:mt-32 xl:mt-44 px-4 md:px-8 lg:px-16 xl:px-32">
         <div class="mt-2 flex flex-col md:flex-row">
             <div class="w-full md:w-6/12 flex justify-center flex-col">
-                <h1 class="text-5xl 2xl:text-7xl !important">Unlock the power of your untapped potential to reveal the best version of you</h1>
+                <h1 class="text-5xl leading-tight 2xl:text-7xl 2xl:leading-tight !important">Release your untapped potential and become fit for the rest of your life</h1>
                 <p class="text-lg xl:text-xl mt-4">Premier 1-on-1 health coaching for midlife warriors seeking to  ditch fads, embrace sustainable wellness, and create the life they love waking up to</p>
                 <div class="w-1/2 mt-10">
                     <a href="/coaching" class="text-sm xl:text-xl px-4 py-2 bg-secondary inline-flex items-center text-white hover:bg-primary hover:scale-105 rounded-full">Explore Coaching
