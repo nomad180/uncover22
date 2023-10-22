@@ -1,7 +1,7 @@
  @props(['post'])
   <article
-        {{ $attributes->merge(['class' => 'transition duration-1000 hover:border hover:border-secondary/30 hover:shadow-lg hover:shadow-secondary/50 rounded-lg pb-8 mb-10 p-4 bg-blue-100 ']) }}>
-        <div class="py-2 px-1 flex flex-col mx-4 bg-yellow-100">
+        {{ $attributes->merge(['class' => 'transition duration-1000 hover:border hover:border-secondary/30 hover:shadow-lg hover:shadow-secondary/50 rounded-lg pb-8 mb-10 p-4']) }}>
+        <div class="py-2 px-1 flex flex-col">
             <div>
                 <a href="/posts/{{ $post->slug }}">
                     <img src="{{ asset('storage/' . $post->thumbnail) }}"  class="rounded-xl" alt="{{ $post->alt }}">
