@@ -1,5 +1,5 @@
 <nav x-data="{ open: false }" class="border-b border-secondary/50 lg:border-none lg:mb-12 xl:mb-14 2xl:mb-16">
-    <div id="navbar" class="w-full px-4 md:px-6 flex -mt-6 lg:-mt-0 lg:fixed lg:z-50 lg:top-0 lg:border-b lg:border-secondary/50 lg:bg-white">
+    <div id="navbar" class="w-full px-4 md:px-6 flex -mt-6 lg:-mt-0 lg:fixed lg:z-50 lg:top-0 lg:border-b lg:border-secondary/50 lg:bg-white ">
         <!-- Hamburger -->
         <div class="pt-6 flex items-center lg:hidden">
             <button @click="open = ! open" class="inline-flex items-center justify-center p-2 rounded-md text-secondary hover:text-white hover:bg-secondary focus:outline-none focus:bg-secondary focus:text-white transition duration-150 ease-in-out">
@@ -14,7 +14,7 @@
                 <img src="/images/UYFLogo3.svg" alt="Uncover Your Fit Logo" class="w-1/4 lg:w-full m-auto">
             </a>
         </div>
-        <menu class="w-full lg:w-9/12 hidden lg:flex justify-between m-auto px-40">
+        <menu class="w-full lg:w-9/12 hidden lg:flex justify-center m-auto">
             <x-dropdown-link :href="route('index')" :active="request()->routeIs('index')">Home</x-dropdown-link>
             <x-dropdown-link :href="route('about')" :active="request()->routeIs('about')">About</x-dropdown-link>
             <x-dropdown-link :href="route('coaching')" :active="request()->routeIs('coaching')">Coaching</x-dropdown-link>

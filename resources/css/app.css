@@ -9,6 +9,7 @@
         @apply mt-4;
         @apply mb-4;
         @apply text-xl;
+        @apply text-black;
     }
      html, body {
     color:  #12171e;
@@ -34,6 +35,10 @@
 .handwriting
 {
     font-family: 'Rouge Script', cursive;
+    }
+.handwriting2
+{
+    font-family: 'Great Vibes', cursive;
     }
 .index_text
 {
