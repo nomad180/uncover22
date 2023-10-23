@@ -60,14 +60,14 @@
   display: none;
   overflow: hidden;
 }
-.accordion:after {
+.accordion::after {
   content: '\02795'; /* Unicode character for "plus" sign (+) */
   font-size: 13px;
   color: #777;
   float: right;
   margin-left: 5px;
 }
-.active:after {
+.active::after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 .handwriting
@@ -77,6 +77,15 @@
 .handwriting2
 {
     font-family: 'Great Vibes', cursive;
+    }
+.handwriting3
+{
+    font-family: 'Petit Formal Script', cursive;
+    font-weight: 600;
+    }
+.handwriting4
+{
+    font-family: 'Style Script', cursive;
     }
 .adjustlineheighth1index {
     line-height: 0.5rem;
