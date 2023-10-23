@@ -18,7 +18,7 @@
         </div>
     </div>
     <div class="px-4 md:px-8 lg:px-16 xl:px-32 mb-4 pt-0 mt-0 mb-16">
-        <div class="mt-2 md:mt-10 lg:mt-16 xl:mt-24 2xl:mt-32 flex flex-col-reverse md:flex-row pages">
+        <div class="mt-2 md:mt-10 lg:mt-16 xl:mt-24 2xl:mt-32 flex flex-col-reverse md:flex-row pages transition duration-1000 hover:bg-zinc-50 hover:shadow-lg hover:shadow-zinc p-6 rounded-xl">
         <!--Redo this section to make it a problem/solution section: 3 paragraphs - Main pain point, agitate with examples, introduce solution PAS replace image with video-->
             <div class="md:w-1/2 mt-6 md:mr-6 md:mt-0 flex items-center justify-center">
                 <img class="rounded-xl shadow-lg shadow-secondary" src="/images/journey.jpg" alt="A person holding a compass">
@@ -32,7 +32,7 @@
                 </div>
             </div>
         </div>
-        <h2 class="mt-16 xl:mt-24 2xl:mt-32 text-5xl 2xl:text-7xl text-center handwriting2">Benefits of Health and Fitness Coaching</h2>
+        <h2 class="mt-16 xl:mt-24 2xl:mt-32 text-5xl 2xl:text-7xl text-center handwriting2 ">Benefits of Health and Fitness Coaching</h2>
         <div class="flex flex-col md:flex-row flex-wrap md:mt-8">
             <div class="flex md:w-1/3 mb-6 md:px-4">
                 <div class="transition duration-1000 hover:border hover:border-secondary/30 hover:shadow-lg hover:shadow-secondary/50 rounded-lg pb-8 mb-10 p-4">
@@ -56,7 +56,7 @@
                 </div>
             </div>
         </div>
-        <div class="mt-2 md:mt-10 flex flex-col lg:flex-row pages">
+        <div class="mt-2 md:mt-10 flex flex-col lg:flex-row pages transition duration-1000 hover:bg-zinc-50 hover:shadow-lg hover:shadow-zinc p-6 rounded-xl">
             <div class="mx-auto lg:w-1/2 m-auto pages">
                 <h2 class="text-5xl lg:text-9xl text-center mt-2 handwriting2 lg:pr-6 m-auto">See what our customers are saying about our health and fitness coaching</h2>
             </div>
@@ -133,36 +133,38 @@
                 </div>
             </div>
         </div>
-        <h2 class="mt-16 text-5xl 2xl:text-7xl text-center handwriting2">Frequently Asked Questions</h2>
-        <div class="md:mt-8">
-            <div class="flex mb-6 md:px-4 justify-center">
-                <div class="transition duration-1000 hover:border hover:border-secondary/30 hover:shadow-lg hover:shadow-secondary/50 rounded-lg pb-8 mb-10 p-4 w-full">
-                    <ul>
-                        <li class="accordion mt-6">Why should I invest in personal training?</li>
-                            <div class="panel">
-                                <p class="py-2">First things first. You might wonder why you should splurge on a personal coach when you could just binge-watch YouTube workout videos in your PJs. Well, think of a personal coach as your fitness Sherpa. We're not just there to show you the ropes; we're your guides, your mentors, helping you navigate treacherous terrains, like a seasoned mountaineer leading you up Everest. We provide expertise, motivation, and, importantly, accountability. With a coach by your side, you're not going to slack off because, my friend, we're going to know!</p>
-                            </div>
-                        <li class="accordion">How do I manage time and schedules?</li>
-                            <div class="panel">
-                                <p class="py-2">Time is the currency of life, and we're all running low on it. But your coach is your personal time wizard, helping you find those hidden pockets of time in your day. It's like arranging a jigsaw puzzle; you'll be amazed at how those pieces fit together with a bit of strategy.</p>
-                            </div>
-                        <li class="accordion">What's the right diet for me?</li>
-                            <div class="panel">
-                                <p class="py-2">The world of diets is like a crowded buffet, and you're not sure which dish won't give you a food coma. Low-carb, keto, paleo, intermittent fasting, oh my! The truth is, the perfect diet doesn't exist&mdash;it's like chasing unicorns. What matters most is understanding your body, your metabolism, and what works for you. Think of it as crafting a gourmet meal from your favorite ingredients.</p>
-                            </div>
-                        <li class="accordion">How long until I see results?</li>
-                            <div class="panel">
-                                <p class="py-2">Patience is your secret weapon. Think of it like planting a tree in your garden. You water it, nurture it, but it takes time to grow tall and strong. Your coach will set realistic expectations and remind you that results are like those leaves on your tree&mdash;they will come, and they will be worth the wait.</p>
-                            </div>
-                        <li class="accordion">How do I stay motivated?</li>
-                            <div class="panel">
-                                <p class="py-2">Motivation is like your morning coffee; it can be hard to find sometimes. The secret is to build discipline instead. Create a routine, set goals, and surround yourself with supportive friends or a fitness community. Motivation might not be a constant stream, but discipline is a mighty river.</p>
-                            </div>
-                        <li class="accordion">Is mental healt part of your coaching?</li>
-                            <div class="panel">
-                                <p class="py-2">Mental health and fitness are like two peas in a pod. Your coach understands this connection and can guide you toward a balanced mindset. Think of it as tending to the garden of your mind while you sculpt your body. We'll help you stay motivated, reduce stress, and boost your mental resilience.</p>
-                            </div>
-                    </ul>
+        <div class="transition duration-1000 hover:bg-zinc-50 hover:shadow-lg hover:shadow-zinc p-6 rounded-xl">
+            <h2 class="mt-16 text-5xl 2xl:text-7xl text-center handwriting2">Frequently Asked Questions</h2>
+            <div class="md:mt-8">
+                <div class="flex mb-6 md:px-4 justify-center">
+                    <div class="transition duration-1000 hover:border hover:border-secondary/30 hover:shadow-lg hover:shadow-secondary/50 rounded-lg pb-8 mb-10 p-4 w-full">
+                        <ul>
+                            <li class="accordion mt-6">Why should I invest in personal training?</li>
+                                <div class="panel">
+                                    <p class="py-2">First things first. You might wonder why you should splurge on a personal coach when you could just binge-watch YouTube workout videos in your PJs. Well, think of a personal coach as your fitness Sherpa. We're not just there to show you the ropes; we're your guides, your mentors, helping you navigate treacherous terrains, like a seasoned mountaineer leading you up Everest. We provide expertise, motivation, and, importantly, accountability. With a coach by your side, you're not going to slack off because, my friend, we're going to know!</p>
+                                </div>
+                            <li class="accordion">How do I manage time and schedules?</li>
+                                <div class="panel">
+                                    <p class="py-2">Time is the currency of life, and we're all running low on it. But your coach is your personal time wizard, helping you find those hidden pockets of time in your day. It's like arranging a jigsaw puzzle; you'll be amazed at how those pieces fit together with a bit of strategy.</p>
+                                </div>
+                            <li class="accordion">What's the right diet for me?</li>
+                                <div class="panel">
+                                    <p class="py-2">The world of diets is like a crowded buffet, and you're not sure which dish won't give you a food coma. Low-carb, keto, paleo, intermittent fasting, oh my! The truth is, the perfect diet doesn't exist&mdash;it's like chasing unicorns. What matters most is understanding your body, your metabolism, and what works for you. Think of it as crafting a gourmet meal from your favorite ingredients.</p>
+                                </div>
+                            <li class="accordion">How long until I see results?</li>
+                                <div class="panel">
+                                    <p class="py-2">Patience is your secret weapon. Think of it like planting a tree in your garden. You water it, nurture it, but it takes time to grow tall and strong. Your coach will set realistic expectations and remind you that results are like those leaves on your tree&mdash;they will come, and they will be worth the wait.</p>
+                                </div>
+                            <li class="accordion">How do I stay motivated?</li>
+                                <div class="panel">
+                                    <p class="py-2">Motivation is like your morning coffee; it can be hard to find sometimes. The secret is to build discipline instead. Create a routine, set goals, and surround yourself with supportive friends or a fitness community. Motivation might not be a constant stream, but discipline is a mighty river.</p>
+                                </div>
+                            <li class="accordion">Is mental healt part of your coaching?</li>
+                                <div class="panel">
+                                    <p class="py-2">Mental health and fitness are like two peas in a pod. Your coach understands this connection and can guide you toward a balanced mindset. Think of it as tending to the garden of your mind while you sculpt your body. We'll help you stay motivated, reduce stress, and boost your mental resilience.</p>
+                                </div>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
