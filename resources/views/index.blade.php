@@ -1,5 +1,5 @@
 @section('title'){{'Uncover Your Fit | Premier Health & Fitness Coaching'}}@endsection
-@section('description'){{'Are you a midlife warrior who is ready to become fit and stay that way? If so, our premier health coaching will help you ditch fads and live a healthier life.'}}@endsection
+@section('description'){{'Are you a midlife warrior who is ready to become fit and stay that way? If so, our premier health and fitness coaching will help you ditch fads and live a healthier life.'}}@endsection
 @section('author'){{'Damon Leach'}}@endsection
 <x-layout>
     <div class="mb-8 mt-10 md:mt-20 lg:mt-32 xl:mt-44 px-4 md:px-8 lg:px-16 xl:px-32">
