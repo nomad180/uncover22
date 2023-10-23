@@ -139,10 +139,14 @@
     <!--Accordion begin-->
     <script>
     var acc = document.getElementsByClassName("accordion");
-    var i;
 
-    for (i = 0; i < acc.length; i++) {
+    for (let i = 0; i < acc.length; i++) {
       acc[i].addEventListener("click", function() {
+         for (j = 0; j < acc.length; j++) {
+            acc[j].classList.remove("active");
+          if (j !== i)
+            acc[j].nextElementSibling.style.display = "none";
+        }
         this.classList.toggle("active");
         var panel = this.nextElementSibling;
         if (panel.style.display === "block") {
