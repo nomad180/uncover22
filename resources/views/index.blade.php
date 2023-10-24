@@ -5,8 +5,8 @@
     <div class="mb-8 mt-10 md:mt-20 lg:mt-32 xl:mt-44 px-4 md:px-8 lg:px-16 xl:px-32">
         <div class="mt-2 flex flex-col md:flex-row">
             <div class="w-full md:w-6/12 flex justify-center flex-col">
-                <h1 class="text-5xl lg:text-7xl 2xl:text-8xl handwriting2">Premier health and fitness coaching for midlife warriors</h1>
-                <h2 class="text-lg xl:text-xl mt-4 ">Ditch fads, embrace sustainable wellness, and get in the best shape of your life with our premier 1-on-1 health and fitness coaching</h2>
+                <p class="text-5xl leading-tight lg:text-7xl lg:leading-tight 2xl:text-8xl 2xl:leading-tight handwriting6 flex justify-center text-center lg:text-left">Premier health and fitness coaching for midlife warriors</p>
+                <h2 class="text-lg xl:text-xl mt-4">Ditch fads, embrace sustainable wellness, and get in the best shape of your life with our premier 1-on-1 health and fitness coaching</h2>
                 <div class="w-1/2 mt-10">
                     <a href="/coaching" class="text-sm xl:text-xl px-4 py-2 bg-secondary inline-flex items-center text-white hover:bg-primary hover:scale-105 rounded-full">Explore Coaching
                     </a>
@@ -24,7 +24,7 @@
                 <img class="rounded-xl shadow-lg shadow-secondary" src="/images/journey.jpg" alt="A person holding a compass">
             </div>
             <div class="mx-auto md:w-1/2 pages">
-                <h2 class="text-5xl 2xl:text-7xl text-center mt-2 handwriting2">Our Philosophy</h2>
+                <h2 class="text-5xl 2xl:text-7xl text-center mt-2 handwriting6">Our Philosophy</h2>
                 <p>Your health journey is all about the habits you build, and Uncover Your Fit is here to help you construct a healthier future, brick by brick. We're not about quick fixes but rather the enduring transformation of your life. Our approach is rooted in habit-based health and fitness coaching, where we start small, nurturing your habits until they grow into lasting change.</p>
                 <p>Say goodbye to crash-and-burn cycles; we're all about the slow, sustainable burn. So, whether you've tried countless fad diets or sprints in the marathon of health and fitness, Uncover Your Fit is here to act as your compass and guide you toward a healthier, more fulfilling life, one habit at a time.</p>
                 <div class="flex justify-center w-full text-sm">
@@ -32,7 +32,7 @@
                 </div>
             </div>
         </div>
-        <h2 class="mt-16 xl:mt-24 2xl:mt-32 text-5xl 2xl:text-7xl text-center handwriting2 ">Benefits of Health and Fitness Coaching</h2>
+        <h2 class="mt-16 xl:mt-24 2xl:mt-32 text-5xl leading-tight 2xl:text-7xl text-center handwriting6">Benefits of Health and Fitness Coaching</h2>
         <div class="flex flex-col md:flex-row flex-wrap md:mt-8">
             <div class="flex md:w-1/3 mb-6 md:px-4">
                 <div class="transition duration-1000 hover:border hover:border-secondary/30 hover:shadow-lg hover:shadow-secondary/50 rounded-lg pb-8 mb-10 p-4">
@@ -58,7 +58,7 @@
         </div>
         <div class="mt-2 md:mt-10 flex flex-col lg:flex-row pages transition duration-1000 hover:border hover:border-zinc-300 hover:bg-neutral-100 hover:shadow-lg hover:shadow-zinc-400 p-6 rounded-xl">
             <div class="mx-auto lg:w-1/2 m-auto pages">
-                <h2 class="text-5xl lg:text-9xl text-center mt-2 handwriting2 lg:pr-6 m-auto">See what our customers are saying about our health and fitness coaching</h2>
+                <h2 class="text-5xl leading-tight lg:text-8xl lg:leading-tight lg:leading-tight text-center mt-2 handwriting6 lg:pr-6 m-auto">See what our customers are saying about our health and fitness coaching</h2>
             </div>
             <div class="lg:w-1/2 mt-6 md:mr-6 md:mt-0 flex flex-col items-center justify-center">
                 <div class="border border-secondary/30 shadow-lg shadow-secondary/50 rounded-lg m-6 p-6 bg-white">
@@ -78,7 +78,7 @@
                 </div>
             </div>
         </div>
-        <h2 class="mt-16 xl:mt-24 2xl:mt-32 text-5xl 2xl:text-7xl text-center handwriting2 mb-4">Features You'll Love</h2>
+        <h2 class="mt-16 xl:mt-24 2xl:mt-32 text-5xl 2xl:text-7xl text-center handwriting6 mb-4">Features You'll Love</h2>
         <div class="flex flex-col md:flex-row flex-wrap md:mt-8">
             <div class="flex md:w-1/2 mb-6 md:px-4 justify-center">
                 <div class="transition duration-1000 hover:border hover:border-secondary/30 hover:shadow-lg hover:shadow-secondary/50 rounded-lg pb-8 mb-10 p-4 w-full">
@@ -134,10 +134,10 @@
             </div>
         </div>
         <div class="transition duration-1000 hover:border hover:border-zinc-300 hover:bg-neutral-100 hover:shadow-lg hover:shadow-zinc-400 p-6 rounded-xl">
-            <h2 class="mt-16 text-5xl 2xl:text-7xl text-center handwriting2 mb-4">Frequently Asked Questions</h2>
+            <h2 class="mt-16 text-5xl leading-tight 2xl:text-7xl text-center handwriting6 mb-4">Frequently Asked Questions</h2>
             <div class="md:mt-8">
                 <div class="flex mb-6 md:px-4 justify-center">
-                    <div class="transition duration-1000 hover:border hover:border-secondary/30 hover:shadow-lg hover:shadow-secondary/50 rounded-lg pb-8 mb-10 p-4 w-full hover:bg-white">
+                    <div class="transition duration-1000 hover:border hover:border-secondary/30 hover:shadow-lg hover:shadow-secondary/50 rounded-lg pb-8 mb-10 p-4 w-full bg-white">
                         <ul>
                             <li class="accordion mt-6">Why should I invest in personal training?</li>
                                 <div class="panel">
@@ -168,17 +168,12 @@
                 </div>
             </div>
         </div>
-        <h2 class="mt-16 text-5xl 2xl:text-7xl text-center handwriting2 m-auto lg:px-60">Take one small step today toward getting into the best shape of your life.</h2>
         <div class="border border-secondary/30 shadow-lg shadow-secondary/50 rounded-lg m-10 lg:mx-40 p-6 pages">
-            <p class="">Maybe it’s been a while since you’ve been in shape, or felt energized throughout your entire day, or felt capable and confident enough to do what you truly want. If you’re ready to have the body you deserve and get in control of your health and fitness once and for all, we're ready to help.</p>
-            <p>You’ve tried doing it alone. Now try with someone who’s ready to bring a commitment that’s as serious as your own. We’ve dedicated our professional lives to helping people transform their bodies through nutrition and fitness.</p>
-            <p>If you would like to see detailed information about our health and fitness coaching, click on the Explore Coaching button below.</p>
-            <p>If, on the other hand, you think Uncover Your Fit might be the solution you've been looking for, please click on the Schedule Coaching Discovery Call button to set up a meeting with us.</p>
+            <h2 class="text-5xl leading-tight 2xl:text-7xl 2xl:leading-tight text-center handwriting6">Don't wait any longer. Give yourself the opportunity to create the life you'll love waking up to!</h2>
             <div class="flex justify-center w-full text-2xl mt-6">
                 <a href="/coaching" class="hover:scale-105 inline-flex items-center py-2 px-8 pb-3 bg-secondary rounded-full text-white hover:bg-primary">Explore Coaching</a>
             </div>
         </div>
     </div>
-    <x-calendly/>
     <x-accordion/>
 </x-layout>
