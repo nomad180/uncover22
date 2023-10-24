@@ -17,21 +17,25 @@
             </div>
         </div>
     </div>
-    <div class="px-4 md:px-8 lg:px-16 xl:px-32 mb-4 pt-0 mt-0 mb-16">
-        <div class="mt-2 md:mt-10 lg:mt-16 xl:mt-24 2xl:mt-32 flex flex-col-reverse md:flex-row pages transition duration-1000 hover:border hover:border-zinc-300 hover:bg-neutral-100 hover:shadow-lg hover:shadow-zinc-400 p-6 rounded-xl">
-        <!--Redo this section to make it a problem/solution section: 3 paragraphs - Main pain point, agitate with examples, introduce solution PAS replace image with video-->
-            <div class="md:w-1/2 mt-6 md:mr-6 md:mt-0 flex items-center justify-center">
-                <img class="rounded-xl shadow-lg shadow-secondary" src="/images/journey.jpg" alt="A person holding a compass">
-            </div>
-            <div class="mx-auto md:w-1/2 pages">
-                <h2 class="text-5xl 2xl:text-7xl text-center mt-2 handwriting6">Our Philosophy</h2>
-                <p>Your health journey is all about the habits you build, and Uncover Your Fit is here to help you construct a healthier future, brick by brick. We're not about quick fixes but rather the enduring transformation of your life. Our approach is rooted in habit-based health and fitness coaching, where we start small, nurturing your habits until they grow into lasting change.</p>
-                <p>Say goodbye to crash-and-burn cycles; we're all about the slow, sustainable burn. So, whether you've tried countless fad diets or sprints in the marathon of health and fitness, Uncover Your Fit is here to act as your compass and guide you toward a healthier, more fulfilling life, one habit at a time.</p>
-                <div class="flex justify-center w-full text-sm">
-                    <a href="/about" class="hover:scale-105 inline-flex items-center py-2 px-8 pb-3 bg-secondary rounded-full text-white hover:bg-primary">Read More About Our Philosophy</a>
+    <div class="border border-zinc-300 bg-neutral-50 shadow-lg shadow-zinc-400">
+        <div class="px-4 md:px-8 lg:px-16 xl:px-32 mb-4 pt-0 mt-0 mb-16">
+            <div class="mt-2 md:mt-10 lg:mt-16 xl:mt-24 2xl:mt-32 flex flex-col-reverse md:flex-row pages">
+            <!--Redo this section to make it a problem/solution section: 3 paragraphs - Main pain point, agitate with examples, introduce solution PAS replace image with video-->
+                <div class="md:w-1/2 mt-6 md:mr-6 md:mt-0 flex items-center justify-center">
+                    <img class="rounded-xl shadow-lg shadow-secondary" src="/images/journey.jpg" alt="A person holding a compass">
+                </div>
+                <div class="mx-auto md:w-1/2 pages">
+                    <h2 class="text-5xl 2xl:text-7xl text-center mt-2 handwriting6">Our Philosophy</h2>
+                    <p>Your health journey is all about the habits you build, and Uncover Your Fit is here to help you construct a healthier future, brick by brick. We're not about quick fixes but rather the enduring transformation of your life. Our approach is rooted in habit-based health and fitness coaching, where we start small, nurturing your habits until they grow into lasting change.</p>
+                    <p>Say goodbye to crash-and-burn cycles; we're all about the slow, sustainable burn. So, whether you've tried countless fad diets or sprints in the marathon of health and fitness, Uncover Your Fit is here to act as your compass and guide you toward a healthier, more fulfilling life, one habit at a time.</p>
+                    <div class="flex justify-center w-full text-sm">
+                        <a href="/about" class="hover:scale-105 inline-flex items-center py-2 px-8 pb-3 bg-secondary rounded-full text-white hover:bg-primary">Read More About Our Philosophy</a>
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="px-4 md:px-8 lg:px-16 xl:px-32 mb-4 pt-0 mt-0 mb-16">
         <h2 class="mt-16 xl:mt-24 2xl:mt-32 text-5xl leading-tight 2xl:text-7xl text-center handwriting6">Benefits of Health and Fitness Coaching</h2>
         <div class="flex flex-col md:flex-row flex-wrap md:mt-8">
             <div class="flex md:w-1/3 mb-6 md:px-4">
@@ -56,7 +60,7 @@
                 </div>
             </div>
         </div>
-        <div class="mt-2 md:mt-10 flex flex-col lg:flex-row pages transition duration-1000 hover:border hover:border-zinc-300 hover:bg-neutral-100 hover:shadow-lg hover:shadow-zinc-400 p-6 rounded-xl">
+        <div class="mt-2 md:mt-10 flex flex-col lg:flex-row pages border border-zinc-300 bg-neutral-50 shadow-lg shadow-zinc-400 p-6 rounded-xl">
             <div class="mx-auto lg:w-1/2 m-auto pages">
                 <h2 class="text-5xl leading-tight lg:text-8xl lg:leading-tight lg:leading-tight text-center mt-2 handwriting6 lg:pr-6 m-auto">See what our customers are saying about our health and fitness coaching</h2>
             </div>
@@ -133,11 +137,13 @@
                 </div>
             </div>
         </div>
-        <div class="transition duration-1000 hover:border hover:border-zinc-300 hover:bg-neutral-100 hover:shadow-lg hover:shadow-zinc-400 p-6 rounded-xl">
+    </div>
+    <div class="border border-zinc-300 bg-neutral-50 shadow-lg shadow-zinc-400">
+        <div class="px-4 md:px-8 lg:px-16 xl:px-32 mb-4 pt-0 mt-0 mb-16">
             <h2 class="mt-16 text-5xl leading-tight 2xl:text-7xl text-center handwriting6 mb-4">Frequently Asked Questions</h2>
             <div class="md:mt-8">
                 <div class="flex mb-6 md:px-4 justify-center">
-                    <div class="transition duration-1000 hover:border hover:border-secondary/30 hover:shadow-lg hover:shadow-secondary/50 rounded-lg pb-8 mb-10 p-4 w-full bg-white">
+                    <div class="transition duration-1000 border border-secondary/30 shadow-shadow-secondary/50 rounded-lg pb-8 mb-10 p-4 w-full bg-white">
                         <ul>
                             <li class="accordion mt-6">Why should I invest in personal training?</li>
                                 <div class="panel">
@@ -168,6 +174,8 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="px-4 md:px-8 lg:px-16 xl:px-32 mb-4 pt-0 mt-0 mb-16">
         <div class="transition duration-1000 hover:border hover:border-secondary/30 hover:shadow-lg hover:shadow-secondary/50 rounded-lg m-10 lg:mx-40 p-6 pages">
             <h2 class="text-5xl leading-tight 2xl:text-7xl 2xl:leading-tight text-center handwriting6">Don't wait any longer. Give yourself the opportunity to create the life you'll love waking up to!</h2>
             <div class="flex justify-center w-full text-2xl mt-6">
