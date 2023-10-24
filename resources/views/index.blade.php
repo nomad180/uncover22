@@ -65,17 +65,17 @@
                 <h2 class="text-5xl leading-tight lg:text-8xl lg:leading-tight lg:leading-tight text-center mt-2 handwriting6 lg:pr-6 m-auto">See what our customers are saying about our health and fitness coaching</h2>
             </div>
             <div class="lg:w-1/2 mt-6 md:mr-6 md:mt-0 flex flex-col items-center justify-center">
-                <div class="border border-secondary/30 shadow-lg shadow-secondary/50 rounded-lg m-6 p-6 bg-white">
+                <div class="border border-zinc-300 shadow-lg shadow-zinc-400 rounded-lg m-6 p-6 bg-white">
                     <p class="m-auto">"What truly set this coaching apart was the personalized approach. It wasn't one-size-fits-all but rather a tailored map for my unique voyage. My coach took the time to understand my needs and preferences, ensuring the journey was as smooth as possible."</p>
                     <p>Lauren Martinez/Sedona, AZ</p>
                     <img src="/images/fivestars.jpg" alt="five stars">
                 </div>
-                <div class="border border-secondary/30 shadow-lg shadow-secondary/50 rounded-lg m-6 p-6 bg-white">
+                <div class="border border-zinc-300 shadow-lg shadow-zinc-400 rounded-lg m-6 p-6 bg-white">
                     <p class="m-auto">"This coaching experience wasn't just about the destination; it was about enjoying the journey. My coach made learning fun and engaging, often using analogies that made complex health concepts feel really simple. He had a knack for breaking down the science into bite-sized pieces, making it both understandable and actionable."</p>
                     <p>Susan Koller/Stowe, VT</p>
                     <img src="/images/fivestars.jpg" alt="five stars">
                 </div>
-                <div class="border border-secondary/30 shadow-lg shadow-secondary/50 rounded-lg m-6 p-6 bg-white">
+                <div class="border border-zinc-300 shadow-lg shadow-zinc-400 rounded-lg m-6 p-6 bg-white">
                     <p class="m-auto">"When I encountered moments of doubt, my coach was there to provide encouragement and expert advice. In the end, my journey towards better health was smoother, more enjoyable, and undoubtedly more successful, thanks to this coaching experience. I can't recommend it enough."</p>
                     <p>Jason Anderson/Jackson, WY</p>
                     <img src="/images/fivestars.jpg" alt="five stars">
