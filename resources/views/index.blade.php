@@ -168,7 +168,7 @@
                 </div>
             </div>
         </div>
-        <div class="border border-secondary/30 shadow-lg shadow-secondary/50 rounded-lg m-10 lg:mx-40 p-6 pages">
+        <div class="transition duration-1000 hover:border hover:border-secondary/30 hover:shadow-lg hover:shadow-secondary/50 rounded-lg m-10 lg:mx-40 p-6 pages">
             <h2 class="text-5xl leading-tight 2xl:text-7xl 2xl:leading-tight text-center handwriting6">Don't wait any longer. Give yourself the opportunity to create the life you'll love waking up to!</h2>
             <div class="flex justify-center w-full text-2xl mt-6">
                 <a href="/coaching" class="hover:scale-105 inline-flex items-center py-2 px-8 pb-3 bg-secondary rounded-full text-white hover:bg-primary">Explore Coaching</a>
