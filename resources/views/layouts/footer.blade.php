@@ -1,4 +1,4 @@
-<footer class="bg-gray-50 border border-t-secondary/20 text-center pb-6 ">
+<footer class="bg-neutral-50 border border-t-secondary/20 text-center pb-6 ">
     <!--<h5 class="text-3xl">Want us to email you occasionally with the latest Uncover Your Fit news?</h5>
     <div class="mt-10">
         <div class="relative inline-block mx-auto lg:bg-white rounded-full border border-secondary">
