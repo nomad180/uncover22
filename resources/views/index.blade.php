@@ -159,7 +159,7 @@
                                 <div class="panel">
                                     <p class="py-2">Motivation is like your morning coffee; it can be hard to find sometimes. The secret is to build discipline instead. Create a routine, set goals, and surround yourself with supportive friends or a fitness community. Motivation might not be a constant stream, but discipline is a mighty river.</p>
                                 </div>
-                            <li class="accordion">Is mental healt part of your coaching?</li>
+                            <li class="accordion">Is mental health part of your coaching?</li>
                                 <div class="panel">
                                     <p class="py-2">Mental health and fitness are like two peas in a pod. Your coach understands this connection and can guide you toward a balanced mindset. Think of it as tending to the garden of your mind while you sculpt your body. We'll help you stay motivated, reduce stress, and boost your mental resilience.</p>
                                 </div>
