@@ -18,7 +18,7 @@
         </div>
     </div>
     <div class="px-4 md:px-8 lg:px-16 xl:px-32 mb-4 pt-0 mt-0 mb-16">
-        <div class="mt-2 md:mt-10 lg:mt-16 xl:mt-24 2xl:mt-32 flex flex-col-reverse md:flex-row pages transition duration-1000 hover:bg-zinc-50 hover:shadow-lg hover:shadow-zinc p-6 rounded-xl">
+        <div class="mt-2 md:mt-10 lg:mt-16 xl:mt-24 2xl:mt-32 flex flex-col-reverse md:flex-row pages transition duration-1000 hover:border hover:border-zinc-300 hover:bg-neutral-100 hover:shadow-lg hover:shadow-zinc-400 p-6 rounded-xl">
         <!--Redo this section to make it a problem/solution section: 3 paragraphs - Main pain point, agitate with examples, introduce solution PAS replace image with video-->
             <div class="md:w-1/2 mt-6 md:mr-6 md:mt-0 flex items-center justify-center">
                 <img class="rounded-xl shadow-lg shadow-secondary" src="/images/journey.jpg" alt="A person holding a compass">
@@ -56,29 +56,29 @@
                 </div>
             </div>
         </div>
-        <div class="mt-2 md:mt-10 flex flex-col lg:flex-row pages transition duration-1000 hover:bg-zinc-50 hover:shadow-lg hover:shadow-zinc p-6 rounded-xl">
+        <div class="mt-2 md:mt-10 flex flex-col lg:flex-row pages transition duration-1000 hover:border hover:border-zinc-300 hover:bg-neutral-100 hover:shadow-lg hover:shadow-zinc-400 p-6 rounded-xl">
             <div class="mx-auto lg:w-1/2 m-auto pages">
                 <h2 class="text-5xl lg:text-9xl text-center mt-2 handwriting2 lg:pr-6 m-auto">See what our customers are saying about our health and fitness coaching</h2>
             </div>
             <div class="lg:w-1/2 mt-6 md:mr-6 md:mt-0 flex flex-col items-center justify-center">
-                <div class="border border-secondary/30 shadow-lg shadow-secondary/50 rounded-lg m-6 p-6">
+                <div class="border border-secondary/30 shadow-lg shadow-secondary/50 rounded-lg m-6 p-6 bg-white">
                     <p class="m-auto">"What truly set this coaching apart was the personalized approach. It wasn't one-size-fits-all but rather a tailored map for my unique voyage. My coach took the time to understand my needs and preferences, ensuring the journey was as smooth as possible."</p>
                     <p>Lauren Martinez/Sedona, AZ</p>
                     <img src="/images/fivestars.jpg" alt="five stars">
                 </div>
-                <div class="border border-secondary/30 shadow-lg shadow-secondary/50 rounded-lg m-6 p-6">
+                <div class="border border-secondary/30 shadow-lg shadow-secondary/50 rounded-lg m-6 p-6 bg-white">
                     <p class="m-auto">"This coaching experience wasn't just about the destination; it was about enjoying the journey. My coach made learning fun and engaging, often using analogies that made complex health concepts feel really simple. He had a knack for breaking down the science into bite-sized pieces, making it both understandable and actionable."</p>
                     <p>Susan Koller/Stowe, VT</p>
                     <img src="/images/fivestars.jpg" alt="five stars">
                 </div>
-                <div class="border border-secondary/30 shadow-lg shadow-secondary/50 rounded-lg m-6 p-6">
+                <div class="border border-secondary/30 shadow-lg shadow-secondary/50 rounded-lg m-6 p-6 bg-white">
                     <p class="m-auto">"When I encountered moments of doubt, my coach was there to provide encouragement and expert advice. In the end, my journey towards better health was smoother, more enjoyable, and undoubtedly more successful, thanks to this coaching experience. I can't recommend it enough."</p>
                     <p>Jason Anderson/Jackson, WY</p>
                     <img src="/images/fivestars.jpg" alt="five stars">
                 </div>
             </div>
         </div>
-        <h2 class="mt-16 xl:mt-24 2xl:mt-32 text-5xl 2xl:text-7xl text-center handwriting2">Features You'll Love</h2>
+        <h2 class="mt-16 xl:mt-24 2xl:mt-32 text-5xl 2xl:text-7xl text-center handwriting2 mb-4">Features You'll Love</h2>
         <div class="flex flex-col md:flex-row flex-wrap md:mt-8">
             <div class="flex md:w-1/2 mb-6 md:px-4 justify-center">
                 <div class="transition duration-1000 hover:border hover:border-secondary/30 hover:shadow-lg hover:shadow-secondary/50 rounded-lg pb-8 mb-10 p-4 w-full">
@@ -133,11 +133,11 @@
                 </div>
             </div>
         </div>
-        <div class="transition duration-1000 hover:bg-zinc-50 hover:shadow-lg hover:shadow-zinc p-6 rounded-xl">
-            <h2 class="mt-16 text-5xl 2xl:text-7xl text-center handwriting2">Frequently Asked Questions</h2>
+        <div class="transition duration-1000 hover:border hover:border-zinc-300 hover:bg-neutral-100 hover:shadow-lg hover:shadow-zinc-400 p-6 rounded-xl">
+            <h2 class="mt-16 text-5xl 2xl:text-7xl text-center handwriting2 mb-4">Frequently Asked Questions</h2>
             <div class="md:mt-8">
                 <div class="flex mb-6 md:px-4 justify-center">
-                    <div class="transition duration-1000 hover:border hover:border-secondary/30 hover:shadow-lg hover:shadow-secondary/50 rounded-lg pb-8 mb-10 p-4 w-full">
+                    <div class="transition duration-1000 hover:border hover:border-secondary/30 hover:shadow-lg hover:shadow-secondary/50 rounded-lg pb-8 mb-10 p-4 w-full hover:bg-white">
                         <ul>
                             <li class="accordion mt-6">Why should I invest in personal training?</li>
                                 <div class="panel">
