@@ -34,7 +34,7 @@
 @tailwind utilities;
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-  background-color: #ffffff;
+  background-color: none;
   color: black;
   cursor: pointer;
   padding: 18px;

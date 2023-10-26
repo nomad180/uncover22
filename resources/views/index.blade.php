@@ -39,28 +39,28 @@
         <h2 class="mt-16 xl:mt-24 2xl:mt-32 text-5xl leading-tight 2xl:text-7xl text-center handwriting6">Benefits of Health Coaching</h2>
         <div class="flex flex-col md:flex-row flex-wrap md:mt-8">
             <div class="flex md:w-1/3 mb-6 md:px-4">
-                <div class="transition duration-1000 hover:border hover:border-zind-300 hover:shadow-lg hover:shadow-zinc-400 rounded-lg pb-8 mb-10 p-4">
-                    <div class="flex justify-center"><img class="w-1/6" src="/images/foodpyramid.jpg" alt="A food pyramid illustration" width="100%"></div>
+                <div class="transition duration-1000 hover:border hover:border-zind-300 hover:bg-neutral-50 hover:shadow-lg hover:shadow-zinc-400 rounded-lg pb-8 mb-10 p-4">
+                    <div class="flex justify-center"><img class="rounded-full w-1/6 border border-zinc-300" src="/images/foodpyramid.jpg" alt="A food pyramid illustration" width="100%"></div>
                     <h3 class="text-secondary text-center font-semibold">Balanced Nutrition</h3>
                     <p class="text-left">Ever felt like a tightrope walker trying to balance your diet? Health coaching can guide you to find the perfect equilibrium. It's like becoming a culinary acrobat, perfectly juggling carbs, proteins, and fats.</p>
                 </div>
             </div>
             <div class="flex md:w-1/3 mb-6 md:px-4">
-                <div class="transition duration-1000 hover:border hover:border-zinc-300 hover:shadow-lg hover:shadow-zinc-400 rounded-lg pb-8 mb-10 p-4">
-                    <div class="flex justify-center"><img class="w-1/6" src="/images/heart.jpg" alt="A heart illustration" width="100%"></div>
+                <div class="transition duration-1000 hover:border hover:border-zinc-300 hover:bg-neutral-50 hover:shadow-lg hover:shadow-zinc-400 rounded-lg pb-8 mb-10 p-4">
+                    <div class="flex justify-center"><img class="rounded-full border border-zinc-300 w-1/6" src="/images/heart.jpg" alt="A heart illustration" width="100%"></div>
                     <h3 class="text-secondary text-center font-semibold">Improved Health Markers</h3>
                     <p class="text-left">Picture your health markers as scorecards in a game. Health coaching can help improve those scores - lower blood pressure, better cholesterol, healthier weight. It's like seeing your bowling score jump from gutter balls to strikes.</p>
                 </div>
             </div>
             <div class="flex md:w-1/3 mb-6 md:px-4">
-                <div class="transition duration-1000 hover:border hover:border-zinc-300 hover:shadow-lg hover:shadow-zinc-400 rounded-lg pb-8 mb-10 p-4">
-                    <div class="flex justify-center"><img class="w-1/6" src="/images/stressreduction.jpg" alt="An illustration of a person sitting in a chair destressing" width="100%"></div>
+                <div class="transition duration-1000 hover:border hover:border-zinc-300 hover:bg-neutral-50 hover:shadow-lg hover:shadow-zinc-400 rounded-lg pb-8 mb-10 p-4">
+                    <div class="flex justify-center"><img class="rounded-full border border-zinc-300 w-1/6" src="/images/stressreduction2.jpg" alt="An illustration of a person sitting in a chair destressing" width="100%"></div>
                     <h3 class="text-secondary text-center font-semibold">Stress Reduction</h3>
                     <p class="text-left">Ah, the Zen zone! Health coaching equips you with strategies to master stress. It's like having a personal meditation guru on speed dial, helping you find tranquility in life's chaos.</p>
                 </div>
             </div>
         </div>
-        <div class="mt-2 md:mt-10 flex flex-col lg:flex-row pages border border-zinc-300 bg-neutral-50 shadow-lg shadow-zinc-400 p-6 rounded-xl">
+        <div class="mt-2 md:mt-10 flex flex-col lg:flex-row pages transition duration-1000 hover:border hover:border-zinc-300 hover:bg-neutral-50 hover:shadow-lg shadow-zinc-400 p-6 rounded-xl">
             <div class="mx-auto lg:w-1/2 m-auto pages">
                 <h2 class="text-5xl leading-tight lg:text-8xl lg:leading-tight lg:leading-tight text-center mt-2 handwriting6 lg:pr-6 m-auto">See what our customers are saying about our health coaching</h2>
             </div>
@@ -85,7 +85,7 @@
         <h2 class="mt-16 xl:mt-24 2xl:mt-32 text-5xl 2xl:text-7xl text-center handwriting6 mb-4">Features You'll Love</h2>
         <div class="flex flex-col md:flex-row flex-wrap md:mt-8">
             <div class="flex md:w-1/2 mb-6 md:px-4 justify-center">
-                <div class="transition duration-1000 hover:border hover:border-zinc-300 hover:shadow-lg hover:shadow-zinc-400 rounded-lg pb-8 mb-10 p-4 w-full">
+                <div class="transition duration-1000 hover:border hover:border-zinc-300 hover:shadow-lg hover:shadow-zinc-400 rounded-lg hover:bg-neutral-50 pb-8 mb-10 p-4 w-full">
                     <ul>
                         <li class="accordion mt-6">One-on-One Coaching</li>
                             <div class="panel">
@@ -111,7 +111,7 @@
                 </div>
             </div>
             <div class="flex md:w-1/2 mb-6 md:px-4 justify-center">
-                <div class="transition duration-1000 hover:border hover:border-zinc-300 hover:shadow-lg hover:shadow-zinc-400 rounded-lg pb-8 mb-10 p-4 w-full">
+                <div class="transition duration-1000 hover:border hover:border-zinc-300 hover:shadow-lg hover:shadow-zinc-400 rounded-lg hover:bg-neutral-50 pb-8 mb-10 p-4 w-full">
                     <ul>
                         <li class="accordion mt-6">Fitness Topics</li>
                             <div class="panel">
@@ -137,13 +137,11 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="border border-zinc-300 bg-neutral-50 shadow-lg shadow-zinc-400">
-        <div class="px-4 md:px-8 lg:px-16 xl:px-32 mb-4 pt-0 mt-0 mb-16">
+        <div class="px-4 md:px-8 lg:px-16 xl:px-32 mb-4 pt-0 mt-0 mb-16 transition duration-1000 hover:border hover:border-zinc-300 hover:shadow-lg hover:shadow-zinc-400 rounded-lg hover:bg-neutral-50 pb-8 mb-10 p-4">
             <h2 class="mt-16 text-5xl leading-tight 2xl:text-7xl text-center handwriting6 mb-4">Frequently Asked Questions</h2>
             <div class="md:mt-8">
                 <div class="flex mb-6 md:px-4 justify-center">
-                    <div class="border border-zinc-300 shadow-lg shadow-zinc-400 rounded-lg pb-8 mb-10 p-4 w-full bg-white">
+                    <div class="hover:border hover:bg-neutral-50 hover:border-zinc-300 hover:shadow-lg hover:shadow-zinc-400 hover:rounded-lg pb-8 mb-10 p-4 w-full">
                         <ul>
                             <li class="accordion mt-6">Why should I invest in a health coach?</li>
                                 <div class="panel">
@@ -176,7 +174,7 @@
         </div>
     </div>
     <div class="px-4 md:px-8 lg:px-16 xl:px-32 mb-4 pt-0 mt-0 mb-16">
-        <div class="transition duration-1000 hover:border hover:border-zinc-300 hover:shadow-lg hover:shadow-zinc-400 rounded-lg m-10 lg:mx-40 p-6 pages">
+        <div class="transition duration-1000 hover:bg-neutral-50 hover:border hover:border-zinc-300 hover:shadow-lg hover:shadow-zinc-400 rounded-lg m-10 lg:mx-40 p-6 pages">
             <h2 class="text-5xl leading-tight 2xl:text-7xl 2xl:leading-tight text-center handwriting6">Don't wait any longer. Give yourself the opportunity to create the life you'll love waking up to!</h2>
             <div class="flex justify-center w-full text-2xl mt-6">
                 <a href="/coaching" class="hover:scale-105 inline-flex items-center py-2 px-8 pb-3 bg-secondary rounded-full text-white hover:bg-primary">Explore Coaching</a>
