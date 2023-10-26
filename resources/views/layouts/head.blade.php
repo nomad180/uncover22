@@ -20,6 +20,7 @@
     <!-- Styles and Scripts -->
     <script src="https://cdn.tiny.cloud/1/jq49lij0jmzj925gehp1lgqshcem9zyhsw9wj4ytks8ph1j3/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/bfa28f3d091acf6cc4a310cf2/138c5e8294bf0591d2fe2d284.js");</script>
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
