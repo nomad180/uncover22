@@ -137,11 +137,11 @@
                 </div>
             </div>
         </div>
-        <div class="px-4 md:px-8 lg:px-16 xl:px-32 mb-4 pt-0 mt-0 mb-16 transition duration-1000 hover:border hover:border-zinc-300 hover:shadow-lg hover:shadow-zinc-400 rounded-lg hover:bg-neutral-50 pb-8 mb-10 p-4">
+        <div class="px-4 md:px-8 lg:px-16 xl:px-32 mb-4 pt-0 mt-0 mb-16 ">
             <h2 class="mt-16 text-5xl leading-tight 2xl:text-7xl text-center handwriting6 mb-4">Frequently Asked Questions</h2>
             <div class="md:mt-8">
                 <div class="flex mb-6 md:px-4 justify-center">
-                    <div class="hover:border hover:bg-neutral-50 hover:border-zinc-300 hover:shadow-lg hover:shadow-zinc-400 hover:rounded-lg pb-8 mb-10 p-4 w-full">
+                    <div class="transition duration-1000 hover:border hover:bg-neutral-50 hover:border-zinc-300 hover:shadow-lg hover:shadow-zinc-400 hover:rounded-lg pb-8 mb-10 p-4 w-full">
                         <ul>
                             <li class="accordion mt-6">Why should I invest in a health coach?</li>
                                 <div class="panel">
