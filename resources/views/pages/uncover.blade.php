@@ -2,13 +2,17 @@
 @section('description'){{'Lose excess weight and uncover your fit once and for all with habit-based coaching from Uncover Your Fit.'}}@endsection
 @section('author'){{'Damon Leach'}}@endsection
 <x-layout>
+    <div class="mb-8 mt-6 md:mt-20 lg:mt-32 xl:mt-44 px-4 md:px-8 lg:px-16 xl:px-32 lg:hidden">
+        <h1 class="text-5xl leading-tight lg:text-7xl lg:leading-tight 2xl:text-8xl 2xl:leading-tight handwriting6 flex justify-center text-center lg:text-left">Experience the joy and great results of online coaching</h1>
+        <h2 class="text-lg ml-6 mt-4">Shed unwanted pounds, improve your mood, destress, and revitalize your energy through our premier 1-on-1 health coaching programs</h2>
+    </div>
     <div class="relative">
-        <video autoplay muted loop playsinline class="border-b border-zinc-300">
+        <video autoplay muted loop playsinline class="lg:border-b border-zinc-300">
             <source src="/images/aa2.mp4" type="video/mp4">
         </video>
-        <div class="absolute inset-y-0 inset-x-4 md:inset-x-16 lg:inset-x-24 xl:inset-x-32 w-5/12 flex justify-center flex-col">
-            <h1 class="text-primary text-xl leading-tight md:text-3xl md:leading-tight lg:text-6xl lg:leading-tight xl:text-7xl xl:leading-tight 2xl:text-8xl 2xl:leading-tight handwriting6 flex justify-center text-center lg:text-left">Experience the joy and ease of online coaching</h1><!--Regain control of your health, Unlock longevity secrets for youthful aging-->
-            <h2 class="font-bold text-xs md:text-sm lg:text-base xl:text-xl mt-4">Shed unwanted pounds and revitalize your energy through our premier 1-on-1 health coaching programs</h2>
+        <div class="hidden lg:flex absolute inset-y-0 inset-x-4 md:inset-x-16 lg:inset-x-24 xl:inset-x-32 w-5/12 flex justify-center flex-col">
+            <h1 class="hidden lg:flex text-primary text-xl leading-tight md:text-3xl md:leading-tight lg:text-6xl lg:leading-tight xl:text-7xl xl:leading-tight 2xl:text-8xl 2xl:leading-tight handwriting6 flex justify-center text-center lg:text-left">Experience the joy and great results of online coaching</h1><!--Regain control of your health, Unlock longevity secrets for youthful aging-->
+            <h2 class="font-bold text-xs md:text-sm lg:text-base xl:text-xl mt-4">Shed unwanted pounds, improve your mood, destress, and revitalize your energy through our premier 1-on-1 health coaching programs</h2>
         </div>
     </div>
 <div class="mb-8 px-4 md:px-8 lg:px-16 xl:px-32">
