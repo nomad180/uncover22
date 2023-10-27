@@ -1,6 +1,22 @@
 @section('title'){{'Uncover Your Fit | Premier Health Coaching'}}@endsection
 @section('description'){{'Are you ready to become fit and stay that way? If so, our premier online health coaching will help you get stronger, eat better, and live healthier.'}}@endsection
 @section('author'){{'Damon Leach'}}@endsection
+<div class="mb-8 mt-10 md:mt-20 lg:mt-32 xl:mt-44 px-4 md:px-8 lg:px-16 xl:px-32">
+
+        <div class="mt-2 flex flex-col md:flex-row">
+            <div class="w-full md:w-6/12 flex justify-center flex-col">
+                <p class="text-5xl leading-tight lg:text-7xl lg:leading-tight 2xl:text-8xl 2xl:leading-tight handwriting6 flex justify-center text-center lg:text-left">Premier health coaching for midlife warriors</p>
+                <h2 class="text-lg xl:text-xl mt-4">Ditch fads, embrace sustainable wellness, and get in the best shape of your life with our premier 1-on-1 health coaching</h2>
+                <div class="w-1/2 mt-10">
+                    <a href="/coaching" class="text-sm xl:text-xl px-4 py-2 bg-secondary inline-flex items-center text-white hover:bg-primary hover:scale-105 rounded-full">Explore Coaching
+                    </a>
+                </div>
+            </div>
+            <div class="w-full md:w-1/3 mx-auto mt-6 md:mt-0 flex items-center justify-center">
+                <img class="rounded-xl" src="/images/middleage4.jpg" alt="A collage of four images: a bowl of yogurt with berries on top, a man jogging, a woman sitting on the beach drinking coffee, and a woman holding a bowl of freshly cleaned vegetables"  >
+            </div>
+        </div>
+    </div>
 <x-layout>
     <div class="relative">
         <video autoplay muted loop playsinline class="border-b border-secondary/50">

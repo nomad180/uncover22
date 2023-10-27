@@ -2,7 +2,20 @@
 @section('description'){{'Are you a midlife warrior who is ready to become fit and stay that way? If so, our premier health coaching will help you ditch fads and live a healthier life.'}}@endsection
 @section('author'){{'Damon Leach'}}@endsection
 <x-layout>
-    <div class="mb-8 mt-10 md:mt-20 lg:mt-32 xl:mt-44 px-4 md:px-8 lg:px-16 xl:px-32">
+    <div class="relative lg:-mt-12 xl:-mt-16 2xl:-mt-20 mb-6 lg:-mb-16 xl:-mb-24 2xl:-mb-32">
+        <video autoplay muted loop playsinline >
+            <source src="/images/index.mp4" type="video/mp4">
+        </video>
+        <div class="absolute inset-y-0 inset-x-4 md:inset-x-16 lg:inset-x-24 xl:inset-x-32 w-5/12 flex justify-center flex-col">
+            <h1 class="text-primary text-2xl leading-tight md:text-5xl md:leading-tight lg:text-6xl lg:leading-tight xl:text-7xl xl:leading-tight 2xl:text-8xl 2xl:leading-tight handwriting6 flex justify-center text-center lg:text-left">Premier health coaching for midlife warriors</h1>
+            <h2 class="font-bold text-xs md:text-sm lg:text-base xl:text-xl mt-4">Ditch fads, embrace sustainable wellness, and get in the best shape of your life with our premier 1-on-1 health coaching</h2>
+            <div class="mt-10">
+                    <a href="/coaching" class="text-sm xl:text-xl px-4 py-2 bg-secondary inline-flex items-center text-white hover:bg-primary hover:scale-105 rounded-full">Explore Coaching
+                    </a>
+                </div>
+        </div>
+    </div>
+    <!--<div class="mb-8 mt-10 md:mt-20 lg:mt-32 xl:mt-44 px-4 md:px-8 lg:px-16 xl:px-32">
         <div class="mt-2 flex flex-col md:flex-row">
             <div class="w-full md:w-6/12 flex justify-center flex-col">
                 <p class="text-5xl leading-tight lg:text-7xl lg:leading-tight 2xl:text-8xl 2xl:leading-tight handwriting6 flex justify-center text-center lg:text-left">Premier health coaching for midlife warriors</p>
@@ -12,11 +25,13 @@
                     </a>
                 </div>
             </div>
-            <div class="w-full md:w-1/3 mx-auto mt-6 md:mt-0 flex items-center justify-center">
-                <img class="rounded-xl" src="/images/middleage4.jpg" alt="A collage of four images: a bowl of yogurt with berries on top, a man jogging, a woman sitting on the beach drinking coffee, and a woman holding a bowl of freshly cleaned vegetables"  >
+            <div class="w-full md:w-1/2 mx-auto mt-6 md:mt-0 flex items-center justify-center">
+                <video autoplay muted loop playsinline>
+                    <source src="/images/index7.mp4" type="video/mp4">
+                </video>
             </div>
         </div>
-    </div>
+    </div>-->
     <div class="">
         <div class="px-4 md:px-8 lg:px-16 xl:px-32 mb-4 pt-0 mt-0 mb-16">
             <div class="mt-2 md:mt-10 lg:mt-16 xl:mt-24 2xl:mt-32 flex flex-col-reverse md:flex-row pages transition duration-1000 hover:border hover:border-zind-300 hover:bg-neutral-50 hover:shadow-lg hover:shadow-zinc-400 rounded-lg p-6">

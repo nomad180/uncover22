@@ -3,11 +3,14 @@
 @section('author'){{'Damon Leach'}}@endsection
 <x-layout>
     <div class="relative">
-    <img class="border-b border-secondary/50 lg:min-h-screen" src="/images/uncoveryourfitbanner24.jpg" alt="Multiple people in a pushup position on a gym floor with the text Uncover Your Fit" width="100%">
-    <div class="uncover-overlay">
-        <img src="/images/uncoveryourfit2.svg" alt="Uncover Your Fit" width="30%">
+        <video autoplay muted loop playsinline class="border-b border-zinc-300">
+            <source src="/images/aa2.mp4" type="video/mp4">
+        </video>
+        <div class="absolute inset-y-0 inset-x-4 md:inset-x-16 lg:inset-x-24 xl:inset-x-32 w-5/12 flex justify-center flex-col">
+            <h1 class="text-primary text-2xl leading-tight md:text-5xl md:leading-tight lg:text-6xl lg:leading-tight xl:text-7xl xl:leading-tight 2xl:text-8xl 2xl:leading-tight handwriting6 flex justify-center text-center lg:text-left">Experience the joy and great results of online coaching</h1><!--Regain control of your health, Unlock longevity secrets for youthful aging-->
+            <h2 class="font-bold text-xs md:text-sm lg:text-base xl:text-xl mt-4">Shed unwanted pounds, elevate your mood, stress less, and revitalize your energy through our premier 1-on-1 health coaching programs</h2>
+        </div>
     </div>
-</div>
 <div class="mb-8 px-4 md:px-8 lg:px-16 xl:px-32">
     <div>
         <h1 class="text-center text-secondary text-xl md:text-2xl lg:text-3xl xl:text-4xl mt-2">Life happens&mdash;we get it</h1>
