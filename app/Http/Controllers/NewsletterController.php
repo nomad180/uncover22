@@ -17,10 +17,10 @@ class NewsletterController extends Controller
 
         } catch (\Exception $e) {
             throw ValidationException::withMessages([
-                'email' => 'This email is already signed up for our program launch.'
+                'email' => 'This email is already signed up to receive the latest news from us.'
             ]);
         }
         return back()
-            ->with('success', 'You are now signed up to get an invitation to our program launch!');
+            ->with('success', 'You are now signed up to receive the latest news from us!');
         }
 }
