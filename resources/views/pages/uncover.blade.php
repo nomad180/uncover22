@@ -9,9 +9,9 @@
                 <h2 class="text-lg xl:text-xl mt-4">Shed unwanted pounds, elevate your mood, stress less, and revitalize your energy through our premier 1-on-1 health coaching programs</h2>
             </div>
             <div class="w-full md:w-1/2 mx-auto mt-6 md:mt-0 flex items-center justify-center">
-                <video autoplay muted loop playsinline class="lg:hidden">
-                    <source src="/images/aa2.mp4" type="video/mp4">
-                </video>
+                <div class="mx-auto mt-6 md:mt-0 flex items-center justify-center">
+                    <img class="rounded-xl" src="/images/coachingtm3.jpg" alt="A collage of five images: a person cooking samon on a grill, a man outside in the mountains, a woman drinking water in the mountains, a bowl of salad, and a man and woman making a healthy meal"  >
+                </div>
             </div>
         </div>
     </div>

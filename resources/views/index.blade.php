@@ -14,7 +14,7 @@
             </div>
             <div class="w-full md:w-1/2 mx-auto mt-6 md:mt-0 md:ml-4 flex items-center justify-center">
                 <div class="mx-auto mt-6 md:mt-0 flex items-center justify-center">
-                    <img class="rounded-xl" src="/images/middleage4.jpg" alt="A collage of four images: a bowl of yogurt with berries on top, a man jogging, a woman sitting on the beach drinking coffee, and a woman holding a bowl of freshly cleaned vegetables"  >
+                    <img class="rounded-xl" src="/images/indextm2.jpg" alt="A collage of five images: a person cooking samon on a grill, a man outside in the mountains, a woman drinking water in the mountains, a bowl of salad, and a man and woman making a healthy meal"  >
                 </div>
             </div>
         </div>
