@@ -6,7 +6,7 @@
         <div class="mt-2 flex flex-col md:flex-row">
             <div class="w-full md:w-6/12 flex justify-center flex-col md:mr-10">
                 <h1 class="text-5xl leading-tight lg:text-7xl lg:leading-tight 2xl:text-8xl 2xl:leading-tight handwriting6 flex justify-center text-center lg:text-left">Unlock Longevity Secrets for Youthful Aging</h1>
-                <h2 class="text-lg xl:text-xl mt-4">Shed unwanted pounds, elevate your mood, stress less, and revitalize your energy through our premier 1-on-1 health coaching programs</h2>
+                <h2 class="text-lg xl:text-xl mt-4">Shed unwanted pounds, elevate your mood, stress less, and revitalize your energy through our premier 1-on-1 online health coaching programs</h2>
             </div>
             <div class="w-full md:w-1/2 mx-auto mt-6 md:mt-0 flex items-center justify-center">
                 <div class="mx-auto mt-6 md:mt-0 flex items-center justify-center">
@@ -21,39 +21,26 @@
         </video>
         <div class="absolute inset-y-0 inset-x-4 md:inset-x-16 lg:inset-x-24 xl:inset-x-32 w-5/12 flex justify-center flex-col">
             <h1 class="lg:text-6xl lg:leading-tight xl:text-7xl xl:leading-tight 2xl:text-8xl 2xl:leading-tight handwriting6 flex justify-center">Unlock Longevity Secrets for Youthful Aging</h1>
-            <h2 class="lg:text-xl mt-4">Maintain a healthy weight, control stress, optimize nutrition, and revitalize your energy through our premier 1-on-1 health coaching programs</h2>
+            <h2 class="lg:text-xl mt-4 font-medium">Maintain a healthy weight, control stress, optimize nutrition, and revitalize your energy through our premier 1-on-1 online health coaching programs</h2>
         </div>
     </div>
-    <!--<div class="mb-8 mt-6 md:mt-20 lg:mt-32 xl:mt-44 px-4 md:px-8 lg:px-16 xl:px-32 lg:hidden">
-        <h1 class="text-5xl leading-tight lg:text-7xl lg:leading-tight 2xl:text-8xl 2xl:leading-tight handwriting6 flex justify-center text-center lg:text-left">Experience the joy and great results of online coaching</h1>
-        <h2 class="text-lg ml-6 mt-4">Shed unwanted pounds, improve your mood, destress, and revitalize your energy through our premier 1-on-1 health coaching programs</h2>
-    </div>
-    <div class="relative">
-        <video autoplay muted loop playsinline class="lg:border-b border-zinc-300">
-            <source src="/images/aa2.mp4" type="video/mp4">
-        </video>
-        <div class="hidden lg:flex absolute inset-y-0 inset-x-4 md:inset-x-16 lg:inset-x-24 xl:inset-x-32 w-5/12 flex justify-center flex-col">
-            <h1 class="hidden lg:flex text-primary text-xl leading-tight md:text-3xl md:leading-tight lg:text-6xl lg:leading-tight xl:text-7xl xl:leading-tight 2xl:text-8xl 2xl:leading-tight handwriting6 flex justify-center text-center lg:text-left">Experience the joy and great results of online coaching</h1><!--Regain control of your health, Unlock longevity secrets for youthful aging-
-            <h2 class="font-bold text-xs md:text-sm lg:text-base xl:text-xl mt-4">Shed unwanted pounds, improve your mood, destress, and revitalize your energy through our premier 1-on-1 health coaching programs</h2>
+    <div class="mb-8 px-4 md:px-8 lg:px-16 xl:px-32 mt-32">
+        <div>
+            <h2 class="text-5xl 2xl:text-7xl text-center handwriting6">Life happens&mdash;we get it</h2>
         </div>
-    </div>-->
-<div class="mb-8 px-4 md:px-8 lg:px-16 xl:px-32">
-    <div>
-        <h1 class="text-center text-secondary text-xl md:text-2xl lg:text-3xl xl:text-4xl mt-2">Life happens&mdash;we get it</h1>
-    </div>
-    <div class="mt-2 flex flex-col flex-col-reverse md:flex-row pages">
-        <div class="mx-auto md:w-1/2">
-            <p>When life gets crazy and responsibilities at home and work pile one on top of the other, it’s easy to let our health and fitness slip. The years go by and we don’t even realize how much our health has declined.</p>
-            <p>But for most of us, there comes a time when we realize things must change. A time when gaining control over our body takes on new urgency. For some, it’s a scary health diagnosis. For others it’s watching a loved one struggle with their own health problems. And for others still, it’s when they finally realize they’ve spent so many years taking care of others, that they neglected to take care of themselves.</p>
-            <p>When it’s time to turn things around and start a new health and fitness program, however, it can be difficult to know what to do next. And staying motivated is hard—especially if you try to do it all on your own. That’s where we come in. Our goal is to help you get in the best shape of your life and stay that way, starting now, through our Uncover Your Fit program.</p>
-        </div>
+        <div class="mt-2 flex flex-col flex-col-reverse md:flex-row pages">
+            <div class="mx-auto md:w-1/2">
+                <p>When life gets crazy and responsibilities at home and work pile one on top of the other, it’s easy to let our health and fitness slip. The years go by and we don’t even realize how much our health has declined.</p>
+                <p>But for most of us, there comes a time when we realize things must change. A time when gaining control over our body takes on new urgency. For some, it’s a scary health diagnosis. For others it’s watching a loved one struggle with their own health problems. And for others still, it’s when they finally realize they’ve spent so many years taking care of others, that they neglected to take care of themselves.</p>
+                <p>When it’s time to turn things around and start a new health and fitness program, however, it can be difficult to know what to do next. And staying motivated is hard—especially if you try to do it all on your own. That’s where we come in. Our goal is to help you get in the best shape of your life and stay that way, starting now, through our Uncover Your Fit program.</p>
+            </div>
         <div class="w-1/3 md:w-1/3 lg:w-1/4 mx-auto">
             <img class="rounded-xl" src="/images/busyfamily4.jpg" alt="A woman holding her daughter while standing next to a man seated at a table in the kitchen working on a laptop and looking at a bill"  >
         </div>
     </div>
     <div class="w-full border-b-2 border-primary mt-4"></div>
-    <h1 class="text-center text-secondary mt-2 md:mt-4">What you can expect from Uncover Your Fit:</h1>
-    <h2 class="text-center text-3xl text-secondary">12 months of personal nutrition and fitness coaching to get you into the best shape of your life</h2>
+    <h2 class="text-5xl 2xl:text-7xl text-center handwriting6">What you can expect from Uncover Your Fit:</h2>
+    <h3 class="text-center text-3xl">12 months of personal nutrition and fitness coaching to get you into the best shape of your life</h3>
     <div class="mt-2 flex flex-col md:flex-row justify-between pages">
         <div class="w-4/5 md:w-2/5 mx-auto md:mt-6">
             <img class="rounded-xl" src="/images/transformation3.jpg" alt="A healthy and fit male on the left side and a healthy and fit female on the right side">
@@ -63,8 +50,8 @@
         </div>
     </div>
     <div class="w-full border-b-2 border-primary mt-4"></div>
-    <h1 class="text-center text-secondary mt-2 md:mt-4">Is personal coaching right for you?</h1>
-    <h2 class="text-center">Uncover Your Fit's personal coaching is for you if:</h2>
+    <h2 class="text-5xl 2xl:text-7xl text-center handwriting6">Is personal coaching right for you?</h2>
+    <h3 class="text-center text-3xl">Uncover Your Fit's personal coaching is for you if:</h3>
     <div class="pages">
         <div class="flex justify-center md:mb-6 md:mt-2">
             <p class="text-center mb-2 mr-4"><img src="/images/check.svg" alt=""></p>
@@ -89,7 +76,7 @@
         </div>
     </div>
     <div class="w-full border-b-2 border-primary mt-4"></div>
-    <h1 class="text-center text-secondary mt-2 md:mt-4">How the personal coaching program works</h1>
+    <h2 class="text-5xl 2xl:text-7xl text-center handwriting6">How the personal coaching program works</h2>
     <!--<div class="md:w-3/4 lg:w-1/2 mx-auto mt-4">
         <div class="border-2 border-secondary" style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/346005621?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
     </div>-->
@@ -126,7 +113,7 @@
     <div class="w-full border-b-2 border-primary mt-4"></div>
     <div class="mt-2 flex flex-col flex-col-reverse md:flex-row justify-between">
         <div class="mx-auto md:w-1/2 pages">
-            <h1 class="text-secondary">Damon Leach, MDE, Founder of Uncover Your Fit</h1>
+            <h2 class="text-5xl 2xl:text-7xl text-center handwriting6">Damon Leach, MDE, Founder of Uncover Your Fit</h2>
             <p>Damon Leach, Master of Distance Education (MDE), is the founder of Uncover Your Fit. He has spent years in the field of online training, working for major organizations such as the Social Security Administration and the Florida's Turnpike Enterprise. Damon is also the health coach at Uncover Your Fit and holds the following certifications:</p>
             <ul class="mt-2">
                 <li>Master Health Coach, Precision Nutrition (Pn)</li>
@@ -154,7 +141,7 @@
     </div>
 
     <div class="w-full border-b-2 border-primary mt-4"></div>
-    <h1 class="text-center text-secondary mt-2 md:mt-4">Give us one year. You'll get in the best shape of your life—or your money back.</h1>
+    <h2 class="text-5xl 2xl:text-7xl text-center handwriting6">Give us one year. You'll get in the best shape of your life—or your money back.</h2>
     <div class="mt-2 flex flex-col md:flex-row justify-between pages">
         <div class="w-4/5 md:w-2/5 mx-auto md:mt-6">
             <img src="/images/guarantee.jpg" alt="100% satisfactino guaranteed or your money back">
@@ -165,7 +152,7 @@
     </div>
     <div class="w-full border-b-2 border-primary mt-4"></div>
     <div class="mb-10 pages">
-        <h1 class="text-center text-secondary mt-2 md:mt-4">Pricing</h1>
+        <h2 class="text-5xl 2xl:text-7xl text-center handwriting6">Pricing</h2>
         <p>Hiring a personal trainer can easily cost as much as $500 per month. And that’s often just for the exercise program! But when you purchase Uncover Your Fit, you’ll have the opportunity to pay <span class="font-bold"> only $997 for the entire 12 months.</span></p>
         <p>This includes:</p>
             <ul class="mt-2">
@@ -175,8 +162,8 @@
         <!--<p>We only take a small number of new clients every month, and spots are first-come, first-served.</p>-->
     </div>
     <div class="w-full border-b-2 border-primary mt-4"></div>
-    <h1 class="text-center text-secondary mt-2 md:mt-4">Final Note</h1>
-    <h2 class="text-center">Take one small step today toward getting into the best shape of your life.</h2>
+    <h2 class="text-5xl 2xl:text-7xl text-center handwriting6">Final Note</h2>
+    <h3 class="text-center text-3xl">Take one small step today toward getting into the best shape of your life.</h3>
     <div class="pages">
         <p>Maybe it’s been a while since you’ve been in shape, or felt energized throughout your entire day, or felt capable and confident enough to do what you truly want. If you’re ready to have the body you deserve and get in control of your health and fitness once and for all, we're ready to help. You’ve tried doing it alone. Now try with someone who’s ready to bring a commitment that’s as serious as your own. We’ve dedicated our professional lives to helping people transform their bodies through nutrition and fitness.</p>
          <p>As you complete our coaching program and modify your habits, you will:</p>
