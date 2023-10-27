@@ -7,7 +7,7 @@
             <source src="/images/index.mp4" type="video/mp4">
         </video>
         <div class="absolute inset-y-0 inset-x-4 md:inset-x-16 lg:inset-x-24 xl:inset-x-32 w-5/12 flex justify-center flex-col">
-            <h1 class="text-primary text-xl leading-tight md:text-5xl md:leading-tight lg:text-6xl lg:leading-tight xl:text-7xl xl:leading-tight 2xl:text-8xl 2xl:leading-tight handwriting6 flex justify-center text-center lg:text-left">Premier health coaching for midlife warriors</h1>
+            <h1 class="text-primary text-xl leading-tight md:text-3xl md:leading-tight lg:text-6xl lg:leading-tight xl:text-7xl xl:leading-tight 2xl:text-8xl 2xl:leading-tight handwriting6 flex justify-center text-center lg:text-left">Premier health coaching for midlife warriors</h1>
             <h2 class="font-bold text-xs md:text-sm lg:text-base xl:text-xl mt-4">Ditch fads, embrace sustainable wellness, and get in the best shape of your life with our premier 1-on-1 health coaching</h2>
             <div class="mt-10">
                     <a href="/coaching" class="text-sm xl:text-xl px-4 py-2 bg-secondary inline-flex items-center text-white hover:bg-primary hover:scale-105 rounded-full">Explore Coaching
