@@ -2,7 +2,7 @@
 @section('description'){{'Are you a midlife warrior who is ready to become fit and stay that way? If so, our premier health coaching will help you ditch fads and live a healthier life.'}}@endsection
 @section('author'){{'Damon Leach'}}@endsection
 <x-layout>
-    <div class="relative lg:-mt-12 xl:-mt-16 2xl:-mt-20 mb-6 lg:-mb-16 xl:-mb-24 2xl:-mb-32">
+    <div class="relative mt-6 lg:-mt-12 xl:-mt-16 2xl:-mt-20 mb-6 lg:-mb-16 xl:-mb-24 2xl:-mb-32">
         <video autoplay muted loop playsinline >
             <source src="/images/index.mp4" type="video/mp4">
         </video>
