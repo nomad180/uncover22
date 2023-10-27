@@ -15,13 +15,13 @@
             </div>
         </div>
     </div>
-    <div class="relative">
-        <video autoplay muted loop playsinline class="hidden lg:flex">
+    <div class="relative hidden lg:flex">
+        <video width="100%" height="100%" autoplay muted loop playsinline>
             <source src="/images/aa2.mp4" type="video/mp4">
         </video>
-        <div class="hidden lg:flex absolute inset-y-0 inset-x-4 md:inset-x-16 lg:inset-x-24 xl:inset-x-32 w-5/12 flex justify-center flex-col">
+        <div class="absolute inset-y-0 inset-x-4 md:inset-x-16 lg:inset-x-24 xl:inset-x-32 w-5/12 flex justify-center flex-col">
             <h1 class="lg:text-6xl lg:leading-tight xl:text-7xl xl:leading-tight 2xl:text-8xl 2xl:leading-tight handwriting6 flex justify-center">Unlock Longevity Secrets for Youthful Aging</h1>
-            <h2 class="hidden lg:flex lg:text-xl mt-4">Maintain a healthy weight, control stress, optimize nutrition, and revitalize your energy through our premier 1-on-1 health coaching programs</h2>
+            <h2 class="lg:text-xl mt-4">Maintain a healthy weight, control stress, optimize nutrition, and revitalize your energy through our premier 1-on-1 health coaching programs</h2>
         </div>
     </div>
     <!--<div class="mb-8 mt-6 md:mt-20 lg:mt-32 xl:mt-44 px-4 md:px-8 lg:px-16 xl:px-32 lg:hidden">

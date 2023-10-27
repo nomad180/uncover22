@@ -2,7 +2,7 @@
 @section('description'){{'Are you a midlife warrior who is ready to become fit and stay that way? If so, our premier health coaching will help you ditch fads and live a healthier life.'}}@endsection
 @section('author'){{'Damon Leach'}}@endsection
 <x-layout>
-    <div class="mb-8 mt-4 px-8 lg:hidden">
+     <div class="mb-8 mt-4 px-8 lg:hidden">
         <div class="mt-2 flex flex-col md:flex-row">
             <div class="w-full md:w-6/12 flex justify-center flex-col">
                 <h1 class="text-5xl leading-tight lg:text-7xl lg:leading-tight 2xl:text-8xl 2xl:leading-tight handwriting6 flex justify-center text-center lg:text-left">Premier health coaching for midlife warriors</h1>
@@ -19,13 +19,13 @@
             </div>
         </div>
     </div>
-    <div class="relative mt-6 lg:-mt-12 xl:-mt-16 2xl:-mt-20 mb-6 lg:-mb-16 xl:-mb-24 2xl:-mb-32">
-        <video autoplay muted loop playsinline class="hidden lg:flex">
+    <div class="relative mt-6 lg:-mt-12 xl:-mt-16 2xl:-mt-20 mb-6 lg:-mb-16 xl:-mb-24 2xl:-mb-32 hidden lg:flex">
+        <video width="100%" height="100%" autoplay muted loop playsinline>
             <source src="/images/indexnew.mp4" type="video/mp4">
         </video>
-        <div class="hidden lg:flex absolute inset-y-0 inset-x-4 md:inset-x-16 lg:inset-x-24 xl:inset-x-32 w-5/12 flex justify-center flex-col">
+        <div class="absolute inset-y-0 inset-x-4 md:inset-x-16 lg:inset-x-24 xl:inset-x-32 w-5/12 flex justify-center flex-col">
             <h1 class="lg:text-6xl lg:leading-tight xl:text-7xl xl:leading-tight 2xl:text-8xl 2xl:leading-tight handwriting6 flex justify-center">Premier health coaching for midlife warriors</h1>
-            <h2 class="hidden lg:flex lg:text-xl mt-4 pr-4">Ditch fads, embrace sustainable wellness, and get in the best shape of your life with our premier 1-on-1 health coaching</h2>
+            <h2 class="lg:text-xl mt-4 pr-4">Ditch fads, embrace sustainable wellness, and get in the best shape of your life with our premier 1-on-1 health coaching</h2>
             <div class="mt-10">
                 <a href="/coaching" class="text-sm xl:text-xl px-4 py-2 bg-secondary inline-flex items-center text-white hover:bg-primary hover:scale-105 rounded-full">Explore Coaching
                 </a>
