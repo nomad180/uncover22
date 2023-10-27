@@ -38,5 +38,5 @@
       gtag('config', 'G-WWFV3718FN');
     </script>
 </head>
-<body style="font-family: Open Sans, sans-serif">
+<body style="font-family: Open Sans, sans-serif;">
     <section class="w-full">

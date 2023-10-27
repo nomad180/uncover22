@@ -2,7 +2,29 @@
 @section('description'){{'Lose excess weight and uncover your fit once and for all with habit-based coaching from Uncover Your Fit.'}}@endsection
 @section('author'){{'Damon Leach'}}@endsection
 <x-layout>
-    <div class="mb-8 mt-6 md:mt-20 lg:mt-32 xl:mt-44 px-4 md:px-8 lg:px-16 xl:px-32 lg:hidden">
+    <div class="mb-8 mt-4 px-8 lg:hidden">
+        <div class="mt-2 flex flex-col md:flex-row">
+            <div class="w-full md:w-6/12 flex justify-center flex-col md:mr-10">
+                <h1 class="text-5xl leading-tight lg:text-7xl lg:leading-tight 2xl:text-8xl 2xl:leading-tight handwriting6 flex justify-center text-center lg:text-left">Unlock Longevity Secrets for Youthful Aging</h1>
+                <h2 class="text-lg xl:text-xl mt-4">Shed unwanted pounds, elevate your mood, stress less, and revitalize your energy through our premier 1-on-1 health coaching programs</h2>
+            </div>
+            <div class="w-full md:w-1/2 mx-auto mt-6 md:mt-0 flex items-center justify-center">
+                <video autoplay muted loop playsinline class="lg:hidden">
+                    <source src="/images/aa2.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+    <div class="relative">
+        <video autoplay muted loop playsinline class="hidden lg:flex">
+            <source src="/images/aa2.mp4" type="video/mp4">
+        </video>
+        <div class="hidden lg:flex absolute inset-y-0 inset-x-4 md:inset-x-16 lg:inset-x-24 xl:inset-x-32 w-5/12 flex justify-center flex-col">
+            <h1 class="lg:text-6xl lg:leading-tight xl:text-7xl xl:leading-tight 2xl:text-8xl 2xl:leading-tight handwriting6 flex justify-center">Unlock Longevity Secrets for Youthful Aging</h1>
+            <h2 class="hidden lg:flex lg:text-xl mt-4">Maintain a healthy weight, control stress, optimize nutrition, and revitalize your energy through our premier 1-on-1 health coaching programs</h2>
+        </div>
+    </div>
+    <!--<div class="mb-8 mt-6 md:mt-20 lg:mt-32 xl:mt-44 px-4 md:px-8 lg:px-16 xl:px-32 lg:hidden">
         <h1 class="text-5xl leading-tight lg:text-7xl lg:leading-tight 2xl:text-8xl 2xl:leading-tight handwriting6 flex justify-center text-center lg:text-left">Experience the joy and great results of online coaching</h1>
         <h2 class="text-lg ml-6 mt-4">Shed unwanted pounds, improve your mood, destress, and revitalize your energy through our premier 1-on-1 health coaching programs</h2>
     </div>
@@ -11,10 +33,10 @@
             <source src="/images/aa2.mp4" type="video/mp4">
         </video>
         <div class="hidden lg:flex absolute inset-y-0 inset-x-4 md:inset-x-16 lg:inset-x-24 xl:inset-x-32 w-5/12 flex justify-center flex-col">
-            <h1 class="hidden lg:flex text-primary text-xl leading-tight md:text-3xl md:leading-tight lg:text-6xl lg:leading-tight xl:text-7xl xl:leading-tight 2xl:text-8xl 2xl:leading-tight handwriting6 flex justify-center text-center lg:text-left">Experience the joy and great results of online coaching</h1><!--Regain control of your health, Unlock longevity secrets for youthful aging-->
+            <h1 class="hidden lg:flex text-primary text-xl leading-tight md:text-3xl md:leading-tight lg:text-6xl lg:leading-tight xl:text-7xl xl:leading-tight 2xl:text-8xl 2xl:leading-tight handwriting6 flex justify-center text-center lg:text-left">Experience the joy and great results of online coaching</h1><!--Regain control of your health, Unlock longevity secrets for youthful aging-
             <h2 class="font-bold text-xs md:text-sm lg:text-base xl:text-xl mt-4">Shed unwanted pounds, improve your mood, destress, and revitalize your energy through our premier 1-on-1 health coaching programs</h2>
         </div>
-    </div>
+    </div>-->
 <div class="mb-8 px-4 md:px-8 lg:px-16 xl:px-32">
     <div>
         <h1 class="text-center text-secondary text-xl md:text-2xl lg:text-3xl xl:text-4xl mt-2">Life happens&mdash;we get it</h1>

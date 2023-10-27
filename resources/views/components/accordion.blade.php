@@ -19,4 +19,3 @@ for (let i = 0; i < acc.length; i++) {
   });
 }
 </script>
-<!--Accordion end-->
