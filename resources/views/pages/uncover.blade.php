@@ -1,5 +1,5 @@
-@section('title'){{'Our Program | Uncover Your Fit'}}@endsection
-@section('description'){{'Lose excess weight and uncover your fit once and for all with habit-based coaching from Uncover Your Fit.'}}@endsection
+@section('title'){{'Premier Online Health Coaching | Uncover Your Fit'}}@endsection
+@section('description'){{'Maintain a healthy weight, control stress, optimize nutrition, and revitalize your energy with habit-based coaching from Uncover Your Fit.'}}@endsection
 @section('author'){{'Damon Leach'}}@endsection
 <x-layout>
     <div class="mb-8 mt-4 px-8 lg:hidden">
