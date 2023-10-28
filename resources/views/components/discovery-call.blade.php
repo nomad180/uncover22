@@ -1,0 +1,1 @@
+<div class="fixed text-sm xl:text-xl px-4 py-2 bg-secondary text-white hover:bg-primary hover:scale-105 focus:bg-primary rounded-full bottom-3 right-3"><a href="https://uncoveryourfit.practicebetter.io/#/653804e6810ea7f6eea2308e/bookings?s=653818f52d5e7786605d9d08" target="blank">Schedule Discovery Call</a></div>

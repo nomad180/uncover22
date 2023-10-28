@@ -179,5 +179,5 @@
         <p>This is your limited opportunity to work with the best coaching team in the industry—to look, feel, and perform better than you thought possible. We hope to have the opportunity to help you transform your body and life forever, but the next step is up to you. If you think Uncover Your Fit might be the solution you've been looking for, please take the next step to move towards a brighter future and schedule a Coaching Discovery Call.</p>
     </div>
 </div>
-<x-calendly/>
+<x-discovery-call/>
 </x-layout>

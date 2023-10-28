@@ -20,8 +20,9 @@
             <x-dropdown-link :href="route('coaching')" :active="request()->routeIs('coaching')">Coaching</x-dropdown-link>
             <x-dropdown-link :href="route('contact')" :active="request()->routeIs('contact')">Contact</x-dropdown-link>
             <x-dropdown-link :href="route('blog')" :active="request()->routeIs('blog', 'show')">Blog</x-dropdown-link>
+            <div class="text-secondary px-4 text-base hover:bg-secondary focus:bg-secondary hover:text-white focus:text-white rounded-full"><a href="https://uncoveryourfit.practicebetter.io/#/signin" target="blank">Members</a></div>
             @if (Route::has('login'))
-            <div>
+            <div class="hidden">
                 @auth
                     <x-dropdown-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">My UYF<!--Welcome, {{ Auth::user()->name }}--></x-dropdown-link>
                    <!-- <a href="{{ url('/dashboard') }}" class="text-secondary py-1 px-4 text-base hover:bg-secondary focus:bg-secondary hover:text-white focus:text-white rounded-full">Dashboard</a> -->
@@ -97,9 +98,7 @@
                         </x-responsive-nav-link>
                     </form>
                 @else
-                    <x-responsive-nav-link :href="route('login')">
-                        {{ __('Log In') }}
-                    </x-responsive-nav-link>
+                    <div class="block w-full px-4 py-2 text-left text-sm leading-5 text-secondary hover:text-white hover:bg-secondary focus:outline-none transition duration-150 ease-in-out"><a href="https://uncoveryourfit.practicebetter.io/#/signin" target="blank">Members</a></div>
 
                    <!-- @if (Route::has('register'))
                         <a href="{{ route('register') }}" class="text-secondary py-1 px-4 text-base hover:bg-secondary focus:bg-secondary hover:text-white focus:text-white rounded-full">Register</a>
