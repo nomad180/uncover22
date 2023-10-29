@@ -94,13 +94,13 @@
                         <div class="md:w-1/2 2xl:w-4/12 flex items-center justify-center">
                             <img class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary" src="/images/dailyhabits2.jpg" alt="Coffee on a table with the text daily habits">
                         </div>
-                        <div class="md:w-1/2 flex flex-col justify-center md:pl-12">
+                        <div class="md:w-1/2 md:pl-12">
                             <p>So, here's the skinny (pun intended): Your health and fitness are the offspring of your daily habits. If you've got a habit of stressing about life's curveballs, congratulations, you're becoming a stress ball yourself. Likewise, if your daily ritual includes a dance with the cookie jar and avoiding the gym like it's the plague, well, you're building a house of cards, my friend.</p>
                             <p>The secret sauce of Uncover Your Fit? It's all about habit-based health coaching. We're not into quick fixes, crash diets, or the latest fitness fads that fizzle out faster than a firecracker. Nope, we're playing the long game because we know that Rome wasn't built in a day, and neither are healthy habits.</p>
                         </div>
                     </div>
                     <div class="flex flex-col md:flex-row justify-center md:mt-4">
-                        <div class="md:w-1/2 flex flex-col justify-center md:pr-12">
+                        <div class="md:w-1/2 md:pr-12">
                             <p>Now, let's address the elephant in the room—your past attempts at change. You know the drill. You've tried everything from cabbage soup diets to 30-day boot camps, and sure, you saw some short-lived results. But then reality kicked in, and you found yourself face-first in a tub of ice cream, wondering where it all went wrong.</p>
                             <p>The problem with those quick-fix plans is that they're like sprinting in a marathon. Sure, you might cover some ground, but you'll burn out before you even reach the halfway mark. And let's not forget the disappointment when you don't see a six-pack after a few weeks of sweating bullets.</p>
                         </div>
@@ -112,7 +112,7 @@
                         <div class="md:w-1/2 2xl:w-4/12 flex items-center justify-center">
                             <img class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary" src="/images/habitsmatter.jpg" alt="Sticky notes with the text your daily routine matters">
                         </div>
-                        <div class="md:w-1/2 flex flex-col justify-center md:pl-12">
+                        <div class="md:w-1/2 md:pl-12">
                             <p>Now, here's where Uncover Your Fit stands apart. We're not here to give you a crash course; we're here to change your life. Our habit-based approach is like planting seeds. We start small, nurturing those habits until they grow into mighty oaks of change. No more crash-and-burn cycles; we're all about the slow burn that lasts a lifetime.</p>
                             <p>Every few weeks, we'll tweak your nutrition and fitness habits, like a master chef adding just the right spices to a dish. As you conquer each small habit, we'll sprinkle in new ones. It's a recipe for success that's not just delicious but sustainable. These habits won't be a part of some temporary diet or exercise routine; they'll become as natural as breathing.</p>
                             <p>So, no matter where you are on your journey, remember this—Uncover Your Fit is here to transform your habits, your health, and your life. We're not promising overnight miracles, but we are promising lasting change. The castle of your dreams is waiting, one habit at a time.</p>
