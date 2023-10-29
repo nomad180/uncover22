@@ -55,7 +55,7 @@
                             <p>So, if you're ready to ditch the one-dimensional thinking and start living your best, most optimized life, you've come to the right place. Let's embark on this journey together, and I promise, it's going to be one heck of a ride.</p>
                         </div>
                          <div class="md:w-1/2 2xl:w-1/3 flex items-center justify-center">
-                            <img class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary" src="/images/damonleach.jpg" alt="Damon Leach standing outside">
+                            <img class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary" src="/images/damonleach2.jpg" alt="Damon Leach standing outside">
                         </div>
                     </div>
                 </div>
