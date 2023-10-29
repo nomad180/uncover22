@@ -56,21 +56,21 @@
             <div class="flex md:w-1/3 mb-6 md:px-4">
                 <div class="transition duration-1000 hover:border hover:border-zind-300 hover:bg-neutral-50 hover:shadow-lg hover:shadow-zinc-400 rounded-lg pb-8 mb-10 p-4">
                     <div class="flex justify-center"><img class="rounded-full w-1/6 border border-zinc-300" src="/images/foodpyramid.jpg" alt="A food pyramid illustration" width="100%"></div>
-                    <h3 class="text-secondary text-center font-semibold">Balanced Nutrition</h3>
+                    <h3 class="text-center font-semibold">Balanced Nutrition</h3>
                     <p class="text-left">Ever felt like a tightrope walker trying to balance your diet? Health coaching can guide you to find the perfect equilibrium. It's like becoming a culinary acrobat, perfectly juggling carbs, proteins, and fats.</p>
                 </div>
             </div>
             <div class="flex md:w-1/3 mb-6 md:px-4">
                 <div class="transition duration-1000 hover:border hover:border-zinc-300 hover:bg-neutral-50 hover:shadow-lg hover:shadow-zinc-400 rounded-lg pb-8 mb-10 p-4">
                     <div class="flex justify-center"><img class="rounded-full border border-zinc-300 w-1/6" src="/images/heart.jpg" alt="A heart illustration" width="100%"></div>
-                    <h3 class="text-secondary text-center font-semibold">Improved Health Markers</h3>
+                    <h3 class="text-center font-semibold">Improved Health Markers</h3>
                     <p class="text-left">Picture your health markers as scorecards in a game. Health coaching can help improve those scores - lower blood pressure, better cholesterol, healthier weight. It's like seeing your bowling score jump from gutter balls to strikes.</p>
                 </div>
             </div>
             <div class="flex md:w-1/3 mb-6 md:px-4">
                 <div class="transition duration-1000 hover:border hover:border-zinc-300 hover:bg-neutral-50 hover:shadow-lg hover:shadow-zinc-400 rounded-lg pb-8 mb-10 p-4">
                     <div class="flex justify-center"><img class="rounded-full border border-zinc-300 w-1/6" src="/images/stressreduction2.jpg" alt="An illustration of a person sitting in a chair destressing" width="100%"></div>
-                    <h3 class="text-secondary text-center font-semibold">Stress Reduction</h3>
+                    <h3 class="text-center font-semibold">Stress Reduction</h3>
                     <p class="text-left">Ah, the Zen zone! Health coaching equips you with strategies to master stress. It's like having a personal meditation guru on speed dial, helping you find tranquility in life's chaos.</p>
                 </div>
             </div>
