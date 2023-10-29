@@ -3,7 +3,7 @@
 @section('author'){{'Damon Leach'}}@endsection
 <x-layout>
     <x-auth-card>
-       <x-contact />
+       <x-contact/>
         @if(session('message'))
           <div class="mt-6 font-semibold text-secondary">
           {{ session('message') }}

@@ -24,7 +24,7 @@
           {!! htmlFormSnippet() !!}
         </div>
       </div>
-    <x-primary-button class="mt-6">
+    <x-primary-button class="mt-6 hover:bg-primary hover:scale-105">
       {{ __('Submit') }}
     </x-primary-button>
 </form>
