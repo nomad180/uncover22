@@ -189,7 +189,7 @@
         </div>
     </div>
     <div class="px-4 md:px-8 lg:px-16 xl:px-32 mb-4 pt-0 mt-0 mb-16">
-        <div class="transition duration-1000 hover:bg-neutral-50 hover:border hover:border-zinc-300 hover:shadow-lg hover:shadow-zinc-400 rounded-lg m-10 lg:mx-40 p-6 pages">
+        <div class="m-10 lg:mx-40 p-6 pages">
             <h2 class="text-5xl leading-tight 2xl:text-7xl 2xl:leading-tight text-center handwriting6">Don't wait any longer!</h2>
             <p class="text-3xl xl:text-5xl mt-4 text-center"> Give yourself the opportunity to create the life you'll love waking up to!</p>
             <div class="flex justify-center w-full text-2xl mt-6">
