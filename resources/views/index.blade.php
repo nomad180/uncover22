@@ -34,10 +34,10 @@
     </div>
     <div>
         <div class="px-4 md:px-8 lg:px-16 xl:px-32 mb-4 pt-0 mt-0 mb-16">
-            <div class="mt-2 md:mt-10 lg:mt-16 xl:mt-24 2xl:mt-32 flex flex-col-reverse md:flex-row pages transition duration-1000 hover:border hover:border-zind-300 hover:bg-neutral-50 hover:shadow-lg hover:shadow-zinc-400 rounded-lg p-6">
+            <div class="mt-2 md:mt-10 lg:mt-16 xl:mt-24 2xl:mt-32 flex flex-col-reverse md:flex-row pages transition duration-1000 hover:border hover:border-zinc-300 hover:bg-neutral-50 hover:shadow-lg hover:shadow-zinc-400 rounded-lg p-6">
             <!--Redo this section to make it a problem/solution section: 3 paragraphs - Main pain point, agitate with examples, introduce solution PAS replace image with video-->
                 <div class="md:w-1/2 mt-6 md:mr-6 md:mt-0 flex items-center justify-center">
-                    <img class="rounded-xl shadow-lg shadow-secondary" src="/images/journey.jpg" alt="A person holding a compass">
+                    <img class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary" src="/images/journey.jpg" alt="A person holding a compass">
                 </div>
                 <div class="mx-auto md:w-1/2 pages">
                     <h2 class="text-5xl 2xl:text-7xl text-center mt-2 handwriting6">Our Philosophy</h2>
@@ -190,7 +190,8 @@
     </div>
     <div class="px-4 md:px-8 lg:px-16 xl:px-32 mb-4 pt-0 mt-0 mb-16">
         <div class="transition duration-1000 hover:bg-neutral-50 hover:border hover:border-zinc-300 hover:shadow-lg hover:shadow-zinc-400 rounded-lg m-10 lg:mx-40 p-6 pages">
-            <h2 class="text-5xl leading-tight 2xl:text-7xl 2xl:leading-tight text-center handwriting6">Don't wait any longer. Give yourself the opportunity to create the life you'll love waking up to!</h2>
+            <h2 class="text-5xl leading-tight 2xl:text-7xl 2xl:leading-tight text-center handwriting6">Don't wait any longer!</h2>
+            <p class="text-3xl xl:text-5xl mt-4 text-center"> Give yourself the opportunity to create the life you'll love waking up to!</p>
             <div class="flex justify-center w-full text-2xl mt-6">
                 <a href="/coaching" class="hover:scale-105 inline-flex items-center py-2 px-8 pb-3 bg-secondary rounded-full text-white hover:bg-primary">Explore Coaching</a>
             </div>
