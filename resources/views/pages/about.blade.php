@@ -4,7 +4,7 @@
 <x-layout>
     <div class="px-4 md:px-8 lg:px-16 xl:px-32 border-b border-zinc-300 pt-4 lg:pt-16 xl:pt-24 pb-8 md:pb-12 lg:pb-16 xl:pb-16 xl:pb-24 flex flex-col items-center bg-neutral-50">
         <h1 class="text-5xl leading-tight lg:text-7xl lg:leading-tight 2xl:text-8xl 2xl:leading-tight handwriting6 text-center">"Life is a journey you only get to make once. Let's make your journey a great one!"</h1>
-        <p class="text-2xl 2xl:text-4xl text-center mt-2 handwriting6">Damon Leach, Founder</p>
+        <p class="text-2xl 2xl:text-4xl text-center mt-2 handwriting6">Damon Leach, Founder & Head Coach</p>
     </div>
     <div class="mt-8 lg:mt-16 xl:mt-24 2xl:mt-32">
         <div class="px-4 md:px-8 lg:px-16 xl:px-32 mb-4 pt-0 mt-0 mb-16">
@@ -29,7 +29,7 @@
         <div class="px-4 md:px-8 lg:px-16 xl:px-32 mb-4 pt-0 mt-0 mb-16">
             <div class="mt-2 transition duration-1000 hover:border hover:border-zinc-300 hover:bg-neutral-50 hover:shadow-lg hover:shadow-zinc-400 rounded-lg p-6">
                 <div class="mx-auto pages">
-                    <h2 class="text-5xl 2xl:text-7xl text-center mt-2 handwriting6">Backstory</h2>
+                    <h2 class="text-5xl leading-tight 2xl:text-7xl text-center mt-2 handwriting6">Damon Leach, Founder & Head Coach</h2>
                     <div class="flex flex-col md:flex-row justify-center md:mt-24">
                         <div class="md:w-1/2 md:pr-12">
                             <p>Life is like a multifaceted diamond, with each facet representing a different aspect of our existence. Yet, as adults in the hustle and bustle of life, we often feel the pressure to focus on just one facet&#8212;usually our career. We buy into this notion that straying from that single-minded focus somehow diminishes our worth. Been there, done that. I was the guy who believed that my career was the be-all and end-all, and I clung to it for dear life, even as my health suffered in the shadows.</p>
