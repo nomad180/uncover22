@@ -11,7 +11,7 @@
             <div class="mt-2 flex flex-col md:flex-row justify-center pages transition duration-1000 hover:border hover:border-zinc-300 hover:bg-neutral-50 hover:shadow-lg hover:shadow-zinc-400 rounded-lg p-6">
                 <div class="md:w-1/2 pages md:mr-6">
                     <h2 class="text-5xl 2xl:text-7xl text-center mt-2 handwriting6">Mission</h2>
-                    <p class="font-semibold italic">We're not just coaching health; we're sculpting your future. With every step, we're your steadfast companion on the journey to unlock your true vitality.</p>
+                    <p class="font-semibold italic md:mt-8">We're not just coaching health; we're sculpting your future. With every step, we're your steadfast companion on the journey to unlock your true vitality.</p>
                     <p>We stand as your unwavering partners in forging a brighter future. We transcend the role of traditional health coaches, accompanying you on a journey to unearth your genuine vitality. Our aim is to delve deep into the essence of what health truly means for you.</p>
                     <p>This journey isn't just about avoiding illness; it's about unleashing your full potential. We're here to guide you toward boundless energy, unwavering strength, and the resilience to conquer life's challenges. Think of your future as a canvas, and we're the supportive hand helping you sculpt a life that's not just healthier but more vibrant, energetic, and fulfilling. So, together, let's paint a masterpiece of health and happiness.</p>
                 </div>
@@ -23,14 +23,14 @@
     </div>
     <div class="px-4 md:px-8 lg:px-16 xl:px-32 mb-4 pt-0 lg:mt-32 mb-16">
         <h2  class="text-5xl 2xl:text-7xl text-center mt-2 handwriting6">Vision</h2>
-        <p class="text-xl 2xl:text-3xl text-center mt-2 italic">A world where people sculpt their futures with a chisel of vitality, embracing each day with energy, resilience, and an unwavering commitment to lifelong health.</p>
+        <p class="text-xl 2xl:text-3xl text-center mt-2 italic md:mt-8">A world where people sculpt their futures with a chisel of vitality, embracing each day with energy, resilience, and an unwavering commitment to lifelong health.</p>
     </div>
     <div class="mt-8 lg:mt-16 xl:mt-24 2xl:mt-32">
         <div class="px-4 md:px-8 lg:px-16 xl:px-32 mb-4 pt-0 mt-0 mb-16">
             <div class="mt-2 transition duration-1000 hover:border hover:border-zinc-300 hover:bg-neutral-50 hover:shadow-lg hover:shadow-zinc-400 rounded-lg p-6">
                 <div class="mx-auto pages">
-                    <h2 class="text-5xl leading-tight 2xl:text-7xl text-center mt-2 handwriting6">Damon Leach, Founder & Head Coach</h2>
-                    <div class="flex flex-col md:flex-row justify-center md:mt-24">
+                    <h2 class="text-5xl leading-tight 2xl:text-7xl text-center handwriting6">Damon Leach, Founder & Head Coach</h2>
+                    <div class="flex flex-col md:flex-row justify-center md:mt-8">
                         <div class="md:w-1/2 md:pr-12">
                             <p>Life is like a multifaceted diamond, with each facet representing a different aspect of our existence. Yet, as adults in the hustle and bustle of life, we often feel the pressure to focus on just one facet&#8212;usually our career. We buy into this notion that straying from that single-minded focus somehow diminishes our worth. Been there, done that. I was the guy who believed that my career was the be-all and end-all, and I clung to it for dear life, even as my health suffered in the shadows.</p>
                             <p>You see, my friend, I'm no stranger to that struggle. I used to be overweight and out of shape, and I didn't even realize how much my well-being was taking a nosedive. But then, life decided to give me a wake-up call in the form of a serious health scare. Suddenly, I couldn't ignore the elephant on the treadmill any longer, and then it hit me like a ton of protein bars&#8212;I could excel in both my career and my personal life, and shocker, they could actually work together like peanut butter and jelly.</p>
@@ -90,7 +90,7 @@
             <div class="mt-2 transition duration-1000 hover:border hover:border-zinc-300 hover:bg-neutral-50 hover:shadow-lg hover:shadow-zinc-400 rounded-lg p-6">
                 <div class="mx-auto pages">
                     <h2 class="text-5xl 2xl:text-7xl text-center mt-2 handwriting6">Approach</h2>
-                    <div class="flex flex-col-reverse md:flex-row justify-center md:mt-24">
+                    <div class="flex flex-col-reverse md:flex-row justify-center md:mt-8">
                         <div class="md:w-1/2 2xl:w-4/12 flex items-center justify-center">
                             <img class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary" src="/images/dailyhabits2.jpg" alt="Coffee on a table with the text daily habits">
                         </div>
