@@ -114,7 +114,7 @@
                 </div>
             </div>
         </div>
-        <h2 class="mt-16 text-5xl leading-tight 2xl:text-7xl text-center handwriting6 mb-4">Value of Coaching</h2>
+        <h2 class="mt-16 2xl:mt-32 text-5xl leading-tight 2xl:text-7xl text-center handwriting6 mb-4">Value of Coaching</h2>
             <div class="md:mt-8">
                 <div class="flex mb-6 md:px-4 justify-center">
                     <div class="transition duration-1000 hover:border hover:bg-neutral-50 hover:border-zinc-300 hover:shadow-lg hover:shadow-zinc-400 hover:rounded-lg pb-8 mb-10 p-4 w-full">
