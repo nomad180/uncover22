@@ -14,7 +14,7 @@
             </div>
             <div class="w-full md:w-1/2 mx-auto mt-6 md:mt-0 md:ml-4 flex items-center justify-center">
                 <div class="mx-auto mt-6 md:mt-0 flex items-center justify-center">
-                    <img class="rounded-xl" src="/images/indextm2.jpg" alt="A collage of five images: a person cooking samon on a grill, a man outside in the mountains, a woman drinking water in the mountains, a bowl of salad, and a man and woman making a healthy meal"  >
+                    <img class="rounded-xl border-2 border-primary" src="/images/indextm2.jpg" alt="A collage of five images: a person cooking samon on a grill, a man outside in the mountains, a woman drinking water in the mountains, a bowl of salad, and a man and woman making a healthy meal"  >
                 </div>
             </div>
         </div>
@@ -198,4 +198,5 @@
         </div>
     </div>
     <x-accordion/>
+    <x-explore/>
 </x-layout>

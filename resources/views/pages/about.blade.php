@@ -33,7 +33,7 @@
                     <div class="flex flex-col md:flex-row justify-center md:mt-8">
                         <div class="md:w-1/2 md:pr-12">
                             <p>Life is like a multifaceted diamond, with each facet representing a different aspect of our existence. Yet, as adults in the hustle and bustle of life, we often feel the pressure to focus on just one facet&#8212;usually our career. We buy into this notion that straying from that single-minded focus somehow diminishes our worth. Been there, done that. I was the guy who believed that my career was the be-all and end-all, and I clung to it for dear life, even as my health suffered in the shadows.</p>
-                            <p>You see, my friend, I'm no stranger to that struggle. I used to be overweight and out of shape, and I didn't even realize how much my well-being was taking a nosedive. But then, life decided to give me a wake-up call in the form of a serious health scare. Suddenly, I couldn't ignore the elephant on the treadmill any longer, and then it hit me like a ton of protein bars&#8212;I could excel in both my career and my personal life, and shocker, they could actually work together like peanut butter and jelly.</p>
+                            <p>You see, my friend, I'm no stranger to that struggle. I used to be overweight and out of shape, and I didn't even realize how much my well-being was taking a nosedive. But then, life decided to give me a wake-up call in the form of a serious health scare. Suddenly, I couldn't ignore the elephant in the room any longer, and then it hit me like a ton of bricks&#8212;I could excel in both my career and my personal life, and shocker, they could actually work together like peanut butter and jelly.</p>
                         </div>
                         <div class="md:w-1/2 2xl:w-4/12 flex items-center justify-center">
                             <img class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary" src="/images/fat.jpg" alt="The belly of a fat man in business attire">
@@ -131,4 +131,5 @@
             </div>
         </div>
     </div>
+<x-explore/>
 </x-layout>
