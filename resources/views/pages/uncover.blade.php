@@ -162,6 +162,11 @@
                     <img class="rounded-full shadow-xl shadow-zinc-400 border-2 border-primary" src="/images/damonYT6.png" alt="Picture of Damon Leach" >
                 </div>
             </div>
+            <div class="flex flex-col md:flex-row items-center md:justify-around py-6">
+                <a class="w-3/12 md:w-2/12 lg:w-1/12 pt-4" href="https://www.acefitness.org/resources/everyone/find-ace-pro/d6x7yyy/damon-leach/" target="blank"><img  src="/images/ace.svg" alt="ACE certified logo"></a>
+                <img class="w-3/12 md:w-2/12 lg:w-1/12 pt-4" src="/images/pn1.png" alt="ACE certified logo">
+                <a class="w-3/12 md:w-2/12 lg:w-1/12 pt-4"  href="https://my.precisionnutrition.com/public_credentials/damon-leach-l2-certification?utm_source=platform&utm_medium=web&utm_campaign=copy_link_button" target="blank"><img src="/images/pn2.png" alt="ACE certified logo"></a>
+            </div>
         </div>
         <div class="transition duration-1000 hover:border hover:border-zinc-300 hover:bg-neutral-50 hover:shadow-lg hover:shadow-zinc-400 rounded-lg p-6 mt-8 lg:mt-32 pages">
             <h2 class="text-5xl 2xl:text-7xl text-center handwriting6">14-Day money back guarantee</h2>
