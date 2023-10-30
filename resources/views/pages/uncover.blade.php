@@ -94,7 +94,7 @@
                 <p class="text-center mb-2 mr-4"><img src="/images/check2.png" alt="A check icon"></p>
                 <div class="w-3/4">
                     <p class="font-bold">Easy-to-use online platform</p>
-                    <p>You’ll start by telling us all about yourself, including your goals, health challenges, and daily routine. From there, we’ll customize your entire coaching plan and start your coaching program.</p>
+                    <p>You’ll start by telling us all about yourself, including your goals, health challenges, and daily routine. From there, we’ll customize your entire coaching plan and start your 1-on-1 coaching.</p>
                 </div>
             </div>
             <div class="flex md:w-1/2 md:mb-6 flex justify-center">
@@ -115,7 +115,7 @@
                 <p class="text-center mb-2 mr-4"><img src="/images/check2.png" alt="A check icon"></p>
                 <div class="w-3/4">
                     <p class="font-bold">Personal coaching and detailed progress checking</p>
-                    <p>We’ll check in with you frequently to see how you’re doing and to answer any questions you have. Also, you can message us whenever you need. The program also tracks everything from your measurements to your habits throughout the year, so you can see just how much progress you’ve made.</p>
+                    <p>We’ll check in with you frequently to see how you’re doing and to answer any questions you have. Also, you can message us whenever you need. The online platform also tracks everything from your measurements to your habits, so you can see just how much progress you’ve made.</p>
                 </div>
             </div>
         </div>
@@ -181,14 +181,16 @@
                     <img class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary p-4" src="/images/guarantee.jpg" alt="100% satisfactino guaranteed or your money back">
                 </div>
                 <div class="mx-auto md:w-1/2">
-                    <p>If you don’t get what you’re looking for within the first two weeks, we’ll give you a full refund. You get to decide if our coaching is worth it. Why do we do this? Because we stand by our work. We know you’ll walk out healthier and happier than ever before. All you have to do is take the first step.</p>
+                    <p>If you don’t think our coaching is a good fit for you within the first two weeks, we’ll give you a full refund. You get to decide if our coaching is worth it. Why do we do this? Because we stand by our work. We know you’ll walk out healthier and happier than ever before. All you have to do is take the first step.</p>
                 </div>
             </div>
         </div>
         <h2 class="text-5xl 2xl:text-7xl text-center handwriting6 mb-8 mt-8 lg:mt-32 pages">Pricing</h2>
-        <div class="pages text-center">
-            <p>Ah, the age-old quest for health and vitality! It's like trying to find your car keys in the Bermuda Triangle sometimes.</p>
-            <p>But let's cut to the chase. We've got some coaching packages that'll put you on the highway to wellness, and they're worth every penny</p>
+        <div class="flex justify-center">
+            <div class="pages lg:w-10/12 ">
+                <p>Investing in a health coach is like buying a GPS for your health and wellness journey. We'll act as your personalized roadmap, providing expert insights and accountability. We'll also be the compass that helps you navigate the twists and turns of nutrition, exercise, and lifestyle choices, ensuring you reach your health goals more efficiently. So, consider health coaching an investment in your most valuable asset&mdash;your health&mdash;and the ultimate shortcut to success.</p>
+                <p>Schedule your Discovery Call today, so we can see if we are a good fit to work together and if so, discuss what you would like to achieve through coaching.</p>
+            </div>
         </div>
         <div class="flex flex-col md:flex-row justify-center flex-wrap mt-8">
             <div class="flex md:w-1/4 mb-6 md:px-4 justify-center">
@@ -208,6 +210,7 @@
                 </div>
             </div>
         </div>
+        <!--
         <div class="transition duration-1000 hover:border hover:border-zinc-300 hover:shadow-lg hover:bg-neutral-50 hover:shadow-zinc-400 rounded-lg p-6 lg:mt-24 pages">
             <h2 class="text-5xl 2xl:text-7xl text-center handwriting6">Final Note</h2>
             <h3 class="text-center text-3xl mt-8">Take one small step today toward getting into the best shape of your life.</h3>
@@ -215,7 +218,7 @@
                 <p>Maybe it’s been a while since you’ve been in shape, or felt energized throughout your entire day, or felt capable and confident enough to do what you truly want. If you’re ready to have the body you deserve and get in control of your health and fitness once and for all, we're ready to help. You’ve tried doing it alone. Now try with someone who’s ready to bring a commitment that’s as serious as your own. We’ve dedicated our professional lives to helping people transform their bodies through nutrition and fitness.</p>
                 <p>This is your limited opportunity to work with the best coaching team in the industry—to look, feel, and perform better than you thought possible. We hope to have the opportunity to help you transform your body and life forever, but the next step is up to you. If you think Uncover Your Fit might be the solution you've been looking for, please take the next step to move towards a brighter future and schedule a coaching Discovery Call.</p>
             </div>
-        </div>
+        </div>-->
     </div>
 <x-discovery-call/>
 <x-accordion/>
