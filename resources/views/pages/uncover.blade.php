@@ -172,7 +172,7 @@
             <h2 class="text-5xl 2xl:text-7xl text-center handwriting6">14-Day money back guarantee</h2>
             <div class="mt-2 flex flex-col md:flex-row justify-between pages mt-8">
                 <div class="w-4/5 md:w-2/5 mx-auto md:mt-6">
-                    <img src="/images/guarantee.jpg" alt="100% satisfactino guaranteed or your money back">
+                    <img class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary p-4" src="/images/guarantee.jpg" alt="100% satisfactino guaranteed or your money back">
                 </div>
                 <div class="mx-auto md:w-1/2">
                     <p>If you don’t get what you’re looking for within the first two weeks, we’ll give you a full refund. You get to decide if our coaching is worth it. Why do we do this? Because we stand by our work. We know you’ll walk out healthier and happier than ever before. All you have to do is take the first step.</p>
