@@ -49,6 +49,7 @@
                 </div>
             </div>
         </div>
+        <!--
         <h2 class="text-5xl 2xl:text-7xl text-center mt-8 lg:mt-32 handwriting6">What you can expect from Uncover Your Fit</h2>
         <h3 class="text-center text-3xl mt-8">Personal nutrition and fitness coaching to get you into the best shape of your life</h3>
         <div class="mt-2 flex flex-col md:flex-row justify-between pages">
@@ -60,7 +61,7 @@
                 <p>Instead of the all-or-nothing dieting approach, we use a sustainable, practice-based approach to build healthy habits into your life, one day at a time. The result? You’ll lose the weight (and inches) you haven’t been able to shed for years.</p>
                 <p>Whatever obstacles arise, we’ll help you overcome them by modifying your coaching and offering new solutions.</p>
             </div>
-        </div>
+        </div>-->
         <div class="transition duration-1000 hover:border hover:border-zinc-300 hover:bg-neutral-50 hover:shadow-lg hover:shadow-zinc-400 rounded-lg p-6 mt-8 lg:mt-32">
             <h2 class="text-5xl 2xl:text-7xl text-center handwriting6">Is personal coaching right for you?</h2>
             <h3 class="text-center text-3xl mt-8">Uncover Your Fit's personal coaching is for you if:</h3>
