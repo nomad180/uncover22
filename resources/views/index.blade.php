@@ -54,7 +54,7 @@
         <h2 class="mt-16 xl:mt-24 2xl:mt-32 text-5xl leading-tight 2xl:text-7xl text-center handwriting6">Benefits of Health Coaching</h2>
         <div class="flex flex-col md:flex-row flex-wrap md:mt-8">
             <div class="flex md:w-1/3 mb-6 md:px-4">
-                <div class="transition duration-1000 hover:border hover:border-zind-300 hover:bg-neutral-50 hover:shadow-lg hover:shadow-zinc-400 rounded-lg pb-8 mb-10 p-4">
+                <div class="transition duration-1000 hover:border hover:border-zinc-300 hover:bg-neutral-50 hover:shadow-lg hover:shadow-zinc-400 rounded-lg pb-8 mb-10 p-4">
                     <div class="flex justify-center"><img class="rounded-full w-1/6 border border-zinc-300" src="/images/foodpyramid.jpg" alt="A food pyramid illustration" width="100%"></div>
                     <h3 class="text-center font-semibold">Balanced Nutrition</h3>
                     <p class="text-left">Ever felt like a tightrope walker trying to balance your diet? Health coaching can guide you to find the perfect equilibrium. It's like becoming a culinary acrobat, perfectly juggling carbs, proteins, and fats.</p>
