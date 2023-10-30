@@ -33,7 +33,7 @@
             <div>
                 <h2 class="text-5xl 2xl:text-7xl text-center handwriting6">Life happens&mdash;we get it</h2>
             </div>
-            <div class="mt-2 flex flex-col md:flex-row pages justify-center mt-8">
+            <div class="flex flex-col md:flex-row pages justify-center">
                 <div class="md:w-1/2 md:mr-4">
                     <!--When life gets crazy and responsibilities at home and work pile one on top of the other, it’s easy to let our health and fitness slip. The years go by and we don’t even realize how much our health has declined.
 
@@ -44,8 +44,8 @@
                     <p>However, for most of us, there comes a time when the universe seems to shout, "Hey, it's time for a change!" It could be a daunting health diagnosis, watching someone you love grapple with their well-being, or the revelation that you've been the caregiver for so long that you've forgotten to take care of yourself.</p>
                     <p>When that "Aha!" moment strikes and you decide to embark on a fresh health journey, it can feel like wandering through a dense fog with no map, compass, or smartphone GPS. You're lost. And keeping the motivation fires roaring is hard&mdash;especially if you try to do it all on your own. That's where we come in. Our mission is to help you get in the best shape of your life and stay that way, starting now, through our premier 1-on-1 health coaching.</p>
                 </div>
-                <div class="md:w-1/3 lg:w-1/4 flex items-center justify-center">
-                    <img class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary" src="/images/busyfamily5.jpg" alt="A woman sitting on a bed and talking on the phone next to her daughter and her laptop"  >
+                <div class="md:w-1/3 md:mt-5">
+                    <img class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary" src="/images/busyfamily5.jpg" alt="A woman talking on the phone and sitting on a bed next to her daughter and her laptop"  >
                 </div>
             </div>
         </div>

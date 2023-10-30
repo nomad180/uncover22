@@ -36,7 +36,7 @@
         <div class="px-4 md:px-8 lg:px-16 xl:px-32 mb-4 pt-0 mt-0 mb-16">
             <div class="mt-2 md:mt-10 lg:mt-16 xl:mt-24 2xl:mt-32 flex flex-col-reverse md:flex-row pages transition duration-1000 hover:border hover:border-zinc-300 hover:bg-neutral-50 hover:shadow-lg hover:shadow-zinc-400 rounded-lg p-6">
             <!--Redo this section to make it a problem/solution section: 3 paragraphs - Main pain point, agitate with examples, introduce solution PAS replace image with video-->
-                <div class="md:w-1/2 mt-6 md:mr-6 md:mt-0 flex items-center justify-center">
+                <div class="md:w-1/2 mt-6 md:mr-6 ">
                     <img class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary" src="/images/journey.jpg" alt="A person holding a compass">
                 </div>
                 <div class="mx-auto md:w-1/2 pages">
