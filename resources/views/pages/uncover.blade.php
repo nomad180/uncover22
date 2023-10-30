@@ -6,7 +6,7 @@
         <div class="mt-2 flex flex-col md:flex-row">
             <div class="w-full md:w-6/12 flex justify-center flex-col md:mr-10">
                 <h1 class="text-5xl leading-tight lg:text-7xl lg:leading-tight 2xl:text-8xl 2xl:leading-tight handwriting6 flex justify-center text-center lg:text-left">Unlock Longevity Secrets for Youthful Aging</h1>
-                <h2 class="text-lg xl:text-xl mt-4">Shed unwanted pounds, elevate your mood, stress less, and revitalize your energy through our premier 1-on-1 online health coaching programs</h2>
+                <h2 class="text-lg xl:text-xl mt-4">Shed unwanted pounds, elevate your mood, stress less, and revitalize your energy through our premier 1-on-1 online health coaching</h2>
             </div>
             <div class="w-full md:w-1/2 mx-auto mt-6 md:mt-0 flex items-center justify-center">
                 <div class="mx-auto mt-6 md:mt-0 flex items-center justify-center">
@@ -21,7 +21,7 @@
         </video>
         <div class="absolute inset-y-0 inset-x-4 md:inset-x-16 lg:inset-x-24 xl:inset-x-32 w-5/12 flex justify-center flex-col">
             <h1 class="lg:text-6xl lg:leading-tight xl:text-7xl xl:leading-tight 2xl:text-8xl 2xl:leading-tight handwriting6 flex justify-center">Unlock Longevity Secrets for Youthful Aging</h1>
-            <h2 class="lg:text-xl mt-4 font-medium">Maintain a healthy weight, control stress, optimize nutrition, and revitalize your energy through our premier 1-on-1 online health coaching programs</h2>
+            <h2 class="lg:text-xl mt-4 font-medium">Maintain a healthy weight, control stress, optimize nutrition, and revitalize your energy through our premier 1-on-1 online health coaching</h2>
         </div>
     </div>
     <div class="hidden md:flex justify-center mt-8 animate-bounce">
@@ -42,7 +42,7 @@
                     When it’s time to turn things around and start a new health and fitness program, however, it can be difficult to know what to do next. And staying motivated is hard—especially if you try to do it all on your own. That’s where we come in. Our goal is to help you get in the best shape of your life and stay that way, starting now, through our Uncover Your Fit coaching packages.-->
                     <p>It's all too easy to let your health and fitness slip through the cracks as you navigate the chaos of life. Days turn into years, and suddenly, you wake up one day, realizing your health has taken a sneak vacation.</p>
                     <p>However, for most of us, there comes a time when the universe seems to shout, "Hey, it's time for a change!" It could be a daunting health diagnosis, watching someone you love grapple with their well-being, or the revelation that you've been the caregiver for so long that you've forgotten to take care of yourself.</p>
-                    <p>When that "Aha!" moment strikes and you decide to embark on a fresh health journey, it can feel like wandering through a dense fog with no map, compass, or smartphone GPS. You're lost. And keeping the motivation fires roaring is hard&mdash;especially if you try to do it all on your own. That's where we come in. Our mission is to help you get in the best shape of your life and stay that way, starting now, through our Uncover Your Fit coaching packages.</p>
+                    <p>When that "Aha!" moment strikes and you decide to embark on a fresh health journey, it can feel like wandering through a dense fog with no map, compass, or smartphone GPS. You're lost. And keeping the motivation fires roaring is hard&mdash;especially if you try to do it all on your own. That's where we come in. Our mission is to help you get in the best shape of your life and stay that way, starting now, through our premier 1-on-1 health coaching.</p>
                 </div>
                 <div class="md:w-1/3 lg:w-1/4 flex items-center justify-center">
                     <img class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary" src="/images/busyfamily5.jpg" alt="A woman sitting on a bed and talking on the phone next to her daughter and her laptop"  >
@@ -68,7 +68,7 @@
                 <div class="flex flex-row md:mb-6 flex justify-center">
                     <p class="text-center mb-2 mr-4"><img src="/images/check2.png" alt="A check icon"></p>
                     <div class="w-3/4">
-                        <p class="font-bold">You want to get healthier, fitter, and stronger—and stay that way for the rest of your life.</p>
+                        <p class="font-bold">You want to get healthier, stronger, and more fit—and stay that way for the rest of your life.</p>
                         <p>Our coaching is for people who want to lose weight and body fat, build physical strength and confidence, get results that last, and get off the diet roller coaster once and for all. We won’t give you a crazy diet or exercise program to follow; instead, we’ll help you build habits that will get you results that last forever.</p>
                     </div>
                 </div>
@@ -157,7 +157,8 @@
             <h2 class="mt-16 text-5xl leading-tight 2xl:text-7xl text-center handwriting6 mb-4">Damon Leach, Founder & Head Coach</h2>
             <div class="mt-2 flex flex-col flex-col-reverse md:flex-row justify-between">
                 <div class="mx-auto md:w-1/2 pages">
-                    <p>Life is a multifaceted diamond, with each facet symbolizing a different part of our existence. We often fixate on one facet, typically our careers, thinking that veering from it diminishes our worth. I've been there, holding onto my career for dear life while my health suffered. But a health scare awakened me, showing that we can excel in both career and personal life, with one complementing the other. I turned my life around, shedding 55 lbs and became a fitness coach, eager to share my wisdom.</p>
+                    <p>As adults, we often fixate on one facet of our lives, typically our careers, thinking that veering from it diminishes our worth. I've been there and done that, holding onto my career for dear life while my health suffered.</p>
+                    <p>But a health scare awakened me, and suddenly I realized that I could excel in both my career and personal life, with one complementing the other. As a result, I turned my life around, lost 55 lbs, and became a health and fitness coach, eager to share my wisdom.</p>
                     <p>Now, as a coach, I'm on a mission to help you achieve optimal health and well-being without flipping your life upside down. It's like discovering the cheat code to a video game—suddenly, everything becomes clearer and more attainable. Join me on this journey.</p>
                     <div class="flex justify-start mt-10">
                         <p class="inline-flex items-center py-2 px-8 pb-3 mb-4 bg-secondary rounded-full text-white text-xl hover:bg-primary hover:bg-primary hover:scale-105"><a href="about" class="text-center">Learn more about Uncover Your Fit and Damon</a></p>
