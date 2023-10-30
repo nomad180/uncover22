@@ -182,6 +182,10 @@
                                 <div class="panel">
                                     <p class="py-2">Mental and physical health are like two peas in a pod. Your coach understands this connection and can guide you toward a balanced mindset. Think of it as tending to the garden of your mind while you sculpt your body. We'll help you stay motivated, reduce stress, and boost your mental resilience.</p>
                                 </div>
+                            <li class="accordion">Why don't you have programs shorter than 90 days?</li>
+                                <div class="panel">
+                                    <p class="py-2">We're all about the long-term journey, not quick fixes. Our programs focus on building sustainable habits and lasting change because real transformation takes time. Think of it like planting a tree; you could rush it, but strong roots ensure a sturdy future. We're here for the ups and downs of your health journey. So, why not less than 90 days? Because we're in it for the long haul, just like your health should be.</p>
+                                </div>
                         </ul>
                     </div>
                 </div>
