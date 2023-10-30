@@ -155,7 +155,7 @@
                     <p>Life is a multifaceted diamond, with each facet symbolizing a different part of our existence. We often fixate on one facet, typically our careers, thinking that veering from it diminishes our worth. I've been there, holding onto my career for dear life while my health suffered. But a health scare awakened me, showing that we can excel in both career and personal life, with one complementing the other. I turned my life around, shedding 55 lbs and became a fitness coach, eager to share my wisdom.</p>
                     <p>Now, as a coach, I'm on a mission to help you achieve optimal health and well-being without flipping your life upside down. It's like discovering the cheat code to a video game—suddenly, everything becomes clearer and more attainable. Join me on this journey.</p>
                     <div class="flex justify-start mt-10">
-                        <p class="inline-flex items-center py-2 px-8 pb-3 mb-4 bg-secondary rounded-full text-white text-xl hover:bg-primary hover:bg-primary hover:scale-105"><a href="about">Learn more about Uncover Your Fit and Damon</a></p>
+                        <p class="inline-flex items-center py-2 px-8 pb-3 mb-4 bg-secondary rounded-full text-white text-xl hover:bg-primary hover:bg-primary hover:scale-105"><a href="about" class="text-center">Learn more about Uncover Your Fit and Damon</a></p>
                     </div>
                 </div>
                 <div class="w-1/3 md:w-1/3 lg:w-1/4 mx-auto mt-4">

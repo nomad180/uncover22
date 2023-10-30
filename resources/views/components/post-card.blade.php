@@ -42,7 +42,7 @@
                     </div>
                     <div class="mt-0 sm:mt-6 md:mt:6 lg:mt-0">
                         <a href="/posts/{{ $post->slug }}"
-                           class="transition-colors text-white duration-300 text-xs font-semibold bg-secondary hover:bg-primary rounded-full py-2 px-8 hover:bg-primary"
+                           class="transition-colors text-white duration-300 text-xs font-semibold bg-secondary hover:bg-primary rounded-full py-2 px-8"
                         >Read More</a>
                     </div>
                 </footer>
