@@ -45,7 +45,7 @@
                     <p>When that "Aha!" moment strikes and you decide to embark on a fresh health journey, it can feel like wandering through a dense fog with no map, compass, or smartphone GPS. You're lost. And keeping the motivation fires roaring is hard&mdash;especially if you try to do it all on your own. That's where we come in. Our mission is to help you get in the best shape of your life and stay that way, starting now, through our premier 1-on-1 health coaching.</p>
                 </div>
                 <div class="md:w-1/3 lg:w-1/4 flex items-center justify-center">
-                    <img class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary" src="/images/busyfamily5.jpg" alt="A woman sitting on a bed and talking on the phone next to her daughter and her laptop"  >
+                    <img class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary" src="/images/busyfamily2.jpg" alt="A woman sitting on a bed and talking on the phone next to her daughter and her laptop"  >
                 </div>
             </div>
         </div>
