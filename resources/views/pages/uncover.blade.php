@@ -62,96 +62,94 @@
                 <p>Whatever obstacles arise, we’ll help you overcome them by modifying your coaching and offering new solutions.</p>
             </div>
         </div>-->
-        <div class="transition duration-1000 hover:border hover:border-zinc-300 hover:bg-neutral-50 hover:shadow-lg hover:shadow-zinc-400 rounded-lg p-6 mt-8 lg:mt-32">
-            <h2 class="text-5xl 2xl:text-7xl text-center handwriting6">Is personal coaching right for you?</h2>
-            <h3 class="text-center text-3xl mt-8">Uncover Your Fit's personal coaching is for you if:</h3>
-            <div class="pages mt-8">
-                <div class="flex flex-row md:mb-6 flex justify-center">
-                    <p class="text-center mb-2 mr-4"><img src="/images/check2.png" alt="A check icon"></p>
-                    <div class="w-3/4">
-                        <p class="font-bold">You want to get healthier, stronger, and more fit—and stay that way for the rest of your life.</p>
-                        <p>Our coaching is for people who want to lose weight and body fat, build physical strength and confidence, get results that last, and get off the diet roller coaster once and for all. We won’t give you a crazy diet or exercise program to follow; instead, we’ll help you build habits that will get you results that last forever.</p>
-                    </div>
+        <h2 class="text-5xl 2xl:text-7xl text-center handwriting6 mt-8 lg:mt-32">Is personal coaching right for you?</h2>
+        <h3 class="text-center text-3xl mt-8">Uncover Your Fit's personal coaching is for you if:</h3>
+        <div class="pages mt-8">
+            <div class="flex flex-row md:mb-6 flex justify-center">
+                <p class="text-center mb-2 mr-4"><img src="/images/check2.png" alt="A check icon"></p>
+                <div class="w-3/4">
+                    <p class="font-bold">You want to get healthier, stronger, and more fit—and stay that way for the rest of your life.</p>
+                    <p>Our coaching is for people who want to lose weight and body fat, build physical strength and confidence, get results that last, and get off the diet roller coaster once and for all. We won’t give you a crazy diet or exercise program to follow; instead, we’ll help you build habits that will get you results that last forever.</p>
                 </div>
-                <div class="flex flex-row md:mb-6 flex justify-center">
-                    <p class="text-center mb-2 mr-4"><img src="/images/check2.png" alt="A check icon"></p>
-                    <div class="w-3/4">
-                        <p class="font-bold">You’re tired of “quick fix” programs and are willing to dedicate at least 3 months to getting in shape the sustainable way.</p>
-                        <p>If you’ve tried something before and “failed”—or just can’t stick with it—know that you’re not alone. And it’s not your fault. After all, self-directed training and nutrition programs fail 98% of the time. Not to mention, after many years in the fitness industry, we’ve seen dozens of diet and exercise fads come and go. That’s why we don’t follow fads. Instead, we’ll teach you doable daily actions that are designed to fit into a busy lifestyle. Bottom line: we’ll help you make fitness and nutrition a part of your life, without it taking over.</p>
-                    </div>
+            </div>
+            <div class="flex flex-row md:mb-6 flex justify-center">
+                <p class="text-center mb-2 mr-4"><img src="/images/check2.png" alt="A check icon"></p>
+                <div class="w-3/4">
+                    <p class="font-bold">You’re tired of “quick fix” programs and are willing to dedicate at least 3 months to getting in shape the sustainable way.</p>
+                    <p>If you’ve tried something before and “failed”—or just can’t stick with it—know that you’re not alone. And it’s not your fault. After all, self-directed training and nutrition programs fail 98% of the time. Not to mention, after many years in the fitness industry, we’ve seen dozens of diet and exercise fads come and go. That’s why we don’t follow fads. Instead, we’ll teach you doable daily actions that are designed to fit into a busy lifestyle. Bottom line: we’ll help you make fitness and nutrition a part of your life, without it taking over.</p>
                 </div>
-                <div class="flex flex-row md:mb-6 flex justify-center">
-                    <p class="text-center mb-2 mr-4"><img src="/images/check2.png" alt="A check icon"></p>
-                    <div class="w-3/4">
-                        <p class="font-bold">You want an expert to hold you accountable and keep you consistent.</p>
-                        <p>Nothing worth doing can be done alone. That’s why we work closely with our clients to help them eat well and exercise, no matter what other craziness is going on in their lives. You’re busy and have enough to worry about; let us take care of the fitness and nutrition details so you don’t have to.</p>
-                    </div>
+            </div>
+            <div class="flex flex-row md:mb-6 flex justify-center">
+                <p class="text-center mb-2 mr-4"><img src="/images/check2.png" alt="A check icon"></p>
+                <div class="w-3/4">
+                    <p class="font-bold">You want an expert to hold you accountable and keep you consistent.</p>
+                    <p>Nothing worth doing can be done alone. That’s why we work closely with our clients to help them eat well and exercise, no matter what other craziness is going on in their lives. You’re busy and have enough to worry about; let us take care of the fitness and nutrition details so you don’t have to.</p>
                 </div>
             </div>
         </div>
-        <h2 class="text-5xl 2xl:text-7xl text-center handwriting6 mt-8 lg:mt-32 mb-8">How personal coaching works</h2>
-        <div class="flex flex-col md:flex-row flex-wrap md:mt-4 pages">
-            <div class="flex md:w-1/2 md:mb-6 flex justify-center">
-                <p class="text-center mb-2 mr-4"><img src="/images/check2.png" alt="A check icon"></p>
-                <div class="w-3/4">
-                    <p class="font-bold">Easy-to-use online platform</p>
-                    <p>You’ll start by telling us all about yourself, including your goals, health challenges, and daily routine. From there, we’ll customize your entire coaching plan and start your 1-on-1 coaching.</p>
+        <div class="transition duration-1000 hover:border hover:border-zinc-300 hover:bg-neutral-50 hover:shadow-lg hover:shadow-zinc-400 rounded-lg p-6 mt-8 lg:mt-32">
+            <h2 class="text-5xl 2xl:text-7xl text-center handwriting6 mb-8">How personal coaching works</h2>
+            <div class="flex flex-col md:flex-row flex-wrap md:mt-4 pages">
+                <div class="flex md:w-1/2 md:mb-6 flex justify-center">
+                    <p class="text-center mb-2 mr-4"><img src="/images/check2.png" alt="A check icon"></p>
+                    <div class="w-3/4">
+                        <p class="font-bold">Easy-to-use online platform</p>
+                        <p>You’ll start by telling us all about yourself, including your goals, health challenges, and daily routine. From there, we’ll customize your entire coaching plan and start your 1-on-1 coaching.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="flex md:w-1/2 md:mb-6 flex justify-center">
-                <p class="text-center mb-2 mr-4"><img src="/images/check2.png" alt="A check icon"></p>
-                <div class="w-3/4">
-                    <p class="font-bold">Simple nutrition and fitness habits and daily check-ins</p>
-                    <p>Every day, you’ll have a nutrition and fitness habit to practice. You'll get a new habit every two weeks, with every coaching session designed to help you get results.</p>
+                <div class="flex md:w-1/2 md:mb-6 flex justify-center">
+                    <p class="text-center mb-2 mr-4"><img src="/images/check2.png" alt="A check icon"></p>
+                    <div class="w-3/4">
+                        <p class="font-bold">Simple nutrition and fitness habits and daily check-ins</p>
+                        <p>Every day, you’ll have a nutrition and fitness habit to practice. You'll get a new habit every two weeks, with every coaching session designed to help you get results.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="flex md:w-1/2  md:mb-6 flex justify-center">
-                <p class="text-center mb-2 mr-4"><img src="/images/check2.png" alt="A check icon"></p>
-                <div class="w-3/4">
-                    <p class="font-bold">Small yet powerful habits to improve everyday life</p>
-                    <p>Along with your nutrition and fitness habits, we’ll work together to create and practice healthy habits across every aspect of your life: from sleep and stress-management to movement and mindfulness. These new habits will help you feel more calm, confident, and prepared for each day—no matter what life throws at you.</p>
+                <div class="flex md:w-1/2  md:mb-6 flex justify-center">
+                    <p class="text-center mb-2 mr-4"><img src="/images/check2.png" alt="A check icon"></p>
+                    <div class="w-3/4">
+                        <p class="font-bold">Small yet powerful habits to improve everyday life</p>
+                        <p>Along with your nutrition and fitness habits, we’ll work together to create and practice healthy habits across every aspect of your life: from sleep and stress-management to movement and mindfulness. These new habits will help you feel more calm, confident, and prepared for each day—no matter what life throws at you.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="flex md:w-1/2  md:mb-6 flex justify-center">
-                <p class="text-center mb-2 mr-4"><img src="/images/check2.png" alt="A check icon"></p>
-                <div class="w-3/4">
-                    <p class="font-bold">Personal coaching and detailed progress checking</p>
-                    <p>We’ll check in with you frequently to see how you’re doing and to answer any questions you have. Also, you can message us whenever you need. The online platform also tracks everything from your measurements to your habits, so you can see just how much progress you’ve made.</p>
+                <div class="flex md:w-1/2  md:mb-6 flex justify-center">
+                    <p class="text-center mb-2 mr-4"><img src="/images/check2.png" alt="A check icon"></p>
+                    <div class="w-3/4">
+                        <p class="font-bold">Personal coaching and detailed progress checking</p>
+                        <p>We’ll check in with you frequently to see how you’re doing and to answer any questions you have. Also, you can message us whenever you need. The online platform also tracks everything from your measurements to your habits, so you can see just how much progress you’ve made.</p>
+                    </div>
                 </div>
             </div>
         </div>
         <h2 class="mt-16 2xl:mt-32 text-5xl leading-tight 2xl:text-7xl text-center handwriting6 mb-4">Value of Coaching</h2>
-            <div class="md:mt-8">
-                <div class="flex mb-6 md:px-4 justify-center">
-                    <div class="transition duration-1000 hover:border hover:bg-neutral-50 hover:border-zinc-300 hover:shadow-lg hover:shadow-zinc-400 hover:rounded-lg pb-8 mb-10 p-4 w-full">
-                        <p class="text-center mt-6">Not only is health coaching good for your mind and body, it is also good for your wallet! Six way ways health coaching can boost your financial well-being:</p>
-                        <ul>
-                            <li class="accordion mt-6">Fewer doctor visits</li>
-                                <div class="panel">
-                                    <p class="py-2">Potentially save $400 annually on co-pays and medical bills.</p>
-                                </div>
-                            <li class="accordion">Lower medication costs</li>
-                                <div class="panel">
-                                    <p class="py-2">Save up to $1,000 a year or more by reducing prescription medication expenses.</p>
-                                </div>
-                            <li class="accordion">Less sick days</li>
-                                <div class="panel">
-                                    <p class="py-2">Save around a $1,000 a year by missing fewer workdays.</p>
-                                </div>
-                            <li class="accordion">Reduced stress</li>
-                                <div class="panel">
-                                    <p class="py-2">Potentially save up to $500 on therapy or medication costs, but the true value of reduced stress is immeasurable.</p>
-                                </div>
-                            <li class="accordion">Healthier eating</li>
-                                <div class="panel">
-                                    <p class="py-2">Save $500-$1,000 a year by saying goodbye to unhealthy snacks.</p>
-                                </div>
-                            <li class="accordion">Long-term savings</li>
-                                <div class="panel">
-                                    <p class="py-2">Preventing major health issues can save you tens of thousands in medical bills over the years.</p>
-                                </div>
-                        </ul>
-                    </div>
+        <h3 class="text-center text-3xl mt-8">Six way ways health coaching can boost your financial well-being:</h3>
+            <div class="flex mb-6 md:px-4 justify-center md:mt-8">
+                <div class="transition duration-1000 hover:border hover:bg-neutral-50 hover:border-zinc-300 hover:shadow-lg hover:shadow-zinc-400 hover:rounded-lg pb-8 mb-10 p-4 w-full">
+                    <ul>
+                        <li class="accordion mt-6">Fewer doctor visits</li>
+                            <div class="panel">
+                                <p class="py-2">Potentially save $400 annually on co-pays and medical bills.</p>
+                            </div>
+                        <li class="accordion">Lower medication costs</li>
+                            <div class="panel">
+                                <p class="py-2">Save up to $1,000 a year or more by reducing prescription medication expenses.</p>
+                            </div>
+                        <li class="accordion">Less sick days</li>
+                            <div class="panel">
+                                <p class="py-2">Save around a $1,000 a year by missing fewer workdays.</p>
+                            </div>
+                        <li class="accordion">Reduced stress</li>
+                            <div class="panel">
+                                <p class="py-2">Potentially save up to $500 on therapy or medication costs, but the true value of reduced stress is immeasurable.</p>
+                            </div>
+                        <li class="accordion">Healthier eating</li>
+                            <div class="panel">
+                                <p class="py-2">Save $500-$1,000 a year by saying goodbye to unhealthy snacks.</p>
+                            </div>
+                        <li class="accordion">Long-term savings</li>
+                            <div class="panel">
+                                <p class="py-2">Preventing major health issues can save you tens of thousands in medical bills over the years.</p>
+                            </div>
+                    </ul>
                 </div>
             </div>
         <div class="mt-8 lg:mt-32">
