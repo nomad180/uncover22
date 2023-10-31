@@ -8,7 +8,7 @@
                 <h1 class="text-5xl leading-tight lg:text-7xl lg:leading-tight 2xl:text-8xl 2xl:leading-tight handwriting6 flex justify-center text-center lg:text-left">Premier health coaching for midlife warriors</h1>
                 <h2 class="text-lg xl:text-xl mt-4">Ditch fads, embrace sustainable wellness, and get in the best shape of your life with our premier 1-on-1 health coaching</h2>
                 <div class="w-1/2 mt-10">
-                    <a href="/coaching" class="text-sm xl:text-xl px-4 py-2 bg-secondary inline-flex items-center text-white hover:bg-primary rounded-full">Explore Coaching
+                    <a href="/coaching" class="text-sm xl:text-xl px-4 py-2 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center">Explore Coaching
                     </a>
                 </div>
             </div>
@@ -27,7 +27,7 @@
             <h1 class="lg:text-6xl lg:leading-tight xl:text-7xl xl:leading-tight 2xl:text-8xl 2xl:leading-tight handwriting6 flex justify-center">Premier health coaching for midlife warriors</h1>
             <h2 class="lg:text-xl mt-4 pr-4">Ditch fads, embrace sustainable wellness, and get in the best shape of your life with our premier 1-on-1 health coaching</h2>
             <div class="mt-10">
-                <a href="/coaching" class="text-sm xl:text-xl px-4 py-2 bg-secondary inline-flex items-center text-white hover:bg-primary rounded-full">Explore Coaching
+                <a href="/coaching" class="text-sm xl:text-xl px-4 py-2 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center">Explore Coaching
                 </a>
             </div>
         </div>
@@ -40,18 +40,18 @@
                     <img class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary" src="/images/journey.jpg" alt="A person holding a compass">
                 </div>
                 <div class="mx-auto md:w-1/2 pages">
-                    <h2 class="text-5xl 2xl:text-7xl text-center mt-2 handwriting6">Our Philosophy</h2>
+                    <h2 class="text-5xl 2xl:text-7xl text-center mt-2 handwriting6">Our philosophy</h2>
                     <p>Your health journey is all about the habits you build, and Uncover Your Fit is here to help you construct a healthier future, brick by brick. We're not about quick fixes but rather the enduring transformation of your life. Our approach is rooted in habit-based health coaching, where we start small, nurturing your habits until they grow into lasting change.</p>
                     <p>Say goodbye to crash-and-burn cycles; we're all about the slow, sustainable burn. So, whether you've tried countless fad diets or sprints in the marathon of health, Uncover Your Fit is here to act as your compass and guide you toward a healthier, more fulfilling life, one habit at a time.</p>
                     <div class="flex justify-center w-full text-sm">
-                        <a href="/about" class="inline-flex items-center py-2 px-8 pb-3 bg-secondary rounded-full text-white hover:bg-primary">Learn More About Us</a>
+                        <a href="/about" class="py-2 px-8 pb-3 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center">Learn More About Us</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="px-4 md:px-8 lg:px-16 xl:px-32 mb-4 pt-0 mt-0 mb-16">
-        <h2 class="mt-16 xl:mt-24 2xl:mt-32 text-5xl leading-tight 2xl:text-7xl text-center handwriting6">Benefits of Health Coaching</h2>
+        <h2 class="mt-16 xl:mt-24 2xl:mt-32 text-5xl leading-tight 2xl:text-7xl text-center handwriting6">Benefits of health coaching</h2>
         <div class="flex flex-col md:flex-row flex-wrap md:mt-8">
             <div class="flex md:w-1/3 mb-6 md:px-4">
                 <div class="transition duration-1000 hover:border hover:border-zinc-300 hover:bg-neutral-50 hover:shadow-lg hover:shadow-zinc-400 rounded-lg pb-8 mb-10 p-4">
@@ -97,7 +97,7 @@
                 </div>
             </div>
         </div>
-        <h2 class="mt-16 xl:mt-24 2xl:mt-32 text-5xl 2xl:text-7xl text-center handwriting6 mb-4">Features You'll Love</h2>
+        <h2 class="mt-16 xl:mt-24 2xl:mt-32 text-5xl 2xl:text-7xl text-center handwriting6 mb-4">Features you'll love</h2>
         <div class="flex flex-col md:flex-row flex-wrap md:mt-8">
             <div class="flex md:w-1/2 mb-6 md:px-4 justify-center">
                 <div class="transition duration-1000 hover:border hover:border-zinc-300 hover:shadow-lg hover:shadow-zinc-400 rounded-lg hover:bg-neutral-50 pb-8 mb-10 p-4 w-full">
@@ -197,7 +197,7 @@
             <h2 class="text-5xl leading-tight 2xl:text-7xl 2xl:leading-tight text-center handwriting6">Don't wait any longer!</h2>
             <p class="text-3xl xl:text-5xl mt-4 text-center"> Give yourself the opportunity to create the life you'll love waking up to!</p>
             <div class="flex justify-center w-full text-2xl mt-6">
-                <a href="/coaching" class="inline-flex items-center py-2 px-8 pb-3 bg-secondary rounded-full text-white hover:bg-primary">Explore Coaching</a>
+                <a href="/coaching" class="py-2 px-8 pb-3 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center">Explore Coaching</a>
             </div>
         </div>
     </div>

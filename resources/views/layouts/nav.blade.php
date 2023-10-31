@@ -20,7 +20,6 @@
             <x-dropdown-link :href="route('coaching')" :active="request()->routeIs('coaching')">Coaching</x-dropdown-link>
             <x-dropdown-link :href="route('contact')" :active="request()->routeIs('contact')">Contact</x-dropdown-link>
             <x-dropdown-link :href="route('blog')" :active="request()->routeIs('blog', 'show')">Blog</x-dropdown-link>
-            <div class="text-secondary px-4 text-base hover:bg-secondary focus:bg-secondary hover:text-white focus:text-white rounded-full"><a href="https://uncoveryourfit.practicebetter.io/#/signin" target="blank">Members</a></div>
             @if (Route::has('login'))
             <div class="hidden">
                 @auth
@@ -37,8 +36,8 @@
             @endif
         </menu>
         <div class="hidden lg:flex justify-end m-auto">
-            <a href="/coaching" class="text-sm xl:text-xl px-4 py-2 bg-secondary text-white hover:bg-primary focus:bg-primary rounded-full">
-                Explore Coaching
+            <a href="https://uncoveryourfit.practicebetter.io/#/signin" class="text-sm xl:text-xl px-4 py-2 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center" target="blank">
+                Member Portal
             </a>
         </div>
     </div>

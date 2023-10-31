@@ -40,7 +40,7 @@
                 </main>
             </section>
             <div class="flex justify-center">
-                <p class="inline-flex items-center py-2 px-8 pb-3 mb-4 bg-secondary rounded-full text-white text-xl hover:bg-primary"><a  href="/blog" >Back to Latest Posts</a></p>
+                <p class="inline-flex items-center py-2 px-8 pb-3 mb-4 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary rounded-full text-white text-xl"><a  href="/blog" >Back to Latest Posts</a></p>
             </div>
         </div>
         <div class="flex flex-col md:ml-4 md:w-1/6">
@@ -50,7 +50,7 @@
                         <a href="/coaching"><img src="/images/coachingtm3.jpg" class="rounded-xl border-2 border-primary" alt="A midlife woman sitting on couch having coaching session on computer"></a>
                     </div>
                     <button class="flex justify-center w-full text-base">
-                        <a href="/coaching" class="inline-flex items-center py-2 px-8 text-xs bg-secondary rounded-full text-white hover:bg-primary">Explore Coaching</a>
+                        <a href="/coaching" class="inline-flex items-center py-2 px-8 text-xs border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary rounded-full text-white">Explore Coaching</a>
                     </button>
                 </div>
                  <div>

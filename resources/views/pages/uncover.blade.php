@@ -120,7 +120,7 @@
                 </div>
             </div>
         </div>
-        <h2 class="mt-16 2xl:mt-32 text-5xl leading-tight 2xl:text-7xl text-center handwriting6 mb-4">Value of Coaching</h2>
+        <h2 class="mt-16 2xl:mt-32 text-5xl leading-tight 2xl:text-7xl text-center handwriting6 mb-4">Value of coaching</h2>
         <h3 class="text-center text-3xl mt-8">Six way ways health coaching can boost your financial well-being:</h3>
             <div class="flex mb-6 md:px-4 justify-center md:mt-8">
                 <div class="transition duration-1000 hover:border hover:bg-neutral-50 hover:border-zinc-300 hover:shadow-lg hover:shadow-zinc-400 hover:rounded-lg pb-8 mb-10 p-4 w-full">
@@ -160,7 +160,7 @@
                     <p>But a health scare awakened me, and suddenly I realized that I could excel in both my career and personal life, with one complementing the other. As a result, I turned my life around, lost 55 lbs, and became a health and fitness coach, eager to share my wisdom.</p>
                     <p>Now, as a coach, I'm on a mission to help you achieve optimal health and well-being without flipping your life upside down. It's like discovering the cheat code to a video game—suddenly, everything becomes clearer and more attainable. Join me on this journey.</p>
                     <div class="flex justify-start mt-10">
-                        <p class="inline-flex items-center py-2 px-8 pb-3 mb-4 bg-secondary rounded-full text-white text-xl hover:bg-primary"><a href="about" class="text-center">Learn more about Uncover Your Fit and Damon</a></p>
+                        <p class="inline-flex items-center py-2 px-8 pb-3 mb-4 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center text-xl"><a href="about" class="text-center">Learn more about Uncover Your Fit and Damon</a></p>
                     </div>
                 </div>
                 <div class="w-1/3 md:w-1/3 lg:w-1/4 mx-auto mt-4">
@@ -196,7 +196,7 @@
                 <div class="transition duration-1000 border border-zinc-300 hover:bg-neutral-50 shadow-lg shadow-zinc-400 rounded-lg pb-8 mb-10 p-4">
                     <h3 class="text-center font-semibold">90-Day Package</h3>
                     <p class="text-center">$3,000 USD</p>
-                    <a href="https://uncoveryourfit.practicebetter.io/#/653804e6810ea7f6eea2308e/bookings?s=653818f52d5e7786605d9d08" target="blank" class="text-sm xl:text-xl px-4 py-2 mt-2 bg-secondary inline-flex items-center text-white hover:bg-primary rounded-full text-center">Schedule Discovery Call
+                    <a href="https://uncoveryourfit.practicebetter.io/#/653804e6810ea7f6eea2308e/bookings?s=653818f52d5e7786605d9d08" target="blank" class="text-sm xl:text-xl px-4 py-2 mt-2 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center">Schedule Discovery Call
                     </a>
                 </div>
             </div>
@@ -204,7 +204,7 @@
                 <div class="transition duration-1000 border border-zinc-300 hover:bg-neutral-50 shadow-lg shadow-zinc-400 rounded-lg pb-8 mb-10 p-4">
                     <h3 class="text-center font-semibold">6-Month Package</h3>
                     <p class="text-center">$5,400 USD</p>
-                    <a href="https://uncoveryourfit.practicebetter.io/#/653804e6810ea7f6eea2308e/bookings?s=653818f52d5e7786605d9d08" target="blank" class="text-sm xl:text-xl px-4 py-2 mt-2 bg-secondary inline-flex items-center text-white hover:bg-primary rounded-full text-center">Schedule Discovery Call
+                    <a href="https://uncoveryourfit.practicebetter.io/#/653804e6810ea7f6eea2308e/bookings?s=653818f52d5e7786605d9d08" target="blank" class="text-sm xl:text-xl px-4 py-2 mt-2 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center">Schedule Discovery Call
                     </a>
                 </div>
             </div>

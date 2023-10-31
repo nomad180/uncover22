@@ -40,7 +40,7 @@
 
                 <div>
                     <a href="/posts/{{ $post->slug }}"
-                       class="transition-colors text-white duration-300 text-xs font-semibold bg-secondary hover:bg-primary rounded-full py-2 px-8"
+                       class="transition-colors text-white duration-300 text-xs font-semibold bg-secondary hover:bg-primary border-2 border-zinc-300 shadow-lg shadow-zinc-400 rounded-full py-2 px-8"
                     >Read More</a>
                 </div>
             </footer>
