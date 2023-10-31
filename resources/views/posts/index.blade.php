@@ -33,7 +33,7 @@
                          <a href="/coaching"><img src="/images/coachingtm3.jpg" class="rounded-xl border-2 border-primary" alt="A midlife woman sitting on couch having coaching session on computer"></a>
                     </div>
                     <button class="flex justify-center w-full text-base">
-                        <a href="/coaching"  class="inline-flex items-center py-2 px-8 bg-secondary rounded-full text-white hover:bg-primary text-xs hover:bg-primary hover:scale-105">Explore Coaching</a>
+                        <a href="/coaching"  class="inline-flex items-center py-2 px-8 bg-secondary rounded-full text-white hover:bg-primary text-xs">Explore Coaching</a>
                     </button>
                 </div>
                  <div>
