@@ -2,7 +2,7 @@
 @section('description'){{'We specialize in helping clients develop overall health and fitness using online habit-based health coaching.'}}@endsection
 @section('author'){{'Damon Leach'}}@endsection
 <x-layout>
-    <div class="px-4 md:px-8 lg:px-16 xl:px-32 border-b border-zinc-300 pt-4 lg:pt-16 xl:pt-24 pb-8 md:pb-12 lg:pb-16 xl:pb-16 xl:pb-24 flex flex-col items-center bg-neutral-50">
+    <div class="px-4 md:px-8 lg:px-16 xl:px-16 border-b border-zinc-300 pt-4 lg:pt-16 xl:pt-24 pb-8 md:pb-12 lg:pb-16 xl:pb-16 xl:pb-24 flex flex-col items-center bg-neutral-50">
         <h1 class="text-5xl leading-tight lg:text-7xl lg:leading-tight 2xl:text-8xl 2xl:leading-tight handwriting6 text-center">"Life is a journey you only get to make once. Let's make your journey a great one!"</h1>
         <p class="text-2xl 2xl:text-4xl text-center mt-2 handwriting6">Damon Leach, Founder & Head Coach</p>
     </div>
