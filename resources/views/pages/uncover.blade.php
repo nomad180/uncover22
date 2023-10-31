@@ -171,7 +171,7 @@
                 </div>
             </div>
         <div class="transition duration-1000 hover:border hover:border-zinc-300 hover:bg-neutral-50 hover:shadow-lg hover:shadow-zinc-400 rounded-lg p-6 mt-8 lg:mt-32 pages">
-            <h2 class="text-5xl 2xl:text-7xl text-center handwriting6">14-Day money back guarantee</h2>
+            <h2 class="text-5xl 2xl:text-7xl text-center handwriting6">Money back guarantee</h2>
             <div class="mt-2 flex flex-col md:flex-row justify-between pages mt-8">
                 <div class="w-4/5 md:w-2/5 mx-auto md:mt-6">
                     <img class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary p-4" src="/images/guarantee.jpg" alt="100% satisfactino guaranteed or your money back">
