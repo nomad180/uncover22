@@ -32,7 +32,7 @@
                     </p>
                 </div>-->
 
-                <footer class="flex justify-between md:flex-col xl:flex-row mt-8">
+                <footer class="flex justify-between md:flex-col xl:flex-row justify-between mt-8">
                     <div class="flex text-sm">
                         <div>
                             <h5 class="font-semibold">By
