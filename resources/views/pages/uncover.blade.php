@@ -120,38 +120,6 @@
                 </div>
             </div>
         </div>
-        <h2 class="mt-16 2xl:mt-32 text-5xl leading-tight 2xl:text-7xl text-center handwriting6 mb-4">Value of coaching</h2>
-        <h3 class="text-center text-3xl mt-8">Six way ways health coaching can boost your financial well-being:</h3>
-            <div class="flex mb-6 md:px-4 justify-center md:mt-8">
-                <div class="transition duration-1000 hover:border hover:bg-neutral-50 hover:border-zinc-300 hover:shadow-lg hover:shadow-zinc-400 hover:rounded-lg pb-8 mb-10 p-4 w-full">
-                    <ul>
-                        <li class="accordion mt-6">Fewer doctor visits</li>
-                            <div class="panel">
-                                <p class="py-2">Potentially save $400 annually on co-pays and medical bills.</p>
-                            </div>
-                        <li class="accordion">Lower medication costs</li>
-                            <div class="panel">
-                                <p class="py-2">Save up to $1,000 a year or more by reducing prescription medication expenses.</p>
-                            </div>
-                        <li class="accordion">Less sick days</li>
-                            <div class="panel">
-                                <p class="py-2">Save around a $1,000 a year by missing fewer workdays.</p>
-                            </div>
-                        <li class="accordion">Reduced stress</li>
-                            <div class="panel">
-                                <p class="py-2">Potentially save up to $500 on therapy or medication costs, but the true value of reduced stress is immeasurable.</p>
-                            </div>
-                        <li class="accordion">Healthier eating</li>
-                            <div class="panel">
-                                <p class="py-2">Save $500-$1,000 a year by saying goodbye to unhealthy snacks.</p>
-                            </div>
-                        <li class="accordion">Long-term savings</li>
-                            <div class="panel">
-                                <p class="py-2">Preventing major health issues can save you tens of thousands in medical bills over the years.</p>
-                            </div>
-                    </ul>
-                </div>
-            </div>
         <div class="mt-8 lg:mt-32">
             <h2 class="mt-16 text-5xl leading-tight 2xl:text-7xl text-center handwriting6 mb-4">Damon Leach, Founder & Head Coach</h2>
             <div class="mt-2 flex flex-col flex-col-reverse md:flex-row justify-between">
@@ -173,6 +141,35 @@
                 <a class="w-3/12 md:w-2/12 lg:w-1/12 pt-4"  href="https://my.precisionnutrition.com/public_credentials/damon-leach-l2-certification?utm_source=platform&utm_medium=web&utm_campaign=copy_link_button" target="blank"><img src="/images/pn2.png" alt="ACE certified logo"></a>
             </div>
         </div>
+        <h2 class="mt-16 2xl:mt-32 text-5xl leading-tight 2xl:text-7xl text-center handwriting6 mb-4">Value of coaching</h2>
+        <h3 class="text-center text-3xl mt-8">Five ways health coaching can boost your financial well-being:</h3>
+            <div class="flex mb-6 md:px-4 justify-center md:mt-8">
+                <div class="transition duration-1000 hover:border hover:bg-neutral-50 hover:border-zinc-300 hover:shadow-lg hover:shadow-zinc-400 hover:rounded-lg pb-8 mb-10 p-4 w-full">
+                    <ul>
+                        <li class="accordion mt-6">Fewer doctor visits</li>
+                            <div class="panel">
+                                <p class="py-2">The average doctor visit costs approximately $25 for insured Americans, and the average unhealthy American goes to the doctor around 12 times a year for a total cost of $300. On the other hand, healthy Americans average around 4 trips to the doctor each year for a total cost of $100 or $200 less than their unhealthy counterparts.</p>
+                            </div>
+                        <li class="accordion">Lower medication costs</li>
+                            <div class="panel">
+                                <p class="py-2">Many healthy people don't take any medication at all. However, most unhealthy people do. Depending on the medications, unhealthy people can end up spending up to $1,000 a year or more on their prescription medication expenses.</p>
+                            </div>
+                        <li class="accordion">Healthier eating</li>
+                            <div class="panel">
+                                <p class="py-2">According to Rutgers University, eating smaller meals and less junk food in combination with eating more meals at home saves the average person around $40/week or $2,080/year.</p>
+                            </div>
+                        <li class="accordion">Reduced insurance costs</li>
+                            <div class="panel">
+                                <p class="py-2">For obvious reasons, healthy people pay less for health and life insurance than their unhealthy counterparts. On average healthy people pay in between $50-$100 less per month in insurance premium, leading to an annual savings of between $600-$1,200.</p>
+                            </div>
+                        <li class="accordion">Long-term savings</li>
+                            <div class="panel">
+                                <p class="py-2">The Centers for Disease Control estimates that a 10% weight loss could reduce an overweight person's lifetime medical costs by $2,200 to $5,300. In addition, delaying or preventing the onset of chronic diseases such as diabetes and heart disease can save thousands of dollars annually.</p>
+                            </div>
+                    </ul>
+                    <p class="mt-8 mx-4">Just changing your overall eating habits could save you $2,000 a year on food. At the same time, if you add up all the savings above, you could potentially end up saving $3,000-$5,000+ per year by adopting a healthy lifestyle. Still think there isn't value in health coaching?</p>
+                </div>
+            </div>
         <div class="transition duration-1000 hover:border hover:border-zinc-300 hover:bg-neutral-50 hover:shadow-lg hover:shadow-zinc-400 rounded-lg p-6 mt-8 lg:mt-32 pages">
             <h2 class="text-5xl 2xl:text-7xl text-center handwriting6">14-Day money back guarantee</h2>
             <div class="mt-2 flex flex-col md:flex-row justify-between pages mt-8">
