@@ -2,7 +2,7 @@
 @section('description'){{'Uncover Your Fit provides the Uncover Your Fit website to you, the user, subject to your compliance with our Terms of Use.'}}@endsection
 @section('author'){{'Damon Leach'}}@endsection
 <x-layout>
-    <div class="px-4 py-4 md:px-8 lg:px-16 xl:px-32">
+    <div class="px-4 py-4 md:px-8 lg:px-16 xl:px-32 pages">
         <h1>Terms of Use</h1>
             <h2>Effective January 1, 2023</h2>
             <h2>TERMS OF USE AGREEMENT</h2>
@@ -13,7 +13,7 @@
             <h2 class="mt-2">USER REPRESENTATIONS </h2>
                 <h3>Regarding Content You Provide </h3>
                     <p>The Website may invite you to chat or participate in blogs, message boards, online forums and other functionality and may provide you with the opportunity to create, submit, post, display, transmit, perform, publish, distribute or broadcast content and materials to Company and/or to or via the Website, including, without limitation, text, writings, video, audio, photographs, graphics, comments, suggestions or personally identifiable information or other material (collectively "Contributions"). Any Contributions you transmit to Company will be treated as non-confidential and non-proprietary. When you create or make available a Contribution, you thereby represent and warrant that:
-                        <ol class="mt-2" type="A">
+                        <ol class="mt-6 ml-10 list-decimal">
                             <li>The creation, distribution, transmission, public display and performance, accessing, downloading and copying of your Contribution does not and will not infringe the proprietary rights, including but not limited to the copyright, patent, trademark, trade secret or moral rights of any third party;</li>
                             <li>You are the creator and owner of or have the necessary licenses, rights, consents, releases and permissions to use and to authorize Company and the Website users to use your Contributions as necessary to exercise the licenses granted by you under this Agreement;</li>
                              <li>You have the written consent, release, and/or permission of each and every identifiable individual person in the Contribution to use the name or likeness of each and every such identifiable individual person to enable inclusion and use of the Contribution in the manner contemplated by this Website;</li>
@@ -36,7 +36,7 @@
                 <p>You acknowledge and agree that any questions, comments, suggestions, ideas, feedback or other information about the Website or the Company Services ("Submissions") provided by you to Company are non-confidential and Company (as well as any designee of Company) shall be entitled to the unrestricted use and dissemination of these Submissions for any purpose, commercial or otherwise, without acknowledgment or compensation to you. </p>
             <h2 class="mt-2">PROHIBITED ACTIVITIES </h2>
                 <p>You may not access or use the Website for any other purpose other than that for which Company makes it available. The Website may not be used in connection with any commercial endeavors except those that are specifically endorsed or approved by Company. Prohibited activity includes, but is not limited to:
-                    <ol class="mt-2" type="A">
+                    <ol class="mt-6 list-decimal ml-10" type="A">
                         <li>Attempting to bypass any measures of the Website designed to prevent or restrict access to the Website, or any portion of the Website</li>
                         <li>Attempting to impersonate another user or person or using the username of another user</li>
                         <li>Criminal or tortious activity</li>
@@ -61,7 +61,7 @@
                 <p>The Website contains (or you may be sent through the Website or the Company Services) links to other websites ("Third Party Websites") as well as articles, photographs, text, graphics, pictures, designs, music, sound, video, information, applications, software and other content or items belonging to or originating from third parties (the "Third Party Content"). Such Third Party Websites and Third Party Content are not investigated, monitored or checked for accuracy, appropriateness, or completeness by us, and we are not responsible for any Third Party Websites accessed through the Website or any Third Party Content posted on, available through or installed from the Website, including the content, accuracy, offensiveness, opinions, reliability, privacy practices or other policies of or contained in the Third Party Websites or the Third Party Content. Inclusion of, linking to or permitting the use or installation of any Third Party Website or any Third Party Content does not imply approval or endorsement thereof by us. If you decide to leave the Website and access the Third Party Websites or to use or install any Third Party Content, you do so at your own risk and you should be aware that our terms and policies no longer govern. You should review the applicable terms and policies, including privacy and data gathering practices, of any website to which you navigate from the Website or relating to any applications you use or install from the Website. Any purchases you make through Third Party Websites will be through other websites and from other companies, and Company takes no responsibility whatsoever in relation to such purchases which are exclusively between you and the applicable third party. </p>
             <h2 class="mt-2">SITE MANAGEMENT </h2>
                 <p>Company reserves the right but does not have the obligation to:
-                    <ol class="mt-2" type="A">
+                    <ol class="mt-6 list-decimal ml-10" type="A">
                         <li>Monitor the Website for violations of this Agreement</li>
                         <li>Take appropriate legal action against anyone who, in Company’s sole discretion, violates this Agreement, including without limitation, reporting such user to law enforcement authorities</li>
                         <li>In Company’s sole discretion and without limitation, refuse, restrict access to or availability of, or disable (to the extent technologically feasible) any user’s contribution or any portion thereof that may violate this Agreement or any Company policy</li>
@@ -75,7 +75,7 @@
                 <h3>Notifications </h3>
                     <p>If you believe that content available on or through our Website infringes one or more of your copyrights, please immediately notify our Designated Copyright Agent by mail (“Notification”) providing the information described below, which Notification is pursuant to DMCA 17 U.S.C. § 512(c)(3). A copy of your Notification will be sent to the person who posted or stored the material addressed in the Notification. Please be advised that pursuant to federal law you may be held liable for damages if you make material misrepresentations in a Notification. Thus, if you are not sure that content located on or linked to by our Website infringes your copyright, you should consider first contacting an attorney. Our Website has a policy of terminating repeat infringers in appropriate circumstances. </p>
                     <p>All Notifications should include the following:
-                        <ol class="mt-2" type="A">
+                        <ol class="mt-6 ml-10 list-decimal mb-6" type="A">
                             <li>A physical or electronic signature of a person authorized to act on behalf of the owner of an exclusive right that is allegedly infringed</li>
                             <li>Identification of the copyrighted work claimed to have been infringed, or, if multiple copyrighted works at a single online website are covered by a single notification, a representative list of such works at that website</li>
                             <li>Identification of the material that is claimed to be infringing or to be the subject of infringing activity and that is to be removed or access to which is to be disabled, and information reasonably sufficient to permit us to locate the material</li>
@@ -96,7 +96,7 @@
                     <p >We also will advise the alleged infringer of the DMCA statutory Counter Notification procedure described below by which the alleged infringer may respond to your claim and request that we restore this material. </p>
                 <h3>Counter Notification </h3>
                     <p>If you believe your own copyrighted material has been removed from our Website and/or our service as a result of mistake or misidentification, you may submit a written counter notification (“Counter Notification”) to our Designated Copyright Agent pursuant to DMCA 17 U.S.C. § 512(g)(2) and (3). To be an effective Counter Notification under the DMCA, your Counter Notification must include substantially the following:
-                        <ol class="mt-2" type="A">
+                        <ol class="mt-6 ml-10 list-decimal mb-6" type="A">
                             <li>Identification of the material that has been removed or disabled and the location at which the material appeared before it was removed or disabled</li>
                             <li>A statement that you consent to the jurisdiction of the Federal District Court in which your address is located, or if your address is outside the United States, for any judicial district in which our Company is located</li>
                             <li>A statement that you will accept service of process from the party that filed the Notification or the party's agent</li>
@@ -151,7 +151,7 @@
             <h2 class="mt-2">MISCELLANEOUS </h2>
                 <p>This Agreement constitutes the entire agreement between you and Company regarding the use of the Company Services. The failure of Company to exercise or enforce any right or provision of this Agreement shall not operate as a waiver of such right or provision. The section titles in this Agreement are for convenience only and have no legal or contractual effect. This Agreement operates to the fullest extent permissible by law. This Agreement and your account may not be assigned by you without our express written consent. Company may assign any or all of its rights and obligations to others at any time. Company shall not be responsible or liable for any loss, damage, delay or failure to act caused by any cause beyond Company's reasonable control. If any provision or part of a provision of this Agreement is unlawful, void or unenforceable, that provision or part of the provision is deemed severable from this Agreement and does not affect the validity and enforceability of any remaining provisions. There is no joint venture, partnership, employment or agency relationship created between you and Company as a result of this Agreement or use of the Website and Company Services. Upon Company’s request, you will furnish Company any documentation, substantiation or releases necessary to verify your compliance with this Agreement. You agree that this Agreement will not be construed against Company by virtue of having drafted them. You hereby waive any and all defenses you may have based on the electronic form of this Agreement and the lack of signing by the parties hereto to execute this Agreement. </p>
             <h2 class="mt-2">CONTACT</h2>
-                <p>In order to resolve a complaint regarding the Company Services or to receive further information regarding use of the Company Services, please contact Company as set forth below or, if any complaint with us is not satisfactorily resolved, and you are a California resident, you can contact the Complaint Assistance Unit of the Division of Consumer Services of the Department of Consumer Affairs in writing at 400 "R" Street, Sacramento, California 95814 or by telephone at 1-916-445-1254. </p>
+                <p>In order to resolve a complaint regarding the Company Services or to receive further information regarding use of the Company Services, please contact Company as set forth below or, if any complaint with us is not satisfactorily resolved, and you are a California resident, you can contact the Complaint Assistance Unit of the Division of Consumer Services of the Department of Consumer Affairs in writing at 400 "R" Street, Sacramento, California 95814 or by telephone at 1-916-445-1254.</p>
                 <p>Contact us in writing at:
                     <br />
                     <br />Uncover Your Fit

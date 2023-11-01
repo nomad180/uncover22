@@ -2,7 +2,7 @@
 @section('description'){{'Our privacy policy applies to the data collected about you, the user, by Uncover Your Fit through the Uncover Your Fit website.'}}@endsection
 @section('author'){{'Damon Leach'}}@endsection
 <x-layout>
-    <div class="px-4 py-4 md:px-8 lg:px-16 xl:px-32">
+    <div class="px-4 py-4 md:px-8 lg:px-16 xl:px-32 pages">
         <h1>Privacy Policy</h1>
             <h2>Effective January 1, 2023</h2>
             <h2>GENERAL</h2>
