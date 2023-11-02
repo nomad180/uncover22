@@ -97,7 +97,7 @@
                                 </div>
                             </div>
                             <div class="md:w-1/2 md:m1-4">
-                                <p>Your Body Mass Index (BMI) is <span class="font-semibold">{{  $bmi }}</span> and your ideal weight is is estimated to be <span class="font-semibold">{{  $idealWeight }} lbs</span> based on the J.D. Robinson Formula. You can see where your BMI ranks you in the table below. Both your BMI and ideal weight are based on your height and weight and represent averages, so don't take them too seriously, especially if you lift weights.</p>
+                                <p>Your Body Mass Index (BMI) is <span class="font-semibold">{{  $bmi }}</span> and your ideal weight is estimated to be <span class="font-semibold">{{  $idealWeight }} lbs</span> based on the J.D. Robinson Formula. You can see where your BMI ranks you in the table below. Both your BMI and ideal weight are based on your height and weight and represent averages, so don't take them too seriously, especially if you lift weights.</p>
                                 <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">18.5 or less - Underweight</p>
                                 <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">18.5 - 24.99 - Normal Weight</p>
                                 <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">25- 29.99 - Overweight</p>

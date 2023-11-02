@@ -17,10 +17,6 @@ class PageController extends Controller
     {
         return view('pages.about');
     }
-    public function damon()
-    {
-        return view('pages.damon');
-    }
     public function uncover()
     {
         return view('pages.uncover');
