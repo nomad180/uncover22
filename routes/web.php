@@ -8,6 +8,7 @@ use App\Http\Controllers\PostCommentsController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\SitemapController;
+use App\Http\Controllers\TdeeController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -32,6 +33,10 @@ Route::get('/damon', [PageController::class, 'damon'])->name('damon');
 Route::get('/coaching', [PageController::class, 'uncover'])->name('coaching');
 Route::get('/privacy', [PageController::class, 'privacy'])->name('privacy');
 Route::get('/terms', [PageController::class, 'terms'])->name('terms');
+
+//TDEE
+Route::get('/tdee', [TdeeController::class, 'index'])->name('tdee');
+Route::post('/tdee', [TdeeController::class, 'calculateTdee'])->name('tdeeresult');
 
 //Contact
 Route::get('/contact', [ContactController::class, 'contact'])->name('contact');

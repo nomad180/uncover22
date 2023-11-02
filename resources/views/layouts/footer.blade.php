@@ -25,6 +25,7 @@
             <a href="https://twitter.com/uncoveryourfit" class="w-14 flex text-center px-2" target="blank"><img src="/images/twitterx.png" alt="X icon" icon" ></a>
         </div>
         <div>&copy; <?php echo date("Y") ?> Uncover Your Fit</div>
+        <div><a href="/tdee">TDEE Calculator</a></div>
         <div><a href="/privacy">Privacy Policy</a></div>
         <div><a href="/terms">Terms of Use</a></div>
     </div>

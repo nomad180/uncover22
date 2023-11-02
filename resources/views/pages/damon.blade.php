@@ -2,6 +2,132 @@
 @section('description'){{'As a coach, I am passionate about helping others achieve optimal health and well-being without major disruptions to their lives.'}}@endsection
 @section('author'){{'Damon Leach'}}@endsection
 <x-layout>
+<h1>TDEE Calculator</h1>
+
+    <form method="POST" action="/tdee">
+        @csrf
+        <label for="weight">Weight (lbs):</label>
+        <input type="number" name="weight" id="weight" required><br>
+
+        <label for="height">Height (inches):</label>
+        <input type="number" name="height" id="height" required><br>
+
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age" required><br>
+
+        <label for="gender">Gender:</label>
+        <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select><br>
+
+        <label for="activity_level">Activity Level:</label>
+        <select name="activity_level" id="activity_level">
+            <option value="sedentary">Sedentary</option>
+            <option value="lightly_active">Lightly Active</option>
+            <option value="moderately_active">Moderately Active</option>
+            <option value="very_active">Very Active</option>
+            <option value="super_active">Super Active</option>
+        </select><br>
+
+        <button type="submit">Calculate TDEE</button>
+    </form>
+
+    @if(isset($tdee))
+    <h2>Your Total Daily Energy Expenditure (TDEE) is: {{ $tdee }} calories per day</h2>
+@endif
+
+<div class="relative">
+        <div class="border-b border-zinc-300"><img src="/images/tdee4.jpg" alt="Picture of Damon Leach with the text life is a journey you only get to make once. Let's make your journey a great one." width="100%"></div>
+        <div class="absolute inset-y-0 inset-x-8 md:inset-x-10 lg:inset-x-12 xl:inset-x-14 2xl:inset-x-16 w-11/12 flex justify-center flex-col">
+            <h1 class="text-3xl leading-tight md:text-5xl md:leading-tight lg:text-6xl lg:leading-tight xl:text-7xl xl:leading-tight 2xl:text-8xl 2xl:leading-tight handwriting6 flex justify-center text-white text-center">TDEE Calculator</h1>
+            <h2 class="lg:text-xl font-medium text-white text-center">Learn how many calories you burn every day with our Total Daily Energy Expenditure (TDEE) calculator</h2>
+        </div>
+    </div>
+    <div class="mb-8 px-4 md:px-8 lg:px-16 xl:px-32 mt-8">
+        <div class="transition duration-1000 hover:border hover:border-zinc-300 hover:bg-neutral-50 hover:shadow-lg hover:shadow-zinc-400 rounded-lg p-6">
+            <div>
+                <h2 class="text-5xl 2xl:text-7xl text-center handwriting6">What's your TDEE?</h2>
+            </div>
+            <div class="flex flex-col md:flex-row pages justify-center">
+                <div class="md:w-1/2 md:mr-4 mt-8">
+                    <p>Your Total Daily Energy Expenditure (TDEE) is like a recipe with two essential ingredients: your Basal Metabolic Rate (BMR) and an activity multiplier.</p>
+                    <p>Think of your BMR as the energy your body expends while lounging on the couch, watching Netflix. But life isn't just couch time, right? So, we need to sprinkle in some extra calories to account for your daily activities, even if you're not doing extreme sports.</p>
+                    <p>Our TDEE calculator is like a master chef. It combines the finest formulas to give you a TDEE that's not just a number but a clear, meaningful insight into your daily calorie needs.</p>
+                </div>
+                <div class="md:w-1/3 md:mt-5">
+                    <form method="POST" action="/tdee" id="tdee">
+                        @csrf
+                        <label for="gender">Gender:</label>
+                        <select name="gender" id="gender" required value="{{ old('gender') }}">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select><br>
+
+                        <label for="age">Age:</label>
+                        <input type="number" name="age" id="age" required value="{{ old('age') }}"><br>
+
+                        <label for="weight">Weight:</label>
+                        <input placeholder="lbs" type="number" name="weight" id="weight" required value="{{ old('weight') }}"><br>
+
+                        <label for="height">Height:</label>
+                        <div class="custom-select">
+                            <select name="height" required>
+                                @for ($feet = 4; $feet <= 7; $feet++)
+                                    @for ($inches = 0; $inches <= 11; $inches++)
+                                        <option value="{{ $feet * 12 + $inches }}" {{ old('height', 69) == ($feet * 12 + $inches) ? 'selected' : '' }}>
+                                            {{ $feet }} feet {{ $inches }} inches
+                                        </option>
+                                    @endfor
+                                @endfor
+                            </select>
+                        </div><br>
+
+                        <label for="activity_level">Activity Level:</label>
+                        <select name="activity_level" id="activity_level" required value="{{ old('activity_level') }}">
+                            <option value="sedentary">Sedentary (Office Job)</option>
+                            <option value="lightly_active">Light Exercise (1-2 Days/Week)</option>
+                            <option value="moderately_active">Moderate Exercise (3-5 Days/Week)</option>
+                            <option value="very_active">Heavy Exercise (6-7) Days/Week)</option>
+                            <option value="super_active">Athlete (2x/Day)</option>
+                        </select><br>
+
+                        <button type="submit" class="text-sm xl:text-xl px-4 py-2 mt-2 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center">Calculate TDEE</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="response">
+            @if(isset($tdee))
+                <h3>Your Total Daily Energy Expenditure (TDEE) is:</h3>
+                <p>{{ $tdee }} calories per day</p>
+            @endif
+        </div>
+    </div>
+<script>
+    document.querySelector('form').addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        // Your form submission logic here (e.g., sending the form data using AJAX)
+
+        // Scroll to the "response" div
+        document.querySelector('#response').scrollIntoView({ behavior: 'smooth' });
+    });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <div class="border-b border-secondary lg:mt-16 xl:mt-20 2xl:mt-24"><img src="/images/damon24.jpg" alt="Picture of Damon Leach with the text life is a journey you only get to make once. Let's make your journey a great one." width="100%"></div>
     <div class="px-4 mt-4 md:px-8 lg:px-16 xl:px-32">
         <div class="flex pt-2">

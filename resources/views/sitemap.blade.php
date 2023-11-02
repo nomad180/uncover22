@@ -15,7 +15,7 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://uncoveryourfit.com/damon</loc>
+  <loc>https://uncoveryourfit.com/tdee</loc>
   <lastmod>2023-10-22T00:37:22+00:00</lastmod>
   <priority>0.64</priority>
 </url>

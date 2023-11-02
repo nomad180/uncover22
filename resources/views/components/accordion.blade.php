@@ -1,21 +1,24 @@
 <!--Accordion begin-->
 <script>
-var acc = document.getElementsByClassName("accordion");
+const accordions = document.querySelectorAll(".accordion");
 
-for (let i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    for (j = 0; j < acc.length; j++) {
-        acc[j].classList.remove("active");
-      if (j !== i)
-        acc[j].nextElementSibling.style.display = "none";
-    }
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
-    } else {
+accordions.forEach(accordion => {
+  accordion.addEventListener("click", () => {
+    accordion.classList.toggle("active");
+    const panel = accordion.nextElementSibling;
+
+    if (panel.style.display === "none" || panel.style.display === "") {
       panel.style.display = "block";
+    } else {
+      panel.style.display = "none";
     }
+
+    accordions.forEach(otherAccordion => {
+      if (otherAccordion !== accordion) {
+        otherAccordion.classList.remove("active");
+        otherAccordion.nextElementSibling.style.display = "none";
+      }
+    });
   });
-}
+});
 </script>
