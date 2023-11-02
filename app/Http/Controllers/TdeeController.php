@@ -105,6 +105,7 @@ class TdeeController extends Controller
         //Format with commas
         $tdee = number_format($tdee);
         $twee = number_format($twee);
+        $bmr = number_format($bmr);
         $caloriesSedentary = number_format($caloriesSedentary);
         $caloriesLightActivity = number_format($caloriesLightActivity);
         $caloriesModerateActivity = number_format($caloriesModerateActivity);

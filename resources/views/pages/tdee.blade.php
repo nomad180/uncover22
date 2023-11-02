@@ -72,17 +72,17 @@
                         <h2 class="text-5xl 2xl:text-7xl text-center handwriting6">Maintenance Calories</h2>
                         <div class="flex flex-col md:flex-row pages justify-center md:mt-8">
                             <div class="md:w-1/2 md:mr-4">
-                                <p>Based on your stats, the best estimate for your maintenance calories is <span class="font-semibold">{{ $tdee }} calories per day</span>  based on the Mifflin-St Jeor Formula, which is widely known to be the most accurate. The table below shows the difference if you were to have selected a different activity level.</p>
-                                <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">Basal Metabolic Rate - {{ $bmr }} calories per day</p>
-                                <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">Sedentary - {{ $caloriesSedentary }} calories per day</p>
-                                <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">Light Exercise - {{ $caloriesLightActivity }} calories per day</p>
-                                <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">Moderate Exercise - {{ $caloriesModerateActivity }} calories per day</p>
-                                <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">Heavy Exercise - {{ $caloriesVigorousActivity }} calories per day</p>
-                                <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">Athlete - {{ $caloriesSuperActive }} calories per day</p>
+                                <p>Alright, let's decode those numbers and sprinkle in a bit of humor, because, why not? So, according to your stats, your maintenance calories come in at a cool <span class="font-semibold">{{ $tdee }} calories per day</span>. Thanks to the Mifflin-St Jeor Formula, known far and wide as the holy grail of accuracy in the calorie game, we've got Sherlock Holmes-level precision here. For a peek at your daily calories under a different activity level, check out the table below.</p>
+                                <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">Basal Metabolic Rate&ndash;{{ $bmr }} calories per day</p>
+                                <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">Sedentary&ndash;{{ $caloriesSedentary }} calories per day</p>
+                                <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">Light Exercise&ndash;{{ $caloriesLightActivity }} calories per day</p>
+                                <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">Moderate Exercise&ndash;{{ $caloriesModerateActivity }} calories per day</p>
+                                <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">Heavy Exercise&ndash;{{ $caloriesVigorousActivity }} calories per day</p>
+                                <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">Athlete&ndash;{{ $caloriesSuperActive }} calories per day</p>
                             </div>
                             <div class="md:w-1/4 md:mt-6">
                                 <div class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary ">
-                                    <p class="border-b text-5xl text-center">{{ $tdee }}</br> calories per day</p>
+                                    <p class="border-b text-5xl text-center pb-4">{{ $tdee }}</br> calories per day</p>
                                     <p class="text-5xl text-center">{{ $twee }}</br> calories per week</p>
                                 </div>
                             </div>
@@ -97,12 +97,12 @@
                                 </div>
                             </div>
                             <div class="md:w-1/2 md:m1-4">
-                                <p>Your Body Mass Index (BMI) is <span class="font-semibold">{{  $bmi }}</span> and your ideal weight is estimated to be <span class="font-semibold">{{  $idealWeight }} lbs</span> based on the J.D. Robinson Formula. You can see where your BMI ranks you in the table below. Both your BMI and ideal weight are based on your height and weight and represent averages, so don't take them too seriously, especially if you lift weights.</p>
-                                <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">18.5 or less - Underweight</p>
-                                <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">18.5 - 24.99 - Normal Weight</p>
-                                <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">25- 29.99 - Overweight</p>
-                                <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">30+ - Obese</p>
-                                <p>If you do lift weights, you might be wondering how ripped could you get? According to Martin Berkhan's Formula, your maximum muscular potential is <span class="font-semibold">{{$maxMuscularPotential}} lbs</span> at 5% body fat. Most people have no desire to be 5% body fat though, so you'd be {{$maxMuscularPotentialt}} lbs at 10% body fat & {{$maxMuscularPotentialf}} lbs at 15% body fat. These numbers are good goals to aim for if you are bulking up!</p>
+                                <p>Your Body Mass Index (BMI) is <span class="font-semibold">{{  $bmi }}</span>, and the J.D. Robinson Formula suggests your ideal weight to be <span class="font-semibold">{{  $idealWeight }} lbs</span>. Look at the BMI table below to see where you land in terms of BMI. Remember, both your BMI and ideal weight are derived from your height and weight and offer a general perspective. If you're into lifting weights, don't sweat it too much&mdash;these numbers aren't the whole story.</p>
+                                <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">18.5 or less&ndash;Underweight</p>
+                                <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">18.5 - 24.99&ndash;Normal Weight</p>
+                                <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">25- 29.99&ndash;Overweight</p>
+                                <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">30+&ndash;Obese</p>
+                                <p>If you're pumping iron and dreaming of that chiseled physique, you're probably asking, "How ripped can I actually get?" Martin Berkhan's Formula gives us the lowdown&mdash;your maximum muscular potential is  <span class="font-semibold">{{$maxMuscularPotential}} lbs</span> at a jaw-dropping 5% body fat. But let's be real, not many folks aim for that level of leanness. So, set your sights on {{$maxMuscularPotentialt}} lbs at 10% body fat or {{$maxMuscularPotentialf}} lbs at 15% body fat&mdash;fantastic targets to keep in mind while you're on that bulking journey!</p>
                             </div>
                         </div>
                     </div>
