@@ -14,14 +14,14 @@
             </div>
             <div class="w-full md:w-1/2 mx-auto mt-6 md:mt-0 md:ml-4 flex items-center justify-center">
                 <div class="mx-auto mt-6 md:mt-0 flex items-center justify-center">
-                    <img class="rounded-xl border-2 border-primary" src="/images/indextm2.jpg" alt="A collage of five images: a person cooking samon on a grill, a man outside in the mountains, a woman drinking water in the mountains, a bowl of salad, and a man and woman making a healthy meal"  >
+                    <img class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary" src="/images/indextm4.jpg" alt="A collage of five images: a person cooking salmon on a grill, a man jogging in the mountains, a woman drinking water in the mountains, a bowl of salad, and a man and woman making a healthy meal"  >
                 </div>
             </div>
         </div>
     </div>
-    <div class="relative mt-6 lg:-mt-12 xl:-mt-16 2xl:-mt-20 mb-6 lg:-mb-16 xl:-mb-24 2xl:-mb-32 hidden lg:flex">
+    <div class="relative mt-6 lg:-mt-12 xl:-mt-14 2xl:-mt-20 mb-6 lg:-mb-16 xl:-mb-24 2xl:-mb-32 hidden lg:flex">
         <video width="100%" height="100%" autoplay muted loop playsinline>
-            <source src="/images/indexnew.mp4" type="video/mp4">
+            <source src="/images/indexnew3.mp4" type="video/mp4">
         </video>
         <div class="absolute inset-y-0 inset-x-4 md:inset-x-16 lg:inset-x-24 xl:inset-x-32 w-5/12 flex justify-center flex-col">
             <h1 class="lg:text-6xl lg:leading-tight xl:text-7xl xl:leading-tight 2xl:text-8xl 2xl:leading-tight handwriting6 flex justify-center">Premier health coaching for midlife warriors</h1>
@@ -34,15 +34,21 @@
     </div>
     <div>
         <div class="px-4 md:px-8 lg:px-16 xl:px-32 mb-4 pt-0 mt-0 mb-16">
-            <div class="mt-2 md:mt-10 lg:mt-16 xl:mt-24 2xl:mt-32 flex flex-col-reverse md:flex-row pages transition duration-1000 hover:border hover:border-zinc-300 hover:bg-neutral-50 hover:shadow-lg hover:shadow-zinc-400 rounded-lg p-6">
+            <div class="mt-2 md:mt-10 lg:mt-16 xl:mt-24 2xl:mt-32 flex flex-col-reverse lg:flex-row pages transition duration-1000 hover:border hover:border-zinc-300 hover:bg-neutral-50 hover:shadow-lg hover:shadow-zinc-400 rounded-lg p-6">
             <!--Redo this section to make it a problem/solution section: 3 paragraphs - Main pain point, agitate with examples, introduce solution PAS replace image with video-->
-                <div class="md:w-1/2 mt-6 md:mr-6 ">
+                <div class="lg:w-1/2 mt-6 md:mr-6 flex justify-center lg:self-start">
                     <img class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary" src="/images/journey.jpg" alt="A person holding a compass">
                 </div>
-                <div class="mx-auto md:w-1/2 pages">
-                    <h2 class="text-5xl 2xl:text-7xl text-center mt-2 handwriting6">Our philosophy</h2>
-                    <p>Your health journey is all about the habits you build, and Uncover Your Fit is here to help you construct a healthier future, brick by brick. We're not about quick fixes but rather the enduring transformation of your life. Our approach is rooted in habit-based health coaching, where we start small, nurturing your habits until they grow into lasting change.</p>
-                    <p>Say goodbye to crash-and-burn cycles; we're all about the slow, sustainable burn. So, whether you've tried countless fad diets or sprints in the marathon of health, Uncover Your Fit is here to act as your compass and guide you toward a healthier, more fulfilling life, one habit at a time.</p>
+                <div class="mx-auto lg:w-1/2 pages">
+                    <h2 class="text-5xl 2xl:text-7xl text-center mt-2 handwriting6">The march of time</h2>
+                    <p>As the years pile up like unread emails in your inbox, it can feel like maintaining your health is a losing battle:</p>
+                    <ul>
+                        <li class="my-2">Your metabolism slows down, making those extra pounds seem as clingy as your old ex on social media.</li>
+                        <li class="my-2">Your muscles? Well, they're pulling a disappearing act, vanishing by 3% to 8% each decade after the big 3-0.</li>
+                        <li class="my-2">Energy? It's become as elusive as that sock you lost in the laundry.</li>
+                        <li class="my-2">And let's not forget those New Year's resolutions&mdash;they tend to vanish faster than a snowflake in July. </li>
+                    </ul>
+                    <p>But fear not, Uncover Your Fit is here to act as your compass and guide you to a healthier life. We're all about building lasting habits through habit-based health coaching. Think of it as constructing a strong fortress of health, one brick at a time. Join us on this journey to a healthier, happier you!</p>
                     <div class="flex justify-center w-full text-sm">
                         <a href="/about" class="py-2 px-8 pb-3 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center">Learn More About Us</a>
                     </div>
@@ -64,7 +70,7 @@
                 <div class="transition duration-1000 hover:border hover:border-zinc-300 hover:bg-neutral-50 hover:shadow-lg hover:shadow-zinc-400 rounded-lg pb-8 mb-10 p-4">
                     <div class="flex justify-center"><img class="rounded-full border border-zinc-300 w-1/6" src="/images/heart.jpg" alt="A heart illustration" width="100%"></div>
                     <h3 class="text-center font-semibold">Improved Health Markers</h3>
-                    <p class="text-left">Picture your health markers as scorecards in a game. Health coaching can help improve those scores - lower blood pressure, better cholesterol, healthier weight. It's like seeing your bowling score jump from gutter balls to strikes.</p>
+                    <p class="text-left">Picture your health markers as scorecards in a game. Health coaching can help improve those scores&mdash;lower blood pressure, better cholesterol, healthier weight. It's like seeing your bowling score jump from gutter balls to strikes.</p>
                 </div>
             </div>
             <div class="flex md:w-1/3 mb-6 md:px-4">

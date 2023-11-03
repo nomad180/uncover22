@@ -89,7 +89,7 @@
                         </div>
                     </div>
                     <div class="pt-24">
-                        <h2 class="text-5xl 2xl:text-7xl text-center handwriting6">How you rank</h2>
+                        <h2 class="text-5xl 2xl:text-7xl text-center handwriting6">How you stack up</h2>
                         <div class="flex flex-col-reverse md:flex-row pages justify-center md:mt-8">
                             <div class="md:w-1/2 md:mt-6 md:mr-6">
                                 <div class="flex justify-center">
@@ -106,6 +106,28 @@
                             </div>
                         </div>
                     </div>
+                    <div class="pt-24">
+                        <h2 class="text-5xl 2xl:text-7xl text-center handwriting6">What to do now</h2>
+                        <p class="md:mt-8">Depending on your goals, you can use the information from the TDEE calculator as a reference to either maintain your current weight, bulk up, or cut/lose weight.</p>
+                        <div class="flex justify-center">
+                            <div class="pb-8 mb-10 p-4 w-full">
+                                <ul>
+                                    <li class="my-2">Maintain&mdash;To maintain your weight, you should just try to get approximately your TDEE calories each day/week.</li>
+                                    <li class="my-2">Bulk up&mdash;To bulk up without gaining fat, you should add about 300&ndash;500 calories to your TDEE each day. If you don't seem to be gaining any weight, you can increase your calories a few hundred more calories/day. At the same time, if it appears you are gaining fat, cut back your calories slightly.</li>
+                                    <li class="my-2">Cut/Lose weight&mdash;To cut/lose weight, you should cut approximately 500 calories a day from your TDEE. This will lead to you losing approximately one pound a week. It will also maximize fat loss while maintaining muscle mass.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-4 md:px-8 lg:px-16 xl:px-32 mb-4 pt-0 mt-0 mb-16">
+                        <div class="p-6 pages">
+                            <h2 class="text-5xl leading-tight 2xl:text-7xl 2xl:leading-tight text-center handwriting6">Need help?</h2>
+                            <p class="text-xl xl:text-3xl mt-4 text-center">We can assist you with our 1-on-1 coaching.</p>
+                            <div class="flex justify-center w-full text-2xl mt-6">
+                                <a href="/coaching" class="inline-flex items-center py-2 px-8 pb-3 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center">Explore Coaching</a>
+                            </div>
+                        </div>
+                    </div>
                     @endif
                 </div>
             </div>
@@ -113,7 +135,7 @@
                 <div>
                     <div class="md:mt-14 flex justify-center text-secondary text-xl underline font:semi-bold">Uncover Your Fit Coaching</div>
                     <div class="py-2 flex justify-center">
-                         <a href="/coaching"><img src="/images/coachingtm3.jpg" class="rounded-xl border-2 border-primary" alt="A midlife woman sitting on couch having coaching session on computer"></a>
+                         <a href="/coaching"><img src="/images/coachingtm3.jpg" class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary" alt="A midlife woman sitting on couch having coaching session on computer"></a>
                     </div>
                     <button class="flex justify-center w-full text-base">
                         <a href="/coaching"  class="inline-flex items-center py-2 px-8 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary rounded-full text-white text-xs">Explore Coaching</a>
@@ -132,10 +154,7 @@
                         <a target="_blank" href="https://shareasale.com/r.cfm?b=1892429&amp;u=2872412&amp;m=114867&amp;urllink=&amp;afftrack="><img  class="rounded-xl"src="https://static.shareasale.com/image/114867/pbcc_hero_720.png" border="0" alt="Keto Krisp Peanut Butter Chocolate Chunk" /></a>
                     </div>
                     <div class="py-6 flex justify-center">
-                        <a target="_blank" href="https://shareasale.com/r.cfm?b=1780503&amp;u=2872412&amp;m=110431&amp;urllink=&amp;afftrack="><img class="rounded-xl" src="https://static.shareasale.com/image/110431/Good_Rancher_KITfloor1of1.jpg" border="0" alt="Good Ranchers meat selection" /></a>
-                    </div>
-                    <div class="py-6 flex justify-center">
-                       <a target="_blank" href="https://shareasale.com/r.cfm?b=1857422&amp;u=2872412&amp;m=115699&amp;urllink=&amp;afftrack="><img class="rounded-xl" src="https://static.shareasale.com/image/115699/200x2001.jpg" border="0" alt="Keep Nature Wild"/></a>
+                        <a target="_blank" href="https://shareasale.com/r.cfm?b=2064734&amp;u=2872412&amp;m=78253&amp;urllink=&amp;afftrack="><img class="rounded-xl" src="https://static.shareasale.com/image/78253/F2B68092-CF7B-252E-7754DDABAF8521D6.jpg" border="0" alt="Nutrition With Nothing To Hide" /></a>
                     </div>
                 </div>
             </div>
@@ -166,4 +185,5 @@
             });
         });
     </script>
+<x-explore/>
 </x-layout>

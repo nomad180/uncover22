@@ -30,7 +30,7 @@
                 <div>
                     <div class="md:mt-14 flex justify-center text-secondary text-xl underline font:semi-bold">Uncover Your Fit Coaching</div>
                     <div class="py-2 flex justify-center">
-                         <a href="/coaching"><img src="/images/coachingtm3.jpg" class="rounded-xl border-2 border-primary" alt="A midlife woman sitting on couch having coaching session on computer"></a>
+                         <a href="/coaching"><img src="/images/coachingtm3.jpg" class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary" alt="A midlife woman sitting on couch having coaching session on computer"></a>
                     </div>
                     <button class="flex justify-center w-full text-base">
                         <a href="/coaching"  class="inline-flex items-center py-2 px-8 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary rounded-full text-white text-xs">Explore Coaching</a>
@@ -49,10 +49,7 @@
                         <a target="_blank" href="https://shareasale.com/r.cfm?b=1892429&amp;u=2872412&amp;m=114867&amp;urllink=&amp;afftrack="><img  class="rounded-xl"src="https://static.shareasale.com/image/114867/pbcc_hero_720.png" border="0" alt="Keto Krisp Peanut Butter Chocolate Chunk" /></a>
                     </div>
                     <div class="py-6 flex justify-center">
-                        <a target="_blank" href="https://shareasale.com/r.cfm?b=1780503&amp;u=2872412&amp;m=110431&amp;urllink=&amp;afftrack="><img class="rounded-xl" src="https://static.shareasale.com/image/110431/Good_Rancher_KITfloor1of1.jpg" border="0" alt="Good Ranchers meat selection" /></a>
-                    </div>
-                    <div class="py-6 flex justify-center">
-                       <a target="_blank" href="https://shareasale.com/r.cfm?b=1857422&amp;u=2872412&amp;m=115699&amp;urllink=&amp;afftrack="><img class="rounded-xl" src="https://static.shareasale.com/image/115699/200x2001.jpg" border="0" alt="Keep Nature Wild"/></a>
+                        <a target="_blank" href="https://shareasale.com/r.cfm?b=2064734&amp;u=2872412&amp;m=78253&amp;urllink=&amp;afftrack="><img class="rounded-xl" src="https://static.shareasale.com/image/78253/F2B68092-CF7B-252E-7754DDABAF8521D6.jpg" border="0" alt="Nutrition With Nothing To Hide" /></a>
                     </div>
                 </div>
             </div>

@@ -47,7 +47,7 @@
                 <div>
                     <div class="md:mt-14 flex justify-center text-secondary text-xl underline font:semi-bold">Uncover Your Fit Coaching</div>
                     <div class="py-2 flex justify-center">
-                        <a href="/coaching"><img src="/images/coachingtm3.jpg" class="rounded-xl border-2 border-primary" alt="A midlife woman sitting on couch having coaching session on computer"></a>
+                        <a href="/coaching"><img src="/images/coachingtm3.jpg" class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary" alt="A midlife woman sitting on couch having coaching session on computer"></a>
                     </div>
                     <button class="flex justify-center w-full text-base">
                         <a href="/coaching" class="inline-flex items-center py-2 px-8 text-xs border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary rounded-full text-white">Explore Coaching</a>
@@ -66,10 +66,7 @@
                         <a target="_blank" href="https://shareasale.com/r.cfm?b=1882082&amp;u=2872412&amp;m=114867&amp;urllink=&amp;afftrack="><img class="rounded-xl" src="https://static.shareasale.com/image/114867/image_from_ios-1.jpg" border="0" alt="Keto Krisp Almond Butter Blackberry Jelly" /></a>
                     </div>
                     <div class="py-6 flex justify-center">
-                        <a target="_blank" href="https://shareasale.com/r.cfm?b=1780500&amp;u=2872412&amp;m=110431&amp;urllink=&amp;afftrack="><img class="rounded-xl" src="https://static.shareasale.com/image/110431/meat-24.jpg" border="0" alt="Good Ranchers hamburgers" />/a>
-                    </div>
-                    <div class="py-6 flex justify-center">
-                        <a target="_blank" href="https://shareasale.com/r.cfm?b=1857418&amp;u=2872412&amp;m=115699&amp;urllink=&amp;afftrack="><img class="rounded-xl" src="https://static.shareasale.com/image/115699/300x6001.jpg" border="0" alt="Keep Nature Wild" /></a>
+                        <a target="_blank" href="https://shareasale.com/r.cfm?b=2114834&amp;u=2872412&amp;m=78253&amp;urllink=&amp;afftrack="><img class="rounded-xl" src="https://static.shareasale.com/image/78253/3_NakedCookie-Choco-Chip_AdDesktop_130.jpg" border="0" alt="Nutrition With Nothing To Hide" /></a>
                     </div>
                 </div>
             </div>
