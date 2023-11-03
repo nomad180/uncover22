@@ -106,20 +106,18 @@
                             </div>
                         </div>
                     </div>
-                    <div class="pt-24">
+                    <div class="pt-24 pages">
                         <h2 class="text-5xl 2xl:text-7xl text-center handwriting6">What to do now</h2>
                         <p class="md:mt-8">Depending on your goals, you can use the information from the TDEE calculator as a reference to either maintain your current weight, bulk up, or cut/lose weight.</p>
                         <div class="flex justify-center">
                             <div class="pb-8 mb-10 p-4 w-full">
-                                <ul>
-                                    <li class="my-2">Maintain&mdash;To maintain your weight, you should just try to get approximately your TDEE calories each day/week.</li>
-                                    <li class="my-2">Bulk up&mdash;To bulk up without gaining fat, you should add about 300&ndash;500 calories to your TDEE each day. If you don't seem to be gaining any weight, you can increase your calories a few hundred more calories/day. At the same time, if it appears you are gaining fat, cut back your calories slightly.</li>
-                                    <li class="my-2">Cut/Lose weight&mdash;To cut/lose weight, you should cut approximately 500 calories a day from your TDEE. This will lead to you losing approximately one pound a week. It will also maximize fat loss while maintaining muscle mass.</li>
-                                </ul>
+                                <p  class="border border-zinc-300 bg-neutral-50 rounded-xl my-2 px-4">Maintain&mdash;To maintain your weight, you should just try to get your maintenance level of calories each day/week.</p>
+                                <p  class="border border-zinc-300 bg-neutral-50 rounded-xl my-2 px-4">Bulk up&mdash;To bulk up without gaining fat, you should add about 300&ndash;500 calories to your maintenance calories each day. If you don't seem to be gaining any weight, you can add a few hundred more calories/day. At the same time, if it appears you are gaining fat, cut back your calories slightly.</p>
+                                <p  class="border border-zinc-300 bg-neutral-50 rounded-xl my-2 px-4">Cut/Lose weight&mdash;To cut/lose weight, you should cut approximately 500 calories a day from maintenance calories. This will lead to you losing approximately one pound a week. It will also maximize fat loss while maintaining muscle mass.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="px-4 md:px-8 lg:px-16 xl:px-32 mb-4 pt-0 mt-0 mb-16">
+                    <div class="mb-16">
                         <div class="p-6 pages">
                             <h2 class="text-5xl leading-tight 2xl:text-7xl 2xl:leading-tight text-center handwriting6">Need help?</h2>
                             <p class="text-xl xl:text-3xl mt-4 text-center">We can assist you with our 1-on-1 coaching.</p>

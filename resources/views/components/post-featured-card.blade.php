@@ -1,5 +1,5 @@
   @props(['post'])
-  <article class="transition duration-1000 hover:border hover:border-secondary/30 hover:shadow-lg hover:shadow-secondary/50 sm:rounded-lg pb-8 mb-10">
+  <article class="transition duration-1000 hover:border hover:border-zinc-300 hover:shadow-lg hover:shadow-zinc-400 sm:rounded-lg pb-8 mb-10">
     <div class="py-6 px-5 flex flex-col">
         <div>
             <a href="/posts/{{ $post->slug }}">
