@@ -1,3 +1,6 @@
+@section('title'){{'Confirm Password | Uncover Your Fit'}}@endsection
+@section('description'){{'Use this page to confirm your Uncover Your Fit password.'}}@endsection
+@section('author'){{'Damon Leach'}}@endsection
 <x-layout>
     <x-auth-card>
         <x-slot name="logo">

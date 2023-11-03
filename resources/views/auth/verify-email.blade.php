@@ -1,3 +1,6 @@
+@section('title'){{'Verify Email | Uncover Your Fit'}}@endsection
+@section('description'){{'Use this page to verify your Uncover Your Fit email.'}}@endsection
+@section('author'){{'Damon Leach'}}@endsection
 <x-layout>
     <x-auth-card>
         <x-slot name="logo">

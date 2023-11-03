@@ -1,3 +1,6 @@
+@section('title'){{'Register | Uncover Your Fit'}}@endsection
+@section('description'){{'Potential members to Uncover Your Fit register here.'}}@endsection
+@section('author'){{'Damon Leach'}}@endsection
 <x-layout>
     <x-auth-card>
         <x-slot name="logo">

@@ -1,3 +1,6 @@
+@section('title'){{'Forgot Password | Uncover Your Fit'}}@endsection
+@section('description'){{'This is the forgot password page for Uncover Your Fit.'}}@endsection
+@section('author'){{'Damon Leach'}}@endsection
 <x-layout>
     <x-auth-card>
         <x-slot name="logo">

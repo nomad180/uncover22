@@ -1,4 +1,4 @@
-@section('title'){{'Premier Online Health Coaching | Uncover Your Fit'}}@endsection
+@section('title'){{'1-on-1 Online Health Coaching | Uncover Your Fit'}}@endsection
 @section('description'){{'Maintain a healthy weight, control stress, optimize nutrition, and revitalize your energy with habit-based coaching from Uncover Your Fit.'}}@endsection
 @section('author'){{'Damon Leach'}}@endsection
 <x-layout>

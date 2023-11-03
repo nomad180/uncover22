@@ -1,3 +1,6 @@
+@section('title'){{'Login | Uncover Your Fit'}}@endsection
+@section('description'){{'This is the member login page for Uncover Your Fit.'}}@endsection
+@section('author'){{'Damon Leach'}}@endsection
 <x-layout>
     <x-auth-card>
 
