@@ -206,7 +206,7 @@
                                         <div class="panel pb-4">
                                             <p>To cut/lose weight, you should cut approximately 500 calories a day from maintenance calories. This will lead to losing approximately one pound a week. It will also maximize fat loss while maintaining muscle mass.</p>
                                             <h3>Macronutrients</h3>
-                                            <p>At {{ $cut }} calories per day (500 calories under your maintenance level), we recommend a cutting diet of 30% protein, 45% carbs, and 25% fats, and it would include:</p>
+                                            <p>At {{ $cut }} calories per day (500 calories under your maintenance level), we recommend a cutting diet of 35% protein, 40% carbs, and 25% fats, and it would include:</p>
                                             <ul>
                                                 <li>{{ $cp }} grams of protein/day</li>
                                                 <li>{{ $cc }} grams of carbs/day</li>

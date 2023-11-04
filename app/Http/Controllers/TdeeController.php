@@ -70,8 +70,8 @@ class TdeeController extends Controller
         $bp = $bulk * 0.25 / 4;
         $bc = $bulk * 0.55 / 4;
         $bf = $bulk * 0.20 / 9;
-        $cp = $cut * 0.30 / 4;
-        $cc = $cut * 0.45 / 4;
+        $cp = $cut * 0.35 / 4;
+        $cc = $cut * 0.40 / 4;
         $cf = $cut * 0.25 / 9;
 
         // Calculate calories burned for different activity levels
