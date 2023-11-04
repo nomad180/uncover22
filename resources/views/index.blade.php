@@ -105,7 +105,7 @@
         <h2 class="mt-16 xl:mt-24 2xl:mt-32 text-5xl 2xl:text-7xl text-center handwriting6 mb-4">Features you'll love</h2>
         <div class="flex flex-col md:flex-row flex-wrap md:mt-8">
             <div class="flex md:w-1/2 mb-6 md:px-4 justify-center">
-                <div class="transition duration-1000 hover:border hover:border-zinc-300 hover:shadow-lg hover:shadow-zinc-400 rounded-lg hover:bg-neutral-50 pb-8 mb-10 p-4 w-full">
+                <div class="pb-8 mb-10 p-4 w-full">
                     <ul>
                         <li class="accordion mt-6">One-on-One Coaching</li>
                             <div class="panel">
@@ -131,7 +131,7 @@
                 </div>
             </div>
             <div class="flex md:w-1/2 mb-6 md:px-4 justify-center">
-                <div class="transition duration-1000 hover:border hover:border-zinc-300 hover:shadow-lg hover:shadow-zinc-400 rounded-lg hover:bg-neutral-50 pb-8 mb-10 p-4 w-full">
+                <div class="pb-8 mb-10 p-4 w-full">
                     <ul>
                         <li class="accordion mt-6">Fitness Topics</li>
                             <div class="panel">
@@ -161,7 +161,7 @@
             <h2 class="mt-16 text-5xl leading-tight 2xl:text-7xl text-center handwriting6 mb-4">Frequently Asked Questions</h2>
             <div class="md:mt-8">
                 <div class="flex mb-6 md:px-4 justify-center">
-                    <div class="transition duration-1000 hover:border hover:bg-neutral-50 hover:border-zinc-300 hover:shadow-lg hover:shadow-zinc-400 hover:rounded-lg pb-8 mb-10 p-4 w-full">
+                    <div class="pb-8 mb-10 p-4 w-full">
                         <ul>
                             <li class="accordion mt-6">Why should I invest in a health coach?</li>
                                 <div class="panel">

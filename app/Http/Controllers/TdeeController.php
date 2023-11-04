@@ -61,6 +61,19 @@ class TdeeController extends Controller
         // Calculate TDEE for the week
         $twee = $bmr * $activityFactors[$activityLevel] * 7;
 
+        //Macronutrients
+        $bulk = $tdee + 500;
+        $cut = $tdee - 500;
+        $mp = $tdee * 0.20 / 4;
+        $mc = $tdee * 0.50 / 4;
+        $mf = $tdee * 0.30 / 9;
+        $bp = $bulk * 0.25 / 4;
+        $bc = $bulk * 0.55 / 4;
+        $bf = $bulk * 0.20 / 9;
+        $cp = $cut * 0.30 / 4;
+        $cc = $cut * 0.45 / 4;
+        $cf = $cut * 0.25 / 9;
+
         // Calculate calories burned for different activity levels
         $caloriesSedentary = $bmr * $activityFactors['sedentary'];
         $caloriesLightActivity = $bmr * $activityFactors['lightly_active'];
@@ -90,6 +103,17 @@ class TdeeController extends Controller
         // Round down to the nearest integer
         $tdee = intval($tdee);
         $twee = intval($twee);
+        $bulk = intval($bulk);
+        $cut = intval($cut);
+        $mp = intval($mp);
+        $mc = intval($mc);
+        $mf = intval($mf);
+        $bp = intval($bp);
+        $bc = intval($bc);
+        $bf = intval($bf);
+        $cp = intval($cp);
+        $cc = intval($cc);
+        $cf = intval($cf);
         $caloriesSedentary = intval($caloriesSedentary);
         $caloriesLightActivity = intval($caloriesLightActivity);
         $caloriesModerateActivity = intval($caloriesModerateActivity);
@@ -104,6 +128,17 @@ class TdeeController extends Controller
 
         //Format with commas
         $tdee = number_format($tdee);
+        $bulk = number_format($bulk);
+        $cut = number_format($cut);
+        $mp = number_format($mp);
+        $mc = number_format($mc);
+        $mf = number_format($mf);
+        $bp = number_format($bp);
+        $bc = number_format($bc);
+        $bf = number_format($bf);
+        $cp = number_format($cp);
+        $cc = number_format($cc);
+        $cf = number_format($cf);
         $twee = number_format($twee);
         $bmr = number_format($bmr);
         $caloriesSedentary = number_format($caloriesSedentary);
@@ -116,6 +151,17 @@ class TdeeController extends Controller
         // Define $tdee and set it to the calculated value
         $viewData = [
             'tdee' => $tdee,
+            'bulk' => $bulk,
+            'cut' => $cut,
+            'mp' => $mp,
+            'mc' => $mc,
+            'mf' => $mf,
+            'bp' => $bp,
+            'bc' => $bc,
+            'bf' => $bf,
+            'cp' => $cp,
+            'cc' => $cc,
+            'cf' => $cf,
             'twee' => $twee,
             'caloriesSedentary' => $caloriesSedentary,
             'caloriesLightActivity' => $caloriesLightActivity,

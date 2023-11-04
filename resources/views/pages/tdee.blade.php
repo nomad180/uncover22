@@ -73,40 +73,40 @@
                         <div class="flex flex-col md:flex-row pages justify-center md:mt-8">
                             <div class="md:w-1/2 md:mr-4">
                                 <p>Alright, let's decode those numbers and sprinkle in a bit of humor, because, why not? So, according to your stats, your maintenance calories come in at a cool <span class="font-semibold">{{ $tdee }} calories per day</span>. Thanks to the Mifflin-St Jeor Formula, known far and wide as the holy grail of accuracy in the calorie game, we've got Sherlock Holmes-level precision here. For a peek at your daily calories under a different activity level, check out the table below.</p>
-                                <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">Basal Metabolic Rate&ndash;{{ $bmr }} calories per day</p>
+                                <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">Basal Metabolic Rate &ndash; {{ $bmr }} calories per day</p>
                                 <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">
                                 @if ($tdee === $caloriesSedentary)
-                                    <span class="font-semibold">Sedentary (Office Job)&ndash;{{ $caloriesSedentary }} calories per day</span>
+                                    <span class="font-semibold">Sedentary (Office Job) &ndash; {{ $caloriesSedentary }} calories per day</span>
                                 @else
-                                    Sedentary (Office Job)&ndash;{{ $caloriesSedentary }} calories per day
+                                    Sedentary (Office Job) &ndash; {{ $caloriesSedentary }} calories per day
                                 @endif
                                 </p>
                                 <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">
                                 @if ($tdee === $caloriesLightActivity)
-                                    <span class="font-semibold">Light Exercise (1-2 Days/Week)&ndash;{{ $caloriesLightActivity }} calories per day</span>
+                                    <span class="font-semibold">Light Exercise (1-2 Days/Week) &ndash; {{ $caloriesLightActivity }} calories per day</span>
                                 @else
-                                    Light Exercise (1-2 Days/Week)&ndash;{{ $caloriesLightActivity }} calories per day
+                                    Light Exercise (1-2 Days/Week) &ndash; {{ $caloriesLightActivity }} calories per day
                                 @endif
                                 </p>
                                 <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">
                                 @if ($tdee === $caloriesModerateActivity)
-                                    <span class="font-semibold">Moderate Exercise (3-5 Days/Week)&ndash;{{ $caloriesModerateActivity }} calories per day</span>
+                                    <span class="font-semibold">Moderate Exercise (3-5 Days/Week) &ndash; {{ $caloriesModerateActivity }} calories per day</span>
                                 @else
-                                    Moderate Exercise (3-5 Days/Week)&ndash;{{ $caloriesModerateActivity }} calories per day
+                                    Moderate Exercise (3-5 Days/Week) &ndash; {{ $caloriesModerateActivity }} calories per day
                                 @endif
                                 </p>
                                 <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">
                                 @if ($tdee === $caloriesVigorousActivity)
-                                    <span class="font-semibold">Heavy Exercise (6-7 Days/Week)&ndash;{{ $caloriesVigorousActivity }} calories per day</span>
+                                    <span class="font-semibold">Heavy Exercise (6-7 Days/Week) &ndash; {{ $caloriesVigorousActivity }} calories per day</span>
                                 @else
-                                    Heavy Exercise (6-7 Days/Week)&ndash;{{ $caloriesVigorousActivity }} calories per day
+                                    Heavy Exercise (6-7 Days/Week) &ndash; {{ $caloriesVigorousActivity }} calories per day
                                 @endif
                                 </p>
                                 <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">
                                 @if ($tdee === $caloriesSuperActive)
-                                    <span class="font-semibold">Athlete (2x/Day)&ndash;{{ $caloriesSuperActive }} calories per day</span>
+                                    <span class="font-semibold">Athlete (2x/Day) &ndash; {{ $caloriesSuperActive }} calories per day</span>
                                 @else
-                                    Athlete (2x/Day)&ndash;{{ $caloriesSuperActive }} calories per day
+                                    Athlete (2x/Day) &ndash; {{ $caloriesSuperActive }} calories per day
                                 @endif
                                 </p>
                             </div>
@@ -141,28 +141,28 @@
                                 category.</p>
                                 <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">
                                     @if ($bmi < 18.5)
-                                        <span class="font-semibold">18.5 or less&ndash;Underweight</span>
+                                        <span class="font-semibold">18.5 or less &ndash; Underweight</span>
                                     @else
-                                        18.5 or less&ndash;Underweight
+                                        18.5 or less &ndash; Underweight
                                     @endif
                                 </p>
                                 <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">
                                     @if ($bmi >= 18.5 && $bmi < 24.9)
-                                        <span class="font-semibold">18.5 - 24.99&ndash;Normal Weight</span>
+                                        <span class="font-semibold">18.5 - 24.99 &ndash; Normal Weight</span>
                                     @else
-                                        18.5 - 24.99&ndash;Normal Weight
+                                        18.5 - 24.99 &ndash; Normal Weight
                                     @endif
                                 </p>
                                 <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">
                                     @if ($bmi >= 24.9 && $bmi < 29.9)
-                                        <span class="font-semibold">25- 29.99&ndash;Overweight</span>
+                                        <span class="font-semibold">25- 29.99 &ndash; Overweight</span>
                                     @else
-                                        25- 29.99&ndash;Overweight
+                                        25- 29.99 &ndash; Overweight
                                     @endif
                                 </p>
                                 <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">
                                     @if ($bmi > 30.0)
-                                        <span class="font-semibold">30+&ndash;Obese</span>
+                                        <span class="font-semibold">30+ &ndash; Obese</span>
                                     @else
                                         30+&ndash;Obese
                                     @endif
@@ -176,16 +176,48 @@
                     <p>If you're pumping iron and dreaming of that chiseled physique, you're probably asking, "How ripped can I actually get?" Martin Berkhan's Formula gives us the lowdown&mdash;your maximum muscular potential is  <span class="font-semibold">{{$maxMuscularPotential}} lbs</span> at a jaw-dropping 5% body fat. But let's be real, not many folks aim for that level of leanness. So, set your sights on {{$maxMuscularPotentialt}} lbs at 10% body fat or {{$maxMuscularPotentialf}} lbs at 15% body fat&mdash;fantastic targets to keep in mind while you're on that bulking journey!</p>
                     <div class="pt-24 pages">
                         <h2 class="text-5xl 2xl:text-7xl text-center handwriting6">What to do now</h2>
-                        <p class="md:mt-8">Depending on your goals, you can use the information from the TDEE calculator as a reference to either maintain your current weight, bulk up, or cut/lose weight.</p>
+                        <p class="md:mt-8">Depending on your goals, you can use the information from the TDEE calculator as a reference to either:</p>
                         <div class="flex justify-center">
-                            <div class="p-4 w-full">
-                                <p  class="border border-zinc-300 bg-neutral-50 rounded-xl my-2 px-4">Maintain&mdash;To maintain your weight, you should try to get approximately your maintenance level of calories each day/week.</p>
-                                <p  class="border border-zinc-300 bg-neutral-50 rounded-xl my-2 px-4">Bulk up&mdash;To bulk up without gaining fat, you should add about 300&ndash;500 calories to your maintenance calories each day. If you don't seem to be gaining any weight, you can add a few hundred more calories/day. At the same time, if it appears you are gaining fat, cut back your calories slightly.</p>
-                                <p  class="border border-zinc-300 bg-neutral-50 rounded-xl my-2 px-4">Cut/Lose weight&mdash;To cut/lose weight, you should cut approximately 500 calories a day from maintenance calories. This will lead to losing approximately one pound a week. It will also maximize fat loss while maintaining muscle mass.</p>
+                            <div class="mb-10 p-4 w-full">
+                                <ul>
+                                    <li class="accordion">Maintain Your Weight</li>
+                                        <div class="panel pb-4">
+                                            <p>To maintain your weight, you should aim to get {{ $tdee }} calories per day.</p>
+                                            <h3>Macronutrients</h3>
+                                            <p>At {{ $tdee }} calories per day, we recommend a diet of 20% protein, 50% carbs, and 30% fats, and it would include:</p>
+                                            <ul>
+                                                <li>{{ $mp }} grams of protein/day</li>
+                                                <li>{{ $mc }} grams of carbs/day</li>
+                                                <li>{{ $mf }} grams of fat/day</li>
+                                            </ul>
+                                        </div>
+                                    <li class="accordion">Bulk Up</li>
+                                        <div class="panel pb-4">
+                                            <p>To bulk up without gaining fat, you should add about 300–500 calories to your maintenance calories each day. If you don't seem to be gaining any weight, you can add a few hundred more calories/day. At the same time, if it appears you are gaining fat, cut back your calories slightly.</p>
+                                            <h3>Macronutrients</h3>
+                                            <p>At {{ $bulk }} calories per day (500 calories over your maintenance calories), we recommend a bulking diet of 25% protein, 55% carbs, and 20% fats, and it would include::</p>
+                                            <ul>
+                                                <li>{{ $bp }} grams of protein/day</li>
+                                                <li>{{ $bc }} grams of carbs/day</li>
+                                                <li>{{ $bf }} grams of fat/day</li>
+                                            </ul>
+                                        </div>
+                                    <li class="accordion">Cut/Lose Weight</li>
+                                        <div class="panel pb-4">
+                                            <p>To cut/lose weight, you should cut approximately 500 calories a day from maintenance calories. This will lead to losing approximately one pound a week. It will also maximize fat loss while maintaining muscle mass.</p>
+                                            <h3>Macronutrients</h3>
+                                            <p>At {{ $cut }} calories per day (500 calories under your maintenance level), we recommend a cutting diet of 30% protein, 45% carbs, and 25% fats, and it would include:</p>
+                                            <ul>
+                                                <li>{{ $cp }} grams of protein/day</li>
+                                                <li>{{ $cc }} grams of carbs/day</li>
+                                                <li>{{ $cf }} grams of fat/day</li>
+                                            </ul>
+                                        </div>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="mb-16 pt-16">
+                    <div class="mb-16">
                         <div class="p-6 pages">
                             <h2 class="text-5xl leading-tight 2xl:text-7xl 2xl:leading-tight text-center handwriting6">Need help?</h2>
                             <p class="text-xl xl:text-3xl mt-4 text-center">We can assist you with our 1-on-1 coaching.</p>
@@ -207,7 +239,7 @@
                         <a href="/coaching"  class="inline-flex items-center py-2 px-8 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary rounded-full text-white text-xs">Explore Coaching</a>
                     </button>
                 </div>
-                 <div>
+                <div>
                     <div class="mt-4 flex justify-center text-secondary text-xl underline">Affiliate Websites</div>
                     <div class="font-bold py-2 ml-4">The ads below take you to partner websites that sell products many of you might find helpful in your health and fitness journey. If you click on one of the ads and make a purchase, Uncover Your Fit will receive a small commission at no extra cost to you.</div>
                     <div class="py-6 flex justify-center">
@@ -226,30 +258,53 @@
             </div>
         </div>
 <!-- JavaScript to submit the form and scroll to the results -->
-    <script>
-        $(document).ready(function () {
-            $('form').on('submit', function (e) {
-                e.preventDefault();
-                var form = $(this);
+<script>
+    $(document).ready(function () {
+        $('form').on('submit', function (e) {
+            e.preventDefault();
+            var form = $(this);
 
-                // Perform AJAX form submission
-                $.ajax({
-                    type: 'POST',
-                    url: form.attr('action'),
-                    data: form.serialize(),
-                    success: function (data) {
-                        // Load only the content of the result container
-                        var resultContent = $(data).find('#result-container').html();
-                        $('#result-container').html(resultContent);
+            // Perform AJAX form submission
+            $.ajax({
+                type: 'POST',
+                url: form.attr('action'),
+                data: form.serialize(),
+                success: function (data) {
+                    // Load only the content of the result container
+                    var resultContent = $(data).find('#result-container').html();
+                    $('#result-container').html(resultContent);
 
-                        // Scroll to the results container
-                        $('html, body').animate({
-                            scrollTop: $('#result-container').offset().top
-                        }, 'slow');
-                    }
-                });
+                    // Scroll to the results container
+                    $('html, body').animate({
+                        scrollTop: $('#result-container').offset().top
+                    }, 'slow');
+                }
             });
         });
-    </script>
+    });
+</script>
+<script>
+    const contentOptions = document.getElementById('contentOptions');
+    const contentOption1 = document.getElementById('contentOption1');
+    const contentOption2 = document.getElementById('contentOption2');
+    const contentOption3 = document.getElementById('contentOption3');
+
+    contentOptions.addEventListener('change', function () {
+        if (contentOptions.elements["content"].value === "option1") {
+            contentOption1.style.display = "block";
+            contentOption2.style.display = "none";
+            contentOption3.style.display = "none";
+        } else if (contentOptions.elements["content"].value === "option2") {
+            contentOption1.style.display = "none";
+            contentOption2.style.display = "block";
+            contentOption3.style.display = "none";
+        } else if (contentOptions.elements["content"].value === "option3") {
+            contentOption1.style.display = "none";
+            contentOption2.style.display = "none";
+            contentOption3.style.display = "block";
+        }
+    });
+</script>
 <x-explore/>
+<x-accordion/>
 </x-layout>

@@ -144,7 +144,8 @@
         <h2 class="mt-16 2xl:mt-32 text-5xl leading-tight 2xl:text-7xl text-center handwriting6 mb-4">Value of coaching</h2>
         <h3 class="text-center text-3xl mt-8">Five ways health coaching can boost your financial well-being:</h3>
             <div class="flex mb-6 md:px-4 justify-center md:mt-8">
-                <div class="transition duration-1000 hover:border hover:bg-neutral-50 hover:border-zinc-300 hover:shadow-lg hover:shadow-zinc-400 hover:rounded-lg pb-8 mb-10 p-4 w-full">
+                <div class="pb-8 mb-10 p-4 w-full">
+                    <p class="mx-4">Just changing your overall eating habits could save you $2,000 a year on food. At the same time, if you add up all the savings below, you could potentially end up saving $3,000-$5,000+ per year by adopting a healthy lifestyle. Still think there isn't value in health coaching?</p>
                     <ul>
                         <li class="accordion mt-6">Fewer doctor visits</li>
                             <div class="panel">
@@ -167,7 +168,6 @@
                                 <p class="py-2">The Centers for Disease Control estimates that a 10% weight loss could reduce an overweight person's lifetime medical costs by $2,200 to $5,300. In addition, delaying or preventing the onset of chronic diseases such as diabetes and heart disease can save thousands of dollars annually.</p>
                             </div>
                     </ul>
-                    <p class="mt-8 mx-4">Just changing your overall eating habits could save you $2,000 a year on food. At the same time, if you add up all the savings above, you could potentially end up saving $3,000-$5,000+ per year by adopting a healthy lifestyle. Still think there isn't value in health coaching?</p>
                 </div>
             </div>
         <div class="transition duration-1000 hover:border hover:border-zinc-300 hover:bg-neutral-50 hover:shadow-lg hover:shadow-zinc-400 rounded-lg p-6 mt-8 lg:mt-32 pages">
