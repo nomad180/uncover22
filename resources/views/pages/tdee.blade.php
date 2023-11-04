@@ -220,7 +220,7 @@
                     <div class="mb-16">
                         <div class="p-6 pages">
                             <h2 class="text-5xl leading-tight 2xl:text-7xl 2xl:leading-tight text-center handwriting6">Need help?</h2>
-                            <p class="text-xl xl:text-3xl mt-4 text-center">We can assist you with our 1-on-1 coaching.</p>
+                            <p class="text-3xl xl:text-5xl mt-4 text-center">We can assist you with our 1-on-1 coaching.</p>
                             <div class="flex justify-center w-full text-2xl mt-6">
                                 <a href="/coaching" class="inline-flex items-center py-2 px-8 pb-3 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center">Explore Coaching</a>
                             </div>
