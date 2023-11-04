@@ -10,7 +10,7 @@
         </div>
     </div>
     <div class="flex flex-col lg:flex-row px-4 lg:px-16 xl:px-32 mt-8">
-            <div class="lg:w-5/6">
+            <div class="lg:w-5/6 mb-8">
                 <div>
                     <h2 class="text-5xl 2xl:text-7xl text-center handwriting6">What's your TDEE?</h2>
                 </div>
@@ -72,7 +72,7 @@
                         <h2 class="text-5xl 2xl:text-7xl text-center handwriting6">Maintenance Calories</h2>
                         <div class="flex flex-col md:flex-row pages justify-center md:mt-8">
                             <div class="md:w-1/2 md:mr-4">
-                                <p>Alright, let's decode those numbers and sprinkle in a bit of humor, because, why not? So, according to your stats, your maintenance calories come in at a cool <span class="font-semibold">{{ $tdee }} calories per day</span>. Thanks to the Mifflin-St Jeor Formula, known far and wide as the holy grail of accuracy in the calorie game, we've got Sherlock Holmes-level precision here. For a peek at your daily calories under a different activity level, check out the table below.</p>
+                                <p>Alright, let's decode those numbers and sprinkle in a bit of humor, because, why not? So, according to your stats, your maintenance calories come in at a cool <span class="font-semibold">{{ $tdee }} calories per day</span>. Thanks to the <a class="text-primary font-medium hover:font-semibold" href="https://pubmed.ncbi.nlm.nih.gov/15883556/" target="blank"> Mifflin-St Jeor Formula</a>, known far and wide as the holy grail of accuracy in the calorie game, we've got Sherlock Holmes-level precision here. For a peek at your daily calories under a different activity level, check out the table below.</p>
                                 <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">Basal Metabolic Rate &ndash; {{ $bmr }} calories per day</p>
                                 <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">
                                 @if ($tdee === $caloriesSedentary)
@@ -128,7 +128,7 @@
                             </div>
                             <div class="md:w-1/2 md:m1-4">
                                 <h3 class="text-xl 2xl:text-3xl text-center font-semibold">Body Mass Index (BMI)</h3>
-                                <p>Your <span class="font-semibold">BMI</span> is <span class="font-semibold">{{  $bmi }}</span>, which puts you in the
+                                <p>Your <span class="text-primary font-medium hover:font-semibold"><a href="https://www.cdc.gov/healthyweight/assessing/bmi/index.html#:~:text=Body%20Mass%20Index%20(BMI)%20is,or%20health%20of%20an%20individual." target="blank"> BMI</a></span> is <span class="font-semibold">{{  $bmi }}</span>, which puts you in the
                                     @if ($bmi < 18.5)
                                         <span class="font-semibold">Underweight</span>
                                     @elseif ($bmi >= 18.5 && $bmi < 24.9)
@@ -217,10 +217,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="mb-16">
+                    <div class="mb-8">
                         <div class="p-6 pages">
                             <h2 class="text-5xl leading-tight 2xl:text-7xl 2xl:leading-tight text-center handwriting6">Need help?</h2>
-                            <p class="text-3xl xl:text-5xl mt-4 text-center">We can assist you with our 1-on-1 coaching!</p>
+                            <p class="text-3xl xl:text-5xl mt-4 text-center">We can assist with our 1-on-1 coaching!</p>
                             <div class="flex justify-center w-full text-2xl mt-6">
                                 <a href="/coaching" class="inline-flex items-center py-2 px-8 pb-3 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center">Explore Coaching</a>
                             </div>
@@ -241,18 +241,18 @@
                 </div>
                 <div>
                     <div class="mt-4 flex justify-center text-secondary text-xl underline">Affiliate Websites</div>
-                    <div class="font-bold py-2 ml-4">The ads below take you to partner websites that sell products many of you might find helpful in your health and fitness journey. If you click on one of the ads and make a purchase, Uncover Your Fit will receive a small commission at no extra cost to you.</div>
-                    <div class="py-6 flex justify-center">
-                        <a target="_blank" href="https://shareasale.com/r.cfm?b=947058&amp;u=2872412&amp;m=68998&amp;urllink=&amp;afftrack="><img class="rounded-xl" src="https://static.shareasale.com/image/68998/yoga240x400.jpg" border="0" alt="yoga gear" /></a>
+                    <div class="font-bold py-2 ml-4">The ads below take you to partner websites that sell products many of you might find helpful in your health and fitness journey. If you click on one of the ads and make a purchase, Uncover Your Fit will receive a small commission at no extra cost to you. As an Amazon Associate we earn from qualifying purchases from Amazon links.</div>
+                    <div class="py-6 flex flex-col justify-center items-center">
+                        <a class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary p-4" href="https://www.amazon.com/Greater-Goods-Capacity-Kitchen-Scale/dp/B09QFWXSD8?crid=1B887TV7H5LR1&keywords=digital+food+scales&qid=1699120689&refinements=p_72%3A1248915011&rnid=1248913011&s=home-garden&sprefix=digital+food+scales%2Caps%2C96&sr=1-8&linkCode=li3&tag=uncoveryour0c-20&linkId=258b9a357e97988ab4aaff748ee1d692&language=en_US&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09QFWXSD8&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=uncoveryour0c-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=uncoveryour0c-20&language=en_US&l=li3&o=1&a=B09QFWXSD8" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+                        <p class="text-center mt-4">Greater Goods High Capacity Kitchen Scale </p>
                     </div>
-                    <div class="py-6 flex justify-center">
-                        <a target="_blank" href="https://shareasale.com/r.cfm?b=2218553&amp;u=2872412&amp;m=85045&amp;urllink=&amp;afftrack="><img class="rounded-xl" src="https://static.shareasale.com/image/85045/DisplayBanner1200x1200px.jpg" border="0" alt="Naturevibe Botanicals"/></a>
+                    <div class="py-6 flex flex-col justify-center items-center">
+                        <a class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary p-4" href="https://www.amazon.com/Greater-Goods-Nourish-Portions-Nutritional/dp/B00O5U4NDQ?crid=AU3DZR5ERQWD&keywords=nutrition+scale&qid=1699121700&s=home-garden&sprefix=nutrition+scale%2Cgarden%2C80&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&linkCode=li3&tag=uncoveryour0c-20&linkId=24f126ef0c7731d97b2e24d20bc89506&language=en_US&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00O5U4NDQ&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=uncoveryour0c-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=uncoveryour0c-20&language=en_US&l=li3&o=1&a=B00O5U4NDQ" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+                        <p class="text-center mt-4">Greater Goods Nutrition Food Scale</p>
                     </div>
-                    <div class="py-6 flex justify-center">
-                        <a target="_blank" href="https://shareasale.com/r.cfm?b=1892429&amp;u=2872412&amp;m=114867&amp;urllink=&amp;afftrack="><img  class="rounded-xl"src="https://static.shareasale.com/image/114867/pbcc_hero_720.png" border="0" alt="Keto Krisp Peanut Butter Chocolate Chunk" /></a>
-                    </div>
-                    <div class="py-6 flex justify-center">
-                        <a target="_blank" href="https://shareasale.com/r.cfm?b=2064734&amp;u=2872412&amp;m=78253&amp;urllink=&amp;afftrack="><img class="rounded-xl" src="https://static.shareasale.com/image/78253/F2B68092-CF7B-252E-7754DDABAF8521D6.jpg" border="0" alt="Nutrition With Nothing To Hide" /></a>
+                    <div class="py-6 flex flex-col justify-center items-center">
+                        <a class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary p-4" href="https://www.amazon.com/Etekcity-Digital-Bluetooth-Bathroom-Pregnancy/dp/B09HCJD6H1?crid=A1JXR1ZM1WPR&keywords=fitness+scale&qid=1699122910&sprefix=fitness+scale%2Caps%2C90&sr=8-1-spons&ufe=app_do%3Aamzn1.fos.006c50ae-5d4c-4777-9bc0-4513d670b6bc&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&linkCode=li3&tag=uncoveryour0c-20&linkId=78b7cbc34ba0490e871418c8762cbfb0&language=en_US&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09HCJD6H1&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=uncoveryour0c-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=uncoveryour0c-20&language=en_US&l=li3&o=1&a=B09HCJD6H1" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+                        <p class="text-center mt-4">Etekcity Smart WiFi Scale</p>
                     </div>
                 </div>
             </div>
@@ -281,28 +281,6 @@
                 }
             });
         });
-    });
-</script>
-<script>
-    const contentOptions = document.getElementById('contentOptions');
-    const contentOption1 = document.getElementById('contentOption1');
-    const contentOption2 = document.getElementById('contentOption2');
-    const contentOption3 = document.getElementById('contentOption3');
-
-    contentOptions.addEventListener('change', function () {
-        if (contentOptions.elements["content"].value === "option1") {
-            contentOption1.style.display = "block";
-            contentOption2.style.display = "none";
-            contentOption3.style.display = "none";
-        } else if (contentOptions.elements["content"].value === "option2") {
-            contentOption1.style.display = "none";
-            contentOption2.style.display = "block";
-            contentOption3.style.display = "none";
-        } else if (contentOptions.elements["content"].value === "option3") {
-            contentOption1.style.display = "none";
-            contentOption2.style.display = "none";
-            contentOption3.style.display = "block";
-        }
     });
 </script>
 <x-explore/>
