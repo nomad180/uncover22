@@ -3,7 +3,7 @@
 @section('author'){{'Damon Leach'}}@endsection
 <x-layout>
     <div class="relative">
-        <div class="border-b border-zinc-300"><img src="/images/tdee4.jpg" alt="Picture of Damon Leach with the text life is a journey you only get to make once. Let's make your journey a great one." width="100%"></div>
+        <div class="border-b border-zinc-300"><img src="/images/tdee4.jpg" alt="A man standing in the kitchen with a bunch of food in front of him and writing things down in a journal" width="100%"></div>
         <div class="absolute inset-y-0 inset-x-8 md:inset-x-10 lg:inset-x-12 xl:inset-x-14 2xl:inset-x-16 w-11/12 flex justify-center flex-col">
             <h1 class="text-3xl leading-tight md:text-5xl md:leading-tight lg:text-6xl lg:leading-tight xl:text-7xl xl:leading-tight 2xl:text-8xl 2xl:leading-tight handwriting6 flex justify-center text-white text-center">TDEE Calculator</h1>
             <h2 class="lg:text-xl font-medium text-white text-center">Learn how many calories you burn every day with our Total Daily Energy Expenditure (TDEE) calculator</h2>
@@ -72,7 +72,7 @@
                         <h2 class="text-5xl 2xl:text-7xl text-center handwriting6">Maintenance Calories</h2>
                         <div class="flex flex-col md:flex-row pages justify-center md:mt-8">
                             <div class="md:w-1/2 md:mr-4">
-                                <p>Alright, let's decode those numbers and sprinkle in a bit of humor, because, why not? So, according to your stats, your maintenance calories come in at a cool <span class="font-semibold">{{ $tdee }} calories per day</span>. Thanks to the <a class="text-primary font-medium hover:font-semibold" href="https://pubmed.ncbi.nlm.nih.gov/15883556/" target="blank"> Mifflin-St Jeor Formula</a>, known far and wide as the holy grail of accuracy in the calorie game, we've got Sherlock Holmes-level precision here. For a peek at your daily calories under a different activity level, check out the table below.</p>
+                                <p>Alright, let's decode those numbers and sprinkle in a bit of humor, because, why not? So, according to your stats, your maintenance calories come in at a cool <span class="font-semibold">{{ $tdee }} calories per day</span>. Thanks to the <a href="https://pubmed.ncbi.nlm.nih.gov/15883556/" target="blank"> Mifflin-St Jeor Formula</a>, known far and wide as the holy grail of accuracy in the calorie game, we've got Sherlock Holmes-level precision here. For a peek at your daily calories under a different activity level, check out the table below.</p>
                                 <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">Basal Metabolic Rate &ndash; {{ $bmr }} calories per day</p>
                                 <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">
                                 @if ($tdee === $caloriesSedentary)
@@ -123,12 +123,12 @@
                         <div class="flex flex-col-reverse md:flex-row pages justify-center md:mt-8">
                             <div class="md:w-1/2 md:mt-6 md:mr-6">
                                 <div class="flex justify-center">
-                                    <img class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary" src="/images/bmi.jpg" alt="The text BMI  above some fruit, a scale, and a notebook sitting on a table">
+                                    <img class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary" src="/images/bmi.jpg" alt="The text BMI above some fruit, a scale, and a notebook sitting on a table">
                                 </div>
                             </div>
                             <div class="md:w-1/2 md:m1-4">
                                 <h3 class="text-xl 2xl:text-3xl text-center font-semibold">Body Mass Index (BMI)</h3>
-                                <p>Your <span class="text-primary font-medium hover:font-semibold"><a href="https://www.cdc.gov/healthyweight/assessing/bmi/index.html#:~:text=Body%20Mass%20Index%20(BMI)%20is,or%20health%20of%20an%20individual." target="blank"> BMI</a></span> is <span class="font-semibold">{{  $bmi }}</span>, which puts you in the
+                                <p>Your <span><a href="https://www.cdc.gov/healthyweight/assessing/bmi/index.html#:~:text=Body%20Mass%20Index%20(BMI)%20is,or%20health%20of%20an%20individual." target="blank"> BMI</a></span> is <span class="font-semibold">{{  $bmi }}</span>, which puts you in the
                                     @if ($bmi < 18.5)
                                         <span class="font-semibold">Underweight</span>
                                     @elseif ($bmi >= 18.5 && $bmi < 24.9)
@@ -176,9 +176,10 @@
                     <p>If you're pumping iron and dreaming of that chiseled physique, you're probably asking, "How ripped can I actually get?" Martin Berkhan's Formula gives us the lowdown&mdash;your maximum muscular potential is  <span class="font-semibold">{{$maxMuscularPotential}} lbs</span> at a jaw-dropping 5% body fat. But let's be real, not many folks aim for that level of leanness. So, set your sights on {{$maxMuscularPotentialt}} lbs at 10% body fat or {{$maxMuscularPotentialf}} lbs at 15% body fat&mdash;fantastic targets to keep in mind while you're on that bulking journey!</p>
                     <div class="pt-24 pages">
                         <h2 class="text-5xl 2xl:text-7xl text-center handwriting6">What to do now</h2>
+                        <h3 class="text-xl 2xl:text-3xl text-center font-semibold mt-6">Body Weight and Macronutrients</h3>
                         <p class="md:mt-8">Depending on your goals, you can use the information from the TDEE calculator as a reference to either:</p>
                         <div class="flex justify-center">
-                            <div class="mb-10 p-4 w-full">
+                            <div class="p-4 w-full">
                                 <ul>
                                     <li class="accordion">Maintain Your Weight</li>
                                         <div class="panel pb-4">
@@ -216,10 +217,49 @@
                                 </ul>
                             </div>
                         </div>
+                        <h3 class="text-xl 2xl:text-3xl text-center font-semibold">Needed Tools</h3>
+                        <p class="md:mt-8">In order for you to use your TDEE to meet your weight goals, you'll need to accurately measure the calories going into your body and weigh yourself regularly to see if you are moving in the right direction. The tools listed below will help on this journey:</p>
+                        <p class="md:mt-8 font-semibold italic">Affiliate Websites: The ads/links below take you to partner websites that sell products you might find helpful in your health and fitness journey. If you click on one of the ads and make a purchase, Uncover Your Fit will receive a small commission at no extra cost to you. As an Amazon Associate we earn from qualifying purchases from Amazon links.</p>
+                        <div class="flex flex-col-reverse md:flex-row pages justify-center md:mt-8">
+                            <div class="md:w-3/12 md:mr-6 md:mt-8">
+                                <div class="flex justify-center">
+                                    <a class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary p-4" href="https://www.amazon.com/Greater-Goods-Nourish-Portions-Nutritional/dp/B00O5U4NDQ?crid=AU3DZR5ERQWD&keywords=nutrition+scale&qid=1699121700&s=home-garden&sprefix=nutrition+scale%2Cgarden%2C80&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&linkCode=li3&tag=uncoveryour0c-20&linkId=24f126ef0c7731d97b2e24d20bc89506&language=en_US&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00O5U4NDQ&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=uncoveryour0c-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=uncoveryour0c-20&language=en_US&l=li3&o=1&a=B00O5U4NDQ" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+                                </div>
+                            </div>
+                            <div class="md:w-5/12 md:m1-4">
+                                <h3 class="text-xl 2xl:text-3xl text-center font-semibold mt-4 md:mt-0">Kitchen/Food Nutrition Scale</h3>
+                                <p>This <a href="https://amzn.to/3MtAyky" target="blank">little gadget</a> takes the guesswork out of portion control. No more eyeballing or ballparking your food quantities. Instead, you get real numbers, precise to the gram.</p>
+                                <p>With a <a href="https://amzn.to/3MtAyky" target="blank">nutrition scale</a>, you can hit your TDEE targets more consistently, making your journey to health and fitness a smoother ride.</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col-reverse md:flex-row pages justify-center md:mt-8">
+                            <div class="md:w-3/12 md:mr-6 md:mt-8">
+                                <div class="flex justify-center">
+                                    <a class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary p-6" href="https://www.amazon.com/Etekcity-Digital-Bluetooth-Bathroom-Pregnancy/dp/B09HCJD6H1?crid=A1JXR1ZM1WPR&keywords=fitness+scale&qid=1699122910&sprefix=fitness+scale%2Caps%2C90&sr=8-1-spons&ufe=app_do%3Aamzn1.fos.006c50ae-5d4c-4777-9bc0-4513d670b6bc&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&linkCode=li3&tag=uncoveryour0c-20&linkId=78b7cbc34ba0490e871418c8762cbfb0&language=en_US&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09HCJD6H1&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=uncoveryour0c-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=uncoveryour0c-20&language=en_US&l=li3&o=1&a=B09HCJD6H1" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+                                </div>
+                            </div>
+                            <div class="md:w-5/12 md:m1-4">
+                                <h3 class="text-xl 2xl:text-3xl text-center font-semibold mt-4 md:mt-0">Smart Body Weight Scale</h3>
+                                <p>When it comes to health and fitness, a <a href="https://amzn.to/3MwHyNv" target="blank">smart body weight scale</a> is your secret weapon in the battle for a healthier you. As opposed to a traditional scale, this high-tech marvel doesn't just measure your weight; it tracks body composition, body fat percentage, muscle mass, and more.</p>
+                                <p>With all this data at your fingertips, you can make informed decisions about your fitness journey. No more flying blind&mdash;it's like being the pilot who knows every gust of wind and tailwind. So, if you're serious about leveling up your health and fitness game, grab a <a href="https://amzn.to/3MwHyNv" target="blank">smart body weight scale</a> and empower yourself with the knowledge you need to chart your course.</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col-reverse md:flex-row pages justify-center md:mt-8">
+                            <div class="md:w-3/12 md:mr-6 md:mt-8">
+                                <div class="flex justify-center">
+                                    <img class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary " src="/images/calorieapp.jpg" alt="A woman checking her calorie app on her phone">
+                                </div>
+                            </div>
+                            <div class="md:w-5/12 md:m1-4">
+                                <h3 class="text-xl 2xl:text-3xl text-center font-semibold mt-4 md:mt-0">Calorie Tracking App</h3>
+                                <p>The calorie tracking app is your trusty sidekick on the quest for those elusive health and fitness goals! Think of it as your digital nutrition detective. It's like having Sherlock Holmes in your pocket, but instead of solving mysteries, it's unraveling the enigma of your daily calories.</p>
+                                <p> So, whether you're aiming to lose weight, gain muscle, or simply eat healthier, a calorie tracking app, such as <a href="https://www.myfitnesspal.com/" target="blank">MyFitnessPal</a>, will be your partner in crime. Get ready to track, learn, and conquer your nutritional adventures, one calorie at a time.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="mb-8">
+                    <div class="mb-8 mt-16">
                         <div class="p-6 pages">
-                            <h2 class="text-5xl leading-tight 2xl:text-7xl 2xl:leading-tight text-center handwriting6">Need help?</h2>
+                            <h2 class="text-5xl leading-tight 2xl:text-7xl 2xl:leading-tight text-center handwriting6">Need additional help?</h2>
                             <p class="text-3xl xl:text-5xl mt-4 text-center">We can assist with our 1-on-1 coaching!</p>
                             <div class="flex justify-center w-full text-2xl mt-6">
                                 <a href="/coaching" class="inline-flex items-center py-2 px-8 pb-3 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center">Explore Coaching</a>
@@ -232,16 +272,18 @@
             <div class="flex flex-col lg:ml-10 lg:w-1/6">
                 <div>
                     <div class="md:mt-14 flex justify-center text-secondary text-xl underline font:semi-bold">Uncover Your Fit Coaching</div>
-                    <div class="py-2 flex justify-center">
-                         <a href="/coaching"><img src="/images/coachingtm3.jpg" class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary" alt="A midlife woman sitting on couch having coaching session on computer"></a>
+                    <div class="flex justify-center">
+                        <div class="py-2 flex justify-center w-1/2 lg:w-full">
+                             <a href="/coaching"><img src="/images/coachingtm3.jpg" class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary" alt="A midlife woman sitting on couch having coaching session on computer"></a>
+                        </div>
                     </div>
                     <button class="flex justify-center w-full text-base">
-                        <a href="/coaching"  class="inline-flex items-center py-2 px-8 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary rounded-full text-white text-xs">Explore Coaching</a>
+                        <a href="/coaching"  class="inline-flex items-center py-2 px-8 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary rounded-full text-white text-xs no-underline">Explore Coaching</a>
                     </button>
                 </div>
                 <div>
                     <div class="mt-4 flex justify-center text-secondary text-xl underline">Affiliate Websites</div>
-                    <div class="font-bold py-2 ml-4">The ads below take you to partner websites that sell products many of you might find helpful in your health and fitness journey. If you click on one of the ads and make a purchase, Uncover Your Fit will receive a small commission at no extra cost to you. As an Amazon Associate we earn from qualifying purchases from Amazon links.</div>
+                    <div class="font-bold py-2 ml-4 italic">The ads below take you to partner websites that sell products you might find helpful in your health and fitness journey. If you click on one of the ads and make a purchase, Uncover Your Fit will receive a small commission at no extra cost to you. As an Amazon Associate we earn from qualifying purchases from Amazon links.</div>
                     <div class="py-6 flex flex-col justify-center items-center">
                         <a class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary p-4" href="https://www.amazon.com/Greater-Goods-Capacity-Kitchen-Scale/dp/B09QFWXSD8?crid=1B887TV7H5LR1&keywords=digital+food+scales&qid=1699120689&refinements=p_72%3A1248915011&rnid=1248913011&s=home-garden&sprefix=digital+food+scales%2Caps%2C96&sr=1-8&linkCode=li3&tag=uncoveryour0c-20&linkId=258b9a357e97988ab4aaff748ee1d692&language=en_US&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09QFWXSD8&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=uncoveryour0c-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=uncoveryour0c-20&language=en_US&l=li3&o=1&a=B09QFWXSD8" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
                         <p class="text-center mt-4">Greater Goods High Capacity Kitchen Scale </p>

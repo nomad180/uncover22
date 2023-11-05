@@ -36,7 +36,7 @@
             @endif
         </menu>
         <div class="hidden lg:flex justify-end m-auto">
-            <a href="https://uncoveryourfit.practicebetter.io/#/signin" class="text-sm xl:text-xl px-4 py-2 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center" target="blank">
+            <a href="https://uncoveryourfit.practicebetter.io/#/signin" class="text-sm xl:text-xl px-4 py-2 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 no-underline bg-secondary text-white rounded-full text-center" target="blank">
                 Member Portal
             </a>
         </div>
@@ -97,7 +97,7 @@
                         </x-responsive-nav-link>
                     </form>
                 @else
-                    <div class="block w-full px-4 py-2 text-left text-sm leading-5 text-secondary hover:text-white hover:bg-secondary focus:outline-none transition duration-150 ease-in-out"><a href="https://uncoveryourfit.practicebetter.io/#/signin" target="blank">Members</a></div>
+                    <div class="block w-full px-4 py-2 text-left text-sm leading-5 hover:bg-secondary focus:outline-none transition duration-150 ease-in-out"><a class="text-secondary hover:text-white no-underline" href="https://uncoveryourfit.practicebetter.io/#/signin" target="blank">Member Portal</a></div>
 
                    <!-- @if (Route::has('register'))
                         <a href="{{ route('register') }}" class="text-secondary py-1 px-4 text-base hover:bg-secondary focus:bg-secondary hover:text-white focus:text-white rounded-full">Register</a>

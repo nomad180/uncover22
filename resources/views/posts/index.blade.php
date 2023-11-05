@@ -9,7 +9,7 @@
                     <div class="flex justify-between border-b border-primary mb-4">
                         @if (isset($currentCategory))
                         <h1 class="text-4xl mt-6 mb-2">{{ isset($currentCategory) ? ucwords($currentCategory->slug) : '' }} Posts
-                            <a href="/blog" class="text-sm hover:text-primary">|Back to Latest Posts|</></a>
+                            <a href="/blog" class="text-sm text-black no-underline hover:text-primary">|Back to Latest Posts|</></a>
                         </h1>
                         @else
                         <h1 class="text-4xl mt-6 mb-2">Latest Posts</h1>
@@ -29,16 +29,18 @@
             <div class="flex flex-col md:ml-10 md:w-1/6">
                 <div>
                     <div class="md:mt-14 flex justify-center text-secondary text-xl underline font:semi-bold">Uncover Your Fit Coaching</div>
-                    <div class="py-2 flex justify-center">
-                         <a href="/coaching"><img src="/images/coachingtm3.jpg" class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary" alt="A midlife woman sitting on couch having coaching session on computer"></a>
+                    <div class="flex justify-center">
+                        <div class="py-2 flex justify-center w-1/2 lg:w-full">
+                             <a href="/coaching"><img src="/images/coachingtm3.jpg" class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary" alt="A midlife woman sitting on couch having coaching session on computer"></a>
+                        </div>
                     </div>
                     <button class="flex justify-center w-full text-base">
-                        <a href="/coaching"  class="inline-flex items-center py-2 px-8 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary rounded-full text-white text-xs">Explore Coaching</a>
+                        <a href="/coaching"  class="inline-flex items-center py-2 px-8 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary rounded-full text-white text-xs no-underline">Explore Coaching</a>
                     </button>
                 </div>
                  <div>
                     <div class="mt-4 flex justify-center text-secondary text-xl underline">Affiliate Websites</div>
-                    <div class="font-bold py-2 ml-4">The ads below take you to partner websites that sell products many of you might find helpful in your health and fitness journey. If you click on one of the ads and make a purchase, Uncover Your Fit will receive a small commission at no extra cost to you.</div>
+                    <div class="font-bold py-2 ml-4 italic">The ads below take you to partner websites that sell products many of you might find helpful in your health and fitness journey. If you click on one of the ads and make a purchase, Uncover Your Fit will receive a small commission at no extra cost to you.</div>
                     <div class="py-6 flex justify-center">
                         <a target="_blank" href="https://shareasale.com/r.cfm?b=947058&amp;u=2872412&amp;m=68998&amp;urllink=&amp;afftrack="><img class="rounded-xl" src="https://static.shareasale.com/image/68998/yoga240x400.jpg" border="0" alt="yoga gear" /></a>
                     </div>

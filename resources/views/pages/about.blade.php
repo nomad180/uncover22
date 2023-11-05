@@ -16,7 +16,7 @@
                     <p>This journey isn't just about avoiding illness; it's about unleashing your full potential. We're here to guide you toward boundless energy, unwavering strength, and the resilience to conquer life's challenges. Think of your future as a canvas, and we're the supportive hand helping you sculpt a life that's not just healthier but more vibrant, energetic, and fulfilling. So, together, let's paint a masterpiece of health and happiness.</p>
                 </div>
                 <div class="md:w-1/2 2xl:w-4/12 mt-6 mx-auto lg:mx-0">
-                    <img class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary" src="/images/journey2.jpg" alt="Multiple hands joining together as a group">
+                    <img class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary" src="/images/journey2.jpg" alt="Wood blocks stack with the text every journey needs a first step">
                 </div>
             </div>
         </div>
@@ -132,7 +132,7 @@
             <h2 class="text-5xl leading-tight 2xl:text-7xl 2xl:leading-tight text-center handwriting6">Don't wait any longer!</h2>
             <p class="text-3xl xl:text-5xl mt-4 text-center"> Give yourself the opportunity to create the life you'll love waking up to!</p>
             <div class="flex justify-center w-full text-2xl mt-6">
-                <a href="/coaching" class="inline-flex items-center py-2 px-8 pb-3 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center">Explore Coaching</a>
+                <a href="/coaching" class="inline-flex items-center py-2 px-8 pb-3 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white no-underline rounded-full text-center">Explore Coaching</a>
             </div>
         </div>
     </div>

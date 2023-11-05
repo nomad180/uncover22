@@ -1,5 +1,12 @@
 @tailwind base;
 @layer base{
+    a {
+        color:#0070E0;
+    }
+    a:hover {
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+    }
     ul {
         @apply list-disc;
         @apply list-inside;

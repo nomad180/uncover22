@@ -14,7 +14,7 @@
                 </div>
 
                 <div class="mt-4">
-                    <a href="/posts/{{ $post->slug }}">
+                    <a class="text-black no-underline" href="/posts/{{ $post->slug }}">
                         <h1 class="text-3xl">
                             {{ $post->title }}
                         </h1>
@@ -34,13 +34,13 @@
             <footer class="flex justify-between items-center mt-8">
                 <div class="flex items-center text-sm">
                     <h5 class="font-semibold">By
-                        <a href="/blog?author={{ $post->author->username }}">{{ $post->author->name }}</a>
+                        <a class="text-black no-underline" href="/blog?author={{ $post->author->username }}">{{ $post->author->name }}</a>
                     </h5>
                 </div>
 
                 <div>
                     <a href="/posts/{{ $post->slug }}"
-                       class="transition-colors text-white duration-300 text-xs font-semibold bg-secondary hover:bg-primary border-2 border-zinc-300 shadow-lg shadow-zinc-400 rounded-full py-2 px-8"
+                       class="transition-colors text-white duration-300 text-xs font-semibold bg-secondary hover:bg-primary border-2 border-zinc-300 shadow-lg shadow-zinc-400 rounded-full py-2 px-8 no-underline"
                     >Read More</a>
                 </div>
             </footer>

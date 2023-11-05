@@ -1,5 +1,5 @@
-<!doctype html>
-<head lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<!doctype html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<head>
     <title>@yield('title')</title>
 
     <meta charset="utf-8">

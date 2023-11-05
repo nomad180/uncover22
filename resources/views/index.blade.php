@@ -8,7 +8,7 @@
                 <h1 class="text-5xl leading-tight lg:text-7xl lg:leading-tight 2xl:text-8xl 2xl:leading-tight handwriting6 flex justify-center text-center lg:text-left">Premier health coaching for midlife warriors</h1>
                 <h2 class="text-lg xl:text-xl mt-4">Ditch fads, embrace sustainable wellness, and get in the best shape of your life with our premier 1-on-1 health coaching</h2>
                 <div class="w-1/2 mt-10">
-                    <a href="/coaching" class="text-sm xl:text-xl px-4 py-2 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center">Explore Coaching
+                    <a href="/coaching" class="text-sm xl:text-xl px-4 py-2 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white no-underline rounded-full text-center inline-flex items-center">Explore Coaching
                     </a>
                 </div>
             </div>
@@ -27,7 +27,7 @@
             <h1 class="lg:text-6xl lg:leading-tight xl:text-7xl xl:leading-tight 2xl:text-8xl 2xl:leading-tight handwriting6 flex justify-center">Premier health coaching for midlife warriors</h1>
             <h2 class="lg:text-xl mt-4 pr-4">Ditch fads, embrace sustainable wellness, and get in the best shape of your life with our premier 1-on-1 health coaching</h2>
             <div class="mt-10">
-                <a href="/coaching" class="text-sm xl:text-xl px-4 py-2 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center">Explore Coaching
+                <a href="/coaching" class="text-sm xl:text-xl px-4 py-2 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white no-underline rounded-full text-center inline-flex items-center">Explore Coaching
                 </a>
             </div>
         </div>
@@ -49,7 +49,7 @@
                     </ul>
                     <p>But fear not, Uncover Your Fit is here to act as your compass and guide you to a healthier life. We're all about building lasting habits through habit-based health coaching. Think of it as constructing a strong fortress of health, one brick at a time. Join us on this journey to a healthier, happier you!</p>
                     <div class="flex justify-center w-full text-sm">
-                        <a href="/about" class="py-2 px-8 pb-3 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center">Learn More About Us</a>
+                        <a href="/about" class="py-2 px-8 pb-3 border-2 no-underline border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center">Learn More About Us</a>
                     </div>
                 </div>
             </div>
@@ -202,7 +202,7 @@
             <h2 class="text-5xl leading-tight 2xl:text-7xl 2xl:leading-tight text-center handwriting6">Don't wait any longer!</h2>
             <p class="text-3xl xl:text-5xl mt-4 text-center"> Give yourself the opportunity to create the life you'll love waking up to!</p>
             <div class="flex justify-center w-full text-2xl mt-6">
-                <a href="/coaching" class="py-2 px-8 pb-3 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center">Explore Coaching</a>
+                <a href="/coaching" class="py-2 px-8 pb-3 border-2 no-underline border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center">Explore Coaching</a>
             </div>
         </div>
     </div>
