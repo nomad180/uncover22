@@ -26,7 +26,7 @@
         </div>
         <div>&copy; <?php echo date("Y") ?> Uncover Your Fit</div>
         <div><a class="text-black no-underline" href="/tdee">TDEE Calculator</a></div>
-        <div><a class="text-black no-underline" href="https://uncoveryourfit.buzzsprout.com/">Podcast</a></div>
+        <div><a class="text-black no-underline" href="https://uncoveryourfit.buzzsprout.com/" target="blank">Podcast</a></div>
         <div><a class="text-black no-underline" href="/privacy">Privacy Policy</a></div>
         <div><a class="text-black no-underline" href="/terms">Terms of Use</a></div>
     </div>
