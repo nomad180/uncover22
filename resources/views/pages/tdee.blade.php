@@ -223,13 +223,13 @@
                         <div class="flex flex-col-reverse md:flex-row pages justify-center md:mt-8">
                             <div class="md:w-3/12 md:mr-6 md:mt-8">
                                 <div class="flex justify-center">
-                                    <a class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary p-4" href="https://www.amazon.com/Greater-Goods-Nourish-Portions-Nutritional/dp/B00O5U4NDQ?crid=AU3DZR5ERQWD&keywords=nutrition+scale&qid=1699121700&s=home-garden&sprefix=nutrition+scale%2Cgarden%2C80&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&linkCode=li3&tag=uncoveryour0c-20&linkId=24f126ef0c7731d97b2e24d20bc89506&language=en_US&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00O5U4NDQ&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=uncoveryour0c-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=uncoveryour0c-20&language=en_US&l=li3&o=1&a=B00O5U4NDQ" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+                                    <a class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary p-4" href="https://www.amazon.com/Greater-Goods-Capacity-Kitchen-Scale/dp/B09QFWXSD8?crid=1B887TV7H5LR1&keywords=digital+food+scales&qid=1699120689&refinements=p_72%3A1248915011&rnid=1248913011&s=home-garden&sprefix=digital+food+scales%2Caps%2C96&sr=1-8&linkCode=li3&tag=uncoveryour0c-20&linkId=258b9a357e97988ab4aaff748ee1d692&language=en_US&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09QFWXSD8&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=uncoveryour0c-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=uncoveryour0c-20&language=en_US&l=li3&o=1&a=B09QFWXSD8" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
                                 </div>
                             </div>
                             <div class="md:w-5/12 md:m1-4">
-                                <h3 class="text-xl 2xl:text-3xl text-center font-semibold mt-4 md:mt-0">Kitchen/Food Nutrition Scale</h3>
-                                <p>This <a href="https://amzn.to/3MtAyky" target="blank">little gadget</a> takes the guesswork out of portion control. No more eyeballing or ballparking your food quantities. Instead, you get real numbers, precise to the gram.</p>
-                                <p>With a <a href="https://amzn.to/3MtAyky" target="blank">nutrition scale</a>, you can hit your TDEE targets more consistently, making your journey to health and fitness a smoother ride.</p>
+                                <h3 class="text-xl 2xl:text-3xl text-center font-semibold mt-4 md:mt-0">Kitchen Food Scale</h3>
+                                <p>This <a href="https://amzn.to/3QMZW7j" target="blank">little gadget</a> takes the guesswork out of portion control. No more eyeballing or ballparking your food quantities. Instead, you get real numbers, precise to the gram.</p>
+                                <p>With a <a href="https://amzn.to/3QMZW7j" target="blank">food scale</a>, you can hit your TDEE targets more consistently, making your journey to health and fitness a smoother ride.</p>
                             </div>
                         </div>
                         <div class="flex flex-col-reverse md:flex-row pages justify-center md:mt-8">
@@ -253,7 +253,7 @@
                             <div class="md:w-5/12 md:m1-4">
                                 <h3 class="text-xl 2xl:text-3xl text-center font-semibold mt-4 md:mt-0">Calorie Tracking App</h3>
                                 <p>The calorie tracking app is your trusty sidekick on the quest for those elusive health and fitness goals! Think of it as your digital nutrition detective. It's like having Sherlock Holmes in your pocket, but instead of solving mysteries, it's unraveling the enigma of your daily calories.</p>
-                                <p> So, whether you're aiming to lose weight, gain muscle, or simply eat healthier, a calorie tracking app, such as <a href="https://www.myfitnesspal.com/" target="blank">MyFitnessPal</a>, will be your partner in crime. Get ready to track, learn, and conquer your nutritional adventures, one calorie at a time.</p>
+                                <p> So, whether you're aiming to lose weight, gain muscle, or simply eat healthier, a calorie tracking app, such as <a href="https://cronometer.com/gold/signup/" target="blank">Cronometer</a>, will be your partner in crime. Get ready to track, learn, and conquer your nutritional adventures, one calorie at a time.</p>
                             </div>
                         </div>
                     </div>
