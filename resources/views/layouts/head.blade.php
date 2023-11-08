@@ -30,7 +30,7 @@
     <link rel="manifest" href="/site.webmanifest">
 
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WWFV3718FN"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZCKSV7NVVZ"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
