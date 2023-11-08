@@ -36,7 +36,7 @@
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'G-WWFV3718FN');
+      gtag('config', 'G-ZCKSV7NVVZ');
     </script>
 </head>
 <body style="font-family: Open Sans, sans-serif;">
