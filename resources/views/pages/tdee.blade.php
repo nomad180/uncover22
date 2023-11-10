@@ -20,7 +20,7 @@
                         <p>Think of your BMR as the energy your body expends while lounging on the couch, watching Netflix. But life isn't just couch time, right? So, we need to sprinkle in some extra calories to account for your daily activities, even if you're not doing extreme sports.</p>
                         <p>Our TDEE calculator is like a master chef. It combines the finest formulas to give you a TDEE that's not just a number but a clear, meaningful insight into your daily calorie needs.</p>
                         <div class="flex justify-center">
-                            <p class="inline-flex items-center py-2 px-8 pb-3 mb-4 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center text-xl"><a class="text-white no-underline" href="https://uncoveryourfit.com/posts/deciphering-your-total-daily-energy-expenditure-(TDEE)-for-optimal-health-and-fitness" target="blank" class="text-center">Read Our TDEE Blog Post</a></p>
+                            <p class="inline-flex items-center py-2 px-8 pb-3 mb-4 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center text-xl"><a class="text-white no-underline" href="https://uncoveryourfit.com/posts/deciphering-your-total-daily-energy-expenditure-(TDEE)-for-optimal-health-and-fitness" target="blank" class="text-center">Read More About TDEE</a></p>
                         </div>
                     </div>
                     <div class="lg:w-1/2 flex justify-center border-2 border-zinc-300 shadow-lg shadow-zinc-400 rounded-xl p-4">
@@ -218,6 +218,9 @@
                                             </ul>
                                         </div>
                                 </ul>
+                                <div class="flex justify-center">
+                                    <p class="inline-flex items-center py-2 px-8 pb-3 mb-4 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center text-xl"><a class="text-white no-underline" href="https://uncoveryourfit.com/posts/mastering-macronutrients-a-guide-to-optimal-ratios-for-every-fitness-goal" target="blank" class="text-center">Read About Mastering Macronutrients</a></p>
+                                </div>
                             </div>
                         </div>
                         <h3 class="text-xl 2xl:text-3xl text-center font-semibold">Needed Tools</h3>
