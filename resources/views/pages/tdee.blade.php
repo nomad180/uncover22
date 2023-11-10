@@ -109,6 +109,9 @@
                                     Athlete (2x/Day) &ndash; {{ $caloriesSuperActive }} calories per day
                                 @endif
                                 </p>
+                                <div class="flex justify-center mt-10">
+                                    <p class="inline-flex items-center py-2 px-8 pb-3 mb-4 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center text-xl"><a class="text-white no-underline" href="https://uncoveryourfit.com/posts/deciphering-your-total-daily-energy-expenditure-(TDEE)-for-optimal-health-and-fitness" class="text-center">Read Our TDEE Blog Post</a></p>
+                                </div>
                             </div>
                             <div class="md:w-1/4 md:mt-6">
                                 <div class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary ">
@@ -157,7 +160,7 @@
                                     @if ($bmi >= 24.9 && $bmi < 29.9)
                                         <span class="font-semibold">25- 29.99 &ndash; Overweight</span>
                                     @else
-                                        25- 29.99 &ndash; Overweight
+                                        25 - 29.99 &ndash; Overweight
                                     @endif
                                 </p>
                                 <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">
