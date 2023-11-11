@@ -259,7 +259,13 @@
                             <div class="md:w-5/12 md:m1-4">
                                 <h3 class="text-xl 2xl:text-3xl text-center font-semibold mt-4 md:mt-0">Calorie Tracking App</h3>
                                 <p>The calorie tracking app is your trusty sidekick on the quest for those elusive health and fitness goals! Think of it as your digital nutrition detective. It's like having Sherlock Holmes in your pocket, but instead of solving mysteries, it's unraveling the enigma of your daily calories.</p>
-                                <p> So, whether you're aiming to lose weight, gain muscle, or simply eat healthier, a calorie tracking app, such as <a href="https://cronometer.com/gold/signup/" target="blank">Cronometer</a>, will be your partner in crime. Get ready to track, learn, and conquer your nutritional adventures, one calorie at a time.</p>
+                                <p> So, whether you're aiming to lose weight, gain muscle, or simply eat healthier, a calorie tracking app, such as <a href="https://www.myfitnesspal.com/" target="blank">MyFitnessPal</a> or <a href="https://cronometer.com/gold/signup/" target="blank">Cronometer</a>, will be your partner in crime. Get ready to track, learn, and conquer your nutritional adventures, one calorie at a time.</p>
+                                <div class="flex justify-center">
+                                    <p class="inline-flex items-center py-2 px-8 pb-3 mb-4 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center text-xl"><a class="text-white no-underline" href="/images/Mastering MyFitnessPal for Ultimate Fitness Success.pdf" download class="text-center">Download Our Free Guide to MyFitnessPal</a></p>
+                                </div>
+                                <div class="flex justify-center">
+                                    <p class="inline-flex items-center py-2 px-8 pb-3 mb-4 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center text-xl"><a class="text-white no-underline" href="/images/Cronometer Your Nutritional Secret Weapon.pdf" download class="text-center">Download Our Free Guide to Cronometer</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
