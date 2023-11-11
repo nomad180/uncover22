@@ -14,14 +14,14 @@
             </div>
             <div class="w-full md:w-1/2 mx-auto mt-6 md:mt-0 md:ml-4 flex items-center justify-center">
                 <div class="mx-auto mt-6 md:mt-0 flex items-center justify-center">
-                    <img class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary" src="/images/indextm4.jpg" alt="A collage of five images: a person cooking salmon on a grill, a man jogging in the mountains, a woman drinking water in the mountains, a bowl of salad, and a man and woman making a healthy meal"  >
+                    <img class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary" src="/images/indextm5.jpg" alt="A collage of five images: an Asian man stretching, a man jogging in the mountains, a woman getting her music ready to work out in gym, a black male doing dips in the park, and a man and woman making a healthy meal"  >
                 </div>
             </div>
         </div>
     </div>
     <div class="relative mt-6 lg:-mt-12 xl:-mt-14 2xl:-mt-20 mb-6 lg:-mb-16 xl:-mb-24 2xl:-mb-32 hidden lg:flex">
         <video width="100%" height="100%" autoplay muted loop playsinline>
-            <source src="/images/indexnew3.mp4" type="video/mp4">
+            <source src="/images/indexnew6.mp4" type="video/mp4">
         </video>
         <div class="absolute inset-y-0 inset-x-4 md:inset-x-16 lg:inset-x-24 xl:inset-x-32 w-5/12 flex justify-center flex-col">
             <h1 class="lg:text-6xl lg:leading-tight xl:text-7xl xl:leading-tight 2xl:text-8xl 2xl:leading-tight handwriting6 flex justify-center">Premier health coaching for midlife warriors</h1>
