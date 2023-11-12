@@ -28,23 +28,41 @@ class TdeeController extends Controller
         $request->flash();
 
         // Retrieve user input from the form
-        $weightInPounds = $request->input('weight');
-        $heightInInches = $request->input('height');
+        $covertunit = $request->input('covertunit');
+        $weight = $request->input('weight');
+        $height = $request->input('height');
         $age = $request->input('age');
         $gender = $request->input('gender');
         $activityLevel = $request->input('activity_level');
 
-        // Convert weight from pounds to kilograms (1 pound = 0.45359237 kilograms)
-        $weightInKg = $weightInPounds * 0.45359237;
+        // Convert weight and height based on the unit system
+        if ($covertunit == 'imperial') {
+            // Convert weight from pounds to kilograms (1 pound = 0.45359237 kilograms)
+            $weightInKg = $weight * 0.45359237;
 
-        // Convert height from inches to centimeters (1 inch = 2.54 centimeters)
-        $heightInCm = $heightInInches * 2.54;
+            // Convert height from inches to centimeters (1 inch = 2.54 centimeters)
+            $heightInCm = $height * 2.54;
+        } else {
+            // Assume weight is already in kilograms
+            $weightInKg = $weight;
+
+            // Assume height is already in centimeters
+            $heightInCm = $height;
+        }
 
         // Perform the TDEE calculation based on the formulas
-        if ($gender === 'male') {
-            $bmr = 10 * $weightInKg + 6.25 * $heightInCm - 5 * $age + 5;
+        if ($covertunit == 'imperial') {
+            if ($gender === 'male') {
+                $bmr = 10 * $weightInKg + 6.25 * $heightInCm - 5 * $age + 5;
+            } else {
+                $bmr = 10 * $weightInKg + 6.25 * $heightInCm - 5 * $age - 161;
+            }
         } else {
-            $bmr = 10 * $weightInKg + 6.25 * $heightInCm - 5 * $age - 161;
+            if ($gender === 'male') {
+                $bmr = 10 * $weight + 6.25 * $height - 5 * $age + 5;
+            } else {
+                $bmr = 10 * $weight + 6.25 * $height - 5 * $age - 161;
+            }
         }
 
         $activityFactors = [
@@ -82,23 +100,45 @@ class TdeeController extends Controller
         $caloriesSuperActive = $bmr * $activityFactors['super_active'];
 
         // Calculate ideal weight using JD Robinson formula in kilograms
-        if ($gender === 'male') {
-            $idealWeightKg = 52 + 1.9 * ($heightInInches - 60);
+        if ($covertunit == 'imperial') {
+            if ($gender === 'male') {
+                $idealWeightKg = 52 + 1.9 * ($height - 60);
+            } else {
+                $idealWeightKg = 49 + 1.7 * ($height - 60);
+            }
         } else {
-            $idealWeightKg = 49 + 1.7 * ($heightInInches - 60);
+            if ($gender === 'male') {
+                $idealWeightKg = 52 + 1.9 * (($height / 2.54) - 60);
+            } else {
+                $idealWeightKg = 49 + 1.7 * (($height / 2.54) - 60);
+            }
         }
 
-        // Convert ideal weight to pounds
-        $idealWeight = $idealWeightKg * 2.20462;
+        // Calculate ideal weight and bmi
+        if ($covertunit == 'imperial') {
+            // Convert ideal weight to pounds
+            $idealWeight = $idealWeightKg * 2.20462;
 
-        // Calculate BMI
-        $bmi = ($weightInPounds / ($heightInInches * $heightInInches)) * 703;
+            // Calculate BMI
+            $bmi = ($weightInKg / $heightInCm / $heightInCm) * 10000;
+        } else {
+            // Assume weight is already in kilograms
+            $idealWeight = $idealWeightKg;
+            // Calculate BMI
+            $bmi = ($weight / $height / $height) * 10000;
+        }
 
         // Calculate maximum muscular potential (e.g., using a reference formula)
         // Adjust the formula as needed
-        $maxMuscularPotential = ($heightInCm - 100) * 2.2;
-        $maxMuscularPotentialt = $maxMuscularPotential / 0.95;
-        $maxMuscularPotentialf = $maxMuscularPotential / 0.90;
+        if ($covertunit == 'imperial') {
+            $maxMuscularPotential = ($heightInCm - 100) * 2.2;
+            $maxMuscularPotentialt = $maxMuscularPotential / 0.95;
+            $maxMuscularPotentialf = $maxMuscularPotential / 0.90;
+        } else {
+            $maxMuscularPotential = ($heightInCm - 100);
+            $maxMuscularPotentialt = $maxMuscularPotential / 0.95;
+            $maxMuscularPotentialf = $maxMuscularPotential / 0.90;
+        }
 
         // Round down to the nearest integer
         $tdee = intval($tdee);
@@ -172,6 +212,8 @@ class TdeeController extends Controller
             'maxMuscularPotential' => $maxMuscularPotential,
             'maxMuscularPotentialt' => $maxMuscularPotentialt,
             'maxMuscularPotentialf' => $maxMuscularPotentialf,
+            'weight' => $weight,
+            'weightInKg' => $weightInKg,
             'idealWeight' => $idealWeight,
             'bmr' => $bmr,
         ];

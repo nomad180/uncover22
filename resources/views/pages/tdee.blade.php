@@ -23,50 +23,96 @@
                             <p class="inline-flex items-center py-2 px-8 pb-3 mb-4 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center text-xl"><a class="text-white no-underline" href="https://uncoveryourfit.com/posts/deciphering-your-total-daily-energy-expenditure-(TDEE)-for-optimal-health-and-fitness" target="blank" class="text-center">Read More About TDEE</a></p>
                         </div>
                     </div>
-                    <div class="lg:w-1/2 flex justify-center border-2 border-zinc-300 shadow-lg shadow-zinc-400 rounded-xl p-4">
-                        <form method="POST" action="/tdee">
-                            @csrf
-                            <div class="mt-4">
-                                <label for="gender">Gender:</label>
-                                <input type="radio" name="gender" value="male" id="male" required {{ old('gender') == 'male' ? 'checked' : '' }}>
-                                <label for="male">Male</label>
-                                <input type="radio" name="gender" value="female" id="female" required {{ old('gender') == 'female' ? 'checked' : '' }}>
-                                <label for="female">Female</label><br>
-                            </div>
-                            <div class="mt-4">
-                                <label for="age">Age:</label>
-                                <input class="w-3/12 text-center border rounded-xl" type="number" name="age" id="age" required value="{{ old('age') }}"><br>
-                            </div>
-                            <div class="mt-4">
-                                <label for="weight">Weight (lbs):</label>
-                                <input class="w-3/12 text-center border rounded-xl" type="number" name="weight" id="weight" required value="{{ old('weight') }}"><br>
-                            </div>
-                            <div class="mt-4">
-                                <label for="height">Height:</label>
-                                <select class="border rounded-xl" name="height" required>
-                                    @for ($feet = 4; $feet <= 7; $feet++)
-                                        @for ($inches = 0; $inches <= 11; $inches++)
-                                            <option value="{{ $feet * 12 + $inches }}" {{ old('height', 69) == ($feet * 12 + $inches) ? 'selected' : '' }}>
-                                                {{ $feet }} feet {{ $inches }} inches
-                                            </option>
+                    <div class="lg:w-1/2 flex flex-col border-2 border-zinc-300 shadow-lg shadow-zinc-400 rounded-xl p-4">
+                        <div class="flex justify-center items-center">
+                            <input type="radio" id="imperial" name="unit" value="imperial" checked required {{ old('unit') == 'imperial' ? 'checked' : '' }}><br>
+                            <label class="px-2" for="imperial">Imperial</label>
+                            <input type="radio" id="metric" name="unit" value="metric" required {{ old('unit') == 'metric' ? 'checked' : '' }}><br>
+                            <label class="px-2" for="metric">Metric</label>
+                        </div>
+                        <div id="imperial-form" class="mx-auto">
+                            <form method="POST" action="/tdee">
+                                @csrf
+                                <input type="hidden" id="covertunit" name="covertunit">
+                                <div class="mt-4">
+                                    <label for="gender">Gender:</label>
+                                    <input type="radio" name="gender" value="male" id="male" checked required {{ old('gender') == 'male' ? 'checked' : '' }}>
+                                    <label for="male">Male</label>
+                                    <input type="radio" name="gender" value="female" id="female" required {{ old('gender') == 'female' ? 'checked' : '' }}>
+                                    <label for="female">Female</label><br>
+                                </div>
+                                <div class="mt-4">
+                                    <label for="age">Age:</label>
+                                    <input class="w-3/12 text-center border rounded-xl" type="number" name="age" id="age" required value="{{ old('age') }}"><br>
+                                </div>
+                                <div class="mt-4">
+                                    <label for="weight">Weight (lbs):</label>
+                                    <input class="w-3/12 text-center border rounded-xl" type="number" name="weight" id="weight" required value="{{ old('weight') }}"><br>
+                                </div>
+                                <div class="mt-4">
+                                    <label for="height">Height:</label>
+                                    <select class="border rounded-xl" name="height" required>
+                                        @for ($feet = 4; $feet <= 7; $feet++)
+                                            @for ($inches = 0; $inches <= 11; $inches++)
+                                                <option value="{{ $feet * 12 + $inches }}" {{ old('height', 69) == ($feet * 12 + $inches) ? 'selected' : '' }}>
+                                                    {{ $feet }} feet {{ $inches }} inches
+                                                </option>
+                                            @endfor
                                         @endfor
-                                    @endfor
-                                </select><br>
-                            </div>
-                            <div class="mt-4">
-                                <label for="activity_level">Activity Level:</label>
-                                <select class="border rounded-xl" name="activity_level" id="activity_level" required value="{{ old('activity_level') }}">
-                                    <option value="sedentary" {{ old('activity_level') == 'sedentary' ? 'selected' : '' }}>Sedentary (Office Job)</option>
-                                    <option value="lightly_active" {{ old('activity_level') == 'lightly_active' ? 'selected' : '' }}>Light Exercise (1-2 Days/Week)</option>
-                                    <option value="moderately_active" {{ old('activity_level') == 'moderately_active' ? 'selected' : '' }}>Moderate Exercise (3-5 Days/Week)</option>
-                                    <option value="very_active" {{ old('activity_level') == 'very_active' ? 'selected' : '' }}>Heavy Exercise (6-7 Days/Week)</option>
-                                    <option value="super_active" {{ old('activity_level') == 'super_active' ? 'selected' : '' }}>Athlete (2x/Day)</option>
-                                </select><br>
-                            </div>
-                            <div class="mt-4">
-                                <button type="submit" class="text-sm xl:text-xl px-4 py-2 mt-2 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center">Calculate TDEE</button>
-                            </div>
-                        </form>
+                                    </select><br>
+                                </div>
+                                <div class="mt-4">
+                                    <label for="activity_level">Activity Level:</label>
+                                    <select class="border rounded-xl" name="activity_level" id="activity_level" required value="{{ old('activity_level') }}">
+                                        <option value="sedentary" {{ old('activity_level') == 'sedentary' ? 'selected' : '' }}>Sedentary (Office Job)</option>
+                                        <option value="lightly_active" {{ old('activity_level') == 'lightly_active' ? 'selected' : '' }}>Light Exercise (1-2 Days/Week)</option>
+                                        <option value="moderately_active" {{ old('activity_level') == 'moderately_active' ? 'selected' : '' }}>Moderate Exercise (3-5 Days/Week)</option>
+                                        <option value="very_active" {{ old('activity_level') == 'very_active' ? 'selected' : '' }}>Heavy Exercise (6-7 Days/Week)</option>
+                                        <option value="super_active" {{ old('activity_level') == 'super_active' ? 'selected' : '' }}>Athlete (2x/Day)</option>
+                                    </select><br>
+                                </div>
+                                <div class="mt-4">
+                                    <button type="submit" class="text-sm xl:text-xl px-4 py-2 mt-2 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center">Calculate TDEE</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div id="metric-form" class="mx-auto">
+                            <form method="POST" action="/tdee" id="met-form">
+                                @csrf
+                                <div class="mt-4">
+                                    <label for="gender">Gender:</label>
+                                    <input type="radio" name="gender" value="male" id="male" checked required {{ old('gender') == 'male' ? 'checked' : '' }}>
+                                    <label for="male">Male</label>
+                                    <input type="radio" name="gender" value="female" id="female" required {{ old('gender') == 'female' ? 'checked' : '' }}>
+                                    <label for="female">Female</label><br>
+                                </div>
+                                <div class="mt-4">
+                                    <label for="age">Age:</label>
+                                    <input class="w-3/12 text-center border rounded-xl" type="number" name="age" id="age" required value="{{ old('age') }}"><br>
+                                </div>
+                                <div class="mt-4">
+                                    <label for="weight">Weight (kg):</label>
+                                    <input class="w-3/12 text-center border rounded-xl" type="number" name="weight" id="weight" required value="{{ old('weight') }}"><br>
+                                </div>
+                                <div class="mt-4">
+                                    <label for="height">Height (cm):</label>
+                                    <input class="w-3/12 text-center border rounded-xl" type="number" name="height" id="height" required value="{{ old('height')}}"><br>
+                                </div>
+                                <div class="mt-4">
+                                    <label for="activity_level">Activity Level:</label>
+                                    <select class="border rounded-xl" name="activity_level" id="activity_level" required value="{{ old('activity_level') }}">
+                                        <option value="sedentary" {{ old('activity_level') == 'sedentary' ? 'selected' : '' }}>Sedentary (Office Job)</option>
+                                        <option value="lightly_active" {{ old('activity_level') == 'lightly_active' ? 'selected' : '' }}>Light Exercise (1-2 Days/Week)</option>
+                                        <option value="moderately_active" {{ old('activity_level') == 'moderately_active' ? 'selected' : '' }}>Moderate Exercise (3-5 Days/Week)</option>
+                                        <option value="very_active" {{ old('activity_level') == 'very_active' ? 'selected' : '' }}>Heavy Exercise (6-7 Days/Week)</option>
+                                        <option value="super_active" {{ old('activity_level') == 'super_active' ? 'selected' : '' }}>Athlete (2x/Day)</option>
+                                    </select><br>
+                                </div>
+                                <div class="mt-4">
+                                    <button type="submit" class="text-sm xl:text-xl px-4 py-2 mt-2 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center">Calculate TDEE</button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
                 <div id="result-container">
@@ -174,9 +220,32 @@
                         </div>
                     </div>
                     <h3 class="text-xl 2xl:text-3xl text-center font-semibold">Ideal Body Weight</h3>
-                    <p>The J.D. Robinson Formula suggests your ideal weight to be approximately <span class="font-semibold">{{  $idealWeight }} lbs</span>. Remember, your ideal weight is derived from your height and only offers a general perspective of your ideal. If you're into lifting weights, don't sweat it too much&mdash;this number isn't the whole story.</p>
+                    <p>The J.D. Robinson Formula suggests your ideal weight to be approximately
+                    @if ($weight != $weightInKg)
+                        <span class="font-semibold">{{  $idealWeight }} lbs</span>.
+                    @else
+                        <span class="font-semibold">{{  $idealWeight }} kg</span>.
+                    @endif
+                    Remember, your ideal weight is derived from your height and only offers a general perspective of your ideal. If you're into lifting weights, don't sweat it too much&mdash;this number isn't the whole story.</p>
                     <h3 class="text-xl 2xl:text-3xl text-center font-semibold">Maximum Muscular Potential</h3>
-                    <p>If you're pumping iron and dreaming of that chiseled physique, you're probably asking, "How ripped can I actually get?" Martin Berkhan's Formula gives us the lowdown&mdash;your maximum muscular potential is  <span class="font-semibold">{{$maxMuscularPotential}} lbs</span> at a jaw-dropping 5% body fat. But let's be real, not many folks aim for that level of leanness. So, set your sights on {{$maxMuscularPotentialt}} lbs at 10% body fat or {{$maxMuscularPotentialf}} lbs at 15% body fat&mdash;fantastic targets to keep in mind while you're on that bulking journey!</p>
+                    <p>If you're pumping iron and dreaming of that chiseled physique, you're probably asking, "How ripped can I actually get?" Martin Berkhan's Formula gives us the lowdown&mdash;your maximum muscular potential is
+                    @if ($weight != $weightInKg)
+                        <span class="font-semibold">{{$maxMuscularPotential}} lbs</span>
+                    @else
+                        <span class="font-semibold">{{$maxMuscularPotential}} kg</span>
+                    @endif
+                    at a jaw-dropping 5% body fat. But let's be real, not many folks aim for that level of leanness. So, set your sights on
+                    @if ($weight != $weightInKg)
+                        <span>{{$maxMuscularPotentialt}} lbs at 10% body fat or</span>
+                    @else
+                        <span>{{$maxMuscularPotentialt}} kg at 10% body fat or</span>
+                    @endif
+                    @if ($weight != $weightInKg)
+                        <span>{{$maxMuscularPotentialf}} lbs</span>
+                    @else
+                        <span>{{$maxMuscularPotentialf}} kg</span>
+                    @endif
+                    at 15% body fat&mdash;fantastic targets to keep in mind while you're on that bulking journey!</p>
                     <div class="pt-24 pages">
                         <h2 class="text-5xl 2xl:text-7xl text-center handwriting6">What to do now</h2>
                         <h3 class="text-xl 2xl:text-3xl text-center font-semibold mt-6">Body Weight and Macronutrients</h3>
@@ -297,20 +366,38 @@
                     <div class="mt-4 flex justify-center text-secondary text-xl underline">Affiliate Websites</div>
                     <div class="font-bold py-2 ml-4 italic">The ads below take you to partner websites that sell products you might find helpful in your health and fitness journey. If you click on one of the ads and make a purchase, Uncover Your Fit will receive a small commission at no extra cost to you. As an Amazon Associate we earn from qualifying purchases from Amazon links.</div>
                     <div class="py-6 flex flex-col justify-center items-center">
-                        <a class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary p-4" href="https://www.amazon.com/Bowflex-SelectTech-Adjustable-Dumbbells-Pair/dp/B001ARYU58?crid=KCZNUDYE70QL&keywords=adjustable%2Bdumbbell%2Bset&qid=1699630464&sprefix=adjust%2Caps%2C100&sr=8-6&th=1&linkCode=li3&tag=uncoveryour0c-20&linkId=725d32f13e53e15a8c8eb6b19977e634&language=en_US&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B001ARYU58&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=uncoveryour0c-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=uncoveryour0c-20&language=en_US&l=li3&o=1&a=B001ARYU58" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-                        <p class="text-center mt-4"><a href="https://amzn.to/3SAny0s" target="blank">Bowflex Adjustable Dumbbells</a></p>
+                        <a class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary p-4" href="https://amzn.to/477TPQF" target="blank"><img src="/images/coros.jpg"></a>
+                        <p class="text-center mt-4"><a href="https://amzn.to/477TPQF" target="blank">COROS PACE 2</a></p>
                     </div>
                     <div class="py-6 flex flex-col justify-center items-center">
                         <a class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary p-4" href="https://www.amazon.com/Tangle-Free-Jumping-Bearings-Adjustable-Handles/dp/B09DF9NWC7?crid=39CQ46P0R72RK&keywords=jump%2Brope&qid=1699630715&sprefix=jump%2Brope%2Caps%2C99&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=li3&tag=uncoveryour0c-20&linkId=09b9fca39bf9a42820fbf2f014e4d151&language=en_US&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09DF9NWC7&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=uncoveryour0c-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=uncoveryour0c-20&language=en_US&l=li3&o=1&a=B09DF9NWC7" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
                         <p class="text-center mt-4"><a href="https://amzn.to/47srXqs" target="blank">Fitness Jump Rope</a></p>
                     </div>
                     <div class="py-6 flex flex-col justify-center items-center">
-                        <a class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary p-4" href="https://www.amazon.com/Stainless-Measuring-10-Piece-Kitchen-Gadgets/dp/B091JXDLDX?content-id=amzn1.sym.9e5188ef-9cc8-48bb-b834-24761033aedf%3Aamzn1.sym.9e5188ef-9cc8-48bb-b834-24761033aedf&cv_ct_cx=measuring%2Bcups&keywords=measuring%2Bcups&pd_rd_i=B091JXDLDX&pd_rd_r=47ddcaeb-529f-4353-89b4-57062b97abf0&pd_rd_w=NuCUo&pd_rd_wg=Hf03J&pf_rd_p=9e5188ef-9cc8-48bb-b834-24761033aedf&pf_rd_r=GDCCAAYF4SGASR2AAHR7&qid=1699631196&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=1-2-364cf978-ce2a-480a-9bb0-bdb96faa0f61-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM&th=1&linkCode=li3&tag=uncoveryour0c-20&linkId=3a0be4e9e20badfc41997dcd1c0bfd30&language=en_US&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B091JXDLDX&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=uncoveryour0c-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=uncoveryour0c-20&language=en_US&l=li3&o=1&a=B091JXDLDX" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-                        <p class="text-center mt-4"><a href="https://amzn.to/478uaHH" target="blank">TILUCK Measuring Cups & Spoons</a></p>
+                        <a class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary p-4" href="https://www.amazon.com/Bowflex-SelectTech-Adjustable-Dumbbells-Pair/dp/B001ARYU58?crid=KCZNUDYE70QL&keywords=adjustable%2Bdumbbell%2Bset&qid=1699630464&sprefix=adjust%2Caps%2C100&sr=8-6&th=1&linkCode=li3&tag=uncoveryour0c-20&linkId=725d32f13e53e15a8c8eb6b19977e634&language=en_US&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B001ARYU58&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=uncoveryour0c-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=uncoveryour0c-20&language=en_US&l=li3&o=1&a=B001ARYU58" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+                        <p class="text-center mt-4"><a href="https://amzn.to/3SAny0s" target="blank">Bowflex Adjustable Dumbbells</a></p>
                     </div>
                 </div>
             </div>
         </div>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var selectedUnit = document.querySelector('input[name="unit"]:checked').value;
+        document.getElementById('covertunit').value = selectedUnit;
+        document.getElementById('imperial-form').style.display = selectedUnit === 'imperial' ? 'block' : 'none';
+        document.getElementById('metric-form').style.display = selectedUnit === 'metric' ? 'block' : 'none';
+    });
+    // Add the event listener if you want to handle changes post-load
+     var radioButtons = document.querySelectorAll('input[name="unit"]');
+     radioButtons.forEach(function(radio) {
+         radio.addEventListener('change', function() {
+             var selectedUnit = this.value;
+             document.getElementById('covertunit').value = selectedUnit;
+             document.getElementById('imperial-form').style.display = selectedUnit === 'imperial' ? 'block' : 'none';
+             document.getElementById('metric-form').style.display = selectedUnit === 'metric' ? 'block' : 'none';
+         });
+     });
+</script>
 <!-- JavaScript to submit the form and scroll to the results -->
 <script>
     $(document).ready(function () {
