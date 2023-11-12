@@ -328,7 +328,7 @@
                             <div class="md:w-5/12 md:m1-4">
                                 <h3 class="text-xl 2xl:text-3xl text-center font-semibold mt-4 md:mt-0">Calorie Tracking App</h3>
                                 <p>The calorie tracking app is your trusty sidekick on the quest for those elusive health and fitness goals! Think of it as your digital nutrition detective. It's like having Sherlock Holmes in your pocket, but instead of solving mysteries, it's unraveling the enigma of your daily calories.</p>
-                                <p> So, whether you're aiming to lose weight, gain muscle, or simply eat healthier, a calorie tracking app, such as <a href="https://www.myfitnesspal.com/" target="blank">MyFitnessPal</a> or <a href="https://cronometer.com/gold/signup/" target="blank">Cronometer</a>, will be your partner in crime. Get ready to track, learn, and conquer your nutritional adventures, one calorie at a time.</p>
+                                <p> So, whether you're aiming to lose weight, gain muscle, or simply eat healthier, a calorie tracking app, such as <a href="https://www.myfitnesspal.com/" target="blank">MyFitnessPal</a> or <a href="https://cronometer.com/gold/signup/" target="blank">Cronometer</a>, will be your partner in crime. And, if your really feeling it, partner your calorie tracking app with a personal fitness tracker, such as the <a href="https://amzn.to/477TPQF" target="blank"> COROS PACE 2</a>. Get ready to track, learn, and conquer your nutritional adventures, one calorie at a time.</p>
                                 <div class="flex justify-center">
                                     <p class="inline-flex items-center py-2 px-8 pb-3 mb-4 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center text-xl"><a class="text-white no-underline" href="/images/Mastering MyFitnessPal for Ultimate Fitness Success.pdf" download class="text-center">Download Our Free Guide to MyFitnessPal</a></p>
                                 </div>
@@ -340,10 +340,13 @@
                     </div>
                     <div class="mb-8 mt-16">
                         <div class="p-6 pages">
-                            <h2 class="text-5xl leading-tight 2xl:text-7xl 2xl:leading-tight text-center handwriting6">Need additional help?</h2>
+                            <h2 class="text-5xl leading-tight 2xl:text-7xl 2xl:leading-tight text-center handwriting6">Next Steps</h2>
                             <p class="text-3xl xl:text-5xl mt-4 text-center">We can assist with our 1-on-1 coaching!</p>
                             <div class="flex justify-center w-full text-2xl mt-6">
-                                <a href="/coaching" class="inline-flex items-center py-2 px-8 pb-3 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center no-underline">Explore Coaching</a>
+                                <a href="/coaching" target="blank" class="inline-flex items-center py-2 px-8 pb-3 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center no-underline">Explore Coaching</a>
+                            </div>
+                            <div class="flex justify-center w-full text-2xl mt-6">
+                                <a href="https://g.page/r/CZ7UfgyUWepJEBM/review" target="blank" class="inline-flex items-center py-2 px-8 pb-3 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center no-underline">Provide a Review on Google</a>
                             </div>
                         </div>
                     </div>
@@ -359,7 +362,7 @@
                         </div>
                     </div>
                     <button class="flex justify-center w-full text-base">
-                        <a href="/coaching"  class="inline-flex items-center py-2 px-8 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary rounded-full text-white text-xs no-underline">Explore Coaching</a>
+                        <a href="/coaching" class="inline-flex items-center py-2 px-8 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary rounded-full text-white text-xs no-underline">Explore Coaching</a>
                     </button>
                 </div>
                 <div>
