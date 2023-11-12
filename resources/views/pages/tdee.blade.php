@@ -346,7 +346,7 @@
                                 <a href="/coaching" target="blank" class="inline-flex items-center py-2 px-8 pb-3 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center no-underline">Explore Coaching</a>
                             </div>
                             <div class="flex justify-center w-full text-2xl mt-6">
-                                <a href="https://g.page/r/CZ7UfgyUWepJEBM/review" target="blank" class="inline-flex items-center py-2 px-8 pb-3 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center no-underline">Provide a Review of Our TDEE Calculator on Google</a>
+                                <a href="https://g.page/r/CZ7UfgyUWepJEBM/review" target="blank" class="inline-flex items-center py-2 px-8 pb-3 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center no-underline">Provide a Review of Our TDEE Calculator Page on Google</a>
                             </div>
                         </div>
                     </div>
