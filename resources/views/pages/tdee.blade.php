@@ -72,6 +72,10 @@
                                     </select><br>
                                 </div>
                                 <div class="mt-4">
+                                    <label for="bodyfat">Body Fat Percentage (%):</label>
+                                    <input class="w-3/12 text-center border rounded-xl" type="number" step="0.1" name="bodyfat" value="{{ old('bodyfat') }}">
+                                </div>
+                                <div class="mt-4">
                                     <button type="submit" class="text-sm xl:text-xl px-4 py-2 mt-2 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center">Calculate TDEE</button>
                                 </div>
                             </form>
@@ -109,6 +113,10 @@
                                     </select><br>
                                 </div>
                                 <div class="mt-4">
+                                    <label for="bodyfat">Body Fat Percentage (%):</label>
+                                    <input class="w-3/12 text-center border rounded-xl" type="number" step="0.1" name="bodyfat" value="{{ old('bodyfat') }}">
+                                </div>
+                                <div class="mt-4">
                                     <button type="submit" class="text-sm xl:text-xl px-4 py-2 mt-2 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center">Calculate TDEE</button>
                                 </div>
                             </form>
@@ -121,7 +129,13 @@
                         <h2 class="text-5xl 2xl:text-7xl text-center handwriting6">Maintenance Calories</h2>
                         <div class="flex flex-col md:flex-row pages justify-center md:mt-8">
                             <div class="md:w-1/2 md:mr-4">
-                                <p>Alright, let's decode those numbers and sprinkle in a bit of humor, because, why not? So, according to your stats, your maintenance calories come in at a cool <span class="font-semibold">{{ $tdee }} calories per day</span>. Thanks to the <a href="https://pubmed.ncbi.nlm.nih.gov/15883556/" target="blank"> Mifflin-St Jeor Formula</a>, known far and wide as the holy grail of accuracy in the calorie game, we've got Sherlock Holmes-level precision here. For a peek at your daily calories under a different activity level, check out the table below.</p>
+                                <p>Alright, let's decode those numbers and sprinkle in a bit of humor, because, why not? So, according to your stats, your maintenance calories come in at a cool <span class="font-semibold">{{ $tdee }} calories per day</span>.
+                                @if($bodyFatPercentage)
+                                    Thanks to the <a href="https://www.nutriswift.in/post/understanding-the-katch-mcardle-equation-for-accurate-energy-expenditure-estimation" target="blank"> Katch-McArdle Formula</a>, which is usually considered the most accurate formula when body fat is included,
+                                @else
+                                    Thanks to the <a href="https://pubmed.ncbi.nlm.nih.gov/15883556/" target="blank"> Mifflin-St Jeor Formula</a>, known far and wide as the holy grail of accuracy in the calorie game,
+                                @endif
+                                we've got Sherlock Holmes-level precision here. For a peek at your daily calories under a different activity level, check out the table below.</p>
                                 <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">Basal Metabolic Rate &ndash; {{ $bmr }} calories per day</p>
                                 <p class="text-center border border-zinc-300 bg-neutral-50 rounded-xl">
                                 @if ($tdee === $caloriesSedentary)
@@ -314,9 +328,9 @@
                                 </div>
                             </div>
                             <div class="md:w-5/12 md:m1-4">
-                                <h3 class="text-xl 2xl:text-3xl text-center font-semibold mt-4 md:mt-0">Smart Body Weight Scale</h3>
-                                <p>When it comes to health and fitness, a <a href="https://amzn.to/3MwHyNv" target="blank">smart body weight scale</a> is your secret weapon in the battle for a healthier you. As opposed to a traditional scale, this high-tech marvel doesn't just measure your weight; it tracks body composition, body fat percentage, muscle mass, and more.</p>
-                                <p>With all this data at your fingertips, you can make informed decisions about your fitness journey. No more flying blind&mdash;it's like being the pilot who knows every gust of wind and tailwind. So, if you're serious about leveling up your health and fitness game, grab a <a href="https://amzn.to/3MwHyNv" target="blank">smart body weight scale</a> and empower yourself with the knowledge you need to chart your course.</p>
+                                <h3 class="text-xl 2xl:text-3xl text-center font-semibold mt-4 md:mt-0">Smart Bathroom Scale</h3>
+                                <p>When it comes to health and fitness, a <a href="https://amzn.to/3MwHyNv" target="blank">smart bathroom scale</a> is your secret weapon in the battle for a healthier you. As opposed to a traditional scale, this high-tech marvel doesn't just measure your weight; it tracks body composition, body fat percentage, muscle mass, and more.</p>
+                                <p>With all this data at your fingertips, you can make informed decisions about your fitness journey. No more flying blind&mdash;it's like being the pilot who knows every gust of wind and tailwind. So, if you're serious about leveling up your health and fitness game, grab a <a href="https://amzn.to/3MwHyNv" target="blank">smart bathroom scale</a> and empower yourself with the knowledge you need to chart your course.</p>
                             </div>
                         </div>
                         <div class="flex flex-col-reverse md:flex-row pages justify-center md:mt-8">
@@ -328,7 +342,7 @@
                             <div class="md:w-5/12 md:m1-4">
                                 <h3 class="text-xl 2xl:text-3xl text-center font-semibold mt-4 md:mt-0">Calorie Tracking App</h3>
                                 <p>The calorie tracking app is your trusty sidekick on the quest for those elusive health and fitness goals! Think of it as your digital nutrition detective. It's like having Sherlock Holmes in your pocket, but instead of solving mysteries, it's unraveling the enigma of your daily calories.</p>
-                                <p> So, whether you're aiming to lose weight, gain muscle, or simply eat healthier, a calorie tracking app, such as <a href="https://www.myfitnesspal.com/" target="blank">MyFitnessPal</a> or <a href="https://cronometer.com/gold/signup/" target="blank">Cronometer</a>, will be your partner in crime. And, if your really feeling it, partner your calorie tracking app with a personal fitness tracker, such as the <a href="https://amzn.to/477TPQF" target="blank"> COROS PACE 2</a>. Get ready to track, learn, and conquer your nutritional adventures, one calorie at a time.</p>
+                                <p> So, whether you're aiming to lose weight, gain muscle, or simply eat healthier, a calorie tracking app, such as <a href="https://www.myfitnesspal.com/" target="blank">MyFitnessPal</a> or <a href="https://shareasale.com/r.cfm?b=766203&u=2872412&m=61121&urllink=&afftrack=" target="blank">Cronometer</a>, will be your partner in crime. And, if your really feeling it, partner your calorie tracking app with a personal fitness tracker, such as the <a href="https://amzn.to/477TPQF" target="blank"> COROS PACE 2</a>. Get ready to track, learn, and conquer your nutritional adventures, one calorie at a time.</p>
                                 <div class="flex justify-center">
                                     <p class="inline-flex items-center py-2 px-8 pb-3 mb-4 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center text-xl"><a class="text-white no-underline" href="/images/Mastering MyFitnessPal for Ultimate Fitness Success.pdf" download class="text-center">Download Our Free Guide to MyFitnessPal</a></p>
                                 </div>

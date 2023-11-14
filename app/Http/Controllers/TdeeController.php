@@ -19,6 +19,7 @@ class TdeeController extends Controller
             'age' => 'required|numeric',
             'gender' => 'required|in:male,female',
             'activity_level' => 'required|in:sedentary,lightly_active,moderately_active,very_active,super_active',
+            'bodyfat' => 'nullable|numeric|min:0|max:100',
         ];
 
         // Validate the request data
@@ -27,6 +28,7 @@ class TdeeController extends Controller
         // Store the input data in the session
         $request->flash();
 
+
         // Retrieve user input from the form
         $covertunit = $request->input('covertunit');
         $weight = $request->input('weight');
@@ -34,6 +36,7 @@ class TdeeController extends Controller
         $age = $request->input('age');
         $gender = $request->input('gender');
         $activityLevel = $request->input('activity_level');
+        $bodyFatPercentage = $request->input('bodyfat');
 
         // Convert weight and height based on the unit system
         if ($covertunit == 'imperial') {
@@ -49,22 +52,28 @@ class TdeeController extends Controller
             // Assume height is already in centimeters
             $heightInCm = $height;
         }
+        // Calculate Lean Body Mass
+        $leanBodyMass = ($bodyFatPercentage) ? $weightInKg * (1 - $bodyFatPercentage / 100) : $weightInKg;
 
         // Perform the TDEE calculation based on the formulas
-        if ($covertunit == 'imperial') {
-            if ($gender === 'male') {
-                $bmr = 10 * $weightInKg + 6.25 * $heightInCm - 5 * $age + 5;
+            //See if body fat was input
+            if ($bodyFatPercentage) {
+                $bmr = 370 + (21.6 * $leanBodyMass);
             } else {
-                $bmr = 10 * $weightInKg + 6.25 * $heightInCm - 5 * $age - 161;
+                if ($covertunit == 'imperial') {
+                    if ($gender === 'male') {
+                        $bmr = 10 * $leanBodyMass + 6.25 * $heightInCm - 5 * $age + 5;
+                    } else {
+                        $bmr = 10 * $leanBodyMass + 6.25 * $heightInCm - 5 * $age - 161;
+                    }
+                } else {
+                    if ($gender === 'male') {
+                        $bmr = 10 * $leanBodyMass + 6.25 * $height - 5 * $age + 5;
+                    } else {
+                        $bmr = 10 * $leanBodyMass + 6.25 * $height - 5 * $age - 161;
+                    }
+                }
             }
-        } else {
-            if ($gender === 'male') {
-                $bmr = 10 * $weight + 6.25 * $height - 5 * $age + 5;
-            } else {
-                $bmr = 10 * $weight + 6.25 * $height - 5 * $age - 161;
-            }
-        }
-
         $activityFactors = [
             'sedentary' => 1.2,
             'lightly_active' => 1.375,
@@ -216,6 +225,7 @@ class TdeeController extends Controller
             'weightInKg' => $weightInKg,
             'idealWeight' => $idealWeight,
             'bmr' => $bmr,
+            'bodyFatPercentage' => $bodyFatPercentage,
         ];
 
         return view('pages.tdee', $viewData);
