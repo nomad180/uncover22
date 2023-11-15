@@ -35,11 +35,6 @@
             </div>
             <div class="flex flex-col md:flex-row pages justify-center">
                 <div class="md:w-1/2 md:mr-4">
-                    <!--When life gets crazy and responsibilities at home and work pile one on top of the other, it’s easy to let our health and fitness slip. The years go by and we don’t even realize how much our health has declined.
-
-                    But for most of us, there comes a time when we realize things must change. A time when gaining control over our body takes on new urgency. For some, it’s a scary health diagnosis. For others it’s watching a loved one struggle with their own health problems. And for others still, it’s when they finally realize they’ve spent so many years taking care of others, that they neglected to take care of themselves.
-
-                    When it’s time to turn things around and start a new health and fitness program, however, it can be difficult to know what to do next. And staying motivated is hard—especially if you try to do it all on your own. That’s where we come in. Our goal is to help you get in the best shape of your life and stay that way, starting now, through our Uncover Your Fit coaching packages.-->
                     <p>It's all too easy to let your health and fitness slip through the cracks as you navigate the chaos of life. Days turn into years, and suddenly, you wake up one day, realizing your health has taken a sneak vacation.</p>
                     <p>However, for most of us, there comes a time when the universe seems to shout, "Hey, it's time for a change!" It could be a daunting health diagnosis, watching someone you love grapple with their well-being, or the revelation that you've been the caregiver for so long that you've forgotten to take care of yourself.</p>
                     <p>When that "Aha!" moment strikes and you decide to embark on a fresh health journey, it can feel like wandering through a dense fog with no map, compass, or smartphone GPS. You're lost. And keeping the motivation fires roaring is hard&mdash;especially if you try to do it all on your own. That's where we come in. Our mission is to help you get in the best shape of your life and stay that way, starting now, through our premier 1-on-1 health coaching.</p>
@@ -49,19 +44,6 @@
                 </div>
             </div>
         </div>
-        <!--
-        <h2 class="text-5xl 2xl:text-7xl text-center mt-8 lg:mt-32 handwriting6">What you can expect from Uncover Your Fit</h2>
-        <h3 class="text-center text-3xl mt-8">Personal nutrition and fitness coaching to get you into the best shape of your life</h3>
-        <div class="mt-2 flex flex-col md:flex-row justify-between pages">
-            <div class="w-4/5 md:w-2/5 mx-auto md:mt-6">
-                <img class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary" src="/images/transformation3.jpg" alt="A healthy and fit male on the left side and a healthy and fit female on the right side">
-            </div>
-            <div class="mx-auto md:w-1/2">
-                <p>First, we’ll learn about your lifestyle, needs, and specific goals. Then, over the course of your coaching, we’ll give you everything you need to look, feel, and perform better than you thought possible.</p>
-                <p>Instead of the all-or-nothing dieting approach, we use a sustainable, practice-based approach to build healthy habits into your life, one day at a time. The result? You’ll lose the weight (and inches) you haven’t been able to shed for years.</p>
-                <p>Whatever obstacles arise, we’ll help you overcome them by modifying your coaching and offering new solutions.</p>
-            </div>
-        </div>-->
         <h2 class="text-5xl 2xl:text-7xl text-center handwriting6 mt-8 lg:mt-32">Is personal coaching right for you?</h2>
         <h3 class="text-center text-3xl mt-8">Uncover Your Fit's personal coaching is for you if:</h3>
         <div class="pages mt-8">
@@ -145,7 +127,7 @@
         <h3 class="text-center text-3xl mt-8">Five ways health coaching can boost your financial well-being:</h3>
             <div class="flex mb-6 md:px-4 justify-center md:mt-8">
                 <div class="pb-8 mb-10 p-4 w-full">
-                    <p class="mx-4">Just changing your overall eating habits could save you $2,000 a year on food. At the same time, if you add up all the savings below, you could potentially end up saving $3,000-$5,000+ per year by adopting a healthy lifestyle. Still think there isn't value in health coaching?</p>
+                    <p class="mx-4">Just changing your overall eating habits could <span class="font-semibold">save you $2,000 a year on food.</span> At the same time, if you add up all the savings below, you could potentially end up <span class="font-semibold">saving $3,000-$5,000+ per year by adopting a healthy lifestyle.</span> Still think there isn't value in health coaching?</p>
                     <ul>
                         <li class="accordion mt-6">Fewer doctor visits</li>
                             <div class="panel">

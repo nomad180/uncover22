@@ -72,7 +72,7 @@
                                     </select><br>
                                 </div>
                                 <div class="mt-4">
-                                    <label for="bodyfat">Body Fat Percentage (%):</label>
+                                    <label for="bodyfat">Body Fat % (Optional):</label>
                                     <input class="w-3/12 text-center border rounded-xl" type="number" step="0.1" name="bodyfat" value="{{ old('bodyfat') }}">
                                 </div>
                                 <div class="mt-4">
@@ -113,7 +113,7 @@
                                     </select><br>
                                 </div>
                                 <div class="mt-4">
-                                    <label for="bodyfat">Body Fat Percentage (%):</label>
+                                    <label for="bodyfat">Body Fat % (Optional):</label>
                                     <input class="w-3/12 text-center border rounded-xl" type="number" step="0.1" name="bodyfat" value="{{ old('bodyfat') }}">
                                 </div>
                                 <div class="mt-4">
@@ -227,7 +227,7 @@
                                     @if ($bmi > 30.0)
                                         <span class="font-semibold">30+ &ndash; Obese</span>
                                     @else
-                                        30+&ndash;Obese
+                                        30+ &ndash; Obese
                                     @endif
                                 </p>
                             </div>
@@ -308,7 +308,7 @@
                         </div>
                         <h3 class="text-xl 2xl:text-3xl text-center font-semibold">Needed Tools</h3>
                         <p class="md:mt-8">In order for you to use your TDEE to meet your weight goals, you'll need to accurately measure the calories going into your body and weigh yourself regularly to see if you are moving in the right direction. The tools listed below will help on this journey:</p>
-                        <p class="md:mt-8 font-semibold italic">Affiliate Websites: The ads/links below take you to partner websites that sell products you might find helpful in your health and fitness journey. If you click on one of the ads and make a purchase, Uncover Your Fit will receive a small commission at no extra cost to you. As an Amazon Associate we earn from qualifying purchases from Amazon links.</p>
+                        <p class="md:mt-8 font-semibold italic">Affiliate Websites: The ads/links below take you to partner websites that sell products you might find helpful in your health and fitness journey. If you click on one of the ads and make a purchase, Uncover Your Fit will receive a small commission at no extra cost to you. As an Amazon Associate, we earn from qualifying purchases from Amazon links.</p>
                         <div class="flex flex-col-reverse md:flex-row pages justify-center md:mt-8">
                             <div class="md:w-3/12 md:mr-6 md:mt-8">
                                 <div class="flex justify-center">
@@ -381,7 +381,7 @@
                 </div>
                 <div>
                     <div class="mt-4 flex justify-center text-secondary text-xl underline">Affiliate Websites</div>
-                    <div class="font-bold py-2 ml-4 italic">The ads below take you to partner websites that sell products you might find helpful in your health and fitness journey. If you click on one of the ads and make a purchase, Uncover Your Fit will receive a small commission at no extra cost to you. As an Amazon Associate we earn from qualifying purchases from Amazon links.</div>
+                    <div class="font-bold py-2 ml-4 italic">The ads below take you to partner websites that sell products you might find helpful in your health and fitness journey. If you click on one of the ads and make a purchase, Uncover Your Fit will receive a small commission at no extra cost to you. As an Amazon Associate, we earn from qualifying purchases from Amazon links.</div>
                     <div class="py-6 flex flex-col justify-center items-center">
                         <a class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary p-4" href="https://amzn.to/477TPQF" target="blank"><img src="/images/coros.jpg"></a>
                         <p class="text-center mt-4"><a href="https://amzn.to/477TPQF" target="blank">COROS PACE 2 Fitness Tracking Watch</a></p>
