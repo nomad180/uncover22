@@ -1,5 +1,5 @@
-@section('title'){{'Uncover Your Fit | Premier Health Coaching'}}@endsection
-@section('description'){{'Are you a midlife warrior who is ready to become fit and stay that way? If so, our premier health coaching will help you ditch fads and live a healthier life.'}}@endsection
+@section('title'){{'1-on-1 Online Health Coaching | Uncover Your Fit'}}@endsection
+@section('description'){{'Maintain a healthy weight, control stress, optimize nutrition, and revitalize your energy with habit-based coaching from Uncover Your Fit.'}}@endsection
 @section('author'){{'Damon Leach'}}@endsection
 <x-layout>
     <div class="mb-8 mt-4 px-8 lg:hidden">
@@ -28,7 +28,7 @@
         <img class="xl:hidden" src="/images/downarrowred5.png" alt="down arrow">
         <img class="hidden xl:flex" src="/images/downarrowred6.png" alt="down arrow">
     </div>-->
-    <div class="mb-8 px-4 md:px-8 lg:px-16 xl:px-32 lg:mt-0">
+    <div class="mb-8 px-4 md:px-8 lg:px-16 xl:px-32">
         <!--<div class="transition duration-1000 hover:border hover:border-zinc-300 hover:bg-neutral-50 hover:shadow-lg hover:shadow-zinc-400 rounded-lg p-6">
             <div>
                 <h2 class="text-5xl 2xl:text-7xl text-center handwriting6">Life happens&mdash;we get it</h2>
@@ -44,12 +44,12 @@
                 </div>
             </div>
         </div>-->
-        <div class="mt-2 md:mt-10 lg:mt-16 xl:mt-24 2xl:mt-32 flex flex-col-reverse lg:flex-row pages transition duration-1000 hover:border hover:border-zinc-300 hover:bg-neutral-50 hover:shadow-lg hover:shadow-zinc-400 rounded-lg p-6">
+        <div class="mt-2 md:mt-10 lg:mt-16 xl:mt-16 2xl:mt-32 flex flex-col-reverse lg:flex-row pages transition duration-1000 hover:border hover:border-zinc-300 hover:bg-neutral-50 hover:shadow-lg hover:shadow-zinc-400 rounded-lg p-6 bg-primary">
             <div class="lg:w-1/2 mt-6 xl:mt-8 md:mr-6 flex justify-center lg:self-start">
                 <img class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary" src="/images/journey.jpg" alt="A person holding a compass">
             </div>
             <div class="mx-auto lg:w-1/2 pages">
-                <h2 class="text-5xl 2xl:text-7xl text-center mt-2 handwriting6">The march of time</h2>
+                <h2 class="text-5xl 2xl:text-7xl text-center mt-2 handwriting6">The march of timed</h2>
                 <p>As the years pile up like unread emails in your inbox, it can feel like maintaining your health is a losing battle:</p>
                 <ul>
                     <li class="my-2">Your metabolism slows down, making those extra pounds seem as clingy as your old ex on social media.</li>
@@ -87,7 +87,7 @@
                     </div>
                 </div>
             </div>
-        <div class="mt-8 lg:mt-16">
+        <div class="mt-8 lg:mt-32">
             <h2 class="mt-16 text-5xl leading-tight 2xl:text-7xl text-center handwriting6 mb-4">Damon Leach, Founder & Head Coach</h2>
             <div class="mt-2 flex flex-col flex-col-reverse md:flex-row justify-between">
                 <div class="mx-auto md:w-1/2 pages">
