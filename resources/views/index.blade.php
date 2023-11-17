@@ -95,7 +95,7 @@
                     <p>But a health scare awakened me, and suddenly I realized that I could excel in both my career and personal life, with one complementing the other. As a result, I turned my life around, lost 55 lbs, and became a health and fitness coach, eager to share my wisdom.</p>
                     <p>Now, as a coach, I'm on a mission to help you achieve optimal health and well-being without flipping your life upside down. It's like discovering the cheat code to a video game—suddenly, everything becomes clearer and more attainable. Join me on this journey.</p>
                     <div class="flex justify-start mt-10">
-                        <p class="inline-flex items-center py-2 px-8 pb-3 mb-4 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center text-xl"><a class="text-white no-underline" href="about" class="text-center">Learn more about Uncover Your Fit and Damon</a></p>
+                        <p class="inline-flex items-center py-2 px-8 pb-3 mb-4 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center text-xl"><a class="text-white no-underline" href="about" class="text-center">Learn more about Damon</a></p>
                     </div>
                 </div>
                 <div class="w-1/3 md:w-1/3 lg:w-1/4 mx-auto mt-4">
