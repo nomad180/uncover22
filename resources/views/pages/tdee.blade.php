@@ -357,7 +357,7 @@
                             <h2 class="text-5xl leading-tight 2xl:text-7xl 2xl:leading-tight text-center handwriting6">Next Steps</h2>
                             <p class="text-3xl xl:text-5xl mt-4 text-center">Need help? We can assist with our 1-on-1 coaching!</p>
                             <div class="flex justify-center w-full text-2xl mt-6">
-                                <a href="/coaching" target="blank" class="inline-flex items-center py-2 px-8 pb-3 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center no-underline">Explore Coaching</a>
+                                <a href="/" target="blank" class="inline-flex items-center py-2 px-8 pb-3 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center no-underline">Explore Coaching</a>
                             </div>
                             <div class="flex justify-center w-full text-2xl mt-6">
                                 <a href="https://g.page/r/CZ7UfgyUWepJEBM/review" target="blank" class="inline-flex items-center py-2 px-8 pb-3 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center no-underline">Provide a Review of Our TDEE Calculator Page on Google</a>
@@ -372,11 +372,11 @@
                     <div class="md:mt-14 flex justify-center text-secondary text-xl underline font:semi-bold">Uncover Your Fit Coaching</div>
                     <div class="flex justify-center">
                         <div class="py-2 flex justify-center w-1/2 lg:w-full">
-                             <a href="/coaching"><img src="/images/coachingtm3.jpg" class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary" alt="A midlife woman sitting on couch having coaching session on computer"></a>
+                             <a href="/"><img src="/images/coachingtm3.jpg" class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary" alt="A midlife woman sitting on couch having coaching session on computer"></a>
                         </div>
                     </div>
                     <button class="flex justify-center w-full text-base">
-                        <a href="/coaching" class="inline-flex items-center py-2 px-8 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary rounded-full text-white text-xs no-underline">Explore Coaching</a>
+                        <a href="/" class="inline-flex items-center py-2 px-8 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary rounded-full text-white text-xs no-underline">Explore Coaching</a>
                     </button>
                 </div>
                 <div>
