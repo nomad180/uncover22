@@ -58,7 +58,7 @@
                     <li class="my-2">And let's not forget those New Year's resolutions&mdash;they tend to vanish faster than a snowflake in July. </li>
                 </ul>
                 <p>But fear not, Uncover Your Fit is here to act as your compass and guide you to a healthier life. We're all about building lasting habits through habit-based health coaching. Think of it as constructing a strong fortress of health, one brick at a time. Join us on this journey to a healthier, happier you!</p>
-                <div class="flex justify-center w-full text-sm">
+                <div class="flex justify-center w-full text-xl">
                     <a href="/about" class="py-2 px-8 pb-3 border-2 no-underline border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center">Learn More About Us</a>
                 </div>
             </div>
