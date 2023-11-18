@@ -6,9 +6,9 @@
         <div class="mt-2 flex flex-col md:flex-row">
             <div class="w-full md:w-6/12 flex justify-center flex-col md:mr-10">
                 <h1 class="text-5xl leading-tight lg:text-7xl lg:leading-tight 2xl:text-8xl 2xl:leading-tight handwriting6 flex justify-center text-center lg:text-left">Premier health coaching for midlife warriors</h1>
-                <h2 class="text-lg xl:text-xl mt-4">Shed unwanted pounds, elevate your mood, stress less, and revitalize your energy through our premier 1-on-1 online health coaching</h2>
+                <h2 class="text-lg xl:text-xl mt-4">Maintain a healthy weight, control stress, optimize nutrition, and revitalize your energy through our premier 1-on-1 online health coaching.</h2>
             </div>
-            <div class="w-full md:w-1/2 mx-auto mt-6 md:mt-0 flex items-center justify-center">
+            <div class="w-4/6 md:w-1/2 mx-auto mt-6 md:mt-0 flex items-center justify-center">
                 <div class="mx-auto mt-6 md:mt-0 flex items-center justify-center">
                     <img class="rounded-xl border-2 border-primary" src="/images/coachingtm3.jpg" alt="A midlife woman sitting on couch having coaching session on computer"  >
                 </div>
@@ -21,7 +21,7 @@
         </video>
         <div class="absolute inset-y-0 inset-x-4 md:inset-x-16 lg:inset-x-24 xl:inset-x-32 w-5/12 flex justify-center flex-col">
             <h1 class="lg:text-6xl lg:leading-tight xl:text-7xl xl:leading-tight 2xl:text-8xl 2xl:leading-tight handwriting6 flex justify-center">Premier health coaching for midlife warriors</h1>
-            <h2 class="lg:text-xl mt-4 font-medium">Maintain a healthy weight, control stress, optimize nutrition, and revitalize your energy through our premier 1-on-1 online health coaching</h2>
+            <h2 class="lg:text-xl mt-4 font-medium">Maintain a healthy weight, control stress, optimize nutrition, and revitalize your energy through our premier 1-on-1 online health coaching.</h2>
         </div>
     </div>
     <!--<div class="hidden md:flex justify-center mt-8 animate-bounce">
@@ -45,7 +45,7 @@
             </div>
         </div>-->
         <div class="mt-2 md:mt-10 lg:mt-16 xl:mt-24 2xl:mt-32 flex flex-col-reverse lg:flex-row pages transition duration-1000 hover:border hover:border-zinc-300 hover:bg-neutral-50 hover:shadow-lg hover:shadow-zinc-400 rounded-lg p-6">
-            <div class="lg:w-1/2 mt-6 xl:mt-8 md:mr-6 flex justify-center lg:self-start">
+            <div class="w-4/6 lg:w-1/2 mt-6 xl:mt-8 lg:mr-6 mx-auto ">
                 <img class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary" src="/images/journey.jpg" alt="A person holding a compass">
             </div>
             <div class="mx-auto lg:w-1/2 pages">
@@ -88,7 +88,7 @@
                 </div>
             </div>
         <div class="mt-8 lg:mt-16">
-            <h2 class="mt-16 text-5xl leading-tight 2xl:text-7xl text-center handwriting6 mb-4">Damon Leach, Founder & Head Coach</h2>
+            <h2 class="mt-16 text-5xl leading-tight 2xl:text-7xl text-center handwriting6 mb-4">Damon Leach, founder & head coach</h2>
             <div class="mt-2 flex flex-col flex-col-reverse md:flex-row justify-between">
                 <div class="mx-auto md:w-1/2 pages">
                     <p>As adults, we often fixate on one facet of our lives, typically our careers, thinking that veering from it diminishes our worth. I've been there and done that, holding onto my career for dear life while my health suffered.</p>
@@ -137,7 +137,7 @@
         </div>
         <div class="mt-2 md:mt-10 flex flex-col lg:flex-row pages mt-8 lg:mt-32">
             <div class="mx-auto lg:w-1/2 m-auto pages">
-                <h2 class="text-5xl leading-tight lg:text-8xl lg:leading-tight lg:leading-tight text-center mt-2 handwriting6 lg:pr-6 m-auto">See what our customers are saying about our health coaching</h2>
+                <h2 class="text-5xl leading-tight lg:text-8xl lg:leading-tight lg:leading-tight text-center mt-2 handwriting6 lg:pr-6 m-auto">See what our customers are saying about our health coaching.</h2>
             </div>
             <div class="lg:w-1/2 mt-6 md:mr-6 md:mt-0 flex flex-col items-center justify-center">
                 <div class="border border-zinc-300 shadow-lg shadow-zinc-400 rounded-lg m-6 p-6 bg-white">
@@ -275,7 +275,7 @@
                 </div>
             </div>
         <div class="px-4 md:px-8 lg:px-16 xl:px-32 mb-4 pt-0 mt-0 mb-16 ">
-            <h2 class="mt-16 text-5xl leading-tight 2xl:text-7xl text-center handwriting6 mb-4">Frequently Asked Questions</h2>
+            <h2 class="mt-16 text-5xl leading-tight 2xl:text-7xl text-center handwriting6 mb-4">Frequently asked questions</h2>
             <div class="md:mt-8">
                 <div class="flex mb-6 md:px-4 justify-center">
                     <div class="pb-8 mb-10 p-4 w-full">
@@ -326,13 +326,13 @@
         </div>-->
         <h2 class="text-5xl 2xl:text-7xl text-center handwriting6 mb-8 mt-8 lg:mt-16 pages">Pricing</h2>
         <div class="flex justify-center">
-            <div class="pages lg:w-10/12 ">
+            <div class="pages">
                 <p>Investing in a health coach is like buying a GPS for your health and wellness journey. We'll act as your personalized roadmap, providing expert insights and accountability. We'll also be the compass that helps you navigate the twists and turns of nutrition, exercise, and lifestyle choices, ensuring you reach your health goals more efficiently. So, consider health coaching an investment in your most valuable asset&mdash;your health&mdash;and the ultimate shortcut to success.</p>
                 <p>Schedule your Discovery Call today, so we can see if we are a good fit to work together and if so, discuss what you would like to achieve through coaching.</p>
             </div>
         </div>
         <div class="flex flex-col md:flex-row justify-center flex-wrap mt-8">
-            <div class="flex md:w-1/4 mb-6 md:px-4 justify-center">
+            <div class="flex md:w-1/4  md:px-4 justify-center">
                 <div class="transition duration-1000 border border-zinc-300 hover:bg-neutral-50 shadow-lg shadow-zinc-400 rounded-lg pb-8 mb-10 p-4">
                     <h3 class="text-center font-semibold">90-Day Package</h3>
                     <p class="text-center">$3,000 USD</p>
@@ -340,7 +340,7 @@
                     </a>
                 </div>
             </div>
-            <div class="flex md:w-1/4 mb-6 md:px-4 justify-center">
+            <div class="flex md:w-1/4  md:px-4 justify-center">
                 <div class="transition duration-1000 border border-zinc-300 hover:bg-neutral-50 shadow-lg shadow-zinc-400 rounded-lg pb-8 mb-10 p-4">
                     <h3 class="text-center font-semibold">6-Month Package</h3>
                     <p class="text-center">$5,400 USD</p>
@@ -348,7 +348,7 @@
                     </a>
                 </div>
             </div>
-            <div class="pages lg:w-10/12 mb-10">
+            <div class="pages mb-10">
                 <p>If you don’t think our coaching is a good fit for you within the first two weeks, <span class="font-semibold"> we’ll give you a full refund.</span> You get to decide if our coaching is worth it. Why do we do this? Because we stand by our work. We know you’ll walk out healthier and happier than ever before. All you have to do is take the first step.</p>
             </div>
         </div>
