@@ -313,17 +313,6 @@
                 </div>
             </div>
         </div>
-        <!--<div class="transition duration-1000 hover:border hover:border-zinc-300 hover:bg-neutral-50 hover:shadow-lg hover:shadow-zinc-400 rounded-lg p-6 mt-8 lg:mt-32 pages">
-            <h2 class="text-5xl 2xl:text-7xl text-center handwriting6">Money back guarantee</h2>
-            <div class="mt-2 flex flex-col md:flex-row justify-between pages mt-8">
-                <div class="w-4/5 md:w-2/5 mx-auto md:mt-6">
-                    <img class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary p-4" src="/images/guarantee.jpg" alt="100% satisfactino guaranteed or your money back">
-                </div>
-                <div class="mx-auto md:w-1/2">
-                    <p>If you don’t think our coaching is a good fit for you within the first two weeks, we’ll give you a full refund. You get to decide if our coaching is worth it. Why do we do this? Because we stand by our work. We know you’ll walk out healthier and happier than ever before. All you have to do is take the first step.</p>
-                </div>
-            </div>
-        </div>-->
         <h2 class="text-5xl 2xl:text-7xl text-center handwriting6 mb-8 mt-8 lg:mt-16 pages">Pricing</h2>
         <div class="flex justify-center">
             <div class="pages">
@@ -335,21 +324,21 @@
             <div class="flex md:w-1/4  md:px-4 justify-center">
                 <div class="transition duration-1000 border border-zinc-300 hover:bg-neutral-50 shadow-lg shadow-zinc-400 rounded-lg pb-8 mb-10 p-4">
                     <h3 class="text-center font-semibold">90-Day Package</h3>
-                    <p class="text-center">$3,000 USD</p>
-                    <a href="https://uncoveryourfit.practicebetter.io/#/653804e6810ea7f6eea2308e/bookings?s=653818f52d5e7786605d9d08" target="blank" class="text-sm xl:text-xl px-4 py-2 mt-2 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center no-underline">Schedule Discovery Call
+                    <p class="text-center">$1,000 USD</p>
+                    <a href="https://my.practicebetter.io/#/653804e6810ea7f6eea2308e/bookings?s=653818f52d5e7786605d9d08" target="blank" class="text-sm xl:text-xl px-4 py-2 mt-2 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center no-underline">Schedule Discovery Call
                     </a>
                 </div>
             </div>
             <div class="flex md:w-1/4  md:px-4 justify-center">
                 <div class="transition duration-1000 border border-zinc-300 hover:bg-neutral-50 shadow-lg shadow-zinc-400 rounded-lg pb-8 mb-10 p-4">
                     <h3 class="text-center font-semibold">6-Month Package</h3>
-                    <p class="text-center">$5,400 USD</p>
-                    <a href="https://uncoveryourfit.practicebetter.io/#/653804e6810ea7f6eea2308e/bookings?s=653818f52d5e7786605d9d08" target="blank" class="text-sm xl:text-xl px-4 py-2 mt-2 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center no-underline">Schedule Discovery Call
+                    <p class="text-center">$1,800 USD</p>
+                    <a href="https://my.practicebetter.io/#/653804e6810ea7f6eea2308e/bookings?s=653818f52d5e7786605d9d08" target="blank" class="text-sm xl:text-xl px-4 py-2 mt-2 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center no-underline">Schedule Discovery Call
                     </a>
                 </div>
             </div>
             <div class="pages mb-10">
-                <p>If you don’t think our coaching is a good fit for you within the first two weeks, <span class="font-semibold"> we’ll give you a full refund.</span> You get to decide if our coaching is worth it. Why do we do this? Because we stand by our work. We know you’ll walk out healthier and happier than ever before. All you have to do is take the first step.</p>
+                <p>If you don’t think our coaching is a good fit for you within the first 14 days, <span class="font-semibold"> we’ll give you a full refund.</span> You get to decide if our coaching is worth it. Why do we do this? Because we stand by our work. We know you’ll walk out healthier and happier than ever before. All you have to do is take the first step.</p>
             </div>
         </div>
         <!--
