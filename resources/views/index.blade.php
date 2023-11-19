@@ -338,7 +338,7 @@
                 </div>
             </div>
             <div class="pages mb-10">
-                <p>If you don’t think our coaching is a good fit for you within the first 14 days, <span class="font-semibold"> we’ll give you a full refund.</span> You get to decide if our coaching is worth it. Why do we do this? Because we stand by our work. We know you’ll walk out healthier and happier than ever before. All you have to do is take the first step.</p>
+                <p><span class="font-semibold">If you don’t think our coaching is a good fit for you within the first 14 days, we’ll give you a full refund.</span> You get to decide if our coaching is worth it. Why do we do this? Because we stand by our work. We know you’ll walk out healthier and happier than ever before. All you have to do is take the first step.</p>
             </div>
         </div>
         <!--
