@@ -35,7 +35,7 @@
             @endif
         </menu>
         <div class="hidden lg:flex justify-end m-auto">
-            <a href="https://my.practicebetter.io/#/signin" class="text-sm xl:text-xl px-4 py-2 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 no-underline bg-secondary text-white rounded-full text-center" target="blank">
+            <a href="https://uncoveryourfit.practicebetter.io/#/signin" class="text-sm xl:text-xl px-4 py-2 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 no-underline bg-secondary text-white rounded-full text-center" target="blank">
                 Member Portal
             </a>
         </div>

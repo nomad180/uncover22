@@ -325,7 +325,7 @@
                 <div class="transition duration-1000 border border-zinc-300 hover:bg-neutral-50 shadow-lg shadow-zinc-400 rounded-lg pb-8 mb-10 p-4">
                     <h3 class="text-center font-semibold">90-Day Package</h3>
                     <p class="text-center">$1,000 USD</p>
-                    <a href="https://my.practicebetter.io/#/653804e6810ea7f6eea2308e/bookings?s=653818f52d5e7786605d9d08" target="blank" class="text-sm xl:text-xl px-4 py-2 mt-2 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center no-underline">Schedule Discovery Call
+                    <a href="https://uncoveryourfit.practicebetter.io/#/653804e6810ea7f6eea2308e/bookings?s=653818f52d5e7786605d9d08" target="blank" class="text-sm xl:text-xl px-4 py-2 mt-2 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center no-underline">Schedule Discovery Call
                     </a>
                 </div>
             </div>
@@ -333,7 +333,7 @@
                 <div class="transition duration-1000 border border-zinc-300 hover:bg-neutral-50 shadow-lg shadow-zinc-400 rounded-lg pb-8 mb-10 p-4">
                     <h3 class="text-center font-semibold">6-Month Package</h3>
                     <p class="text-center">$1,800 USD</p>
-                    <a href="https://my.practicebetter.io/#/653804e6810ea7f6eea2308e/bookings?s=653818f52d5e7786605d9d08" target="blank" class="text-sm xl:text-xl px-4 py-2 mt-2 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center no-underline">Schedule Discovery Call
+                    <a href="https://uncoveryourfit.practicebetter.io/#/653804e6810ea7f6eea2308e/bookings?s=653818f52d5e7786605d9d08" target="blank" class="text-sm xl:text-xl px-4 py-2 mt-2 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center no-underline">Schedule Discovery Call
                     </a>
                 </div>
             </div>
