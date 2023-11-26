@@ -438,6 +438,5 @@
         });
     });
 </script>
-<x-explore/>
 <x-accordion/>
 </x-layout>
