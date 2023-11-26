@@ -3,7 +3,7 @@
 @section('author'){{'Damon Leach'}}@endsection
 <x-layout>
     <div class="relative">
-        <div class="border-b border-zinc-300 pt-10"><img src="/images/tdee4.jpg" alt="A man standing in the kitchen with a bunch of food in front of him and writing things down in a journal" width="100%"></div>
+        <div class="border-b border-zinc-300 pt-10 lg:pt-0"><img src="/images/tdee4.jpg" alt="A man standing in the kitchen with a bunch of food in front of him and writing things down in a journal" width="100%"></div>
         <div class="absolute inset-y-0 inset-x-8 md:inset-x-10 lg:inset-x-12 xl:inset-x-14 2xl:inset-x-16 w-11/12 flex justify-center flex-col">
             <h1 class="text-3xl leading-tight md:text-5xl md:leading-tight lg:text-6xl lg:leading-tight xl:text-7xl xl:leading-tight 2xl:text-8xl 2xl:leading-tight handwriting6 flex justify-center text-white text-center">TDEE Calculator</h1>
             <h2 class="lg:text-xl font-medium text-white text-center">Learn how many calories you burn every day with our Total Daily Energy Expenditure (TDEE) calculator</h2>
