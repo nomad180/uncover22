@@ -3,7 +3,7 @@
 @section('author'){{'Damon Leach'}}@endsection
 <x-layout>
     <div class="relative">
-        <div class="border-b border-zinc-300"><img src="/images/tdee4.jpg" alt="A man standing in the kitchen with a bunch of food in front of him and writing things down in a journal" width="100%"></div>
+        <div class="border-b border-zinc-300 pt-10"><img src="/images/tdee4.jpg" alt="A man standing in the kitchen with a bunch of food in front of him and writing things down in a journal" width="100%"></div>
         <div class="absolute inset-y-0 inset-x-8 md:inset-x-10 lg:inset-x-12 xl:inset-x-14 2xl:inset-x-16 w-11/12 flex justify-center flex-col">
             <h1 class="text-3xl leading-tight md:text-5xl md:leading-tight lg:text-6xl lg:leading-tight xl:text-7xl xl:leading-tight 2xl:text-8xl 2xl:leading-tight handwriting6 flex justify-center text-white text-center">TDEE Calculator</h1>
             <h2 class="lg:text-xl font-medium text-white text-center">Learn how many calories you burn every day with our Total Daily Energy Expenditure (TDEE) calculator</h2>
@@ -354,13 +354,10 @@
                     </div>
                     <div class="mb-8 mt-16">
                         <div class="p-6 pages">
-                            <h2 class="text-5xl leading-tight 2xl:text-7xl 2xl:leading-tight text-center handwriting6">Next Steps</h2>
-                            <p class="text-3xl xl:text-5xl mt-4 text-center">Need help? We can assist with our 1-on-1 coaching!</p>
+                            <h2 class="text-5xl leading-tight 2xl:text-7xl 2xl:leading-tight text-center handwriting6">Thank you for visiting our website!</h2>
+                            <p class="mt-4 text-center">Please provide a <a href="https://g.page/r/CZ7UfgyUWepJEBM/review" target="blank">review of our TDEE Calculator</a> and take advantage of our <span class="font-semibold">FREE online program below</span>.</p>
                             <div class="flex justify-center w-full text-2xl mt-6">
-                                <a href="/" target="blank" class="inline-flex items-center py-2 px-8 pb-3 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center no-underline">Explore Coaching</a>
-                            </div>
-                            <div class="flex justify-center w-full text-2xl mt-6">
-                                <a href="https://g.page/r/CZ7UfgyUWepJEBM/review" target="blank" class="inline-flex items-center py-2 px-8 pb-3 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center no-underline">Provide a Review of Our TDEE Calculator Page on Google</a>
+                                <a href="https://uncoveryourfit.practicebetter.io/#/653804e6810ea7f6eea2308e/bookings?c=65622ecd9b22ceb79eff0f42" target="blank" class="inline-flex items-center py-2 px-8 pb-3 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center no-underline">Jumpstart Your Health and Fitness 7-Day Challenge</a>
                             </div>
                         </div>
                     </div>

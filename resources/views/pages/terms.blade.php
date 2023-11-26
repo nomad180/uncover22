@@ -2,7 +2,7 @@
 @section('description'){{'Uncover Your Fit provides the Uncover Your Fit website to you, the user, subject to your compliance with our Terms of Use.'}}@endsection
 @section('author'){{'Damon Leach'}}@endsection
 <x-layout>
-    <div class="px-4 py-4 md:px-8 lg:px-16 xl:px-32 pages">
+    <div class="px-4 py-4 md:px-8 lg:px-16 xl:px-32 pt-20 md:pt-28 lg:pt-16 pages">
         <h1>Terms of Use</h1>
             <h2>Effective January 1, 2023</h2>
             <h2>TERMS OF USE AGREEMENT</h2>
