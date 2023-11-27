@@ -1,4 +1,4 @@
-@section('title'){{'Uncover Your Fit | '}}{{$post->title}}@endsection
+@section('title'){{$post->title}}@endsection
 @section('description'){{$post->excerpt}}@endsection
 @section('author'){{$post->author->name}}@endsection
 <x-layout>

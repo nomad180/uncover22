@@ -354,8 +354,8 @@
                     </div>
                     <div class="mb-8 mt-16">
                         <div class="p-6 pages">
-                            <h2 class="text-5xl leading-tight 2xl:text-7xl 2xl:leading-tight text-center handwriting6">Thank you for using our online tool!</h2>
-                            <p class="mt-4 text-center">Please provide a <a href="https://g.page/r/CZ7UfgyUWepJEBM/review" target="blank">review of our TDEE Calculator and learning assets</a> and take advantage of our <span class="font-semibold">FREE online program below</span>.</p>
+                            <h2 class="text-5xl leading-tight 2xl:text-7xl 2xl:leading-tight text-center handwriting6">Not sure what to do next?</h2>
+                            <p class="mt-4 text-center">Try our <span class="font-semibold">FREE online challenge</span>.</p>
                             <div class="flex justify-center w-full text-2xl mt-6">
                                 <a href="https://uncoveryourfit.practicebetter.io/#/653804e6810ea7f6eea2308e/bookings?c=65622ecd9b22ceb79eff0f42" target="blank" class="inline-flex items-center py-2 px-8 pb-3 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center no-underline">Jumpstart Your Health and Fitness 7-Day Challenge</a>
                             </div>
