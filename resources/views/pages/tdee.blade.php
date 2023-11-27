@@ -126,7 +126,7 @@
                 <div id="result-container">
                     @if(isset($tdee))
                     <div class="pt-24">
-                        <h2 class="text-5xl 2xl:text-7xl text-center handwriting6">Maintenance Calories</h2>
+                        <h2 class="text-5xl 2xl:text-7xl text-center handwriting6">Maintenance calories</h2>
                         <div class="flex flex-col md:flex-row pages justify-center md:mt-8">
                             <div class="md:w-1/2 md:mr-4">
                                 <p>Alright, let's decode those numbers and sprinkle in a bit of humor, because, why not? So, according to your stats, your maintenance calories come in at a cool <span class="font-semibold">{{ $tdee }} calories per day</span>.
