@@ -240,7 +240,7 @@
                     @else
                         <span class="font-semibold">{{  $idealWeight }} kg</span>.
                     @endif
-                    Remember, your ideal weight is derived from your height and only offers a general perspective of your ideal. If you're into lifting weights, don't sweat it too much&mdash;this number isn't the whole story.</p>
+                    However, this formula derives your ideal body weight from your height and only offers a general perspective of your ideal. As a result the formula isn't completely accurate if you're into lifting weights.</p>
                     <h3 class="text-xl 2xl:text-3xl text-center font-semibold">Maximum Muscular Potential</h3>
                     <p>If you're pumping iron and dreaming of that chiseled physique, you're probably asking, "How ripped can I actually get?" Martin Berkhan's Formula gives us the lowdown&mdash;your maximum muscular potential is
                     @if ($weight != $weightInKg)
@@ -261,17 +261,17 @@
                     @endif
                     at 15% body fat&mdash;fantastic targets to keep in mind while you're on that bulking journey!</p>
                     <div class="pt-24 pages">
-                        <h2 class="text-5xl 2xl:text-7xl text-center handwriting6">What to do now</h2>
+                        <h2 class="text-5xl 2xl:text-7xl text-center handwriting6">Apply your results</h2>
                         <h3 class="text-xl 2xl:text-3xl text-center font-semibold mt-6">Body Weight and Macronutrients</h3>
-                        <p class="md:mt-8">Depending on your goals, you can use the information from the TDEE calculator as a reference to either:</p>
+                        <p class="md:mt-8">Now that you know your maintenance calories, you can use that information as a reference to either:</p>
                         <div class="flex justify-center">
                             <div class="p-4 w-full">
                                 <ul>
                                     <li class="accordion">Maintain Your Weight</li>
                                         <div class="panel pb-4">
-                                            <p>To maintain your weight, you should aim to get {{ $tdee }} calories per day.</p>
+                                            <p>If your goal is to maintain your weight, you should aim to get {{ $tdee }} calories per day.</p>
                                             <h3>Macronutrients</h3>
-                                            <p>At {{ $tdee }} calories per day, we recommend a diet of 20% protein, 50% carbs, and 30% fats, and it would include:</p>
+                                            <p>At {{ $tdee }} calories per day, we recommend a diet of 20% protein, 50% carbs, and 30% fats, which falls right in the middle of the generally accepted macronutrient ratios put forth by the American Council on Exercise (ACE) to maintain your weight. At these ratios, your macronutrients would include:</p>
                                             <ul>
                                                 <li>{{ $mp }} grams of protein/day</li>
                                                 <li>{{ $mc }} grams of carbs/day</li>
@@ -280,9 +280,9 @@
                                         </div>
                                     <li class="accordion">Bulk Up</li>
                                         <div class="panel pb-4">
-                                            <p>To bulk up without gaining fat, you should add about 300–500 calories to your maintenance calories each day. If you don't seem to be gaining any weight, you can add a few hundred more calories/day. At the same time, if it appears you are gaining fat, cut back your calories slightly.</p>
+                                            <p>To bulk up without gaining fat, you should add about 300–500 calories to your {{ $tdee }} maintenance calories each day. If you don't seem to be gaining any weight, you can add a few hundred more calories/day. At the same time, if it appears you are gaining fat, cut back your calories slightly.</p>
                                             <h3>Macronutrients</h3>
-                                            <p>At {{ $bulk }} calories per day (500 calories over your maintenance calories), we recommend a bulking diet of 25% protein, 55% carbs, and 20% fats, and it would include::</p>
+                                            <p>At {{ $bulk }} calories per day (500 calories over your maintenance calories), we recommend a bulking diet of 25% protein, 55% carbs, and 20% fats. We recommend these ratios as they increase your protein and carb intake to help fuel muscle growth while limiting excess fat. At these ratios, your macronutrients would include:</p>
                                             <ul>
                                                 <li>{{ $bp }} grams of protein/day</li>
                                                 <li>{{ $bc }} grams of carbs/day</li>
@@ -291,9 +291,9 @@
                                         </div>
                                     <li class="accordion">Cut/Lose Weight</li>
                                         <div class="panel pb-4">
-                                            <p>To cut/lose weight, you should cut approximately 500 calories a day from maintenance calories. This will lead to losing approximately one pound a week. It will also maximize fat loss while maintaining muscle mass.</p>
+                                            <p>To cut/lose weight, you should cut approximately 500 calories a day from your {{ $tdee }} maintenance calories each day. This will lead to losing approximately one pound a week. It will also maximize fat loss while maintaining muscle mass.</p>
                                             <h3>Macronutrients</h3>
-                                            <p>At {{ $cut }} calories per day (500 calories under your maintenance level), we recommend a cutting diet of 35% protein, 40% carbs, and 25% fats, and it would include:</p>
+                                            <p>At {{ $cut }} calories per day (500 calories under your maintenance level), we recommend a cutting diet of 35% protein, 40% carbs, and 25% fats. We recommend these ratios as they really bump up your protein to reduce hunger and minimize carbs and fat to increase fat loss. At these ratios, your macronutrients would include:</p>
                                             <ul>
                                                 <li>{{ $cp }} grams of protein/day</li>
                                                 <li>{{ $cc }} grams of carbs/day</li>
@@ -301,8 +301,9 @@
                                             </ul>
                                         </div>
                                 </ul>
+                                <p>If you new to the nutrition game and need to learn about macronutrients, check out our macronutrient blog post below.</p>
                                 <div class="flex justify-center">
-                                    <p class="inline-flex items-center py-2 px-8 pb-3 mb-4 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center text-xl"><a class="text-white no-underline" href="https://uncoveryourfit.com/posts/mastering-macronutrients-a-guide-to-optimal-ratios-for-every-fitness-goal" target="blank" class="text-center">Read About Mastering Macronutrients</a></p>
+                                    <p class="inline-flex items-center py-2 px-8 pb-3 mb-4 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center text-xl"><a class="text-white no-underline" href="https://uncoveryourfit.com/posts/mastering-macronutrients-a-guide-to-optimal-ratios-for-every-fitness-goal" target="blank" class="text-center">Mastering Macronutrients</a></p>
                                 </div>
                             </div>
                         </div>
