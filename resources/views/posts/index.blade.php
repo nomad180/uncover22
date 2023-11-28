@@ -4,7 +4,7 @@
 <x-layout>
         @include ('posts.posts-header')
         <div class="flex flex-col md:flex-row px-4 md:px-8 lg:px-16 xl:px-32">
-            <div class="md:w-5/6">
+            <div class="md:w-5/6 mb-20">
                 <main class="max-w-8xl mx-auto mt-6 lg:mt-10 mb-6">
                     <div class="flex justify-between border-b border-primary mb-4">
                         @if (isset($currentCategory))
