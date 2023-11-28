@@ -9,7 +9,7 @@
             <h2 class="lg:text-xl font-medium text-white text-center">Learn how many calories you burn every day with our Total Daily Energy Expenditure (TDEE) calculator</h2>
         </div>
     </div>
-    <div class="flex flex-col lg:flex-row px-4 lg:px-16 xl:px-32 mt-8">
+    <div class="flex flex-col lg:flex-row px-4 lg:px-16 xl:px-32 mt-16">
             <div class="lg:w-5/6 mb-8">
                 <div>
                     <h2 class="text-5xl 2xl:text-7xl text-center handwriting6">What's your TDEE?</h2>
