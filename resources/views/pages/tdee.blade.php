@@ -301,11 +301,11 @@
                                             </ul>
                                         </div>
                                 </ul>
-                                <p>If you new to the nutrition game and need to learn about macronutrients, check out our macronutrient blog post below.</p>
-                                <div class="flex justify-center">
-                                    <p class="inline-flex items-center py-2 px-8 pb-3 mb-4 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center text-xl"><a class="text-white no-underline" href="https://uncoveryourfit.com/posts/mastering-macronutrients-a-guide-to-optimal-ratios-for-every-fitness-goal" target="blank" class="text-center">Mastering Macronutrients</a></p>
-                                </div>
                             </div>
+                        </div>
+                        <p>If you new to the nutrition game and need to learn about macronutrients, check out our macronutrient blog post below.</p>
+                        <div class="flex justify-center mb-4">
+                            <p class="inline-flex items-center py-2 px-8 pb-3 mb-4 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center text-xl"><a class="text-white no-underline" href="https://uncoveryourfit.com/posts/mastering-macronutrients-a-guide-to-optimal-ratios-for-every-fitness-goal" target="blank" class="text-center">Mastering Macronutrients</a></p>
                         </div>
                         <h3 class="text-xl 2xl:text-3xl text-center font-semibold">Needed Tools</h3>
                         <p class="md:mt-8">In order for you to use your TDEE to meet your weight goals, you'll need to accurately measure the calories going into your body and weigh yourself regularly to see if you are moving in the right direction. The tools listed below will help on this journey:</p>
