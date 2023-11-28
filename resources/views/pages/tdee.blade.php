@@ -358,7 +358,7 @@
                             <h2 class="text-5xl leading-tight 2xl:text-7xl 2xl:leading-tight text-center handwriting6">Not sure what to do next?</h2>
                             <p class="mt-4 text-center">Try our <span class="font-semibold">FREE online challenge</span>.</p>
                             <div class="flex justify-center w-full text-2xl mt-6">
-                                <a href="https://uncoveryourfit.practicebetter.io/#/653804e6810ea7f6eea2308e/bookings?c=65622ecd9b22ceb79eff0f42" target="blank" class="inline-flex items-center py-2 px-8 pb-3 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center no-underline">Jumpstart Your Health and Fitness 7-Day Challenge</a>
+                                <a href="https://uncoveryourfit.practicebetter.io/#/653804e6810ea7f6eea2308e/bookings?c=65622ecd9b22ceb79eff0f42" target="blank" class="inline-flex items-center py-2 px-8 pb-3 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center no-underline">Jumpstart Your Health and Fitness (7-Day Challenge)</a>
                             </div>
                         </div>
                     </div>
