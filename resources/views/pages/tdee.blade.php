@@ -240,7 +240,7 @@
                     @else
                         <span class="font-semibold">{{  $idealWeight }} kg</span>.
                     @endif
-                    However, this formula derives your ideal body weight from your height and only offers a general perspective of your ideal. As a result the formula isn't completely accurate if you're into lifting weights.</p>
+                    However, this formula derives your ideal body weight from your height and only offers a general perspective of your ideal. As a result, the formula isn't completely accurate if you're into lifting weights.</p>
                     <h3 class="text-xl 2xl:text-3xl text-center font-semibold">Maximum Muscular Potential</h3>
                     <p>If you're pumping iron and dreaming of that chiseled physique, you're probably asking, "How ripped can I actually get?" Martin Berkhan's Formula gives us the lowdown&mdash;your maximum muscular potential is
                     @if ($weight != $weightInKg)
