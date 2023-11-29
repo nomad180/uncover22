@@ -271,7 +271,7 @@
                                         <div class="panel pb-4">
                                             <p>If your goal is to maintain your weight, you should aim to get {{ $tdee }} calories per day.</p>
                                             <h3>Macronutrients</h3>
-                                            <p>At {{ $tdee }} calories per day, we recommend a diet of 20% protein, 50% carbs, and 30% fats, which falls right in the middle of the generally accepted macronutrient ratios put forth by the American Council on Exercise (ACE) to maintain your weight. At these ratios, your macronutrients would include:</p>
+                                            <p>We recommend a maintenance diet of 20% protein, 50% carbs, and 30% fats, which falls right in the middle of the generally accepted macronutrient ratios put forth by the American Council on Exercise (ACE) to maintain your weight. At these ratios, your macronutrients would include:</p>
                                             <ul>
                                                 <li>{{ $mp }} grams of protein/day</li>
                                                 <li>{{ $mc }} grams of carbs/day</li>
@@ -282,7 +282,7 @@
                                         <div class="panel pb-4">
                                             <p>To bulk up without gaining fat, you should add about 300–500 calories to your {{ $tdee }} maintenance calories each day. If you don't seem to be gaining any weight, you can add a few hundred more calories/day. At the same time, if it appears you are gaining fat, cut back your calories slightly.</p>
                                             <h3>Macronutrients</h3>
-                                            <p>At {{ $bulk }} calories per day (500 calories over your maintenance calories), we recommend a bulking diet of 25% protein, 55% carbs, and 20% fats. We recommend these ratios as they increase your protein and carb intake to help fuel muscle growth while limiting excess fat. At these ratios, your macronutrients would include:</p>
+                                            <p>We recommend a bulking diet of 25% protein, 55% carbs, and 20% fats. We recommend these ratios as they increase your protein and carb intake to help fuel muscle growth while limiting excess fat. At these ratios, your macronutrients would include:</p>
                                             <ul>
                                                 <li>{{ $bp }} grams of protein/day</li>
                                                 <li>{{ $bc }} grams of carbs/day</li>
@@ -293,7 +293,7 @@
                                         <div class="panel pb-4">
                                             <p>To cut/lose weight, you should cut approximately 500 calories a day from your {{ $tdee }} maintenance calories each day. This will lead to losing approximately one pound a week. It will also maximize fat loss while maintaining muscle mass.</p>
                                             <h3>Macronutrients</h3>
-                                            <p>At {{ $cut }} calories per day (500 calories under your maintenance level), we recommend a cutting diet of 35% protein, 40% carbs, and 25% fats. We recommend these ratios as they really bump up your protein to reduce hunger and minimize carbs and fat to increase fat loss. At these ratios, your macronutrients would include:</p>
+                                            <p>We recommend a cutting diet of 35% protein, 40% carbs, and 25% fats. We recommend these ratios as they really bump up your protein to reduce hunger and minimize carbs and fat to increase fat loss. At these ratios, your macronutrients would include:</p>
                                             <ul>
                                                 <li>{{ $cp }} grams of protein/day</li>
                                                 <li>{{ $cc }} grams of carbs/day</li>
@@ -303,7 +303,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <p>If you new to the nutrition game and need to learn about macronutrients, check out our macronutrient blog post below.</p>
+                        <p>If you are new to the nutrition game and need to learn about macronutrients, check out our macronutrient blog post below.</p>
                         <div class="flex justify-center mb-4">
                             <p class="inline-flex items-center py-2 px-8 pb-3 mb-4 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center text-xl"><a class="text-white no-underline" href="https://uncoveryourfit.com/posts/mastering-macronutrients-a-guide-to-optimal-ratios-for-every-fitness-goal" target="blank" class="text-center">Mastering Macronutrients</a></p>
                         </div>
