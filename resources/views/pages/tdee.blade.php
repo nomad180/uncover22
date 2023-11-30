@@ -271,7 +271,7 @@
                                         <div class="panel pb-4">
                                             <p>If your goal is to maintain your weight, you should aim to get {{ $tdee }} calories per day.</p>
                                             <h3>Macronutrients</h3>
-                                            <p>We recommend a maintenance diet of 20% protein, 50% carbs, and 30% fats, which falls right in the middle of the generally accepted macronutrient ratios put forth by the American Council on Exercise (ACE) to maintain your weight. At these ratios, your macronutrients would include:</p>
+                                            <p>We recommend your maintenance diet consist of 20% protein, 50% carbs, and 30% fats, which falls right in the middle of the generally accepted macronutrient ratios put forth by the American Council on Exercise (ACE) to maintain your weight. At these ratios, your macronutrients would include:</p>
                                             <ul>
                                                 <li>{{ $mp }} grams of protein/day</li>
                                                 <li>{{ $mc }} grams of carbs/day</li>
@@ -280,9 +280,9 @@
                                         </div>
                                     <li class="accordion">Bulk Up</li>
                                         <div class="panel pb-4">
-                                            <p>To bulk up without gaining fat, you should add about 300–500 calories to your {{ $tdee }} maintenance calories each day. If you don't seem to be gaining any weight, you can add a few hundred more calories/day. At the same time, if it appears you are gaining fat, cut back your calories slightly.</p>
+                                            <p>To bulk up without gaining fat, you should add approximately 500 calories to your {{ $tdee }} maintenance calories each day for a total of {{ $bulk }} calories/day. If you don't seem to be gaining any weight, you can add a few hundred more calories/day. At the same time, if it appears you are gaining fat, cut back your calories slightly.</p>
                                             <h3>Macronutrients</h3>
-                                            <p>We recommend a bulking diet of 25% protein, 55% carbs, and 20% fats. We recommend these ratios as they increase your protein and carb intake to help fuel muscle growth while limiting excess fat. At these ratios, your macronutrients would include:</p>
+                                            <p>We recommend your bulking diet consist of 25% protein, 55% carbs, and 20% fats. We recommend these ratios as they increase your protein and carb intake to help fuel muscle growth while limiting excess fat. At these ratios, your macronutrients would include:</p>
                                             <ul>
                                                 <li>{{ $bp }} grams of protein/day</li>
                                                 <li>{{ $bc }} grams of carbs/day</li>
@@ -291,9 +291,9 @@
                                         </div>
                                     <li class="accordion">Cut/Lose Weight</li>
                                         <div class="panel pb-4">
-                                            <p>To cut/lose weight, you should cut approximately 500 calories a day from your {{ $tdee }} maintenance calories each day. This will lead to losing approximately one pound a week. It will also maximize fat loss while maintaining muscle mass.</p>
+                                            <p>To cut/lose weight, you should cut approximately 500 calories a day from your {{ $tdee }} maintenance calories each day for a total of {{ $cut }} calories/day. This will lead to losing approximately one pound a week. It will also maximize fat loss while maintaining muscle mass.</p>
                                             <h3>Macronutrients</h3>
-                                            <p>We recommend a cutting diet of 35% protein, 40% carbs, and 25% fats. We recommend these ratios as they really bump up your protein to reduce hunger and minimize carbs and fat to increase fat loss. At these ratios, your macronutrients would include:</p>
+                                            <p>We recommend your cutting diet consist of 35% protein, 40% carbs, and 25% fats. We recommend these ratios as they really bump up your protein to reduce hunger and minimize carbs and fat to increase fat loss. At these ratios, your macronutrients would include:</p>
                                             <ul>
                                                 <li>{{ $cp }} grams of protein/day</li>
                                                 <li>{{ $cc }} grams of carbs/day</li>
