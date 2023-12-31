@@ -20,9 +20,10 @@
         </div>
     </div>
     <div class="legal space-y-2 mt-6 flex flex-col justify-center items-center">
-        <div class="flex justify-between w-1/6 2xl:w-1/12 mb-2">
+        <div class="flex justify-between w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 2xl:w-1/6 mb-2">
             <a href="https://www.youtube.com/channel/UC21zc6VKI4nkTqSVGJj3XhA" class="w-14 flex text-center px-2" target="blank"><img src="/images/ytlogonew.png" alt="YouTube icon" ></a>
             <a href="https://twitter.com/uncoveryourfit" class="w-14 flex text-center px-2" target="blank"><img src="/images/twitterx.png" alt="X icon" icon" ></a>
+            <a href="https://www.instagram.com/uncoveryourfit/" class="w-14 flex text-center px-2" target="blank"><img src="/images/Instagram_Glyph_Gradient.png" alt="Instagram icon" icon" ></a>
         </div>
         <div>&copy; <?php echo date("Y") ?> Uncover Your Fit</div>
         <div><a class="text-black no-underline" href="/tdee">TDEE Calculator</a></div>
