@@ -313,11 +313,12 @@
                 </div>
             </div>
         </div>
-        <h2 class="text-5xl 2xl:text-7xl text-center handwriting6 mb-8 mt-8 lg:mt-16 pages">Pricing</h2>
+        <h2 class="text-5xl 2xl:text-7xl text-center handwriting6 mb-8 mt-8 lg:mt-16 pages">How much will it cost?</h2>
         <div class="flex justify-center">
             <div class="pages">
                 <p>Investing in a health coach is like buying a GPS for your health and wellness journey. We'll act as your personalized roadmap, providing expert insights and accountability. We'll also be the compass that helps you navigate the twists and turns of nutrition, exercise, and lifestyle choices, ensuring you reach your health goals more efficiently. So, consider health coaching an investment in your most valuable asset&mdash;your health&mdash;and the ultimate shortcut to success.</p>
-                <p>Schedule your Discovery Call today, so we can see if we are a good fit to work together and if so, discuss what you would like to achieve through coaching.</p>
+                <p>When we are accepting clients, our rates are as shown below.</p>
+                <!--<p>Schedule your Discovery Call today, so we can see if we are a good fit to work together and if so, discuss what you would like to achieve through coaching.</p>-->
             </div>
         </div>
         <div class="flex flex-col md:flex-row justify-center flex-wrap mt-8">
@@ -325,20 +326,27 @@
                 <div class="transition duration-1000 border border-zinc-300 hover:bg-neutral-50 shadow-lg shadow-zinc-400 rounded-lg pb-8 mb-10 p-4">
                     <h3 class="text-center font-semibold">90-Day Package</h3>
                     <p class="text-center">$1,000 USD</p>
-                    <a href="https://uncoveryourfit.practicebetter.io/#/653804e6810ea7f6eea2308e/bookings?s=653818f52d5e7786605d9d08" target="blank" class="text-sm xl:text-xl px-4 py-2 mt-2 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center no-underline">Schedule Discovery Call
-                    </a>
+                    <!--<a href="https://uncoveryourfit.practicebetter.io/#/653804e6810ea7f6eea2308e/bookings?s=653818f52d5e7786605d9d08" target="blank" class="text-sm xl:text-xl px-4 py-2 mt-2 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center no-underline">Schedule Discovery Call
+                    </a>-->
                 </div>
             </div>
             <div class="flex md:w-1/4  md:px-4 justify-center">
                 <div class="transition duration-1000 border border-zinc-300 hover:bg-neutral-50 shadow-lg shadow-zinc-400 rounded-lg pb-8 mb-10 p-4">
                     <h3 class="text-center font-semibold">6-Month Package</h3>
                     <p class="text-center">$1,800 USD</p>
-                    <a href="https://uncoveryourfit.practicebetter.io/#/653804e6810ea7f6eea2308e/bookings?s=653818f52d5e7786605d9d08" target="blank" class="text-sm xl:text-xl px-4 py-2 mt-2 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center no-underline">Schedule Discovery Call
-                    </a>
+                    <!--<a href="https://uncoveryourfit.practicebetter.io/#/653804e6810ea7f6eea2308e/bookings?s=653818f52d5e7786605d9d08" target="blank" class="text-sm xl:text-xl px-4 py-2 mt-2 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center no-underline">Schedule Discovery Call
+                    </a>-->
                 </div>
             </div>
-            <div class="pages mb-10">
-                <p><span class="font-semibold">If you don’t think our coaching is a good fit for you within the first 14 days, we’ll give you a full refund.</span> You get to decide if our coaching is worth it. Why do we do this? Because we stand by our work. We know you’ll walk out healthier and happier than ever before. All you have to do is take the first step.</p>
+            <div class="pages mb-10 flex flex-column justify-center">
+                <!--<p><span class="font-semibold">If you don’t think our coaching is a good fit for you within the first 14 days, we’ll give you a full refund.</span> You get to decide if our coaching is worth it. Why do we do this? Because we stand by our work. We know you’ll walk out healthier and happier than ever before. All you have to do is take the first step.</p>-->
+            </div>
+        </div>
+        <div class="pages">
+            <p>To give everyone the personal care and attention they deserve, we only open to new clients twice per year. And we can only accommodate a small percentage of those who show interest in the program.</p>
+            <p>On Monday, April 1, 2024, we're accepting a small number of coaching clients. Join our waitlist now to be prioritized for access to our coaching services.</p>
+            <div class="flex flex-col md:flex-row justify-center flex-wrap mt-8">
+                <a href="https://uncoveryourfit.practicebetter.io/#/653804e6810ea7f6eea2308e/forms?f=65957d5f297fb6b6567a75c9" target="blank" class="text-sm xl:text-xl px-4 py-2 mt-2 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center no-underline">Join Waitlist</a>
             </div>
         </div>
         <!--
