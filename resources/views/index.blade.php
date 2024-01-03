@@ -346,7 +346,7 @@
             <p>To give everyone the personal care and attention they deserve, we only open to new clients twice per year. And we can only accommodate a small percentage of those who show interest in the program.</p>
             <p>On Monday, April 1, 2024, we're accepting a small number of coaching clients. Join our waitlist now to be prioritized for access to our coaching services.</p>
             <div class="flex flex-col md:flex-row justify-center flex-wrap mt-8">
-                <a href="https://uncoveryourfit.practicebetter.io/#/653804e6810ea7f6eea2308e/forms?f=65957d5f297fb6b6567a75c9" target="blank" class="text-sm xl:text-xl px-4 py-2 mt-2 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center no-underline">Join Waitlist</a>
+                <a href="https://l.bttr.to/ykI94" target="blank" class="text-sm xl:text-xl px-4 py-2 mt-2 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center no-underline">Join Waitlist</a>
             </div>
         </div>
         <!--
