@@ -12,7 +12,7 @@
                        class="lg:bg-transparent py-2 lg:py-0 pl-4 focus-within:outline-none">
                 </div>
                 <button type="submit"
-                        class="border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center mt-4 mx-4 ml-3 text-xs font-semibold text px-8"
+                        class="border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center mt-4 mx-4 ml-3 text-xl py-2 px-4"
                 >
                     Subscribe
                 </button>

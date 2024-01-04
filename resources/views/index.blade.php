@@ -59,7 +59,7 @@
                 </ul>
                 <p>But fear not, Uncover Your Fit is here to act as your compass and guide you to a healthier life. We're all about building lasting habits through habit-based health coaching. Think of it as constructing a strong fortress of health, one brick at a time. Join us on this journey to a healthier, happier you!</p>
                 <div class="flex justify-center w-full text-xl">
-                    <a href="/about" class="py-2 px-8 pb-3 border-2 no-underline border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center">Learn More About Us</a>
+                    <a href="/about" class="py-2 px-4 border-2 no-underline border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center">Learn More About Us</a>
                 </div>
             </div>
         </div>
@@ -94,8 +94,8 @@
                     <p>As adults, we often fixate on one facet of our lives, typically our careers, thinking that veering from it diminishes our worth. I've been there and done that, holding onto my career for dear life while my health suffered.</p>
                     <p>But a health scare awakened me, and suddenly I realized that I could excel in both my career and personal life, with one complementing the other. As a result, I turned my life around, lost 55 lbs, and became a health and fitness coach, eager to share my wisdom.</p>
                     <p>Now, as a coach, I'm on a mission to help you achieve optimal health and well-being without flipping your life upside down. It's like discovering the cheat code to a video game—suddenly, everything becomes clearer and more attainable. Join me on this journey.</p>
-                    <div class="flex justify-start mt-10">
-                        <p class="inline-flex items-center py-2 px-8 pb-3 mb-4 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center text-xl"><a class="text-white no-underline" href="about" class="text-center">Learn more about Damon</a></p>
+                    <div class="flex justify-center w-full text-xl mt-10">
+                        <p class="inline-flex items-center py-2 px-4  mb-4 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center text-xl"><a class="text-white no-underline" href="about" class="text-center">Learn more about Damon</a></p>
                     </div>
                 </div>
                 <div class="w-1/3 md:w-1/3 lg:w-1/4 mx-auto mt-4">
@@ -345,8 +345,8 @@
         <div class="pages">
             <p>To give everyone the personal care and attention they deserve, we only open to new clients twice per year. And we can only accommodate a small percentage of those who show interest in the program.</p>
             <p>On Monday, April 1, 2024, we're accepting a small number of coaching clients. Join our waitlist now to be prioritized for access to our coaching services.</p>
-            <div class="flex flex-col md:flex-row justify-center flex-wrap mt-8">
-                <a href="https://l.bttr.to/ykI94" target="blank" class="text-sm xl:text-xl px-4 py-2 mt-2 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center no-underline">Join Coaching Waitlist</a>
+            <div class="flex justify-center w-full text-xl mt-8">
+                <a href="https://l.bttr.to/ykI94" target="blank" class="px-4 py-2 mt-2 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center no-underline">Join Coaching Waitlist</a>
             </div>
         </div>
         <!--
