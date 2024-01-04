@@ -52,7 +52,7 @@
                         </div>
                     </div>
                     <button class="flex justify-center w-full text-base">
-                        <a href="/" class="inline-flex items-center py-2 px-8 text-xs border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary no-underline rounded-full text-white">Explore Coaching</a>
+                        <a href="/" class="inline-flex items-center py-2 px-4 text-xs border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary no-underline rounded-full text-white">Explore Coaching</a>
                     </button>
                 </div>
                  <div>

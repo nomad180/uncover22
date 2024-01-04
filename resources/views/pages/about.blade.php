@@ -132,7 +132,7 @@
             <h2 class="text-5xl leading-tight 2xl:text-7xl 2xl:leading-tight text-center handwriting6">Don't wait any longer!</h2>
             <p class="text-xl xl:text-3xl mt-4 text-center"> Give yourself the opportunity to create the life you'll love waking up to!</p>
             <div class="flex justify-center w-full text-2xl mt-6">
-                <a href="/" class="inline-flex items-center py-2 px-8 pb-3 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white no-underline rounded-full text-center">Explore Coaching</a>
+                <a href="/" class="inline-flex items-center py-2 px-4 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white no-underline rounded-full text-center">Explore Coaching</a>
             </div>
         </div>
     </div>
