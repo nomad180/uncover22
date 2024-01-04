@@ -40,7 +40,7 @@
                 </main>
             </section>
             <div class="flex justify-center mb-20">
-                <p class="inline-flex items-center py-2 px-8 pb-3 mb-4 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary rounded-full text-white text-xl"><a class="text-white no-underline"  href="/blog" >Back to Latest Posts</a></p>
+                <p class="inline-flex items-center py-2 px-4 mb-4 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary rounded-full text-white text-xl"><a class="text-white no-underline"  href="/blog" >Back to Latest Posts</a></p>
             </div>
         </div>
         <div class="flex flex-col md:ml-4 md:w-1/6">
