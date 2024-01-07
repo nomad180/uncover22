@@ -1,4 +1,4 @@
-@section('title'){{'Uncover Your Fit | Premier Health Coaching'}}@endsection
+@section('title'){{'Uncover Your Fit | Coaching for Midlife Warriors'}}@endsection
 @section('description'){{'Are you a midlife warrior who is ready to become fit and stay that way? If so, our premier health coaching will help you ditch fads and live a healthier life.'}}@endsection
 @section('author'){{'Damon Leach'}}@endsection
 <x-layout>
