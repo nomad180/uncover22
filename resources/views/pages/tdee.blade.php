@@ -20,7 +20,7 @@
                         <p>Think of your BMR as the energy your body expends while lounging on the couch, watching Netflix. But life isn't just couch time, right? So, we need to sprinkle in some extra calories to account for your daily activities, even if you're not doing extreme sports.</p>
                         <p>Our TDEE calculator is like a master chef. It combines the finest formulas to give you a TDEE that's not just a number but a clear, meaningful insight into your daily calorie needs.</p>
                         <div class="flex justify-center">
-                            <p class="inline-flex items-center py-2 px-8 pb-3 mb-4 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center text-xl"><a class="text-white no-underline" href="https://uncoveryourfit.com/posts/deciphering-your-total-daily-energy-expenditure-(TDEE)-for-optimal-health-and-fitness" target="blank" class="text-center">Read More About TDEE</a></p>
+                            <p class="inline-flex items-center py-2 px-4 pb-3 mb-4 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center text-xl"><a class="text-white no-underline" href="https://uncoveryourfit.com/posts/deciphering-your-total-daily-energy-expenditure-(TDEE)-for-optimal-health-and-fitness" target="blank" class="text-center">Read More About TDEE</a></p>
                         </div>
                     </div>
                     <div class="lg:w-1/2 flex flex-col border-2 border-zinc-300 shadow-lg shadow-zinc-400 rounded-xl p-4">
@@ -305,7 +305,7 @@
                         </div>
                         <p>If you are new to the nutrition game and need to learn about macronutrients, check out our macronutrient blog post below.</p>
                         <div class="flex justify-center mb-4">
-                            <p class="inline-flex items-center py-2 px-8 pb-3 mb-4 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center text-xl"><a class="text-white no-underline" href="https://uncoveryourfit.com/posts/mastering-macronutrients-a-guide-to-optimal-ratios-for-every-fitness-goal" target="blank" class="text-center">Mastering Macronutrients</a></p>
+                            <p class="inline-flex items-center py-2 px-4 pb-3 mb-4 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center text-xl"><a class="text-white no-underline" href="https://uncoveryourfit.com/posts/mastering-macronutrients-a-guide-to-optimal-ratios-for-every-fitness-goal" target="blank" class="text-center">Mastering Macronutrients</a></p>
                         </div>
                         <h3 class="text-xl 2xl:text-3xl text-center font-semibold">Needed Tools</h3>
                         <p class="md:mt-8">In order for you to use your TDEE to meet your weight goals, you'll need to accurately measure the calories going into your body and weigh yourself regularly to see if you are moving in the right direction. The tools listed below will help on this journey:</p>
@@ -313,7 +313,7 @@
                         <div class="flex flex-col-reverse md:flex-row pages justify-center md:mt-8">
                             <div class="md:w-3/12 md:mr-6 md:mt-8">
                                 <div class="flex justify-center">
-                                    <a class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary p-4" href="https://www.amazon.com/Greater-Goods-Capacity-Kitchen-Scale/dp/B09QFWXSD8?crid=1B887TV7H5LR1&keywords=digital+food+scales&qid=1699120689&refinements=p_72%3A1248915011&rnid=1248913011&s=home-garden&sprefix=digital+food+scales%2Caps%2C96&sr=1-8&linkCode=li3&tag=uncoveryour0c-20&linkId=258b9a357e97988ab4aaff748ee1d692&language=en_US&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09QFWXSD8&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=uncoveryour0c-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=uncoveryour0c-20&language=en_US&l=li3&o=1&a=B09QFWXSD8" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+                                    <img class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary " src="/images/foodscale.jpg" alt="An electronic food scale with a bowl of oranges on it">
                                 </div>
                             </div>
                             <div class="md:w-5/12 md:m1-4">
@@ -325,7 +325,7 @@
                         <div class="flex flex-col-reverse md:flex-row pages justify-center md:mt-8">
                             <div class="md:w-3/12 md:mr-6 md:mt-8">
                                 <div class="flex justify-center">
-                                    <a class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary p-6" href="https://www.amazon.com/Etekcity-Digital-Bluetooth-Bathroom-Pregnancy/dp/B09HCJD6H1?crid=A1JXR1ZM1WPR&keywords=fitness+scale&qid=1699122910&sprefix=fitness+scale%2Caps%2C90&sr=8-1-spons&ufe=app_do%3Aamzn1.fos.006c50ae-5d4c-4777-9bc0-4513d670b6bc&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&linkCode=li3&tag=uncoveryour0c-20&linkId=78b7cbc34ba0490e871418c8762cbfb0&language=en_US&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09HCJD6H1&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=uncoveryour0c-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=uncoveryour0c-20&language=en_US&l=li3&o=1&a=B09HCJD6H1" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+                                    <img class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary " src="/images/scale4.jpg" alt="A smart bathroom scale">
                                 </div>
                             </div>
                             <div class="md:w-5/12 md:m1-4">
@@ -345,10 +345,10 @@
                                 <p>The calorie tracking app is your trusty sidekick on the quest for those elusive health and fitness goals! Think of it as your digital nutrition detective. It's like having Sherlock Holmes in your pocket, but instead of solving mysteries, it's unraveling the enigma of your daily calories.</p>
                                 <p> So, whether you're aiming to lose weight, gain muscle, or simply eat healthier, a calorie tracking app, such as <a href="https://www.myfitnesspal.com/" target="blank">MyFitnessPal</a> or <a href="https://shareasale.com/r.cfm?b=766203&u=2872412&m=61121&urllink=&afftrack=" target="blank">Cronometer</a>, will be your partner in crime. And, if your really feeling it, partner your calorie tracking app with a personal fitness tracker, such as the <a href="https://amzn.to/477TPQF" target="blank"> COROS PACE 2</a>. Get ready to track, learn, and conquer your nutritional adventures, one calorie at a time.</p>
                                 <div class="flex justify-center">
-                                    <p class="inline-flex items-center py-2 px-8 pb-3 mb-4 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center text-xl"><a class="text-white no-underline" href="/images/Mastering MyFitnessPal for Ultimate Fitness Success.pdf" download class="text-center">Download Our Free Guide to MyFitnessPal</a></p>
+                                    <p class="inline-flex items-center py-2 px-4 pb-3 mb-4 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center text-xl"><a class="text-white no-underline" href="/images/Mastering MyFitnessPal for Ultimate Fitness Success.pdf" download class="text-center">Download Our Free Guide to MyFitnessPal</a></p>
                                 </div>
                                 <div class="flex justify-center">
-                                    <p class="inline-flex items-center py-2 px-8 pb-3 mb-4 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center text-xl"><a class="text-white no-underline" href="/images/Cronometer Your Nutritional Secret Weapon.pdf" download class="text-center">Download Our Free Guide to Cronometer</a></p>
+                                    <p class="inline-flex items-center py-2 px-4 pb-3 mb-4 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center text-xl"><a class="text-white no-underline" href="/images/Cronometer Your Nutritional Secret Weapon.pdf" download class="text-center">Download Our Free Guide to Cronometer</a></p>
                                 </div>
                             </div>
                         </div>
@@ -356,10 +356,14 @@
                     <div class="mb-8 mt-16">
                         <div class="p-6 pages">
                             <h2 class="text-5xl leading-tight 2xl:text-7xl 2xl:leading-tight text-center handwriting6">Not sure what to do next?</h2>
-                            <p class="mt-4 text-xl xl:text-3xl mt-4 text-center">Try our <span class="font-semibold">FREE</span> online challenge.</p>
+                            <p class="mt-4 text-xl xl:text-3xl mt-4 text-center">Take a look at our coaching for midlife warriors.</p>
                             <div class="flex justify-center w-full text-2xl mt-6">
-                                <a href="https://uncoveryourfit.practicebetter.io/#/653804e6810ea7f6eea2308e/bookings?c=65622ecd9b22ceb79eff0f42" target="blank" class="inline-flex items-center py-2 px-8 pb-3 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center no-underline">Jumpstart Your Health and Fitness (7-Day Challenge)</a>
+                                <a href="/" target="blank" class="inline-flex items-center py-2 px-4 pb-3 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center no-underline">Explore Coaching</a>
                             </div>
+                            <!--<p class="mt-4 text-xl xl:text-3xl mt-4 text-center">Try our <span class="font-semibold">FREE</span> online challenge.</p>
+                            <div class="flex justify-center w-full text-2xl mt-6">
+                                <a href="https://uncoveryourfit.practicebetter.io/#/653804e6810ea7f6eea2308e/bookings?c=65622ecd9b22ceb79eff0f42" target="blank" class="inline-flex items-center py-2 px-4 pb-3 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center no-underline">Jumpstart Your Health and Fitness (7-Day Challenge)</a>
+                            </div>-->
                         </div>
                     </div>
                     @endif
@@ -374,23 +378,23 @@
                         </div>
                     </div>
                     <button class="flex justify-center w-full text-base">
-                        <a href="/" class="inline-flex items-center py-2 px-8 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary rounded-full text-white text-xs no-underline">Explore Coaching</a>
+                        <a href="/" class="inline-flex items-center py-2 px-4 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary rounded-full text-white text-xs no-underline">Explore Coaching</a>
                     </button>
                 </div>
                 <div>
                     <div class="mt-4 flex justify-center text-secondary text-xl underline">Affiliate Websites</div>
                     <div class="font-bold py-2 ml-4 italic">The ads below take you to partner websites that sell products you might find helpful in your health and fitness journey. If you click on one of the ads and make a purchase, Uncover Your Fit will receive a small commission at no extra cost to you. As an Amazon Associate, we earn from qualifying purchases from Amazon links.</div>
                     <div class="py-6 flex flex-col justify-center items-center">
-                        <a class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary p-4" href="https://amzn.to/477TPQF" target="blank"><img src="/images/coros.jpg"></a>
+                        <a class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary p-4" href="https://amzn.to/477TPQF" target="blank"><img src="/images/coros.jpg" alt="COROS Pace 2 fitness watch"></a>
                         <p class="text-center mt-4"><a href="https://amzn.to/477TPQF" target="blank">COROS PACE 2 Fitness Tracking Watch</a></p>
                     </div>
                     <div class="py-6 flex flex-col justify-center items-center">
-                        <a class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary p-4" href="https://www.amazon.com/Tangle-Free-Jumping-Bearings-Adjustable-Handles/dp/B09DF9NWC7?crid=39CQ46P0R72RK&keywords=jump%2Brope&qid=1699630715&sprefix=jump%2Brope%2Caps%2C99&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=li3&tag=uncoveryour0c-20&linkId=09b9fca39bf9a42820fbf2f014e4d151&language=en_US&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09DF9NWC7&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=uncoveryour0c-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=uncoveryour0c-20&language=en_US&l=li3&o=1&a=B09DF9NWC7" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-                        <p class="text-center mt-4"><a href="https://amzn.to/47srXqs" target="blank">Fitness Jump Rope</a></p>
+                        <a class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary p-4" href="https://amzn.to/3H7Xsea" target="blank"><img src="/images/jumprope.jpg" alt="jump rope"></a>
+                        <p class="text-center mt-4"><a href="https://amzn.to/3H7Xsea" target="blank">Fitness Jump Rope</a></p>
                     </div>
                     <div class="py-6 flex flex-col justify-center items-center">
-                        <a class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary p-4" href="https://www.amazon.com/Bowflex-SelectTech-Adjustable-Dumbbells-Pair/dp/B001ARYU58?crid=KCZNUDYE70QL&keywords=adjustable%2Bdumbbell%2Bset&qid=1699630464&sprefix=adjust%2Caps%2C100&sr=8-6&th=1&linkCode=li3&tag=uncoveryour0c-20&linkId=725d32f13e53e15a8c8eb6b19977e634&language=en_US&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B001ARYU58&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=uncoveryour0c-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=uncoveryour0c-20&language=en_US&l=li3&o=1&a=B001ARYU58" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-                        <p class="text-center mt-4"><a href="https://amzn.to/3SAny0s" target="blank">Bowflex Adjustable Dumbbells</a></p>
+                        <a class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary p-4" href="https://amzn.to/3HaVauY" target="blank"><img src="/images/weights.jpg" alt="Bowflex adjustable dumbbells"></a>
+                        <p class="text-center mt-4"><a href="https://amzn.to/3HaVauY" target="blank">Bowflex Adjustable Dumbbells</a></p>
                     </div>
                 </div>
             </div>
