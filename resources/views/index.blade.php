@@ -99,7 +99,7 @@
                     </div>
                 </div>
                 <div class="w-1/3 md:w-1/3 lg:w-1/4 mx-auto mt-4">
-                    <img class="rounded-full shadow-xl shadow-zinc-400 border-2 border-primary" src="/images/damonYT6.png" alt="Picture of Damon Leach" >
+                    <img class="rounded-full shadow-xl shadow-zinc-400 border-2 border-primary" src="/images/damonnew2.jpg" alt="Picture of Damon Leach" >
                 </div>
             </div>
             <div class="flex flex-col md:flex-row items-center md:justify-around py-6">
