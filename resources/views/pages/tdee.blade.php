@@ -358,7 +358,7 @@
                             <h2 class="text-5xl leading-tight 2xl:text-7xl 2xl:leading-tight text-center handwriting6">Not sure what to do next?</h2>
                             <p class="mt-4 text-xl xl:text-3xl mt-4 text-center">Take a look at our coaching for midlife warriors.</p>
                             <div class="flex justify-center w-full text-2xl mt-6">
-                                <a href="/" target="blank" class="inline-flex items-center py-2 px-4 pb-3 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center no-underline">Explore Coaching</a>
+                                <a href="/" target="blank" class="inline-flex items-center py-2 px-4 pb-3 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center no-underline">Explore Coaching)</a>
                             </div>
                             <!--<p class="mt-4 text-xl xl:text-3xl mt-4 text-center">Try our <span class="font-semibold">FREE</span> online challenge.</p>
                             <div class="flex justify-center w-full text-2xl mt-6">
@@ -383,8 +383,20 @@
                 </div>
                 <div>
                     <div class="mt-4 flex justify-center text-secondary text-xl underline">Affiliate Websites</div>
-                    <div class="font-bold py-2 ml-4 italic">The ads below take you to partner websites that sell products you might find helpful in your health and fitness journey. If you click on one of the ads and make a purchase, Uncover Your Fit will receive a small commission at no extra cost to you. As an Amazon Associate, we earn from qualifying purchases from Amazon links.</div>
-                    <div class="py-6 flex flex-col justify-center items-center">
+                    <div class="font-bold py-2 ml-4 italic">The ads below take you to partner websites that sell products many of you might find helpful in your health and fitness journey. If you click on one of the ads and make a purchase, Uncover Your Fit will receive a small commission at no extra cost to you.</div>
+                    <div class="py-6 flex justify-center">
+                        <a target="_blank" href="https://shareasale.com/r.cfm?b=947058&amp;u=2872412&amp;m=68998&amp;urllink=&amp;afftrack="><img class="rounded-xl" src="https://static.shareasale.com/image/68998/yoga240x400.jpg" border="0" alt="yoga gear" /></a>
+                    </div>
+                    <div class="py-6 flex justify-center">
+                        <a target="_blank" href="https://shareasale.com/r.cfm?b=2218553&amp;u=2872412&amp;m=85045&amp;urllink=&amp;afftrack="><img class="rounded-xl" src="https://static.shareasale.com/image/85045/DisplayBanner1200x1200px.jpg" border="0" alt="Naturevibe Botanicals"/></a>
+                    </div>
+                    <div class="py-6 flex justify-center">
+                        <a target="_blank" href="https://shareasale.com/r.cfm?b=1892429&amp;u=2872412&amp;m=114867&amp;urllink=&amp;afftrack="><img  class="rounded-xl"src="https://static.shareasale.com/image/114867/pbcc_hero_720.png" border="0" alt="Keto Krisp Peanut Butter Chocolate Chunk" /></a>
+                    </div>
+                    <div class="py-6 flex justify-center">
+                        <a target="_blank" href="https://shareasale.com/r.cfm?b=2064734&amp;u=2872412&amp;m=78253&amp;urllink=&amp;afftrack="><img class="rounded-xl" src="https://static.shareasale.com/image/78253/F2B68092-CF7B-252E-7754DDABAF8521D6.jpg" border="0" alt="Nutrition With Nothing To Hide" /></a>
+                    </div>
+                    <!--<div class="py-6 flex flex-col justify-center items-center">
                         <a class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary p-4" href="https://amzn.to/477TPQF" target="blank"><img src="/images/coros.jpg" alt="COROS Pace 2 fitness watch"></a>
                         <p class="text-center mt-4"><a href="https://amzn.to/477TPQF" target="blank">COROS PACE 2 Fitness Tracking Watch</a></p>
                     </div>
@@ -395,7 +407,7 @@
                     <div class="py-6 flex flex-col justify-center items-center">
                         <a class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary p-4" href="https://amzn.to/3HaVauY" target="blank"><img src="/images/weights.jpg" alt="Bowflex adjustable dumbbells"></a>
                         <p class="text-center mt-4"><a href="https://amzn.to/3HaVauY" target="blank">Bowflex Adjustable Dumbbells</a></p>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>
