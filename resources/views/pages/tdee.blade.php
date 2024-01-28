@@ -356,9 +356,9 @@
                     <div class="mb-8 mt-16">
                         <div class="p-6 pages">
                             <h2 class="text-5xl leading-tight 2xl:text-7xl 2xl:leading-tight text-center handwriting6">Not sure what to do next?</h2>
-                            <p class="mt-4 text-xl xl:text-3xl mt-4 text-center">Take a look at our coaching for midlife warriors.</p>
+                            <p class="mt-4 text-xl xl:text-3xl mt-4 text-center">Take a look at our Facebook group for midlife warriors.</p>
                             <div class="flex justify-center w-full text-2xl mt-6">
-                                <a href="/" target="blank" class="inline-flex items-center py-2 px-4 pb-3 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center no-underline">Explore Coaching)</a>
+                                <a href="https://www.facebook.com/groups/1430963114164699/" target="blank" class="inline-flex items-center py-2 px-4 pb-3 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center no-underline">Explore Coaching</a>
                             </div>
                             <!--<p class="mt-4 text-xl xl:text-3xl mt-4 text-center">Try our <span class="font-semibold">FREE</span> online challenge.</p>
                             <div class="flex justify-center w-full text-2xl mt-6">
