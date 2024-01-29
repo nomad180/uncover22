@@ -383,8 +383,8 @@
                 </div>
                 <div>
                     <div class="mt-4 flex justify-center text-secondary text-xl underline">Affiliate Websites</div>
-                    <div class="font-bold py-2 ml-4 italic">The ads below take you to partner websites that sell products many of you might find helpful in your health and fitness journey. If you click on one of the ads and make a purchase, Uncover Your Fit will receive a small commission at no extra cost to you.</div>
-                    <div class="py-6 flex justify-center">
+                    <div class="font-bold py-2 ml-4 italic">The ads below take you to partner websites that sell products many of you might find helpful in your health and fitness journey. If you click on one of the ads and make a purchase, Uncover Your Fit will receive a small commission at no extra cost to you. As an Amazon Associate, we earn from qualifying purchases from Amazon links.</div>
+                    <!--<div class="py-6 flex justify-center">
                         <a target="_blank" href="https://shareasale.com/r.cfm?b=1020318&amp;u=2872412&amp;m=68998&amp;urllink=&amp;afftrack="><img class="rounded-xl" src="https://static.shareasale.com/image/68998/Cross_Training_160x600.jpg" border="0" alt="Cross training gear" /></a>
                     </div>
                     <div class="py-6 flex justify-center">
@@ -395,8 +395,8 @@
                     </div>
                     <div class="py-6 flex justify-center">
                         <a target="_blank" href="https://shareasale.com/r.cfm?b=2114834&amp;u=2872412&amp;m=78253&amp;urllink=&amp;afftrack="><img class="rounded-xl" src="https://static.shareasale.com/image/78253/3_NakedCookie-Choco-Chip_AdDesktop_130.jpg" border="0" alt="Nutrition With Nothing To Hide" /></a>
-                    </div>
-                    <!--<div class="py-6 flex flex-col justify-center items-center">
+                    </div>-->
+                    <div class="py-6 flex flex-col justify-center items-center">
                         <a class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary p-4" href="https://amzn.to/477TPQF" target="blank"><img src="/images/coros.jpg" alt="COROS Pace 2 fitness watch"></a>
                         <p class="text-center mt-4"><a href="https://amzn.to/477TPQF" target="blank">COROS PACE 2 Fitness Tracking Watch</a></p>
                     </div>
@@ -407,7 +407,7 @@
                     <div class="py-6 flex flex-col justify-center items-center">
                         <a class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary p-4" href="https://amzn.to/3HaVauY" target="blank"><img src="/images/weights.jpg" alt="Bowflex adjustable dumbbells"></a>
                         <p class="text-center mt-4"><a href="https://amzn.to/3HaVauY" target="blank">Bowflex Adjustable Dumbbells</a></p>
-                    </div>-->
+                    </div>
                 </div>
             </div>
         </div>
