@@ -406,7 +406,7 @@
                     </div>
                     <div class="py-6 flex flex-col justify-center items-center">
                         <a class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary p-4" href="https://amzn.to/3OlP5jc" target="blank"><img src="/images/thinnerleanerstronger2.jpg" alt="Thinner Leaner Stronger Book"></a>
-                        <p class="text-center mt-4"><a href="https://amzn.to/3OlP5jc" target="blank">Thinner Learner Stronger</a></p>
+                        <p class="text-center mt-4"><a href="https://amzn.to/3OlP5jc" target="blank">Thinner Leaner Stronger</a></p>
                     </div>
                 </div>
             </div>
