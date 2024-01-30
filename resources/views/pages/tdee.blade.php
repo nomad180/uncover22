@@ -401,12 +401,12 @@
                         <p class="text-center mt-4"><a href="https://amzn.to/477TPQF" target="blank">COROS PACE 2 Fitness Tracking Watch</a></p>
                     </div>
                     <div class="py-6 flex flex-col justify-center items-center">
-                        <a class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary p-4" href="https://amzn.to/3H7Xsea" target="blank"><img src="/images/jumprope.jpg" alt="jump rope"></a>
-                        <p class="text-center mt-4"><a href="https://amzn.to/3H7Xsea" target="blank">Fitness Jump Rope</a></p>
+                        <a class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary p-4" href="https://amzn.to/49cCt5R" target="blank"><img src="/images/wellplated2.jpg" alt="jump rope"></a>
+                        <p class="text-center mt-4"><a href="https://amzn.to/49cCt5R" target="blank">The Well Plated Cookbook</a></p>
                     </div>
                     <div class="py-6 flex flex-col justify-center items-center">
-                        <a class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary p-4" href="https://amzn.to/3HaVauY" target="blank"><img src="/images/weights.jpg" alt="Bowflex adjustable dumbbells"></a>
-                        <p class="text-center mt-4"><a href="https://amzn.to/3HaVauY" target="blank">Bowflex Adjustable Dumbbells</a></p>
+                        <a class="rounded-xl shadow-xl shadow-zinc-400 border-2 border-primary p-4" href="https://amzn.to/3OlP5jc" target="blank"><img src="/images/thinnerleanerstronger2.jpg" alt="Bowflex adjustable dumbbells"></a>
+                        <p class="text-center mt-4"><a href="https://amzn.to/3OlP5jc" target="blank">Thinner Learner Stronger</a></p>
                     </div>
                 </div>
             </div>
