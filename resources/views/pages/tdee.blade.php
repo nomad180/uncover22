@@ -370,7 +370,7 @@
                 </div>
             </div>
             <div class="flex flex-col lg:ml-10 lg:w-1/6">
-                <div>
+                <!--<div>
                     <div class="md:mt-14 flex justify-center text-secondary text-xl underline font:semi-bold">Uncover Your Fit Coaching</div>
                     <div class="flex justify-center">
                         <div class="py-2 flex justify-center w-1/2 lg:w-full">
@@ -380,7 +380,7 @@
                     <button class="flex justify-center w-full text-base">
                         <a href="/" class="inline-flex items-center py-2 px-4 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary rounded-full text-white text-xs no-underline">Explore Coaching</a>
                     </button>
-                </div>
+                </div>-->
                 <div>
                     <div class="mt-4 flex justify-center text-secondary text-xl underline">Affiliate Websites</div>
                     <div class="font-bold py-2 ml-4 italic">The ads below take you to partner websites that sell products many of you might find helpful in your health and fitness journey. If you click on one of the ads and make a purchase, Uncover Your Fit will receive a small commission at no extra cost to you. As an Amazon Associate, we earn from qualifying purchases from Amazon links.</div>
