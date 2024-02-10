@@ -356,7 +356,7 @@
                     <div class="mb-8 mt-16">
                         <div class="p-6 pages">
                             <h2 class="text-5xl leading-tight 2xl:text-7xl 2xl:leading-tight text-center handwriting6">Not sure what to do next?</h2>
-                            <p class="mt-4 text-xl xl:text-3xl mt-4 text-center">Sign up below to get the latest health and fitness tips from Uncover Your Fit.</p>
+                            <p class="mt-4 text-xl xl:text-3xl mt-4 text-center">Sign up below to get our latest health and fitness tips.</p>
                             <!--<div class="flex justify-center w-full text-2xl mt-6">
                                 <a href="https://www.facebook.com/groups/1430963114164699/" target="blank" class="inline-flex items-center py-2 px-4 pb-3 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center no-underline">Join Group</a>
                             </div>
