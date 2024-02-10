@@ -25,6 +25,7 @@
             <a href="https://www.youtube.com/channel/UC21zc6VKI4nkTqSVGJj3XhA" class="w-14 flex text-center px-2" target="blank"><img src="/images/ytlogonew.png" alt="YouTube icon" ></a>
             <a href="https://twitter.com/uncoveryourfit" class="w-14 flex text-center px-2" target="blank"><img src="/images/twitterx.png" alt="X icon" icon" ></a>
             <a href="https://www.instagram.com/uncoveryourfit/" class="w-14 flex text-center px-2" target="blank"><img src="/images/Instagram_Glyph_Gradient.png" alt="Instagram icon" icon" ></a>
+            <a href="https://www.tiktok.com/@uncoveryourfit" class="w-14 flex text-center px-2" target="blank"><img src="/images/TikTok.png" alt="Instagram icon" icon" ></a>
         </div>
         <div>&copy; <?php echo date("Y") ?> Uncover Your Fit</div>
         <div><a class="text-black no-underline" href="/tdee">TDEE Calculator</a></div>
