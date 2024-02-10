@@ -1,5 +1,5 @@
 <footer class="bg-neutral-50 border border-t-zinc-300 text-center pb-6 ">
-    <h5 class="text-3xl mt-10 handwriting6 px-10">Sign up for the latest Uncover Your Fit health and fitness tips.</h5>
+    <h5 class="text-3xl mt-10 handwriting6 px-10">Subscribe to receive the latest Uncover Your Fit health and fitness tips.</h5>
     <div class="mt-10">
         <div class="relative inline-block mx-auto lg:bg-white rounded-full border border-secondary">
             <form method="POST" action="/newsletter" class="flex text-sm ">
