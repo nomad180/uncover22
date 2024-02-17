@@ -93,7 +93,7 @@
                         </x-responsive-nav-link>
                     </form>
                 @else
-                    <div class="block w-full px-4 py-2 text-left text-sm leading-5 hover:bg-secondary focus:outline-none transition duration-150 ease-in-out"><a class="text-secondary hover:text-white no-underline" href="https://uncoveryourfit.practicebetter.io/#/signin" target="blank">Member Portal</a></div>
+                    <div class="block w-full px-4 py-2 text-left text-sm leading-5 hover:bg-secondary focus:outline-none transition duration-150 ease-in-out"><a class="text-secondary hover:text-white no-underline" href="https://my.practicebetter.io/#/signin" target="blank">Member Portal</a></div>
 
                    <!-- @if (Route::has('register'))
                         <a href="{{ route('register') }}" class="text-secondary py-1 px-4 text-base hover:bg-secondary focus:bg-secondary hover:text-white focus:text-white rounded-full">Register</a>

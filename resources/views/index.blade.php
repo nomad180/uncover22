@@ -345,7 +345,7 @@
         </div>
         <div class="pages">
             <div class="flex justify-center w-full text-xl mt-8">
-                <a href="https://l.bttr.to/ykI94" target="blank" class="px-4 py-2 mt-2 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center no-underline">Join Coaching Waitlist</a>
+                <a href="http://eepurl.com/iCMF4A" target="blank" class="px-4 py-2 mt-2 border-2 border-zinc-300 hover:bg-primary shadow-lg shadow-zinc-400 bg-secondary text-white rounded-full text-center inline-flex items-center no-underline">Join Coaching Waitlist</a>
             </div>
         </div>
         <!--
