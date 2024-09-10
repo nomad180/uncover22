@@ -309,7 +309,7 @@
                         </div>
                         <h3 class="text-xl 2xl:text-3xl text-center font-semibold">Needed Tools</h3>
                         <p class="md:mt-8">In order for you to use your TDEE to meet your weight goals, you'll need to accurately measure the calories going into your body and weigh yourself regularly to see if you are moving in the right direction. The tools listed below will help on this journey:</p>
-                        <p class="md:mt-8 font-semibold italic">Affiliate Websites: The ads/links below take you to partner websites that sell products you might find helpful in your health and fitness journey. If you click on one of the ads and make a purchase, Uncover Your Fit will receive a small commission at no extra cost to you. As an Amazon Associate, we earn from qualifying purchases from Amazon links.</p>
+                        <p class="md:mt-8 font-semibold italic">Affiliate Websites: The ads/links below take you to partner websites that sell products you might find helpful in your health and fitness journey. If you click on one of the ads and make a purchase, Uncover Your Fit will receive a small commission at no extra cost to you.</p>
                         <div class="flex flex-col-reverse md:flex-row pages justify-center md:mt-8">
                             <div class="md:w-3/12 md:mr-6 md:mt-8">
                                 <div class="flex justify-center">
@@ -383,7 +383,7 @@
                 </div>-->
                 <div>
                     <div class="mt-4 flex justify-center text-secondary text-xl underline">Affiliate Websites</div>
-                    <div class="font-bold py-2 ml-4 italic">The ads below take you to partner websites that sell products many of you might find helpful in your health and fitness journey. If you click on one of the ads and make a purchase, Uncover Your Fit will receive a small commission at no extra cost to you. As an Amazon Associate, we earn from qualifying purchases from Amazon links.</div>
+                    <div class="font-bold py-2 ml-4 italic">The ads below take you to partner websites that sell products many of you might find helpful in your health and fitness journey. If you click on one of the ads and make a purchase, Uncover Your Fit will receive a small commission at no extra cost to you.</div>
                     <!--<div class="py-6 flex justify-center">
                         <a target="_blank" href="https://shareasale.com/r.cfm?b=1020318&amp;u=2872412&amp;m=68998&amp;urllink=&amp;afftrack="><img class="rounded-xl" src="https://static.shareasale.com/image/68998/Cross_Training_160x600.jpg" border="0" alt="Cross training gear" /></a>
                     </div>
