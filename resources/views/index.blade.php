@@ -20,7 +20,7 @@
             <source src="/images/aa2.mp4" type="video/mp4">
         </video>
         <div class="absolute inset-y-0 inset-x-4 md:inset-x-16 lg:inset-x-24 xl:inset-x-32 w-5/12 flex justify-center flex-col">
-            <h1 class="lg:text-6xl lg:leading-tight xl:text-7xl xl:leading-tight 2xl:text-8xl 2xl:leading-tight handwriting6 flex justify-center">Premier health coaching for midlife warriors</h1>
+            <h1 class="lg:text-6xl lg:leading-tight xl:text-7xl xl:leading-tight 2xl:text-8xl 2xl:leading-tight handwriting6 flex justify-center">Premier health coaching for midlife warriors tesssst</h1>
             <h2 class="lg:text-xl mt-4 font-medium">Maintain a healthy weight, control stress, optimize nutrition, and revitalize your energy through our premier 1-on-1 online health coaching.</h2>
         </div>
     </div>
